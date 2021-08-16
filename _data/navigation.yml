@@ -1,0 +1,204 @@
+# main links
+main:
+  - title: "Architecture"
+    url: /architecture/
+  - title: "Algorithm"
+    url: /algorithm/
+  - title: "Clean Code"
+    url: /clean-code/
+  - title: "Cocoa"
+    url: /cocoa/
+  - title: "EDP"
+    url: /edp/
+  - title: "Git"
+    url: /git/
+  - title: "Swift"
+    url: /swift/
+  - title: "SwiftUI"
+    url: /swift-ui/
+  - title: "TDD"
+    url: /tdd/
+  - title: "ETC"
+    url: /year-archive/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+##############
+sidebar-swift:
+  - title: "Swift 5.5"
+    children:
+      - title: "comming soon"
+        url: /swift-5.5/
+
+  - title: "Swift 5.4"
+    url: /swift/5.4/
+    children:
+      - title: "Edge Case: Nested and Mixed Lists"
+        url: /swift/5.4/edge-case-nested-and-mixed-lists/
+        
+  - title: "Swift 5.3"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+        
+  - title: "Swift 5.2"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+        
+  - title: "Swift 5.1"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+        
+  - title: "Swift 5"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+        
+  - title: "Swift 4.2"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+        
+  - title: "Swift 4"
+    url: /parent-2-page-url/
+    children:
+      - title: "comming soon"
+        url: /child-1-page-url/
+##############
+sidebar-cocoa:
+  - title: "iOS 15"
+    url: /ios15/
+    children:
+      - title: "iOS 15"
+        url: /operators/
+  - title: "iOS 14"
+    url: /ios14/
+  - title: "iOS 13"
+    url: /ios13/
+  - title: "iOS 12"
+    url: /ios12/
+##############
+sidebar-algorithm:
+  - title: "Data structure"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+  - title: "Leet Code-Easy"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+  - title: "Leet Code-Medium"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+  - title: "Leet Code-Hard"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+  - title: "프로그래머스-Level1"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+  - title: "프로그래머스-Level2"
+    url: /data-structure/
+    children:
+      - title: "Stack"
+        url: /stack/
+##############
+sidebar-architecture:
+  - title: "Clean Architecture"
+    url: /architecture/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "MVVM"
+    url: /architecture/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "MVC"
+    url: /architecture/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "MVI"
+    url: /architecture/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "RIBs"
+    url: /architecture/
+    children:
+      - title: "Operators"
+        url: /operators/
+##############
+sidebar-clean-code:
+  - title: "Clean Swift"
+    url: /clean-swift/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "Naming-Alarmofire.."
+    url: /dictionary/
+    children:
+      - title: "Fuction1"
+        url: /operators/
+      - title: "Fuction2"
+        url: /operators/
+      - title: "Fuction3"
+        url: /operators/
+  - title: "Dictionary"
+    url: /dictionary/
+    children:
+      - title: "Operators"
+        url: /operators/
+##############
+sidebar-edp:
+  - title: "Rx"
+    url: /rx/
+    children:
+      - title: "Operators"
+        url: /operators/
+  - title: "Combine"
+    url: /combine/
+    children:
+      - title: "Operators"
+        url: /operators/
+##############
+sidebar-git:
+  - title: "Rebase"
+    url: /git/
+  - title: "Reset"
+    url: /git/
+##############
+sidebar-swift-ui:
+  - title: "Swift-UI"
+    url: /swift-ui/
+    children:
+      - title: "Operators"
+        url: /operators/
+##############
+sidebar-tdd:
+  - title: "TDD"
+    url: /tdd/
+    children:
+      - title: "Operators"
+        url: /operators/
+##############
