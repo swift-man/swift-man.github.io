@@ -187,6 +187,10 @@ sidebar-git:
     url: /git/
   - title: "Reset"
     url: /git/
+  - title: "Blog"
+    url: /blog/
+  - title: "Reset"
+    url: /git/
 ##############
 sidebar-swift-ui:
   - title: "Swift-UI"
