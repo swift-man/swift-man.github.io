@@ -27,3 +27,5 @@ print("hello blog")
 이 문서의 title은 '{{ page.title }}' 이다!
 
 다음 문서의 title은 '{{ page.title | append: "에 이어 두번째 포스트" }}' 이다!
+
+{% include disqus.html %}
