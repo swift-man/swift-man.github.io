@@ -92,10 +92,10 @@ sidebar-cocoa:
 ##############
 sidebar-algorithm:
   - title: "Data structure"
-    url: /data-structure/
+    url: /algorithm/data-structure/
     children:
       - title: "Stack"
-        url: /stack/
+        url: /algorithm/data-structure/stack/
   - title: "Leet Code-Easy"
     url: /data-structure/
     children:
@@ -165,10 +165,12 @@ sidebar-clean-code:
       - title: "Fuction3"
         url: /operators/
   - title: "Dictionary"
-    url: /dictionary/
+    url: /clean-code/dictionary/
     children:
-      - title: "Operators"
-        url: /operators/
+      - title: "Stack"
+        url: /clean-code/dictionary/stack/
+      - title: "Stack overflow"
+        url: /clean-code/dictionary/stack-overflow/
 ##############
 sidebar-edp:
   - title: "Rx"

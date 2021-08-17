@@ -1,0 +1,23 @@
+---
+author_profile: true
+sidebar:
+  title: "Clean Code"
+  nav: sidebar-clean-code
+title: "Stack overflow"
+categories: ["dictionary"]
+tags:
+  - stack overflow
+  - 스택 오버플로
+  - stack
+  - overflow
+  - 스택
+  - 오버플로
+---
+
+소프트웨어에서 **[스택][1] 포인터가 스택의 경계**를 넘어설 때 일어난다. 호출 [스택][1]은 제한된 양의 주소 공간을 이루며 대개 프로그램 시작 시 결정된다.
+
+프로그램이 호출 [스택][1]에서 이용 가능한 공간 이상을 사용하려고 시도할 때, [스택][1]이 오버플로(overflow)된다고 하며 이 경우 일반적으로 프로그램 충돌이 발생하게 된다.
+
+보통 잘못된 재귀호출 등으로 인해 지나치게 많은 버퍼를 요청하여 운영체제가 더이상 할당을 할 수 없게 될 때 발생한다.
+
+[1]: /clean-code/dictionary/stack/
