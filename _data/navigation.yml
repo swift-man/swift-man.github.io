@@ -35,47 +35,47 @@ sidebar-swift:
       - title: "comming soon"
         url: /swift-5.5/
 
-  - title: "Swift 5.4"
-    url: /swift/5.4/
+  - title: "Swift 5.4 Released!"
+    url: https://swift.org/blog/swift-5-4-released/
     children:
       - title: "Edge Case: Nested and Mixed Lists"
         url: /swift/5.4/edge-case-nested-and-mixed-lists/
         
-  - title: "Swift 5.3"
-    url: /parent-2-page-url/
+  - title: "Swift 5.3 Released!"
+    url: https://swift.org/blog/swift-5-3-released/
     children:
       - title: "comming soon"
         url: /child-1-page-url/
         
-  - title: "Swift 5.2"
-    url: /parent-2-page-url/
+  - title: "Swift 5.2 Released!"
+    url: https://swift.org/blog/swift-5-2-released/
     children:
       - title: "comming soon"
         url: /child-1-page-url/
         
-  - title: "Swift 5.1"
-    url: /parent-2-page-url/
+  - title: "Swift 5.1 Released!"
+    url: https://swift.org/blog/swift-5-1-released/
     children:
       - title: "comming soon"
         url: /child-1-page-url/
         
-  - title: "Swift 5"
-    url: /parent-2-page-url/
+  - title: "Swift 5 Released!"
+    url: https://swift.org/blog/swift-5-released/
     children:
       - title: "comming soon"
         url: /child-1-page-url/
         
-  - title: "Swift 4.2"
-    url: /parent-2-page-url/
+  - title: "Swift 4.2 Released!"
+    url: https://swift.org/blog/swift-4-2-released/
     children:
       - title: "comming soon"
         url: /child-1-page-url/
         
-  - title: "Swift 4"
-    url: /parent-2-page-url/
+  - title: "Swift 4 Released!"
+    url: https://swift.org/blog/swift-4-0-released/
     children:
-      - title: "comming soon"
-        url: /child-1-page-url/
+      - title: "release"
+        url: swift/4.0/release/
 ##############
 sidebar-cocoa:
   - title: "iOS 15"
