@@ -30,7 +30,7 @@ masthead_title           : "Swift-Man Blog"# overrides the website title display
 breadcrumbs            : false # true, false (default) // _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 200 #해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
 comments:
-  provider               : "utterances", #"disqus", #"discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" #"disqus", #"discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            :https-swift-man-github-io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -95,7 +95,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :"G-DB7BTEYV9F"
+    tracking_id          : "G-DB7BTEYV9F"
     anonymize_ip         : # true, false (default)
 
 
