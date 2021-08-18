@@ -86,30 +86,30 @@ sidebar-algorithm:
   - title: "Data structure"
     url: /algorithm/data-structure/
     children:
-      - title: "Stack"
+      - title: "└ Stack"
         url: /algorithm/data-structure/stack/
-  - title: "Leet Code-Easy"
-    url: /data-structure/
+  - title: "Leet Code Easy"
+    url: /algorithm/leet-code-easy/
+    children:
+      - title: "└ 20. Valid Parentheses"
+        url: /algorithm/leet-code-easy/valid-parentheses
+  - title: "Leet Code Medium"
+    url: /algorithm/leet-code-medium/
     children:
       - title: "Stack"
         url: /stack/
-  - title: "Leet Code-Medium"
-    url: /data-structure/
+  - title: "Leet Code Hard"
+    url: /algorithm/leet-code-hard/
     children:
       - title: "Stack"
         url: /stack/
-  - title: "Leet Code-Hard"
-    url: /data-structure/
-    children:
-      - title: "Stack"
-        url: /stack/
-  - title: "프로그래머스-Level1"
-    url: /data-structure/
+  - title: "프로그래머스 Level1"
+    url: /algorithm/programers-level1/
     children:
       - title: "Stack"
         url: /stack/
   - title: "프로그래머스-Level2"
-    url: /data-structure/
+    url: /algorithm/programers-level2/
     children:
       - title: "Stack"
         url: /stack/
