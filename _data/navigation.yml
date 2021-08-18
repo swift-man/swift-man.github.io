@@ -152,17 +152,19 @@ sidebar-clean-code:
     children:
       - title: "Fuction1"
         url: /operators/
-      - title: "Fuction2"
-        url: /operators/
-      - title: "Fuction3"
-        url: /operators/
   - title: "Dictionary"
     url: /clean-code/dictionary/
     children:
+      - title: "└ bashrc"
+        url: /clean-code/dictionary/bashrc/
+      - title: "└ Jekyll"
+        url: /clean-code/dictionary/jekyll/
       - title: "└ Stack"
         url: /clean-code/dictionary/stack/
       - title: "└ Stack overflow"
         url: /clean-code/dictionary/stack-overflow/
+      - title: "└ zshrc"
+        url: /clean-code/dictionary/zshrc/
 ##############
 sidebar-edp:
   - title: "Rx"
