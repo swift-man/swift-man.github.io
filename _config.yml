@@ -23,16 +23,16 @@ name                     : "Kim Seung Jin"
 description              : "슬금슬금 공부하기."
 url                      : #"https://swift-man.github.io/"# the base hostname & protocol for your site e.g.
 baseurl                  : #"/blog"# the subpath of your site, e.g. "/blog"
-repository               : #"swift-man/swift-man.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "swift-man/swift-man.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/swift-man.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/cloud.png"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/swift-man.jpg"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Swift-Man Blog"# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : false # true, false (default) // _data/ui-text.yml에 다국어 지원 가능합니다.
-words_per_minute         : 200 #해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
+words_per_minute         : 50 #해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
 comments:
   provider               : "utterances" #"disqus", #"discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            :https-swift-man-github-io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-dark"# "github-light" (default), "github-dark"
+    issue_term           : "swift-man/swift-man.github.io"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -247,12 +247,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -282,8 +282,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
