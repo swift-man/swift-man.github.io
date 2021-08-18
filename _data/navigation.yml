@@ -193,6 +193,10 @@ sidebar-git:
     children:
       - title: "└ 시작하기"
         url: /git/blog/시작하기/
+      - title: "└ 검색 등록 하기"
+        url: /git/blog/검색-등록-하기/
+      - title: "└ 추후 볼만한 사이트 모음"
+        url: /git/blog/추후-볼만한-사이트-모음/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
