@@ -1,8 +1,8 @@
 ---
-title: "Git"
-permalink: /git/
+title: "Git / Commend"
+permalink: /git/commend/
 layout: category
-taxonomy: git
+taxonomy: commend
 classes: wide
 sidebar:
   title: "Git"

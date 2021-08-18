@@ -1,9 +1,8 @@
 ---
-title: "Dictionary"
+title: "Clean Code / Dictionary"
 permalink: /clean-code/dictionary/
 layout: category
 taxonomy: dictionary
-author_profile: true
 classes: wide
 sidebar:
   title: "Clean Code"

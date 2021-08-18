@@ -159,9 +159,9 @@ sidebar-clean-code:
   - title: "Dictionary"
     url: /clean-code/dictionary/
     children:
-      - title: "Stack"
+      - title: "└ Stack"
         url: /clean-code/dictionary/stack/
-      - title: "Stack overflow"
+      - title: "└ Stack overflow"
         url: /clean-code/dictionary/stack-overflow/
 ##############
 sidebar-edp:
@@ -177,18 +177,24 @@ sidebar-edp:
         url: /operators/
 ##############
 sidebar-git:
-  - title: "Rebase"
-    url: /git/
-  - title: "Reset"
-    url: /git/
+  - title: "Commend"
+    url: /git/commend/
+    children:
+      - title: "└ Rebase"
+        url: /git/commend/rebase/
+      - title: "└ Reset"
+        url: /git/commend/reset/
+      - title: "└ Revert"
+        url: /git/commend/revert/
   - title: "Blog"
-    url: /blog/
-  - title: "Reset"
-    url: /git/
+    url: /git/blog/
+    children:
+      - title: "└ 시작하기"
+        url: /git/blog/시작하기/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
-      - title: "Operators"
+      - title: "└ Operators"
         url: /operators/
 ##############
 sidebar-swift-ui:

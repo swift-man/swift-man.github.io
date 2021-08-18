@@ -1,8 +1,8 @@
 ---
-title: "Git"
-permalink: /git/
+title: "Git / Blog"
+permalink: /git/blog/
 layout: category
-taxonomy: git
+taxonomy: blog
 classes: wide
 sidebar:
   title: "Git"
