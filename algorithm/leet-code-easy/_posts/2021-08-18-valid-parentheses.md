@@ -2,7 +2,7 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "20. Valid Parentheses"
+title: "Leet Code / Easy / 20. Valid Parentheses"
 toc: true
 toc_sticky: true
 toc_label: 목차
