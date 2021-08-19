@@ -18,8 +18,8 @@ main:
     url: /swift-ui/
   - title: "TDD"
     url: /tdd/
-  - title: "ETC"
-    url: /year-archive/
+  #- title: "ETC"
+  # url: /year-archive/
 ##############
 sidebar-swift:
   - title: "Swift 5.5"
