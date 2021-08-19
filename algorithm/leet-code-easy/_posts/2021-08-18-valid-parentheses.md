@@ -2,46 +2,46 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "LeetCode - Valid Parentheses"
+title: "Valid Parentheses"
 toc: true
 toc_sticky: true
 toc_label: 목차
+excerpt : Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 ---
-![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
-
 [Leet Code](/algorithm/) / [Easy](/algorithm/leet-code-easy/) / **20. Valid [Parentheses](/clean-code/dictionary/parentheses/)**
+{: .notice--warning}
+![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
 
 ## 1. 개요
 **[Given](/clean-code/dictionary/given/) a string s containing just the characters '(', ')', '{', '}', '[' and ']', [determine](/clean-code/dictionary/determine/) if the input string is valid.
 An input string is valid if:**
-{: .notice--warning}
 
     1. Open brackets must be closed by the same type of brackets.
     2. Open brackets must be closed in the correct order.
 {: .notice--info}
 
 ## 2. Example
-```
+```swift
 Input: s = "()"
 Output: true
 ```
 
-```
+```swift
 Input: s = "()[]{}"
 Output: true
 ```
 
-```
+```swift
 Input: s = "(]"
 Output: false
 ```
 
-```
+```swift
 Input: s = "([)]"
 Output: false
 ```
 
-```
+```swift
 Input: s = "{[]}"
 Output: true
 ```
