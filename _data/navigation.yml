@@ -216,8 +216,12 @@ sidebar-git:
   - title: "Commit Message"
     url: /git/commit-message/
     children:
-      - title: "└ Update Swift version to 5.6"
-        url: /git/commit-message/update-swift-version-to-5.6/
+      - title: "└ Swift"
+        url: /git/commit-message/apple-swift/
+      - title: "  └ Update Swift version to 5.6"
+        url: /git/commit-message/apple-swift/update-swift-version-to-5.6/
+        
+        
 ##############
 sidebar-swift-ui:
   - title: "Swift-UI"

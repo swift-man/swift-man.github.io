@@ -6,8 +6,9 @@ title: "Update Swift version to 5.6"
 toc: true
 toc_sticky: true
 toc_label: 목차
+taxonomy: commit-message-swift
 ---
-[Git](/git/) / [Commit Message](/git/commit-message/) / **Update Swift version to 5.6**
+[Git](/git/) / [Commit Message](/git/commit-message/) / [Swift](/git/commit-message/apple-swift) / **Update Swift version to 5.6**
 {: .notice--warning}
 ![](https://media.vlpt.us/images/tataki26/post/6fbc6ea8-fc19-4a67-bda8-12952568d274/featured-3.png)
 
