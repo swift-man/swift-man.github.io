@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 ---
-[Leet Code](/algorithm/) / [Easy](/algorithm/leet-code-easy/) / **20. Valid [Parentheses](/clean-code/dictionary/parentheses/)**
+[Algorithm](/algorithm/) / [Leet Code Easy](/algorithm/leet-code-easy/) / **20. Valid [Parentheses](/clean-code/dictionary/parentheses/)**
 {: .notice--warning}
 ![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
 

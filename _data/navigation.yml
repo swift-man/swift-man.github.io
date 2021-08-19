@@ -106,8 +106,8 @@ sidebar-algorithm:
   - title: "프로그래머스 Level1"
     url: /algorithm/programers-level1/
     children:
-      - title: "Stack"
-        url: /stack/
+      - title: "└ 수박수박수박수박수박수?"
+        url: /algorithm/programers-level1/watermelon/
   - title: "프로그래머스-Level2"
     url: /algorithm/programers-level2/
     children:

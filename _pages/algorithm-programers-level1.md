@@ -1,5 +1,5 @@
 ---
-title: "Algorithm Programers level1"
+title: "Algorithm / Programers level1"
 permalink: /algorithm/programers-level1/
 layout: category
 taxonomy: programers-level1
