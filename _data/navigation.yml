@@ -155,14 +155,24 @@ sidebar-clean-code:
   - title: "Dictionary"
     url: /clean-code/dictionary/
     children:
+      - title: "└ A.K.A"
+        url: /clean-code/dictionary/aka/
+      - title: "└ ASAP"
+        url: /clean-code/dictionary/asap/
       - title: "└ bashrc"
         url: /clean-code/dictionary/bashrc/
+      - title: "└ BRB"
+        url: /clean-code/dictionary/brb/
       - title: "└ determine"
         url: /clean-code/dictionary/determine/
       - title: "└ given"
         url: /clean-code/dictionary/given/
       - title: "└ Jekyll"
         url: /clean-code/dictionary/jekyll/
+      - title: "└ Nvm"
+        url: /clean-code/dictionary/nvm/
+      - title: "└ OMW"
+        url: /clean-code/dictionary/omw/
       - title: "└ parentheses"
         url: /clean-code/dictionary/parentheses/
       - title: "└ Stack"

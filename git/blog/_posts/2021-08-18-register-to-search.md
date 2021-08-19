@@ -7,6 +7,9 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
+[Git](/git/) / [Blog](/git/blog/) / **검색 등록 하기**
+{: .notice--warning}
+![](https://pages.github.com/images/logo.svg)
 
 ## 1. 개요
 - 열심히 만든 블로그가 검색 되면 꾸준한 유지에 도움이 될 것이다.

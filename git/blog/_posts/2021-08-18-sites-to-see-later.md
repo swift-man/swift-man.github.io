@@ -7,7 +7,9 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
-
+[Git](/git/) / [Blog](/git/blog/) / **추후 볼만한 사이트 모음**
+{: .notice--warning}
+![](https://pages.github.com/images/logo.svg)
 ## 1. 개요
 - 검색해보았으나 시도하지 못한 사이트를 모았다.
 - 추후 시도해보고 본문에 추가해보자.
