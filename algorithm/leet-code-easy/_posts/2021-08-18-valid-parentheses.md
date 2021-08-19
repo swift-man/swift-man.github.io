@@ -2,15 +2,17 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "Leet Code / Easy / 20. Valid Parentheses"
+title: "LeetCode - Valid Parentheses"
 toc: true
 toc_sticky: true
 toc_label: 목차
 ---
 ![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
 
+[Leet Code](/algorithm/) / [Easy](/algorithm/leet-code-easy/) / **20. Valid [Parentheses](/clean-code/dictionary/parentheses/)**
+
 ## 1. 개요
-**Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+**[Given](/clean-code/dictionary/given/) a string s containing just the characters '(', ')', '{', '}', '[' and ']', [determine](/clean-code/dictionary/determine/) if the input string is valid.
 An input string is valid if:**
 {: .notice--warning}
 

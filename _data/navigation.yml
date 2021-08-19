@@ -157,8 +157,14 @@ sidebar-clean-code:
     children:
       - title: "└ bashrc"
         url: /clean-code/dictionary/bashrc/
+      - title: "└ determine"
+        url: /clean-code/dictionary/determine/
+      - title: "└ given"
+        url: /clean-code/dictionary/given/
       - title: "└ Jekyll"
         url: /clean-code/dictionary/jekyll/
+      - title: "└ parentheses"
+        url: /clean-code/dictionary/parentheses/
       - title: "└ Stack"
         url: /clean-code/dictionary/stack/
       - title: "└ Stack overflow"
