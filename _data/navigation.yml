@@ -96,8 +96,8 @@ sidebar-algorithm:
   - title: "Leet Code Medium"
     url: /algorithm/leet-code-medium/
     children:
-      - title: "Stack"
-        url: /stack/
+      - title: "└ Next Permutation"
+        url: /algorithm/leet-code-medium/next-permutation/
   - title: "Leet Code Hard"
     url: /algorithm/leet-code-hard/
     children:
@@ -111,8 +111,8 @@ sidebar-algorithm:
   - title: "프로그래머스-Level2"
     url: /algorithm/programers-level2/
     children:
-      - title: "Stack"
-        url: /stack/
+      - title: "└ 영어 끝말잇기"
+        url: /algorithm/programers-level2/english-shiritori/
 ##############
 sidebar-architecture:
   - title: "Clean Architecture"
@@ -175,6 +175,8 @@ sidebar-clean-code:
         url: /clean-code/dictionary/omw/
       - title: "└ parentheses"
         url: /clean-code/dictionary/parentheses/
+      - title: "└ regenerate"
+        url: /clean-code/dictionary/regenerate/
       - title: "└ Stack"
         url: /clean-code/dictionary/stack/
       - title: "└ Stack overflow"

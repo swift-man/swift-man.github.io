@@ -29,6 +29,7 @@ Output: "수박수"
 Input: 4
 Output: "수박수박"
 ```
+[풀러가기](https://programmers.co.kr/learn/courses/30/lessons/12922)
 
 ## 3. 문제 이해
 
@@ -41,6 +42,12 @@ func solution(_ n:Int) -> String {
 ```
 
 ## 5. 풀이
-- 
+-
+
+## 6. 다른 분의 멋진 코드
+-
+
+## 7. 잘 배웠습니다.
+-
 
 {% include utteranc.html %}

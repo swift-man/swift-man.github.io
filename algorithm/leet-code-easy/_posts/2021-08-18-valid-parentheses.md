@@ -45,6 +45,7 @@ Output: false
 Input: s = "{[]}"
 Output: true
 ```
+* [풀러가기](https://leetcode.com/problems/valid-parentheses/)
 
 ## 3. 문제 이해
 
@@ -53,9 +54,9 @@ Output: true
 ```swift
 func isValid(_ s: String) -> Bool {
     var stack: [Character] = []
-        
+
     if s.count == 1 {
-        return false 
+        return false
     }
     for c in s {
         if c == "(" {
@@ -75,12 +76,18 @@ func isValid(_ s: String) -> Bool {
             }
         }
     }
-        
+
     return stack.isEmpty
 }
 ```
 
 ## 5. 풀이
-- 
+-
+
+## 6. 다른 분의 멋진 코드
+-
+
+## 7. 잘 배웠습니다.
+-
 
 {% include utteranc.html %}
