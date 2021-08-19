@@ -1,8 +1,8 @@
 ---
-title: "Clean Code"
-permalink: /clean/code/
+title: "Clean"
+permalink: /clean/
 layout: category
-taxonomy: clean-code
+taxonomy: clean
 classes: wide
 sidebar:
   title: "Clean"

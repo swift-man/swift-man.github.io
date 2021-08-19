@@ -1,17 +1,8 @@
 ---
-author_profile: true
 sidebar:
-  title: "Clean Code"
-  nav: sidebar-clean-code
+  title: "Clean"
+  nav: sidebar-clean
 title: "Stack overflow"
-categories: ["dictionary"]
-tags:
-  - stack overflow
-  - 스택 오버플로
-  - stack
-  - overflow
-  - 스택
-  - 오버플로
 ---
 
 소프트웨어에서 **[스택][1] 포인터가 스택의 경계**를 넘어설 때 일어난다. 호출 [스택][1]은 제한된 양의 주소 공간을 이루며 대개 프로그램 시작 시 결정된다.

@@ -4,8 +4,8 @@ main:
     url: /architecture/
   - title: "Algorithm"
     url: /algorithm/
-  - title: "Clean Code"
-    url: /clean-code/
+  - title: "Clean"
+    url: /clean/
   - title: "Cocoa"
     url: /cocoa/
   - title: "EDP"
@@ -22,72 +22,72 @@ main:
   # url: /year-archive/
 ##############
 sidebar-swift:
-  - title: "Swift 5.5"
-    children:
-      - title: "comming soon"
-        url: /swift-5.5/
-
-  - title: "Swift 5.4 Released!"
-    url: https://swift.org/blog/swift-5-4-released/
-    children:
-      - title: "Edge Case: Nested and Mixed Lists"
-        url: /swift/5.4/edge-case-nested-and-mixed-lists/
-        
-  - title: "Swift 5.3 Released!"
-    url: https://swift.org/blog/swift-5-3-released/
-    children:
-      - title: "comming soon"
-        url: /child-1-page-url/
-        
-  - title: "Swift 5.2 Released!"
-    url: https://swift.org/blog/swift-5-2-released/
-    children:
-      - title: "comming soon"
-        url: /child-1-page-url/
-        
-  - title: "Swift 5.1 Released!"
-    url: https://swift.org/blog/swift-5-1-released/
-    children:
-      - title: "comming soon"
-        url: /child-1-page-url/
-        
-  - title: "Swift 5 Released!"
-    url: https://swift.org/blog/swift-5-released/
-    children:
-      - title: "comming soon"
-        url: /child-1-page-url/
-        
-  - title: "Swift 4.2 Released!"
-    url: https://swift.org/blog/swift-4-2-released/
-    children:
-      - title: "comming soon"
-        url: /child-1-page-url/
-        
-  - title: "Swift 4 Released!"
-    url: https://swift.org/blog/swift-4-0-released/
-    children:
-      - title: "release"
-        url: swift/4.0/release/
+#  - title: "Swift 5.5"
+#    children:
+#      - title: "comming soon"
+#        url: /swift-5.5/
+#
+#  - title: "Swift 5.4 Released!"
+#    url: https://swift.org/blog/swift-5-4-released/
+#    children:
+#      - title: "Edge Case: Nested and Mixed Lists"
+#        url: /swift/5.4/edge-case-nested-and-mixed-lists/
+#
+#  - title: "Swift 5.3 Released!"
+#    url: https://swift.org/blog/swift-5-3-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5.2 Released!"
+#    url: https://swift.org/blog/swift-5-2-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5.1 Released!"
+#    url: https://swift.org/blog/swift-5-1-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5 Released!"
+#    url: https://swift.org/blog/swift-5-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 4.2 Released!"
+#    url: https://swift.org/blog/swift-4-2-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 4 Released!"
+#    url: https://swift.org/blog/swift-4-0-released/
+#    children:
+#      - title: "release"
+#        url: swift/4.0/release/
 ##############
 sidebar-cocoa:
-  - title: "iOS 15"
-    url: /ios15/
-    children:
-      - title: "iOS 15"
-        url: /operators/
-  - title: "iOS 14"
-    url: /ios14/
-  - title: "iOS 13"
-    url: /ios13/
-  - title: "iOS 12"
-    url: /ios12/
+#  - title: "iOS 15"
+#    url: /ios15/
+#    children:
+#      - title: "iOS 15"
+#        url: /operators/
+#  - title: "iOS 14"
+#    url: /ios14/
+#  - title: "iOS 13"
+#    url: /ios13/
+#  - title: "iOS 12"
+#    url: /ios12/
 ##############
 sidebar-algorithm:
   - title: "Data structure"
     url: /algorithm/data-structure/
-    children:
-      - title: "└ Stack"
-        url: /algorithm/data-structure/stack/
+#    children:
+#      - title: "└ Stack"
+#        url: /algorithm/data-structure/stack/
   - title: "Leet Code Easy"
     url: /algorithm/leet-code-easy/
     children:
@@ -96,13 +96,13 @@ sidebar-algorithm:
   - title: "Leet Code Medium"
     url: /algorithm/leet-code-medium/
     children:
-      - title: "└ Next Permutation"
+      - title: "└ 31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
   - title: "Leet Code Hard"
     url: /algorithm/leet-code-hard/
-    children:
-      - title: "Stack"
-        url: /stack/
+#    children:
+#      - title: "Stack"
+#        url: /stack/
   - title: "프로그래머스 Level1"
     url: /algorithm/programers-level1/
     children:
@@ -117,84 +117,86 @@ sidebar-algorithm:
 sidebar-architecture:
   - title: "Clean Architecture"
     url: /architecture/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
   - title: "MVVM"
     url: /architecture/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
   - title: "MVC"
     url: /architecture/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
   - title: "MVI"
     url: /architecture/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
   - title: "RIBs"
     url: /architecture/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
 ##############
-sidebar-clean-code:
-  - title: "Clean Swift"
-    url: /clean-swift/
-    children:
-      - title: "Operators"
-        url: /operators/
-  - title: "Naming-Alarmofire.."
-    url: /dictionary/
-    children:
-      - title: "Fuction1"
-        url: /operators/
+sidebar-clean:
+  - title: "Clean Code"
+    url: /clean/code/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
+  - title: "Clean Think"
+    url: /clean/think/
+  - title: "Naming"
+    url: /clean/naming/
+#    children:
+#      - title: "Fuction1"
+#        url: /operators/
   - title: "Dictionary"
-    url: /clean-code/dictionary/
+    url: /clean/dictionary/
     children:
       - title: "└ A.K.A"
-        url: /clean-code/dictionary/aka/
+        url: /clean/dictionary/aka/
       - title: "└ ASAP"
-        url: /clean-code/dictionary/asap/
+        url: /clean/dictionary/asap/
       - title: "└ bashrc"
-        url: /clean-code/dictionary/bashrc/
+        url: /clean/dictionary/bashrc/
       - title: "└ BRB"
-        url: /clean-code/dictionary/brb/
+        url: /clean/dictionary/brb/
       - title: "└ determine"
-        url: /clean-code/dictionary/determine/
+        url: /clean/dictionary/determine/
       - title: "└ given"
-        url: /clean-code/dictionary/given/
+        url: /clean/dictionary/given/
       - title: "└ Jekyll"
-        url: /clean-code/dictionary/jekyll/
+        url: /clean/dictionary/jekyll/
       - title: "└ Nvm"
-        url: /clean-code/dictionary/nvm/
+        url: /clean/dictionary/nvm/
       - title: "└ OMW"
-        url: /clean-code/dictionary/omw/
+        url: /clean/dictionary/omw/
       - title: "└ parentheses"
-        url: /clean-code/dictionary/parentheses/
+        url: /clean/dictionary/parentheses/
       - title: "└ regenerate"
-        url: /clean-code/dictionary/regenerate/
+        url: /clean/dictionary/regenerate/
       - title: "└ Stack"
-        url: /clean-code/dictionary/stack/
+        url: /clean/dictionary/stack/
       - title: "└ Stack overflow"
-        url: /clean-code/dictionary/stack-overflow/
+        url: /clean/dictionary/stack-overflow/
       - title: "└ zshrc"
-        url: /clean-code/dictionary/zshrc/
+        url: /clean/dictionary/zshrc/
 ##############
 sidebar-edp:
   - title: "Rx"
     url: /rx/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
   - title: "Combine"
     url: /combine/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
 ##############
 sidebar-git:
   - title: "Commend"
@@ -228,14 +230,14 @@ sidebar-git:
 sidebar-swift-ui:
   - title: "Swift-UI"
     url: /swift-ui/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
 ##############
 sidebar-tdd:
   - title: "TDD"
     url: /tdd/
-    children:
-      - title: "Operators"
-        url: /operators/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
 ##############
