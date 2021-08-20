@@ -82,6 +82,6 @@ func solution(_ a:Int, _ b:Int) -> Int64 {
 12
 ```
 - 수학적인 사고로 풀었네요. 놀랍습니다.
-- [1 부터 n 까지의 합](/algorithm/basic/numberSum/) 을 포스팅 했었는데 제가 생각을 못한게 아쉽네요.
+- [1 부터 n 까지의 합](/algorithm/basic/numberSum/) 을 포스팅을 했었는데 제가 생각을 못한 게 아쉽네요.
 
 {% include utteranc.html %}

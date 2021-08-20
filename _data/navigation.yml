@@ -6,12 +6,12 @@ main:
     url: /algorithm/
   - title: "Clean"
     url: /clean/
-  - title: "iOS"
-    url: /ios/
   - title: "EDP"
     url: /edp/
   - title: "Git"
     url: /git/
+  - title: "iOS"
+    url: /ios/
   - title: "Swift"
     url: /swift/
   - title: "SwiftUI"
@@ -69,7 +69,7 @@ sidebar-swift:
 #      - title: "release"
 #        url: swift/4.0/release/
 ##############
-sidebar-cocoa:
+sidebar-ios:
 #  - title: "iOS 15"
 #    url: /ios15/
 #    children:
@@ -247,6 +247,10 @@ sidebar-git:
         url: /git/blog/register-to-search/
       - title: "└ 추후 볼만한 사이트 모음"
         url: /git/blog/sites-to-see-later/
+      - title: "└ 블로그에 프로그래머스 코드 올리기"
+        url: /git/blog/progremmers-copyright/
+      - title: "└ 맞춤법 검사기(링크)"
+        url: https://speller.cs.pusan.ac.kr/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
