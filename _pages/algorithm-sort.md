@@ -1,8 +1,8 @@
 ---
-title: "Algorithm Programers level2"
-permalink: /algorithm/programers-level2/
+title: "Algorithm Sort"
+permalink: /algorithm/sort/
 layout: category
-taxonomy: programers-level2
+taxonomy: sort
 classes: wide
 sidebar:
   title: "Algorithm"
