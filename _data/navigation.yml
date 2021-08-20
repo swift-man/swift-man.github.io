@@ -104,27 +104,27 @@ sidebar-algorithm:
         url: /algorithm/sort/bubble-sort/
       - title: "└ 선택 정렬"
         url: /algorithm/sort/selection-sort/
-  - title: "Leet Code Easy"
+  - title: "Leet Code - Easy"
     url: /algorithm/leet-code-easy/
     children:
       - title: "└ 20. Valid Parentheses"
         url: /algorithm/leet-code-easy/valid-parentheses
-  - title: "Leet Code Medium"
+  - title: "Leet Code - Medium"
     url: /algorithm/leet-code-medium/
     children:
       - title: "└ 31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
-  - title: "Leet Code Hard"
+  - title: "Leet Code - Hard"
     url: /algorithm/leet-code-hard/
 #    children:
 #      - title: "Stack"
 #        url: /stack/
-  - title: "프로그래머스 Level1"
+  - title: "프로그래머스 - level1"
     url: /algorithm/programers-level1/
     children:
       - title: "└ 수박수박수박수박수박수?"
         url: /algorithm/programers-level1/watermelon/
-  - title: "프로그래머스-Level2"
+  - title: "프로그래머스 - level2"
     url: /algorithm/programers-level2/
     children:
       - title: "└ 영어 끝말잇기"

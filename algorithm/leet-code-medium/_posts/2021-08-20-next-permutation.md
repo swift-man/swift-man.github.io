@@ -69,9 +69,9 @@ Output: [1,4,3,4,5]
 ```
 4. a + 1 에서부터 끝까지 오름차순 정렬
 ```
-1 4(a) 5 4 3
+1 4 5(start) 4 3(end)
 ->
-1 4(a) 3 4 5
+1 4 3 4 5
 ```
 
 ## 4. 코드
@@ -80,7 +80,7 @@ class Solution {
     func nextPermutation(_ nums: inout [Int]) {
         // 뒤에서 부터 탐색하면서 오름차순이 깨지는 인덱스를 확인(a)
         var a = nums.count - 2
-        while a >= 0 && nums[a] >= nums[a+1] {
+        while a >= 0 && nums[a] >= nums[a + 1] {
             a -= 1
         }
 
