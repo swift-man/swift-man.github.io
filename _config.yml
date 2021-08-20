@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "SwiftMan Blog"
 title_separator          : "-"
 subtitle                 : "iOS Dev"# site tagline that appears below site title in masthead
-name                     : "Kim Seung Jin"
+name                     : "SwiftMan"
 description              : "슬금슬금 공부하기."
 url                      : #"https://swift-man.github.io/"# the base hostname & protocol for your site e.g.
 baseurl                  : #"/blog"# the subpath of your site, e.g. "/blog"
