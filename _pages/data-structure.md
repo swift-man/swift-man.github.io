@@ -1,9 +1,9 @@
 ---
-title: "Data-structure"
+title: "Data Structure"
 permalink: /algorithm/data-structure/
 layout: category
-taxonomy: data-structure
 classes: wide
+taxonomy: data-structure
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm

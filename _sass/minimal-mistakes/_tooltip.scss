@@ -1,0 +1,33 @@
+.tt {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted Sienna;
+}
+.tt .tt-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 50%;
+    margin-left: -105px;
+}
+.tt .tt-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #FFFFFF transparent;
+}
+.tt:hover .tt-text {
+    visibility: visible;
+}
+

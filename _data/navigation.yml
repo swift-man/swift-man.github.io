@@ -83,11 +83,11 @@ sidebar-ios:
 #    url: /ios12/
 ##############
 sidebar-algorithm:
-  - title: "Data structure"
+  - title: "Data Structure"
     url: /algorithm/data-structure/
-#    children:
-#      - title: "└ Stack"
-#        url: /algorithm/data-structure/stack/
+    children:
+      - title: "└ Stack"
+        url: /algorithm/data-structure/stack/
   - title: "기법"
     url: /algorithm/basic/
     children:
@@ -251,6 +251,8 @@ sidebar-git:
         url: /git/blog/progremmers-copyright/
       - title: "└ 맞춤법 검사기(링크)"
         url: https://speller.cs.pusan.ac.kr/
+      - title: "└ 마크 다운 문법"
+        url: /git/blog/markdown_grammar/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
