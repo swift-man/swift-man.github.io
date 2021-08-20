@@ -88,6 +88,22 @@ sidebar-algorithm:
 #    children:
 #      - title: "└ Stack"
 #        url: /algorithm/data-structure/stack/
+  - title: "기법"
+    url: /algorithm/basic/
+    children:
+      - title: "└ 1 부터 n 까지의 합"
+        url: /algorithm/basic/numberSum
+      - title: "└ Temp 변수를 사용하지 않고 Swap 하기"
+        url: /algorithm/basic/NoStoredPropertySwap/
+  - title: "Sort"
+    url: /algorithm/sort/
+    children:
+      - title: "└ 삽입 정렬"
+        url: /algorithm/sort/insertion-sort/
+      - title: "└ 버블 정렬"
+        url: /algorithm/sort/bubble-sort/
+      - title: "└ 선택 정렬"
+        url: /algorithm/sort/selection-sort/
   - title: "Leet Code Easy"
     url: /algorithm/leet-code-easy/
     children:
@@ -202,6 +218,18 @@ sidebar-git:
   - title: "Commend"
     url: /git/commend/
     children:
+      - title: "└ Branch"
+        url: /git/commend/branch/
+      - title: "  └ 생성하기"
+        url: /git/commend/branch/create/
+      - title: "  └ 삭제하기"
+        url: /git/commend/branch/delete/
+      - title: "  └ 가져오기"
+        url: /git/commend/branch/fetch/
+      - title: "└ Cherry-pick"
+        url: /git/commend/cherry-pick/
+      - title: "└ Log"
+        url: /git/commend/log/
       - title: "└ Rebase"
         url: /git/commend/rebase/
       - title: "└ Reset"
