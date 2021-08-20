@@ -6,8 +6,8 @@ main:
     url: /algorithm/
   - title: "Clean"
     url: /clean/
-  - title: "Cocoa"
-    url: /cocoa/
+  - title: "iOS"
+    url: /ios/
   - title: "EDP"
     url: /edp/
   - title: "Git"
@@ -124,6 +124,8 @@ sidebar-algorithm:
     children:
       - title: "└ 수박수박수박수박수박수?"
         url: /algorithm/programers-level1/watermelon/
+      - title: "└ 정수 사이의 합"
+        url: /algorithm/programers-level1/sum-between-two-integers/
   - title: "프로그래머스 - level2"
     url: /algorithm/programers-level2/
     children:
