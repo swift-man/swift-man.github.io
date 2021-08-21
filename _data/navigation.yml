@@ -122,6 +122,8 @@ sidebar-algorithm:
   - title: "프로그래머스 - level1"
     url: /algorithm/programers-level1/
     children:
+      - title: "└ 소수 찾기"
+        url: /algorithm/programers-level1/prime/
       - title: "└ 수박수박수박수박수박수?"
         url: /algorithm/programers-level1/watermelon/
       - title: "└ 정수 사이의 합"
