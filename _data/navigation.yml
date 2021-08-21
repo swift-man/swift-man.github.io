@@ -167,7 +167,7 @@ sidebar-clean:
 #    children:
 #      - title: "Operators"
 #        url: /operators/
-  - title: "Clean Think"
+  - title: "Think"
     url: /clean/think/
     children:
       - title: "└ 개발을 시작하게 된 계기"
@@ -271,6 +271,10 @@ sidebar-git:
         url: /git/commit-message/apple-swift/
       - title: "  └ Update Swift version to 5.6"
         url: /git/commit-message/apple-swift/update-swift-version-to-5.6/
+      - title: "└ Promises"
+        url: /git/commit-message/google-promises/
+      - title: "  └ Rename await to awaitPromise"
+        url: /git/commit-message/google-promises/rename-await-to-awaitPromise/
         
         
 ##############
