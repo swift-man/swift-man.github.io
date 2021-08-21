@@ -2,7 +2,7 @@
 sidebar:
   title: "Clean"
   nav: sidebar-clean
-title: "좋은 개발자"
+title: "좋은 개발자(1)"
 toc: true
 toc_sticky: true
 toc_label: 목차
