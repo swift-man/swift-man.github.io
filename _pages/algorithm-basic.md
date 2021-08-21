@@ -1,5 +1,5 @@
 ---
-title: "Algorithm Basic"
+title: "Algorithm / 기법"
 permalink: /algorithm/basic/
 layout: category
 taxonomy: basic

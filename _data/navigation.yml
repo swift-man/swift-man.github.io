@@ -22,10 +22,13 @@ main:
   # url: /year-archive/
 ##############
 sidebar-swift:
-#  - title: "Swift 5.5"
-#    children:
-#      - title: "comming soon"
-#        url: /swift-5.5/
+  - title: "Swift 5.5"
+    url: /swift/5-5/
+    children:
+      - title: "└ async await"
+        url: /swift/5-5/async-await/
+      - title: "└ actor"
+        url: /swift/5-5/actor/
 #
 #  - title: "Swift 5.4 Released!"
 #    url: https://swift.org/blog/swift-5-4-released/
