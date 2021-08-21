@@ -167,6 +167,13 @@ sidebar-clean:
 #        url: /operators/
   - title: "Clean Think"
     url: /clean/think/
+    children:
+      - title: "└ 개발을 시작하게 된 계기"
+        url: /clean/think/start-development/
+      - title: "└ iOS 개발을 시작하게 된 계기"
+        url: /clean/think/start-development-ios/
+      - title: "└ 좋은 개발자"
+        url: /clean/think/good-developer/
   - title: "Naming"
     url: /clean/naming/
 #    children:
