@@ -16,6 +16,9 @@ excerpt : Javascript, kotlin, google-promises 등 그 동안 다른 언어에서
 - 비동기 프로그래밍은 그동안 delegate 패턴이나, closur 를 통해 해왔다면 앞으로는 async, await 를 통한 동기 프로그래밍을 작성하는 것 처럼 비동기 프로그래밍을 할 수 있게 되었다.
 >컴파일 타임에 concurrency 에 대한 문제 파악이 가능하다고 한다.
 
+- [WWDC 21 - Meet AsyncSequence](https://developer.apple.com/videos/play/wwdc2021/10058/)
+- [WWDC 21 - Explore structed concurrency in Swift](https://developer-rno.apple.com/videos/play/wwdc2021/10134)
+
 ## 2. async
 - 비동기 함수 정의
 ```swift
@@ -46,7 +49,7 @@ for try await line in handle.bytes.lines {
 ```
 - 시퀀스도 가능하다.
 - "for- await- in" 루프를 실험해봐야 할 것 같다.
-- 추후 작성 
+- AsyncSequence 프로토콜도 지원하는데, API 의 progress 처럼 지속적인 값을 가져올 시 필요한 듯 하다.(확실 치 않음)
 
 ## 5. 병렬 비동기 함수 호출
 ```swift
@@ -101,7 +104,7 @@ Task.cancel() // 취소
 ```
 
 ## 5. 코드 작성
-- 일단 한번 작성해 보자! 작성해보고 돌려보고 싶었다.
+- 일단 한번 작성해 보자! 에라 모르겠다!
 - 가장 쉽고 적당한(?) 이미지 다운로드를 해보자.
     - ![Image](https://images.unsplash.com/photo-1629491011862-af5720ac882a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80)
 
@@ -183,7 +186,7 @@ DispatchQueue.main.async {
 ![Image](https://drive.google.com/uc?export=view&id=1eldTeQ98NqtoHCpImZEWgymm2bxZnhfJ)
 
 ![Image](https://drive.google.com/uc?export=view&id=1GZ3ikiGb-kUjvLlOMa6b59Yd3CUq3R7t)
-- 하지만 다시 메인쓰레드에서 set 해주는걸 알 수 있다.
-- 디버깅이 어려운 Rx 에 비해 너무 간편하고 쉽다라는 생각이 들었다.
+
+- 디버깅이 어려운 Rx 에 비해 코드가 간결하고 쉽다라는 생각이 들었다.
 
 참고: [Swift.org - Concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
