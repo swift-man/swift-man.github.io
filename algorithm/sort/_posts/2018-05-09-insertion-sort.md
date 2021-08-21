@@ -50,8 +50,3 @@ for i in 1 ..< arr.count {
 ```
 
 [바로가기](https://github.com/swift-man/swift/blob/master/Sort/InsertionSort.playground/Contents.swift)
-
-
-
-
-{% include utteranc.html %}

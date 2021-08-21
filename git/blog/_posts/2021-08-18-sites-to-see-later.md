@@ -22,5 +22,3 @@ toc_label: 목차
 * [소스코드를 블로그에 올릴 때](https://velog.io/@yeseolee/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%98%AC%EB%A6%B4%EB%95%8C)
 
 
-
-{% include utteranc.html %}

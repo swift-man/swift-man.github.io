@@ -62,5 +62,3 @@ It works with almost all markdown flavours (the below blank line matters).
 It works with almost all markdown flavours (the below blank line matters).
 
 ---
-
-{% include utteranc.html %}

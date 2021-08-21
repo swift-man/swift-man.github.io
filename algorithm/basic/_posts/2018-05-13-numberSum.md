@@ -19,6 +19,3 @@ let n = (1 + number) * number / 2
 ```
 
 [바로가기](https://github.com/swift-man/swift/blob/master/NumberSum/Sum1...100.playground/Contents.swift)
-
-
-{% include utteranc.html %}

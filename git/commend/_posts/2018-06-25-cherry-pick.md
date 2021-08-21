@@ -23,5 +23,3 @@ excerpt : "다른 브랜치의 일부 커밋만 반영하고 싶을 때"
 ```
 
 - 참고: [git cherry-pick: 다른 브랜치의 일부 커밋만 반영하고 싶을 때](http://meetup.toast.com/posts/45)
-
-{% include utteranc.html %}

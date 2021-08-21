@@ -115,5 +115,3 @@ class Solution {
 
 ## 7. 잘 배웠습니다.
 -
-
-{% include utteranc.html %}

@@ -45,7 +45,3 @@ XOR Swap 은 별로라고 한다.
 >https://en.wikipedia.org/wiki/XOR_swap_algorithm
 
 >http://minjang.egloos.com/1241820
-
-
-
-{% include utteranc.html %}

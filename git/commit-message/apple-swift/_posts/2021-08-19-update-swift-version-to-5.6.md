@@ -31,5 +31,3 @@ Update Swift version to 5.6
 
 ## 3. 원본
 - [링크!](https://github.com/apple/swift/pull/38574/commits/12040ff8c30dd7c03aad27aa88b23d06d959a644)
-
-{% include utteranc.html %}

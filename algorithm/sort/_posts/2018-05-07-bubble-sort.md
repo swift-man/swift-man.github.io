@@ -42,5 +42,3 @@ for _ in 0 ..< arr.count - 1 {
 ```
 
 [바로가기](https://github.com/swift-man/swift/blob/master/Sort/BubbleSort.playground/Contents.swift)
-
-{% include utteranc.html %}

@@ -68,5 +68,3 @@ Allow: /
 Sitemap: https://swift-man.github.io/sitemap.xml
 ```
 - GitRepo Root 에 추가하고 push 하자.
-
-{% include utteranc.html %}
