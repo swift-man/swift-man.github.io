@@ -116,9 +116,9 @@ sidebar-algorithm:
         url: /algorithm/leet-code-medium/next-permutation/
   - title: "Leet Code - Hard"
     url: /algorithm/leet-code-hard/
-#    children:
-#      - title: "Stack"
-#        url: /stack/
+    children:
+      - title: "└ 4. Median of Two Sorted Arrays"
+        url: /algorithm/leet-code-hard/median-of-two-sorted-arrays/
   - title: "프로그래머스 - level1"
     url: /algorithm/programers-level1/
     children:
