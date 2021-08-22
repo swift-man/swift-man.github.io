@@ -27,6 +27,7 @@ func listPhotos(inGallery name: String) async -> [String] {
     return result
 }
 ```
+
 ## 3. await
 - 비동기 함수의 실행을 동기시키는 명령
 - 스레드에서 해당 비동기 함수의 실행이 끝날 때까지 대기(yielding the thread)
@@ -48,7 +49,7 @@ for try await line in handle.bytes.lines {
 }
 ```
 - 시퀀스도 가능하다.
-- "for- await- in" 루프를 실험해봐야 할 것 같다.
+- "for- await- in" 루프를 통해 접근한다.
 - AsyncSequence 프로토콜도 지원하는데, API 의 progress 처럼 지속적인 값을 가져올 시 필요한 듯 하다.(확실 치 않음)
 
 ## 5. 병렬 비동기 함수 호출
@@ -84,7 +85,7 @@ let result = await handle.value
 ```
 [Task](https://developer.apple.com/documentation/swift/task)
 
-## 5. Task Groups
+## 4.1 Task Groups
 ```swift
 await withTaskGroup(of: Data.self) { taskGroup in
     let photoNames = await listPhotos(inGallery: "Summer Vacation")
@@ -96,7 +97,7 @@ await withTaskGroup(of: Data.self) { taskGroup in
 - Task Groups 을 통한 병렬 실행
 [TaskGroup](https://developer.apple.com/documentation/swift/taskgroup)
 
-## Task Cancellation
+## 4.2 Task Cancellation
 ```swift
 Task.checkCancellation() throw == CancellationError// 취소 확인
 Task.isCancelled // 취소 확인
@@ -176,7 +177,6 @@ DispatchQueue.main.async {
 ```
 - 기존 방식대로라면 위의 코드를 넣어 메인스레드에서 image 를 추가해 주어야 한다.
 - 그런데 작성한 코드가 메인쓰레드로 변경해주는 코드가 없다.
-- Task 의 코드의 current thread 의 영향으로 보인다. 직접 확인 해보자.
 
 ![Image](https://drive.google.com/uc?export=view&id=1tVBRDMNw3YHusrD1QlntS7y1KN8lIkye)
 ![Image](https://drive.google.com/uc?export=view&id=1NEyDQqvyXoUtIW2JXgZDJ0ASmqMom7y9)
@@ -186,7 +186,7 @@ DispatchQueue.main.async {
 ![Image](https://drive.google.com/uc?export=view&id=1eldTeQ98NqtoHCpImZEWgymm2bxZnhfJ)
 
 ![Image](https://drive.google.com/uc?export=view&id=1GZ3ikiGb-kUjvLlOMa6b59Yd3CUq3R7t)
-
+- 이미지 set 이 메인스레드에서 동작한는 것은 await 를 통해 다운로드 완료를 기다렸다 viewDidLoad() 에서 set 해주기 때문이다.
 - 디버깅이 어려운 Rx 에 비해 코드가 간결하고 쉽다라는 생각이 들었다.
 
 참고: [Swift.org - Concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
