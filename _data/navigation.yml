@@ -73,8 +73,8 @@ sidebar-swift:
 #        url: swift/4.0/release/
 ##############
 sidebar-ios:
-#  - title: "iOS 15"
-#    url: /ios15/
+  - title: "FairPlay Streaming"
+    url: /ios/fairplay-streaming/
 #    children:
 #      - title: "iOS 15"
 #        url: /operators/
