@@ -186,7 +186,7 @@ DispatchQueue.main.async {
 ![Image](https://drive.google.com/uc?export=view&id=1eldTeQ98NqtoHCpImZEWgymm2bxZnhfJ)
 
 ![Image](https://drive.google.com/uc?export=view&id=1GZ3ikiGb-kUjvLlOMa6b59Yd3CUq3R7t)
-- 이미지 set 이 메인스레드에서 동작한는 것은 await 를 통해 다운로드 완료를 기다렸다 viewDidLoad() 에서 set 해주기 때문이다.
+- 이미지 set 이 메인스레드에서 동작한는 것은viewDidLoad() 에서 await 를 통해 다운로드 완료를 기다렸다 설정 해주기 때문이다.
 - 디버깅이 어려운 Rx 에 비해 코드가 간결하고 쉽다라는 생각이 들었다.
 
 참고: [Swift.org - Concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)

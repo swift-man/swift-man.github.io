@@ -110,8 +110,10 @@ sidebar-algorithm:
   - title: "Leet Code - Easy"
     url: /algorithm/leet-code-easy/
     children:
+      - title: "└ 14. Longest Common Prefix"
+        url: /algorithm/leet-code-easy/longest-common-prefix/
       - title: "└ 20. Valid Parentheses"
-        url: /algorithm/leet-code-easy/valid-parentheses
+        url: /algorithm/leet-code-easy/valid-parentheses/
   - title: "Leet Code - Medium"
     url: /algorithm/leet-code-medium/
     children:
