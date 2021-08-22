@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
-[Algorithm](/algorithm/) / [Basic](/algorithm/basic/) / **{{ page.title }}**
+[Algorithm](/algorithm/) / [기법](/algorithm/basic/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
