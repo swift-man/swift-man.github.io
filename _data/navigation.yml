@@ -92,14 +92,16 @@ sidebar-ios:
         url: /ios/uiresponder/uiapplicationmain/
       - title: "└ UIViewController"
         url: /ios/uiresponder/uiviewcontroller/
-      - title: "  └ nil, Nil, NULL, NSNull 대한 차이"
-        url: /swift/nsobject/nsnull/
+      - title: "  └ Life cycle"
+        url: /ios/uiresponder/uiviewcontroller/lifecycle/
       - title: "└ UIView"
         url: /ios/uiresponder/uiview/
       - title: "  └ bounds"
         url: /ios/uiresponder/uiview/bounds/
-      - title: "  └ frmae"
+      - title: "  └ frame"
         url: /ios/uiresponder/uiview/frame/
+      - title: "  └ layoutSubviews()"
+        url: /ios/uiresponder/uiview/layout-subviews/
 #    children:
 #      - title: "iOS 15"
 #        url: /operators/
