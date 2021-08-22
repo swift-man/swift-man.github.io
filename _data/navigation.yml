@@ -29,6 +29,11 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "└ actor"
         url: /swift/5-5/actor/
+  - title: "Collections"
+    url: /swift/collections/
+    children:
+      - title: "└ Performance, FP"
+        url: /swift/collections/performance-fp/
   - title: "NSObject"
     url: /swift/nsobject/
     children:
