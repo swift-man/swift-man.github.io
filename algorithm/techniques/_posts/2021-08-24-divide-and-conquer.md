@@ -6,6 +6,7 @@ title: "Divide and conquer"
 toc: true
 toc_sticky: true
 toc_label: 목차
+excerpt : 그대로 해결할 수 없는 문제를 작은 문제로 분할하여 문제를 해결하는 방법
 ---
 [Algorithm](/algorithm/) / [기법](/algorithm/techniques/) / **{{ page.title }}**
 {: .notice--warning}

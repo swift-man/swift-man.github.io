@@ -6,6 +6,7 @@ title: "1 부터 n 까지의 합"
 toc: true
 toc_sticky: true
 toc_label: 목차
+excerpt : (1 + number) * number / 2
 ---
 [Algorithm](/algorithm/) / [기법](/algorithm/techniques/) / **{{ page.title }}**
 {: .notice--warning}

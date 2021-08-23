@@ -6,6 +6,7 @@ title: "재귀와 꼬리재귀"
 toc: true
 toc_sticky: true
 toc_label: 목차
+excerpt : 재귀 호출이 중요한 이유와 성능
 ---
 [Algorithm](/algorithm/) / [기법](/algorithm/techniques/) / **{{ page.title }}**
 {: .notice--warning}
