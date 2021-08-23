@@ -29,9 +29,26 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "└ actor"
         url: /swift/5-5/actor/
+  - title: "Closure"
+    url: /swift/closure/
+    children:
+      - title: "└ AutoClosure"
+        url: /swift/closure/autoclosure/
+      - title: "└ Capture List"
+        url: /swift/closure/capture-list/
+      - title: "└ Currying"
+        url: /swift/closure/currying/
+      - title: "└ Escaping"
+        url: /swift/closure/escaping/
   - title: "Collections"
     url: /swift/collections/
     children:
+      - title: "└ Array"
+        url: /swift/collections/array/
+      - title: "└ Dictionary"
+        url: /swift/collections/dictionary/
+      - title: "└ Set"
+        url: /swift/collections/set/
       - title: "└ Performance, FP"
         url: /swift/collections/performance-fp/
   - title: "NSObject"
@@ -102,8 +119,24 @@ sidebar-ios:
         url: /ios/uiresponder/uiview/bounds/
       - title: "  └ frame"
         url: /ios/uiresponder/uiview/frame/
-      - title: "  └ layoutSubviews()"
-        url: /ios/uiresponder/uiview/layout-subviews/
+      - title: "  └ draw(_ rect: CGRect)"
+        url: /ios/uiresponder/uiview/draw-rect/
+      - title: "  └ Drawing Cycle"
+        url: /ios/uiresponder/uiview/DrawingCycle/
+      - title: "    └ 동기 업데이트"
+        url: /ios/uiresponder/uiview/syncupdate/
+      - title: "      └ layoutIfNeeded()"
+        url: /ios/uiresponder/uiview/syncupdate/layoutIfNeeded/
+      - title: "    └ 비동기 업데이트"
+        url: /ios/uiresponder/uiview/asyncupdate/
+      - title: "      └ layoutSubviews()"
+        url: /ios/uiresponder/uiview/asyncupdate/layout-subviews/
+      - title: "      └ setNeedsLayout()"
+        url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
+      - title: "      └ setNeedsDisplay()"
+        url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
+      
+      
 #    children:
 #      - title: "iOS 15"
 #        url: /operators/
@@ -120,13 +153,21 @@ sidebar-algorithm:
     children:
       - title: "└ Stack"
         url: /algorithm/data-structure/stack/
+      - title: "└ LinkedList"
+        url: /algorithm/data-structure/linked-list/
   - title: "기법"
-    url: /algorithm/basic/
+    url: /algorithm/techniques/
     children:
       - title: "└ 1 부터 n 까지의 합"
-        url: /algorithm/basic/numberSum
+        url: /algorithm/techniques/numberSum/
+      - title: "└ DFS, BFS"
+        url: /algorithm/techniques/dfs-bfs/
+      - title: "└ Divide and conquer"
+        url: /algorithm/techniques/divide-and-conquer/
+      - title: "└ 재귀와 꼬리재귀"
+        url: /algorithm/techniques/recursion/
       - title: "└ Temp 변수를 사용하지 않고 Swap 하기"
-        url: /algorithm/basic/NoStoredPropertySwap/
+        url: /algorithm/techniques/NoStoredPropertySwap/
   - title: "Sort"
     url: /algorithm/sort/
     children:
@@ -169,6 +210,8 @@ sidebar-algorithm:
         url: /algorithm/programers-level2/english-shiritori/
 ##############
 sidebar-architecture:
+  - title: "Dependency Inversion"
+    url: /architecture/
   - title: "Clean Architecture"
     url: /architecture/
 #    children:

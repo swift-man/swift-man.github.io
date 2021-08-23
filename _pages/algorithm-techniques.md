@@ -1,10 +1,11 @@
 ---
 title: "Algorithm / 기법"
-permalink: /algorithm/basic/
+permalink: /algorithm/techniques/
 layout: category
-taxonomy: basic
+taxonomy: techniques
 classes: wide
 sidebar:
   title: "Algorithm"
+  url: /algorithm/
   nav: sidebar-algorithm
 ---
