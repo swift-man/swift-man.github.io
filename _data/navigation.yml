@@ -83,6 +83,8 @@ sidebar-swift:
 #        url: swift/4.0/release/
 ##############
 sidebar-ios:
+  - title: "App Thinning"
+    url: /ios/app-thinning/
   - title: "FairPlay Streaming"
     url: /ios/fairplay-streaming/
   - title: "UIResponder"
@@ -295,7 +297,7 @@ sidebar-git:
       - title: "└ 맞춤법 검사기(링크)"
         url: https://speller.cs.pusan.ac.kr/
       - title: "└ 표 만들기(링크)"
-        url: https://www.tablesgenerator.com/markdown_tables/
+        url: https://www.tablesgenerator.com/markdown_tables
       - title: "└ 마크 다운 문법"
         url: /git/blog/markdown_grammar/
   - title: "Commit Message"
