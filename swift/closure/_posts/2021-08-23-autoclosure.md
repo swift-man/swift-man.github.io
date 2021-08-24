@@ -2,11 +2,11 @@
 sidebar:
   title: "Swift"
   nav: sidebar-swift
-title: "AutoClosure"
+title: "@autoClosure"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : autoclosure속성을 사용하면 클로저에 자동으로 래핑되는 인수를 정의할 수 있다. 
+excerpt : 클로저에 자동으로 래핑되는 인수를 정의할 수 있다. 
 ---
 [Swift](/swift/) / [closure](/swift/closure/) / **{{ page.title }}**
 {: .notice--warning}

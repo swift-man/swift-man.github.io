@@ -32,14 +32,15 @@ sidebar-swift:
   - title: "Closure"
     url: /swift/closure/
     children:
-      - title: "└ AutoClosure"
+      - title: "└ @autoclosure"
         url: /swift/closure/autoclosure/
+      - title: "└ @escaping"
+        url: /swift/closure/escaping/
       - title: "└ Capture List"
         url: /swift/closure/capture-list/
       - title: "└ Currying"
         url: /swift/closure/currying/
-      - title: "└ Escaping"
-        url: /swift/closure/escaping/
+      
   - title: "Collections"
     url: /swift/collections/
     children:
@@ -107,7 +108,7 @@ sidebar-ios:
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
-      - title: "└ UIApplicationMain"
+      - title: "└ @UIApplicationMain"
         url: /ios/uiresponder/uiapplicationmain/
       - title: "└ UIViewController"
         url: /ios/uiresponder/uiviewcontroller/
