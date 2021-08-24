@@ -36,6 +36,8 @@ sidebar-swift:
         url: /swift/closure/autoclosure/
       - title: "└ @escaping"
         url: /swift/closure/escaping/
+      - title: "└ @nonescaping"
+        url: /swift/closure/nonescaping/
       - title: "└ Capture List"
         url: /swift/closure/capture-list/
       - title: "└ Currying"
