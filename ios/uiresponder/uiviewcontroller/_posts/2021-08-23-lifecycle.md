@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 생명 주기
 ---
-[iOS](/ios/) / [UIResponder](/uiresponder/) / [UIViewController](/uiview/)  /**{{ page.title }}**
+[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIViewController](/ios/uiresponder/uiviewcontroller/)  / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
@@ -20,6 +20,7 @@ excerpt : 생명 주기
 - viewDidAppear 
 - viewWillDisAppear 
 - viewDidDisappear 
+- deinit
 
 ## 2. loadView()
 - 컨트롤러가 관리하는 뷰를 만든다. 
