@@ -6,7 +6,7 @@ title: "Temp 변수를 사용하지 않고 Swap 하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 결론 : Temp 를 쓰자.
+excerpt : Temp 를 쓰자.
 ---
 [Algorithm](/algorithm/) / [기법](/algorithm/techniques/) / **{{ page.title }}**
 {: .notice--warning}
