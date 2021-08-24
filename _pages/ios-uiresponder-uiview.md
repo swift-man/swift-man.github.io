@@ -1,6 +1,6 @@
 ---
 title: "iOS / UIResponder / UIView"
-permalink: /ios/uiresponder/uiview
+permalink: /ios/uiresponder/uiview/
 layout: category
 taxonomy: uiview
 classes: wide

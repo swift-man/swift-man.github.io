@@ -1,6 +1,6 @@
 ---
 title: "iOS / UIResponder / UIViewController"
-permalink: /ios/uiresponder/uiviewcontroller
+permalink: /ios/uiresponder/uiviewcontroller/
 layout: category
 taxonomy: uiviewcontroller
 classes: wide
