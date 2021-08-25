@@ -22,8 +22,8 @@ excerpt : 생명 주기
 - viewDidDisappear 
 - deinit
 
-## 2. loadView()
-- 컨트롤러가 관리하는 뷰를 만든다. 
+## 2 loadView()
+- 컨트롤러가 관리하는 뷰를 로드한다.
 - 뷰컨트롤러가 생성되고 순차적으로 완성되었을때만 호출된다.
 
 
