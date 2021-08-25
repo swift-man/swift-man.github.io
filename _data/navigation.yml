@@ -112,7 +112,7 @@ sidebar-ios:
     children:
       - title: "└ @UIApplicationMain"
         url: /ios/uiresponder/uiapplicationmain/
-      - title: "  └ Life cycle"
+      - title: "  └ UIApplication Life Cycle"
         url: /ios/uiresponder/uiapplicationmain/lifecycle/
       - title: "└ UIViewController"
         url: /ios/uiresponder/uiviewcontroller/
