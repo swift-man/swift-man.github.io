@@ -12,6 +12,19 @@ excerpt : Not running, Inactive, Active, Background, Suspended
 {: .notice--warning}
 
 ## 1. 개요
+- 앱이 포그라운드 또는 백그라운드에 있을 때 시스템 알림에 응답하고 기타 중요한 시스템 관련 이벤트를 처리한다.
+
+앱의 현재 상태에 따라 언제든지 할 수 있는 것과 할 수 없는 것이 결정됩니다. 예를 들어 포그라운드 앱은 사용자의 주의를 끌기 때문에 CPU를 포함한 시스템 리소스보다 우선합니다. 대조적으로, 백그라운드 앱은 가능한 한 적은 작업을 수행해야 하며, 가급적이면 화면 밖에 있기 때문에 아무 것도 하지 않는 것이 좋습니다. 앱이 상태에서 상태로 변경되면 그에 따라 동작을 조정해야 합니다.
+
+앱의 상태가 변경되면 UIKit은 적절한 대리자 객체의 메서드를 호출하여 알려줍니다.
+
+### 1.UISceneDelegate 를 사용하는 경우
+![Image](https://docs-assets.developer.apple.com/published/61283402a3/024b99c5-4ab6-4ee0-bb41-6e6426ec6a64.png)
+
+### 1.2 UIApplicationDelegate 를사용 하는 경우
+
+![Image](https://docs-assets.developer.apple.com/published/c63cd35863/4d403429-fa30-4706-863f-5e3617ee21d0.png)
+
 - Not running
 - Inactive 
 - Active 
@@ -26,7 +39,7 @@ excerpt : Not running, Inactive, Active, Background, Suspended
 
 ![Image](https://miro.medium.com/max/700/1*oDckiqvUj_95hNrFliDisw.png)
 
-이벤트는 앱에 의해 내부적으로 대기되고 실행을 위해 하나씩 Main Run Loop 에 전달된다. UIApplication 객체는 이벤트를 수신하고 수행해야하는 항목에 대한 결정을 할 수있는 첫 번째 object 이다. 이후 터치가 발생한 뷰로 이벤트를 전달한다.
+이벤트는 앱에 의해 내부적으로 대기되고 실행을 위해 하나씩 Main Run Loop 에 전달된다. UIApplication 은 이벤트를 수신하고 수행해야하는 항목에 대한 결정을 할 수있는 첫 번째 object 이다. 이후 터치가 발생한 뷰로 이벤트를 전달한다.
 
 ## 3. Execution States for Apps
 
@@ -85,3 +98,4 @@ Background 있고 코드 미 실행 상태. 시스템은 앱을 자동으로 이
 ![Image](https://miro.medium.com/max/700/1*xPCYq-6QcCR8FvB1L1_jfw.png)
 
 - 출처 : [https://medium.com/@neroxiao/ios-app-life-cycle-ec1b31cee9dc](https://medium.com/@neroxiao/ios-app-life-cycle-ec1b31cee9dc)
+[developer.apple.com](https://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle)
