@@ -6,7 +6,7 @@ title: "Life Cycle"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 생명 주기
+excerpt : UIViewController Life Cycle
 ---
 [iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIViewController](/ios/uiresponder/uiviewcontroller/)  / **{{ page.title }}**
 {: .notice--warning}
@@ -21,6 +21,8 @@ excerpt : 생명 주기
 - viewWillDisAppear 
 - viewDidDisappear 
 - deinit
+
+![Image](https://miro.medium.com/max/700/1*etDLgjBamDJoiaM3_hie9A.png)
 
 ## 2 loadView()
 - 컨트롤러가 관리하는 뷰를 로드한다.
