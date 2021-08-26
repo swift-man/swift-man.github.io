@@ -12,7 +12,7 @@ toc_label: 목차
 ![](https://pages.github.com/images/logo.svg)
 
 ## 1. 개요
-블로그에 이미지를 올리는 일은 여러가지 방법이 있다. 
+블로그에 이미지를 업로드하는 방법은 여러가지가 있다. 
 나의 경우 추후 Github 용량을 고려하여 Google Drive 를 쓰기로 했다.
 
 ## 2. 링크 만들기
