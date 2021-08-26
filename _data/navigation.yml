@@ -348,6 +348,8 @@ sidebar-git:
         url: https://www.tablesgenerator.com/markdown_tables
       - title: "└ 마크 다운 문법"
         url: /git/blog/markdown_grammar/
+      - title: "└ 블로그에 이미지 올리기"
+        url: /git/blog/imageUpload/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
