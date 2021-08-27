@@ -38,13 +38,13 @@ https://drive.google.com/uc?export={ id }
 
 ## 4. MacOS 용 이미지 컨버터 툴 만들기
 나의 경우는 하나하나 만들고 이미지를 올리기 까지 반복되는 작업이 귀찮아 툴을 하나 만들었다.
-막상 사용해보니
-Parse, Copy 버튼을 상태에 따라 변경해줘야할 것 같다.
+처음엔 입력받을 URL 칸을 10개정도 두었다. 보통 한번에 포스팅할때 이미지가 10장 이하로 들어갈 것이라고 생각했다.
+![Image](https://drive.google.com/uc?export=view&id=1Vuq90K4Fief7QpVh1zx2Csw4o7riRTSl)
 
-![Image](https://drive.google.com/uc?export=view&id=1wWGjb9e9HM-lh6JbTji7t3puTVMCjH8G)
-공유 URL 을 넣으면~
-![Image](https://drive.google.com/uc?export=view&id=1mSNdxAtzrnsI0lyJuvoqUca9UKFIlcmC)
-컨버팅 해준다.
+![Image](https://drive.google.com/uc?export=view&id=19Exl8TnNTK33gHtPqR_bH65hwKpN7Osl)
+구글드라이브에서 생성한 공유 URL 을 넣고
+![Image](https://drive.google.com/uc?export=view&id=1FyviyQeFPTTjqe2hQTjX_KNfi8eoCvgT)
+Convert 버튼을 누르면 변경 해준다.
 
 
 
