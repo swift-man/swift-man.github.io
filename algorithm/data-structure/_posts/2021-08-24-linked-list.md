@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있다.
 ---
-[Algorithm](/algorithm/) / [Data Structure](/algorithm/data-structurey/) / **{{ page.title }}**
+[Algorithm](/algorithm/) / [Data Structure](/algorithm/data-structure/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
