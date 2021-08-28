@@ -13,6 +13,8 @@ excerpt : 각각의 원소들은 자기 자신 다음에 어떤 원소인지만�
 
 ## 1. 개요
 
+- 리스트의 다음 원소에 대한 연결고리(link, 포인터 또는 레퍼런스) 가 들어있다.
+- 마지막 원소는 꼬리(tail) 라고 부르며, 연결고리는 비워두거나 nil 로 지정한다.
 - 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있다.
 - Tree 구조의 근간이 되는 자료구조이며, 그 유용성이 드러난다.
 
@@ -34,4 +36,29 @@ excerpt : 각각의 원소들은 자기 자신 다음에 어떤 원소인지만�
 
 
 ## 5. 구현
--
+```swift
+public class ListElement<T> {
+    private var _data: T
+    private var _next: ListElement<T>?
+    
+    public init(value: T) {
+        self._data = value
+    }
+    
+    public var next: ListElement<T>? {
+        return _next
+    }
+    
+    public var value: T {
+        return _data
+    }
+    
+    public func setNext(_ next: ListElement<T>) {
+        _next = next
+    }
+    
+    public func setValue(_ value: T) {
+        _data = value
+    }
+}
+```
