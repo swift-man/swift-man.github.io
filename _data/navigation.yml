@@ -59,6 +59,11 @@ sidebar-swift:
     children:
       - title: "└ nil, Nil, NULL, NSNull 대한 차이"
         url: /swift/nsobject/nsnull/
+  - title: "Swift Package Manager"
+    url: /swift/swift-package-manager/
+    children:
+      - title: "└ 생성하기"
+        url: /swift/swift-package-manaer/swift-package-manager/
 #
 #  - title: "Swift 5.4 Released!"
 #    url: https://swift.org/blog/swift-5-4-released/
