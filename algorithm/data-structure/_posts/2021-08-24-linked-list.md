@@ -37,28 +37,57 @@ excerpt : 각각의 원소들은 자기 자신 다음에 어떤 원소인지만�
 
 ## 5. 구현
 ```swift
-public class ListElement<T> {
-    private var _data: T
-    private var _next: ListElement<T>?
-    
-    public init(value: T) {
-        self._data = value
+public class Node<T> {
+  var value: T
+  var next: Node?
+  weak var previous: Node?
+  
+  public init(value: T) {
+    self.value = value
+  }
+}
+```
+
+```swift
+public final class LinkedList<T> {
+  private(set) var head: Node<T>?
+  public init() {}
+  
+  public init(_ value: T) {
+    head = Node(value: value)
+  }
+}
+```
+
+```swift
+@discardableResult
+public func insertInFront(value: T) -> LinkedList<T> {
+  let newList = LinkedList(value)
+  guard let head = head else { return newList }
+  newList.head?.next = head
+  return newList
+}
+
+@discardableResult
+public func insertInFront(value: T) -> Node<T> {
+  let newList = LinkedList(value)
+  guard let head = head else { return newList.head! }
+  newList.head!.next = head
+  return newList.head!
+}
+```
+
+```swift
+public func first(where predicate: (Node<T>) -> Bool) -> Node<T>? {
+  var node = head
+  
+  while let nd = node {
+    if predicate(nd) {
+      return nd
     }
     
-    public var next: ListElement<T>? {
-        return _next
-    }
-    
-    public var value: T {
-        return _data
-    }
-    
-    public func setNext(_ next: ListElement<T>) {
-        _next = next
-    }
-    
-    public func setValue(_ value: T) {
-        _data = value
-    }
+    node = nd.next
+  }
+  return nil
 }
 ```
