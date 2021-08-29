@@ -10,7 +10,8 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍쳐의 정의와
 ---
 [Architecture](/architecture/) / [Clean Architecture](/architecture/clean-architecture/) / **{{ page.title }}**
 {: .notice--warning}
-
+![Image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlxciD%2FbtqG3lIG6ym%2FkcSRUhV2779YNl8j0ELiO1%2Fimg.jpg)
+(그림 출처 : Credit: 도서출판 인사이트)
 ## 1. 개요
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/4E1BHTvhB7Y" frameborder="0" allowfullscreen></iframe>
