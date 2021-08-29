@@ -223,10 +223,12 @@ sidebar-architecture:
   - title: "Dependency Inversion"
     url: /architecture/
   - title: "Clean Architecture"
-    url: /architecture/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
+    url: /architecture/clean-architecture/
+    children:
+      - title: "└ 소프트웨어 아키텍처 정의"
+        url: /architecture/clean-architecture/definition/
+      - title: "└ 소프트웨어 아키텍처가 중요한 이유"
+        url: /architecture/clean-architecture/importance/
   - title: "MVVM"
     url: /architecture/
 #    children:
