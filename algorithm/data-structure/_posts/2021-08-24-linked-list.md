@@ -18,11 +18,16 @@ excerpt : 각각의 원소들은 자기 자신 다음에 어떤 원소인지만�
 - 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있다.
 - Tree 구조의 근간이 되는 자료구조이며, 그 유용성이 드러난다.
 
-## 2. 조회
-- O(n)
+## 2. 조회 - O(n)
 
-## 3. 삽입
-- O(1)
+
+## 3. 삽입 - O(1)
+```swift
+linkedList = LinkedList()
+linkedList.append(0)
+let head = linkedList.head
+head?.next = Node(value: 2)
+```
 
 ## 4. 삭제
 - O(1)
@@ -76,6 +81,7 @@ public func insertInFront(value: T) -> Node<T> {
   return newList.head!
 }
 ```
+
 
 ```swift
 public func first(where predicate: (Node<T>) -> Bool) -> Node<T>? {
