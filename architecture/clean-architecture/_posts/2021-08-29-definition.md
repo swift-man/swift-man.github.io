@@ -60,7 +60,7 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍쳐의 정의와
 ![Image](https://live.staticflickr.com/2331/1499817187_4d208050f1.jpg)
 
 이분을 모르시는 분이 얼마나 있는지는 모르겠지만 이분은 디자인패턴 책을 집필한 것으로 잘 알려져 있는
-Gof(Gang of Four)의 Ralph Johnson 입니다.
+[Gof(Gang of Four)의 Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)) 입니다.
 
 그는 다른 사람들에게도 그렇듯이 제 경력에서 많은 영향을 끼쳤는데요.
 
