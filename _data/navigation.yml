@@ -6,18 +6,18 @@ main:
     url: /algorithm/
   - title: "Clean"
     url: /clean/
-  - title: "EDP"
-    url: /edp/
+#  - title: "EDP"
+#    url: /edp/
   - title: "Git"
     url: /git/
   - title: "iOS"
     url: /ios/
   - title: "Swift"
     url: /swift/
-  - title: "SwiftUI"
-    url: /swift-ui/
-  - title: "TDD"
-    url: /tdd/
+#  - title: "SwiftUI"
+#    url: /swift-ui/
+#  - title: "TDD"
+#    url: /tdd/
   #- title: "ETC"
   # url: /year-archive/
 ##############
@@ -220,8 +220,8 @@ sidebar-algorithm:
         url: /algorithm/programers-level2/english-shiritori/
 ##############
 sidebar-architecture:
-  - title: "Dependency Inversion"
-    url: /architecture/
+#  - title: "Dependency Inversion"
+#    url: /architecture/
   - title: "Clean Architecture"
     url: /architecture/clean-architecture/
     children:
@@ -229,46 +229,46 @@ sidebar-architecture:
         url: /architecture/clean-architecture/definition/
       - title: "└ 소프트웨어 아키텍처가 중요한 이유"
         url: /architecture/clean-architecture/importance/
-  - title: "MVVM"
-    url: /architecture/
+#  - title: "MVVM"
+#    url: /architecture/
 #    children:
 #      - title: "Operators"
 #        url: /operators/
-  - title: "MVC"
-    url: /architecture/
+#  - title: "MVC"
+#    url: /architecture/
 #    children:
 #      - title: "Operators"
 #        url: /operators/
-  - title: "MVI"
-    url: /architecture/
+#  - title: "MVI"
+#    url: /architecture/
 #    children:
 #      - title: "Operators"
 #        url: /operators/
-  - title: "RIBs"
-    url: /architecture/
+#  - title: "RIBs"
+#    url: /architecture/
 #    children:
 #      - title: "Operators"
 #        url: /operators/
 ##############
 sidebar-clean:
-  - title: "Clean Code"
-    url: /clean/code/
+#  - title: "Clean Code"
+#    url: /clean/code/
 #    children:
 #      - title: "Operators"
 #        url: /operators/
   - title: "Think"
     url: /clean/think/
     children:
-      - title: "└ 개발을 시작하게 된 계기"
-        url: /clean/think/start-development/
-      - title: "└ iOS 개발을 시작하게 된 계기"
-        url: /clean/think/start-development-ios/
+#      - title: "└ 개발을 시작하게 된 계기"
+#        url: /clean/think/start-development/
+#      - title: "└ iOS 개발을 시작하게 된 계기"
+#        url: /clean/think/start-development-ios/
       - title: "└ 좋은 개발자(1)"
         url: /clean/think/good-developer1/
       - title: "└ 좋은 개발자(2)"
         url: /clean/think/good-developer2/
-  - title: "Naming"
-    url: /clean/naming/
+#  - title: "Naming"
+#    url: /clean/naming/
 #    children:
 #      - title: "Fuction1"
 #        url: /operators/
@@ -357,6 +357,8 @@ sidebar-git:
         url: /git/blog/markdown_grammar/
       - title: "└ 블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
+      - title: "└ jekyll serve"
+        url: /git/blog/jekyll-serve/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
