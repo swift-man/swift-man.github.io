@@ -47,18 +47,14 @@ fsf팁(tooltip)</span></p>이 나타납니다.</div>
 
 - 말풍선 쉽게 사용할 수 있게 할 줄 아는 분 제발 알려주세요!
 
-## 4. 노트 사용하기
+## 4. 밑줄
 ```
----
-**NOTE**
-
-It works with almost all markdown flavours (the below blank line matters).
-
----
+<u>밑줄 있는 텍스트입니다</u>
 ```
----
-**NOTE**
+<u>밑줄 있는 텍스트입니다</u>
 
-It works with almost all markdown flavours (the below blank line matters).
-
----
+## 5. 글씨 색
+```
+<span style="color:yellow">노란 글씨입니다.</span>
+```
+<span style="color:yellow">노란 글씨입니다.</span>
