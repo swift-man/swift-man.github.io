@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "CS"
+    url: /cs/
   - title: "Architecture"
     url: /architecture/
   - title: "Algorithm"
@@ -21,6 +23,26 @@ main:
   #- title: "ETC"
   # url: /year-archive/
 ##############
+
+sidebar-cs:
+  - title: "CPU"
+    url: /cs/cpu/
+    children:
+      - title: "└ Register"
+        url: /cs/cpu/register/
+  - title: "Memory"
+    url: /swift/5-5/
+    children:
+      - title: "└ 메모리란?"
+        url: /cs/memory/memory/
+      - title: "└ 메모리의 저장단위"
+        url: /cs/memory/memory-unit/
+      - title: "└ 메모리 주소"
+        url: /cs/memory/memory-address
+      - title: "└ Endianness Or Byte order"
+        url: /cs/memory/endianness-byteorder/
+      - title: "└ 메모리 공간의 분류"
+        url: /cs/memory/memory-space/
 sidebar-swift:
   - title: "Swift 5.5"
     url: /swift/5-5/
