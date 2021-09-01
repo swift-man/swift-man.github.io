@@ -289,14 +289,16 @@ sidebar-clean:
   - title: "Think"
     url: /clean/think/
     children:
-#      - title: "└ 개발을 시작하게 된 계기"
-#        url: /clean/think/start-development/
-#      - title: "└ iOS 개발을 시작하게 된 계기"
-#        url: /clean/think/start-development-ios/
+      - title: "└ 좋은 회사"
+        url: /clean/think/good-company/
       - title: "└ 좋은 개발자(1)"
         url: /clean/think/good-developer1/
       - title: "└ 좋은 개발자(2)"
         url: /clean/think/good-developer2/
+      - title: "└ 개발을 시작하게 된 계기"
+        url: /clean/think/start-development/
+      - title: "└ iOS 개발을 시작하게 된 계기"
+        url: /clean/think/start-development-ios/
 #  - title: "Naming"
 #    url: /clean/naming/
 #    children:
