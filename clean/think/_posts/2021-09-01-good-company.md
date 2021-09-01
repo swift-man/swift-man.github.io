@@ -6,7 +6,7 @@ title: "좋은 회사"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 특이하게도 이 회사는 일요일 오후도 출근을 강요했다.
+excerpt : 2014년 부터 같은 회사에서 일해오던 개발자들이 있다. 지금은 모두 이직하여 다른 회사에 근무 중이다.
 ---
 [Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
 {: .notice--warning}
