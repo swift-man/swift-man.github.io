@@ -31,7 +31,7 @@ sidebar-cs:
       - title: "└ Register"
         url: /cs/cpu/register/
   - title: "Memory"
-    url: /swift/5-5/
+    url: /cs/memory/
     children:
       - title: "└ 메모리란?"
         url: /cs/memory/memory/
@@ -43,7 +43,15 @@ sidebar-cs:
         url: /cs/memory/endianness-byteorder/
       - title: "└ 메모리 공간의 분류"
         url: /cs/memory/memory-space/
+
 sidebar-swift:
+  - title: "Data Type"
+    url: /swift/data-type/
+    children:
+      - title: "└ Value Type"
+        url: /swift/data-type/valuetype/
+      - title: "└ Reference Type"
+        url: /swift/data-type/referencetype/
   - title: "Swift 5.5"
     url: /swift/5-5/
     children:
