@@ -86,11 +86,6 @@ sidebar-swift:
         url: /swift/collections/set/
       - title: "└ Performance, FP"
         url: /swift/collections/performance-fp/
-  - title: "NSObject"
-    url: /swift/nsobject/
-    children:
-      - title: "└ nil, Nil, NULL, NSNull 대한 차이"
-        url: /swift/nsobject/nsnull/
   - title: "Swift Package Manager"
     url: /swift/swift-package-manager/
     children:
@@ -140,10 +135,11 @@ sidebar-swift:
 #        url: swift/4.0/release/
 ##############
 sidebar-ios:
-  - title: "App Thinning"
-    url: /ios/app-thinning/
-  - title: "FairPlay Streaming"
-    url: /ios/fairplay-streaming/
+  - title: "NSObject"
+    url: /ios/nsobject/
+    children:
+      - title: "└ nil, Nil, NULL, NSNull 대한 차이"
+        url: /ios/nsobject/nsnull/
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
@@ -177,7 +173,10 @@ sidebar-ios:
         url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
       - title: "      └ setNeedsDisplay()"
         url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
-      
+  - title: "App Thinning"
+    url: /ios/app-thinning/
+  - title: "FairPlay Streaming"
+    url: /ios/fairplay-streaming/
       
 #    children:
 #      - title: "iOS 15"

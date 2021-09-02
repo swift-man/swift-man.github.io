@@ -1,10 +1,10 @@
 ---
-title: "Swift / NSObject"
-permalink: /swift/nsobject/
+title: "iOS / NSObject"
+permalink: /ios/nsobject/
 layout: category
 taxonomy: nsobject
 classes: wide
 sidebar:
-  title: "Swift"
+  title: "iOS"
   nav: sidebar-swift
 ---
