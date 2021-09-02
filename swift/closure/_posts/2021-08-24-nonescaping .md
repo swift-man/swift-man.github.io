@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 함수의 scope 내에서만 넘겨받은 closure 동작한다.
 ---
-[Swift](/swift/) / [closure](/swift/closure/) / **{{ page.title }}**
+[Swift](/swift/) / [Closure](/swift/closure/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요

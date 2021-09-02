@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 클로저에 자동으로 래핑되는 인수를 정의할 수 있다. 
 ---
-[Swift](/swift/) / [closure](/swift/closure/) / **{{ page.title }}**
+[Swift](/swift/) / [Closure](/swift/closure/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요

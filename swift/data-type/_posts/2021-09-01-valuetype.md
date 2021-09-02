@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : Int, Float, Bool, String 과 같은 기본 자료형과 struct, enum 은 Value Type 분류 한다.
 ---
-[swift](/swift/) / [Data Type](/swift/data-type/) / **{{ page.title }}**
+[Swift](/swift/) / [Data Type](/swift/data-type/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요

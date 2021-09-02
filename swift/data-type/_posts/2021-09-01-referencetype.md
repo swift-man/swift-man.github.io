@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : Class, Closer 는 Reference Type 으로 분류한다.
 ---
-[swift](/swift/) / [Data Type](/swift/data-type/) / **{{ page.title }}**
+[Swift](/swift/) / [Data Type](/swift/data-type/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
