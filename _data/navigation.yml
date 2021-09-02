@@ -52,6 +52,8 @@ sidebar-swift:
         url: /swift/data-type/valuetype/
       - title: "└ Reference Type"
         url: /swift/data-type/referencetype/
+      - title: "└ Boxing"
+        url: /swift/data-type/boxing/
   - title: "Swift 5.5"
     url: /swift/5-5/
     children:
