@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 해당 모듈의 Exclueded Architectures - simulator에 arm64 로 세팅해주면 해결 된다.
 ---
-[iOS](/ios/) / [Xcode](/ios/xcode/) / [Build Error](/ios/xcode/buiild-error/) / **{{ page.title }}**
+[iOS](/ios/) / [Xcode](/ios/xcode/) / [Build Error](/ios/xcode/build-error/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
