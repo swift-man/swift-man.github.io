@@ -182,7 +182,13 @@ sidebar-ios:
     url: /ios/app-thinning/
   - title: "FairPlay Streaming"
     url: /ios/fairplay-streaming/
-      
+  - title: "Xcode"
+    url: /ios/xcode/
+    children:
+      - title: "└ Build Error"
+        url: /ios/xcode/build-error/
+      - title: "  └ Could not find module for target x86_64-apple-ios-simulator"
+        url: /ios/xcode/build-error/x86_64-apple-ios-simulator/
 #    children:
 #      - title: "iOS 15"
 #        url: /operators/
