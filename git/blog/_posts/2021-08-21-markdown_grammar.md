@@ -58,3 +58,9 @@ fsf팁(tooltip)</span></p>이 나타납니다.</div>
 <span style="color:yellow">노란 글씨입니다.</span>
 ```
 <span style="color:yellow">노란 글씨입니다.</span>
+
+## 6. Gist
+```
+<script src="https://gist.github.com/swift-man/ce02c13aa87a79221f3b8e01122a3311.js"></script>
+```
+<script src="https://gist.github.com/swift-man/ce02c13aa87a79221f3b8e01122a3311.js"></script>
