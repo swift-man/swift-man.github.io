@@ -43,7 +43,9 @@ sidebar-cs:
         url: /cs/memory/endianness-byteorder/
       - title: "└ 메모리 공간의 분류"
         url: /cs/memory/memory-space/
-
+      - title: "└ Mutability"
+        url: /cs/memory/mutability/
+        
 sidebar-swift:
   - title: "Data Type"
     url: /swift/data-type/
@@ -86,6 +88,9 @@ sidebar-swift:
         url: /swift/collections/set/
       - title: "└ Performance, FP"
         url: /swift/collections/performance-fp/
+      - title: "└ copy-on-write"
+        url: /swift/collections/copy-on-write/
+        
   - title: "Swift Package Manager"
     url: /swift/swift-package-manager/
     children:
