@@ -65,6 +65,13 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "└ actor"
         url: /swift/5-5/actor/
+  - title: "StringProtocol"
+    url: /swift/stringprotocol/
+    children:
+      - title: "└ compare(_:)"
+        url: /swift/stringprotocol/compare/
+      - title: "└ compare(_:options:range:locale:)"
+        url: /swift/stringprotocol/compare-option-range/
   - title: "Closure"
     url: /swift/closure/
     children:
