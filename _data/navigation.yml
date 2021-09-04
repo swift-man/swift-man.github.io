@@ -30,6 +30,8 @@ sidebar-cs:
     children:
       - title: "└ Register"
         url: /cs/cpu/register/
+      - title: "└ iOS 기기 별 Architecture"
+        url: /cs/cpu/iphone-architecture/
   - title: "Memory"
     url: /cs/memory/
     children:
@@ -145,6 +147,13 @@ sidebar-ios:
     children:
       - title: "└ nil, Nil, NULL, NSNull 대한 차이"
         url: /ios/nsobject/nsnull/
+  - title: "Foundation"
+    url: /ios/Foundation/
+    children:
+      - title: "└ Filters and Sorting"
+        url: /ios/foundation/filters-and-sorting/
+      - title: "  └ ComparisonResult"
+        url: /ios/foundation/filters-and-sorting/comparisonresult/
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
