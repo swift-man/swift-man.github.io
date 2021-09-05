@@ -8,6 +8,9 @@ toc_sticky: true
 toc_label: 목차
 excerpt : 최소화되고 모듈화된 소프트웨어 개발 방식을 위한 문화적 규범이자 철학적 접근 방식.
 ---
+[Clean](/clean/) / [Dictionary](/clean/dictionary/) / **{{ page.title }}**
+{: .notice--warning}
+
 
 ## 1. 개요
 
