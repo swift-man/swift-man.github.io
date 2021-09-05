@@ -155,7 +155,7 @@ sidebar-ios:
       - title: "└ nil, Nil, NULL, NSNull 대한 차이"
         url: /ios/nsobject/nsnull/
   - title: "Foundation"
-    url: /ios/Foundation/
+    url: /ios/foundation/
     children:
       - title: "└ Filters and Sorting"
         url: /ios/foundation/filters-and-sorting/
