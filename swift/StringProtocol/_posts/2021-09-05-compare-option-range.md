@@ -16,7 +16,7 @@ excerpt : ComparisonResult 를 사용하여 문자열을 비교한다.
 
 추가로 접미어/접두어를 비교하거나 범위만 지정해서 비교한다.
 
-## 2. Ascii 기준 정렬
+## 2. 특정 Range 를 통한 비교
 ```swift
 let ret = "문자열을 비교합니다.".compare("문자열")
 print(result.rawValue)
@@ -53,3 +53,6 @@ let ret = a.compare("archi",
 print(ret.rawValue)
 ```
 hasPrefix 는 범위 지정 없이 비교하지만, compare 는 range 를 통해 범위를 확정하여 비교가 가능하다.
+
+## 5. Options
+

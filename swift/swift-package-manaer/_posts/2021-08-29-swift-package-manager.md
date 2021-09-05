@@ -16,7 +16,7 @@ Swift Package Manager 생성해보기
 
 터미널 명령어
 ```
-swift package init
+swift package init --type library
 swift build
 swift test
 swift package generate-xcodeproj
@@ -28,7 +28,7 @@ swift package init
 ```
 or
 ```
-swift package init -- type library
+swift package init --type library
 ```
 ![Image](https://drive.google.com/uc?export=view&id=1jEXoA_yfEEblmwWpiBf046kJA6fBx2f8)
 
