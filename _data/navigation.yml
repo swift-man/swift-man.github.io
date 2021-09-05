@@ -339,10 +339,14 @@ sidebar-clean:
         url: /clean/dictionary/aka/
       - title: "└ ASAP"
         url: /clean/dictionary/asap/
+      - title: "└ ASCII Art"
+        url: /clean/dictionary/ascii-art/
       - title: "└ bashrc"
         url: /clean/dictionary/bashrc/
       - title: "└ BRB"
         url: /clean/dictionary/brb/
+      - title: "└ Command-line"
+        url: /clean/dictionary/command-line/
       - title: "└ determine"
         url: /clean/dictionary/determine/
       - title: "└ given"
@@ -355,6 +359,8 @@ sidebar-clean:
         url: /clean/dictionary/omw/
       - title: "└ parentheses"
         url: /clean/dictionary/parentheses/
+      - title: "└ React"
+        url: /clean/dictionary/react/
       - title: "└ regenerate"
         url: /clean/dictionary/regenerate/
       - title: "└ Stack"
@@ -363,6 +369,16 @@ sidebar-clean:
         url: /clean/dictionary/stack-overflow/
       - title: "└ zshrc"
         url: /clean/dictionary/zshrc/
+      - title: "└ 유닉스 철학"
+        url: /clean/dictionary/unix-philosophy/
+      - title: "└ 슈도코드"
+        url: /clean/dictionary/pseudocode/
+      - title: "└ 클래스 계층도"
+        url: /clean/dictionary/class-hierarchy/
+      - title: "└ 햄(HAM) 라디오"
+        url: /clean/dictionary/ham-radio/
+      
+      
 ##############
 sidebar-edp:
   - title: "Rx"
