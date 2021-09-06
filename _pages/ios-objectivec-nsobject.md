@@ -1,6 +1,6 @@
 ---
-title: "iOS / NSObject"
-permalink: /ios/nsobject/
+title: "iOS / Objective-C / NSObject"
+permalink: /ios/objectivec/nsobject/
 layout: category
 taxonomy: nsobject
 classes: wide

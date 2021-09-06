@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: 목차
 excerpt : ascii 를 기준으로 정렬 되는 방식을 나타낸다.
 ---
-[iOS](/ios/) / [Foundation](/ios/foundation/) / [Filters-and-Sorting](/ios/foundation/filters-and-sorting/) / **{{ page.title }}**
+[iOS](/ios/) / [Foundation](/ios/foundation/) / [ObjCRuntime](/ios/foundation/objcruntime/) / **{{ page.title }}**
 {: .notice--warning}
 
 ## 1. 개요
