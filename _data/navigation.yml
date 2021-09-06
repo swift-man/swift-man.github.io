@@ -209,7 +209,7 @@ sidebar-ios:
     children:
       - title: "└ Build Error"
         url: /ios/xcode/build-error/
-      - title: "  └ Could not find module for target x86_64-apple-ios-simulator"
+      - title: "  └ Could not find module for target x86_64..."
         url: /ios/xcode/build-error/x86_64-apple-ios-simulator/
       - title: "└ created by 변경하기"
         url: /ios/xcode/create-by-name/
