@@ -149,18 +149,24 @@ sidebar-swift:
 #        url: swift/4.0/release/
 ##############
 sidebar-ios:
-  - title: "NSObject"
-    url: /ios/nsobject/
+  - title: "Objective-C"
+    url: /ios/objectivec/
     children:
-      - title: "└ nil, Nil, NULL, NSNull 대한 차이"
-        url: /ios/nsobject/nsnull/
+      - title: "└ NSObject"
+        url: /ios/objectivec/nsobject/
+      - title: "  └ nil, Nil, NULL, NSNull 대한 차이"
+        url: /ios/objectivec/nsobject/nsnull/
   - title: "Foundation"
     url: /ios/foundation/
     children:
-      - title: "└ Filters and Sorting"
-        url: /ios/foundation/filters-and-sorting/
+      - title: "└ NSString"
+        url: /ios/foundation/nsstring/
+      - title: "  └ CompareOptions"
+        url: /ios/foundation/nsstring/compareoptions/
+      - title: "└ ObjCRuntime"
+        url: /ios/foundation/objcruntime/
       - title: "  └ ComparisonResult"
-        url: /ios/foundation/filters-and-sorting/comparisonresult/
+        url: /ios/foundation/objcruntime/comparisonresult/
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
