@@ -72,6 +72,8 @@ sidebar-swift:
         url: /swift/stringprotocol/compare/
       - title: "└ compare(_:options:range:locale:)"
         url: /swift/stringprotocol/compare-option-range/
+      - title: "└ applyingTransform(_:reverse:)"
+        url: /swift/stringprotocol/applyingtransform/
   - title: "Closure"
     url: /swift/closure/
     children:
@@ -163,6 +165,8 @@ sidebar-ios:
         url: /ios/foundation/nsstring/
       - title: "  └ CompareOptions"
         url: /ios/foundation/nsstring/compareoptions/
+      - title: "  └ StringTransform"
+        url: /ios/foundation/nsstring/stringtransform/
       - title: "└ ObjCRuntime"
         url: /ios/foundation/objcruntime/
       - title: "  └ ComparisonResult"
