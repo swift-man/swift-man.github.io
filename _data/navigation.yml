@@ -294,6 +294,16 @@ sidebar-algorithm:
     children:
       - title: "└ 영어 끝말잇기"
         url: /algorithm/programers-level2/english-shiritori/
+  - title: "Solved - Silver 1"
+    url: /algorithm/solved-silver1/
+    children:
+      - title: "└ 2447 별 찍기 - 10"
+        url: /algorithm/solved-silver1/2447/
+  - title: "BEAKJOON"
+    url: /algorithm/baekjoon/
+    children:
+      - title: "└ 빠른 입출력 - FileIO"
+        url: /algorithm/baekjoon/fileio/
 ##############
 sidebar-architecture:
 #  - title: "Dependency Inversion"
