@@ -101,7 +101,13 @@ sidebar-swift:
         url: /swift/collections/performance-fp/
       - title: "└ copy-on-write"
         url: /swift/collections/copy-on-write/
-        
+  - title: "Inheritance"
+    url: /swift/inheritance/
+    children:
+      - title: "└ 상속"
+        url: /swift/inheritance/temp/
+      - title: "└ final"
+        url: /swift/inheritance/final/
   - title: "Swift Package Manager"
     url: /swift/swift-package-manager/
     children:
