@@ -12,7 +12,7 @@ excerpt : ComparisonResult 를 사용하여 문자열을 비교한다.
 {: .notice--warning}
 
 ## 1. 개요
-[ComparisonResult](/ios/foundation/filters-and-sorting/comparisonresult/) 를 사용하여 문자열을 비교한다.
+[ComparisonResult](/ios/foundation/objcruntime/comparisonresult/) 를 사용하여 문자열을 비교한다.
 
 추가로 접미어/접두어를 비교하거나 범위만 지정해서 비교한다.
 
