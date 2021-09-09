@@ -350,6 +350,8 @@ sidebar-clean:
   - title: "Think"
     url: /clean/think/
     children:
+      - title: "└ 프로젝트를 성공시키는 개발자"
+        url: /clean/think/make-projects-successful-developer/
       - title: "└ 좋은 회사"
         url: /clean/think/good-company/
       - title: "└ 좋은 개발자(1)"
