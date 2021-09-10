@@ -65,6 +65,12 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "└ actor"
         url: /swift/5-5/actor/
+  - title: "String"
+    url: /swift/string/
+    children:
+      - title: "└ init(format:_:)"
+        url: /swift/string/init-format/
+
   - title: "StringProtocol"
     url: /swift/stringprotocol/
     children:
@@ -241,6 +247,12 @@ sidebar-algorithm:
         url: /algorithm/data-structure/stack/
       - title: "└ LinkedList"
         url: /algorithm/data-structure/linked-list/
+#  - title: "수학"
+#    url: /algorithm/math/
+#        children:
+#      - title: "└ 약수"
+#        url: /algorithm/techniques/numberSum/
+#      - title: "└ DFS, BFS"
   - title: "기법"
     url: /algorithm/techniques/
     children:
