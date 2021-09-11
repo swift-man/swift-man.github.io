@@ -374,6 +374,8 @@ sidebar-clean:
         url: /clean/think/start-development/
       - title: "└ iOS 개발을 시작하게 된 계기"
         url: /clean/think/start-development-ios/
+      - title: "└ 오늘"
+        url: /clean/think/today/
 #  - title: "Naming"
 #    url: /clean/naming/
 #    children:
@@ -424,6 +426,10 @@ sidebar-clean:
         url: /clean/dictionary/class-hierarchy/
       - title: "└ 햄(HAM) 라디오"
         url: /clean/dictionary/ham-radio/
+      - title: "└ ebitbat"
+        url: /clean/dictionary/ebitbat/
+      - title: "└ bi"
+        url: /clean/dictionary/bi/
       
       
 ##############
