@@ -505,18 +505,25 @@ sidebar-git:
         url: /git/blog/sites-to-see-later/
       - title: "블로그에 프로그래머스 코드 올리기"
         url: /git/blog/progremmers-copyright/
-      - title: "맞춤법 검사기"
-        icon: "fas fa-link"
-        url: https://speller.cs.pusan.ac.kr/
-      - title: "표 만들기"
-        icon: "fas fa-link"
-        url: https://www.tablesgenerator.com/markdown_tables
       - title: "마크 다운 문법"
         url: /git/blog/markdown_grammar/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
       - title: "jekyll serve"
         url: /git/blog/jekyll-serve/
+      
+  - title: "Blog Support Link"
+    children:
+      - title: "맞춤법 검사기"
+        icon: "fas fa-link"
+        url: https://speller.cs.pusan.ac.kr/
+      - title: "표 만들기"
+        icon: "fas fa-link"
+        url: https://www.tablesgenerator.com/markdown_tables
+      - title: "무료 아이콘"
+        icon: "fas fa-link"
+        url: https://fontawesome.com/v5.15/icons?d=gallery&p=3&s=solid&m=free
+
   - title: "Commit Message"
     url: /git/commit-message/
     children:
