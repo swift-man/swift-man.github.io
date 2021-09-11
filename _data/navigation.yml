@@ -28,96 +28,96 @@ sidebar-cs:
   - title: "CPU"
     url: /cs/cpu/
     children:
-      - title: "└ Register"
+      - title: "Register"
         url: /cs/cpu/register/
-      - title: "└ iOS 기기 별 Architecture"
+      - title: "iOS 기기 별 Architecture"
         url: /cs/cpu/iphone-architecture/
   - title: "Memory"
     url: /cs/memory/
     children:
-      - title: "└ 메모리란?"
+      - title: "메모리란?"
         url: /cs/memory/memory/
-      - title: "└ 메모리의 저장단위"
+      - title: "메모리의 저장단위"
         url: /cs/memory/memory-unit/
-      - title: "└ 메모리 주소"
+      - title: "메모리 주소"
         url: /cs/memory/memory-address
-      - title: "└ Endianness Or Byte order"
+      - title: "Endianness Or Byte order"
         url: /cs/memory/endianness-byteorder/
-      - title: "└ 메모리 공간의 분류"
+      - title: "메모리 공간의 분류"
         url: /cs/memory/memory-space/
-      - title: "└ Mutability"
+      - title: "Mutability"
         url: /cs/memory/mutability/
         
 sidebar-swift:
   - title: "Data Type"
     url: /swift/data-type/
     children:
-      - title: "└ Value Type"
+      - title: "Value Type"
         url: /swift/data-type/valuetype/
-      - title: "└ Reference Type"
+      - title: "Reference Type"
         url: /swift/data-type/referencetype/
-      - title: "└ Boxing"
+      - title: "Boxing"
         url: /swift/data-type/boxing/
   - title: "Swift 5.5"
     url: /swift/5-5/
     children:
-      - title: "└ async await"
+      - title: "async await"
         url: /swift/5-5/async-await/
-      - title: "└ actor"
+      - title: "actor"
         url: /swift/5-5/actor/
   - title: "String"
     url: /swift/string/
     children:
-      - title: "└ init(format:_:)"
+      - title: "init(format:_:)"
         url: /swift/string/init-format/
 
   - title: "StringProtocol"
     url: /swift/stringprotocol/
     children:
-      - title: "└ compare(_:)"
+      - title: "compare(_:)"
         url: /swift/stringprotocol/compare/
-      - title: "└ compare(_:options:range:locale:)"
+      - title: "compare(_:options:range:locale:)"
         url: /swift/stringprotocol/compare-option-range/
-      - title: "└ applyingTransform(_:reverse:)"
+      - title: "applyingTransform(_:reverse:)"
         url: /swift/stringprotocol/applyingtransform/
   - title: "Closure"
     url: /swift/closure/
     children:
-      - title: "└ @autoclosure"
+      - title: "@autoclosure"
         url: /swift/closure/autoclosure/
-      - title: "└ @escaping"
+      - title: "@escaping"
         url: /swift/closure/escaping/
-      - title: "└ @nonescaping"
+      - title: "@nonescaping"
         url: /swift/closure/nonescaping/
-      - title: "└ Capture List"
+      - title: "Capture List"
         url: /swift/closure/capture-list/
-      - title: "└ Currying"
+      - title: "Currying"
         url: /swift/closure/currying/
       
   - title: "Collections"
     url: /swift/collections/
     children:
-      - title: "└ Array"
+      - title: "Array"
         url: /swift/collections/array/
-      - title: "└ Dictionary"
+      - title: "Dictionary"
         url: /swift/collections/dictionary/
-      - title: "└ Set"
+      - title: "Set"
         url: /swift/collections/set/
-      - title: "└ Performance, FP"
+      - title: "Performance, FP"
         url: /swift/collections/performance-fp/
-      - title: "└ copy-on-write"
+      - title: "copy-on-write"
         url: /swift/collections/copy-on-write/
   - title: "Inheritance"
     url: /swift/inheritance/
     children:
-      - title: "└ 상속"
+      - title: "상속"
         url: /swift/inheritance/temp/
-      - title: "└ final"
+      - title: "final"
         url: /swift/inheritance/final/
   - title: "Swift Package Manager"
     url: /swift/swift-package-manager/
     children:
-      - title: "└ 생성하기"
+      - title: "생성하기"
         url: /swift/swift-package-manaer/swift-package-manager/
 #
 #  - title: "Swift 5.4 Released!"
@@ -166,69 +166,91 @@ sidebar-ios:
   - title: "Objective-C"
     url: /ios/objectivec/
     children:
-      - title: "└ NSObject"
+      - title: "NSObject"
         url: /ios/objectivec/nsobject/
-      - title: "  └ nil, Nil, NULL, NSNull 대한 차이"
-        url: /ios/objectivec/nsobject/nsnull/
+        children:
+        - title: "nil, Nil, NULL, NSNull 대한 차이"
+          url: /ios/objectivec/nsobject/nsnull/
   - title: "Foundation"
     url: /ios/foundation/
     children:
-      - title: "└ NSString"
+      - title: "NSString"
+        icon: "far fa-folder-open"
         url: /ios/foundation/nsstring/
-      - title: "  └ CompareOptions"
-        url: /ios/foundation/nsstring/compareoptions/
-      - title: "  └ StringTransform"
-        url: /ios/foundation/nsstring/stringtransform/
-      - title: "└ ObjCRuntime"
+        children:
+        - title: "CompareOptions"
+          url: /ios/foundation/nsstring/compareoptions/
+        - title: "StringTransform"
+          url: /ios/foundation/nsstring/stringtransform/
+      - title: "ObjCRuntime"
         url: /ios/foundation/objcruntime/
-      - title: "  └ ComparisonResult"
-        url: /ios/foundation/objcruntime/comparisonresult/
+        icon: "far fa-folder-open"
+        children:
+        - title: "ComparisonResult"
+          url: /ios/foundation/objcruntime/comparisonresult/
+        
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
-      - title: "└ @UIApplicationMain"
+      - title: "@UIApplicationMain"
         url: /ios/uiresponder/uiapplicationmain/
-      - title: "  └ UIApplication Life Cycle"
-        url: /ios/uiresponder/uiapplicationmain/lifecycle/
-      - title: "└ UIViewController"
+        icon: "far fa-folder-open"
+        children:
+        - title: "UIApplication Life Cycle"
+          url: /ios/uiresponder/uiapplicationmain/lifecycle/
+      - title: "UIViewController"
+        icon: "far fa-folder-open"
         url: /ios/uiresponder/uiviewcontroller/
-      - title: "  └ Life cycle"
-        url: /ios/uiresponder/uiviewcontroller/lifecycle/
-      - title: "└ UIView"
+        children:
+        - title: "Life cycle"
+          url: /ios/uiresponder/uiviewcontroller/lifecycle/
+      - title: "UIView"
+        icon: "far fa-folder-open"
         url: /ios/uiresponder/uiview/
-      - title: "  └ bounds"
-        url: /ios/uiresponder/uiview/bounds/
-      - title: "  └ frame"
-        url: /ios/uiresponder/uiview/frame/
-      - title: "  └ draw(_ rect: CGRect)"
-        url: /ios/uiresponder/uiview/draw-rect/
-      - title: "  └ Drawing Cycle"
-        url: /ios/uiresponder/uiview/DrawingCycle/
-      - title: "    └ 동기 업데이트"
-        url: /ios/uiresponder/uiview/syncupdate/
-      - title: "      └ layoutIfNeeded()"
-        url: /ios/uiresponder/uiview/syncupdate/layoutIfNeeded/
-      - title: "    └ 비동기 업데이트"
-        url: /ios/uiresponder/uiview/asyncupdate/
-      - title: "      └ layoutSubviews()"
-        url: /ios/uiresponder/uiview/asyncupdate/layout-subviews/
-      - title: "      └ setNeedsLayout()"
-        url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
-      - title: "      └ setNeedsDisplay()"
-        url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
+        children:
+        - title: "bounds"
+          url: /ios/uiresponder/uiview/bounds/
+        - title: "frame"
+          url: /ios/uiresponder/uiview/frame/
+        - title: "draw(_ rect: CGRect)"
+          url: /ios/uiresponder/uiview/draw-rect/
+        - title: "Drawing Cycle"
+          url: /ios/uiresponder/uiview/DrawingCycle/
+          children:
+          - title: "sync"
+            url: /ios/uiresponder/uiview/syncupdate/
+            icon: "far fa-folder-open"
+            children:
+            - title: "layoutIfNeeded()"
+              url: /ios/uiresponder/uiview/syncupdate/layoutIfNeeded/
+          - title: "async"
+            url: /ios/uiresponder/uiview/asyncupdate/
+            icon: "far fa-folder-open"
+            children:
+            - title: "layoutSubviews()"
+              url: /ios/uiresponder/uiview/asyncupdate/layout-subviews/
+            - title: "setNeedsLayout()"
+              url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
+            - title: "setNeedsDisplay()"
+              url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
   - title: "App Thinning"
+    icon: "far fa-file-alt"
     url: /ios/app-thinning/
   - title: "FairPlay Streaming"
     url: /ios/fairplay-streaming/
+    icon: "far fa-file-alt"
   - title: "Xcode"
     url: /ios/xcode/
     children:
-      - title: "└ Build Error"
-        url: /ios/xcode/build-error/
-      - title: "  └ Could not find module for target x86_64..."
-        url: /ios/xcode/build-error/x86_64-apple-ios-simulator/
-      - title: "└ created by 변경하기"
+      - title: "Created by 변경하기"
         url: /ios/xcode/create-by-name/
+  - title: "Build Error"
+    url: /ios/build-error/
+    children:
+    - title: "Could not find module for target x86_64..."
+      url: /ios/build-error/x86_64-apple-ios-simulator/
+        
+    
 #    children:
 #      - title: "iOS 15"
 #        url: /operators/
@@ -243,9 +265,9 @@ sidebar-algorithm:
   - title: "Data Structure"
     url: /algorithm/data-structure/
     children:
-      - title: "└ Stack"
+      - title: "Stack"
         url: /algorithm/data-structure/stack/
-      - title: "└ LinkedList"
+      - title: "LinkedList"
         url: /algorithm/data-structure/linked-list/
 #  - title: "수학"
 #    url: /algorithm/math/
@@ -256,70 +278,70 @@ sidebar-algorithm:
   - title: "기법"
     url: /algorithm/techniques/
     children:
-      - title: "└ 1 부터 n 까지의 합"
+      - title: "1 부터 n 까지의 합"
         url: /algorithm/techniques/numberSum/
-      - title: "└ DFS, BFS"
+      - title: "DFS, BFS"
         url: /algorithm/techniques/dfs-bfs/
-      - title: "└ Divide and conquer"
+      - title: "Divide and conquer"
         url: /algorithm/techniques/divide-and-conquer/
-      - title: "└ 재귀와 꼬리재귀"
+      - title: "재귀와 꼬리재귀"
         url: /algorithm/techniques/recursion/
-      - title: "└ Temp 변수를 사용하지 않고 Swap 하기"
+      - title: "Temp 변수를 사용하지 않고 Swap 하기"
         url: /algorithm/techniques/NoStoredPropertySwap/
   - title: "Sort"
     url: /algorithm/sort/
     children:
-      - title: "└ 삽입 정렬"
+      - title: "삽입 정렬"
         url: /algorithm/sort/insertion-sort/
-      - title: "└ 버블 정렬"
+      - title: "버블 정렬"
         url: /algorithm/sort/bubble-sort/
-      - title: "└ 선택 정렬"
+      - title: "선택 정렬"
         url: /algorithm/sort/selection-sort/
   - title: "Leet Code - Easy"
     url: /algorithm/leet-code-easy/
     children:
-      - title: "└ 14. Longest Common Prefix"
+      - title: "14. Longest Common Prefix"
         url: /algorithm/leet-code-easy/longest-common-prefix/
-      - title: "└ 20. Valid Parentheses"
+      - title: "20. Valid Parentheses"
         url: /algorithm/leet-code-easy/valid-parentheses/
   - title: "Leet Code - Medium"
     url: /algorithm/leet-code-medium/
     children:
-      - title: "└ 31. Next Permutation"
+      - title: "31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
   - title: "Leet Code - Hard"
     url: /algorithm/leet-code-hard/
     children:
-      - title: "└ 4. Median of Two Sorted Arrays"
+      - title: "4. Median of Two Sorted Arrays"
         url: /algorithm/leet-code-hard/median-of-two-sorted-arrays/
   - title: "프로그래머스 - level1"
     url: /algorithm/programers-level1/
     children:
-      - title: "└ 소수 찾기"
+      - title: "소수 찾기"
         url: /algorithm/programers-level1/prime/
-      - title: "└ 수박수박수박수박수박수?"
+      - title: "수박수박수박수박수박수?"
         url: /algorithm/programers-level1/watermelon/
-      - title: "└ 정수 사이의 합"
+      - title: "정수 사이의 합"
         url: /algorithm/programers-level1/sum-between-two-integers/
   - title: "프로그래머스 - level2"
     url: /algorithm/programers-level2/
     children:
-      - title: "└ 영어 끝말잇기"
+      - title: "영어 끝말잇기"
         url: /algorithm/programers-level2/english-shiritori/
   - title: "Solved - Silver 1"
     url: /algorithm/solved-silver1/
     children:
-      - title: "└ 2447 별 찍기 - 10"
+      - title: "2447 별 찍기 - 10"
         url: /algorithm/solved-silver1/2447/
   - title: "Solved - Gold 4"
     url: /algorithm/solved-gold4/
     children:
-      - title: "└ 2448 별 찍기 - 11"
+      - title: "2448 별 찍기 - 11"
         url: /algorithm/solved-gold4/2448/
   - title: "BEAKJOON"
     url: /algorithm/baekjoon/
     children:
-      - title: "└ 빠른 입출력 - FileIO"
+      - title: "빠른 입출력 - FileIO"
         url: /algorithm/baekjoon/fileio/
 ##############
 sidebar-architecture:
@@ -328,9 +350,9 @@ sidebar-architecture:
   - title: "Clean Architecture"
     url: /architecture/clean-architecture/
     children:
-      - title: "└ 소프트웨어 아키텍처 정의"
+      - title: "소프트웨어 아키텍처 정의"
         url: /architecture/clean-architecture/definition/
-      - title: "└ 소프트웨어 아키텍처가 중요한 이유"
+      - title: "소프트웨어 아키텍처가 중요한 이유"
         url: /architecture/clean-architecture/importance/
 #  - title: "MVVM"
 #    url: /architecture/
@@ -362,19 +384,19 @@ sidebar-clean:
   - title: "Think"
     url: /clean/think/
     children:
-      - title: "└ 프로젝트를 성공시키는 개발자"
+      - title: "프로젝트를 성공시키는 개발자"
         url: /clean/think/make-projects-successful-developer/
-      - title: "└ 좋은 회사"
+      - title: "좋은 회사"
         url: /clean/think/good-company/
-      - title: "└ 좋은 개발자(1)"
+      - title: "좋은 개발자(1)"
         url: /clean/think/good-developer1/
-      - title: "└ 좋은 개발자(2)"
+      - title: "좋은 개발자(2)"
         url: /clean/think/good-developer2/
-      - title: "└ 개발을 시작하게 된 계기"
+      - title: "개발을 시작하게 된 계기"
         url: /clean/think/start-development/
-      - title: "└ iOS 개발을 시작하게 된 계기"
+      - title: "iOS 개발을 시작하게 된 계기"
         url: /clean/think/start-development-ios/
-      - title: "└ 오늘"
+      - title: "오늘"
         url: /clean/think/today/
 #  - title: "Naming"
 #    url: /clean/naming/
@@ -384,51 +406,51 @@ sidebar-clean:
   - title: "Dictionary"
     url: /clean/dictionary/
     children:
-      - title: "└ A.K.A"
+      - title: "A.K.A"
         url: /clean/dictionary/aka/
-      - title: "└ ASAP"
+      - title: "ASAP"
         url: /clean/dictionary/asap/
-      - title: "└ ASCII Art"
+      - title: "ASCII Art"
         url: /clean/dictionary/ascii-art/
-      - title: "└ bashrc"
+      - title: "bashrc"
         url: /clean/dictionary/bashrc/
-      - title: "└ BRB"
+      - title: "BRB"
         url: /clean/dictionary/brb/
-      - title: "└ Command-line"
+      - title: "Command-line"
         url: /clean/dictionary/command-line/
-      - title: "└ determine"
+      - title: "determine"
         url: /clean/dictionary/determine/
-      - title: "└ given"
+      - title: "given"
         url: /clean/dictionary/given/
-      - title: "└ Jekyll"
+      - title: "Jekyll"
         url: /clean/dictionary/jekyll/
-      - title: "└ Nvm"
+      - title: "Nvm"
         url: /clean/dictionary/nvm/
-      - title: "└ OMW"
+      - title: "OMW"
         url: /clean/dictionary/omw/
-      - title: "└ parentheses"
+      - title: "parentheses"
         url: /clean/dictionary/parentheses/
-      - title: "└ React"
+      - title: "React"
         url: /clean/dictionary/react/
-      - title: "└ regenerate"
+      - title: "regenerate"
         url: /clean/dictionary/regenerate/
-      - title: "└ Stack"
+      - title: "Stack"
         url: /clean/dictionary/stack/
-      - title: "└ Stack overflow"
+      - title: "Stack overflow"
         url: /clean/dictionary/stack-overflow/
-      - title: "└ zshrc"
+      - title: "zshrc"
         url: /clean/dictionary/zshrc/
-      - title: "└ 유닉스 철학"
+      - title: "유닉스 철학"
         url: /clean/dictionary/unix-philosophy/
-      - title: "└ 슈도코드"
+      - title: "슈도코드"
         url: /clean/dictionary/pseudocode/
-      - title: "└ 클래스 계층도"
+      - title: "클래스 계층도"
         url: /clean/dictionary/class-hierarchy/
-      - title: "└ 햄(HAM) 라디오"
+      - title: "햄(HAM) 라디오"
         url: /clean/dictionary/ham-radio/
-      - title: "└ ebitbat"
+      - title: "ebitbat"
         url: /clean/dictionary/ebitbat/
-      - title: "└ bi"
+      - title: "bi"
         url: /clean/dictionary/bi/
       
       
@@ -449,56 +471,61 @@ sidebar-git:
   - title: "Commend"
     url: /git/commend/
     children:
-      - title: "└ Branch"
+      - title: "Branch"
         url: /git/commend/branch/
-      - title: "  └ 생성하기"
-        url: /git/commend/branch/create/
-      - title: "  └ 삭제하기"
-        url: /git/commend/branch/delete/
-      - title: "  └ 가져오기"
-        url: /git/commend/branch/fetch/
-      - title: "└ Cherry-pick"
+        children:
+        - title: "생성하기"
+          url: /git/commend/branch/create/
+        - title: "삭제하기"
+          url: /git/commend/branch/delete/
+        - title: "가져오기"
+          url: /git/commend/branch/fetch/
+      - title: "Cherry-pick"
         url: /git/commend/cherry-pick/
-      - title: "└ Log"
+      - title: "Log"
         url: /git/commend/log/
-      - title: "└ Rebase"
+      - title: "Rebase"
         url: /git/commend/rebase/
-      - title: "└ Reset"
+      - title: "Reset"
         url: /git/commend/reset/
-      - title: "└ Revert"
+      - title: "Revert"
         url: /git/commend/revert/
   - title: "Blog"
     url: /git/blog/
     children:
-      - title: "└ 시작하기"
+      - title: "시작하기"
         url: /git/blog/start/
-      - title: "└ 검색 등록 하기"
+      - title: "검색 등록 하기"
         url: /git/blog/register-to-search/
-      - title: "└ 추후 볼만한 사이트 모음"
+      - title: "추후 볼만한 사이트 모음"
         url: /git/blog/sites-to-see-later/
-      - title: "└ 블로그에 프로그래머스 코드 올리기"
+      - title: "블로그에 프로그래머스 코드 올리기"
         url: /git/blog/progremmers-copyright/
-      - title: "└ 맞춤법 검사기(링크)"
+      - title: "맞춤법 검사기"
+        icon: "fas fa-link"
         url: https://speller.cs.pusan.ac.kr/
-      - title: "└ 표 만들기(링크)"
+      - title: "표 만들기"
+        icon: "fas fa-link"
         url: https://www.tablesgenerator.com/markdown_tables
-      - title: "└ 마크 다운 문법"
+      - title: "마크 다운 문법"
         url: /git/blog/markdown_grammar/
-      - title: "└ 블로그에 이미지 올리기"
+      - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
-      - title: "└ jekyll serve"
+      - title: "jekyll serve"
         url: /git/blog/jekyll-serve/
   - title: "Commit Message"
     url: /git/commit-message/
     children:
-      - title: "└ Swift"
+      - title: "Swift"
         url: /git/commit-message/apple-swift/
-      - title: "  └ Update Swift version to 5.6"
-        url: /git/commit-message/apple-swift/update-swift-version-to-5.6/
-      - title: "└ Promises"
+        children:
+        - title: "Update Swift version to 5.6"
+          url: /git/commit-message/apple-swift/update-swift-version-to-5.6/
+      - title: "Promises"
         url: /git/commit-message/google-promises/
-      - title: "  └ Rename await to awaitPromise"
-        url: /git/commit-message/google-promises/rename-await-to-awaitPromise/
+        children:
+        - title: "Rename await to awaitPromise"
+          url: /git/commit-message/google-promises/rename-await-to-awaitPromise/
         
         
 ##############

@@ -2,7 +2,7 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
-title: created by 변경하기
+title: Created by 변경하기
 toc: true
 toc_sticky: true
 toc_label: 목차

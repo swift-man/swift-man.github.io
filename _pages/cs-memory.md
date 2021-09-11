@@ -7,4 +7,5 @@ classes: wide
 sidebar:
   title: "CS"
   nav: sidebar-cs
+  icon: "fas fa-microchip"
 ---
