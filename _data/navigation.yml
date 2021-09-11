@@ -385,10 +385,12 @@ sidebar-clean:
     url: /clean/think/
     children:
       - title: "프로젝트를 성공시키는 개발자"
+        icon: "fab fa-youtube"
         url: /clean/think/make-projects-successful-developer/
       - title: "좋은 회사"
         url: /clean/think/good-company/
       - title: "좋은 개발자(1)"
+        icon: "fab fa-youtube"
         url: /clean/think/good-developer1/
       - title: "좋은 개발자(2)"
         url: /clean/think/good-developer2/
