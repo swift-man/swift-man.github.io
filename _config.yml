@@ -24,8 +24,8 @@ description              : "슬금슬금 공부하기."
 url                      : #"https://swift-man.github.io/"# the base hostname & protocol for your site e.g.
 baseurl                  : #"/blog"# the subpath of your site, e.g. "/blog"
 repository               : "swift-man/swift-man.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/swift-man.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/swift-man.jpg"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/swift-man.png"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/swift-man_88x88.png"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Swift-Man Blog"# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : false # true, false (default) // _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 50 #해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Swift-Man"
-  avatar           : "/assets/images/swift-man.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "만나뵈어 반갑습니다. 개인 공부 공간으로 틀린 부분이 있을 수 있습니다. 댓글로 가감없이 알려주세요!"
+  name             : "안녕하세요!"
+  avatar           : "/assets/images/welcome.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "만나뵈어 반갑습니다. 개인 공부 공간으로 틀린 부분이 있을 수 있습니다. 댓글로 알려주시면 감사하겠습니다!"
   location         : "Republic of Korea Seoul"
   email            : "jiniopening@naver.com"
   links:
@@ -178,8 +178,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -215,7 +213,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
