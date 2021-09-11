@@ -7,4 +7,5 @@ classes: wide
 sidebar:
   title: "Architecture"
   nav: sidebar-architecture
+  icon: "fas fa-sitemap"
 ---
