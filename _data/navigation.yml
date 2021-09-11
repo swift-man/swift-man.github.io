@@ -532,6 +532,8 @@ sidebar-git:
         children:
         - title: "Update Swift version to 5.6"
           url: /git/commit-message/apple-swift/update-swift-version-to-5.6/
+        - title: "rename CallParameter to..."
+          url: /git/commit-message/apple-swift/rename-calparameter-to-callargument/
       - title: "Promises"
         url: /git/commit-message/google-promises/
         children:
