@@ -2,20 +2,27 @@
 main:
   - title: "CS"
     url: /cs/
+    icon: "fas fa-microchip"
   - title: "Architecture"
     url: /architecture/
+    icon: "fas fa-sitemap"
   - title: "Algorithm"
     url: /algorithm/
+    icon: "fas fa-calculator"
   - title: "Clean"
     url: /clean/
+    icon: "fab fa-weixin"
 #  - title: "EDP"
 #    url: /edp/
   - title: "Git"
     url: /git/
+    icon: "fab fa-github"
   - title: "iOS"
     url: /ios/
+    icon: "fab fa-app-store-ios"
   - title: "Swift"
     url: /swift/
+    icon: "fab fa-swift"
 #  - title: "SwiftUI"
 #    url: /swift-ui/
 #  - title: "TDD"
