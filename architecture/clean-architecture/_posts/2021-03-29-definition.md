@@ -3,6 +3,7 @@ sidebar:
   title: "Architecture"
   nav: sidebar-architecture
 title: "소프트웨어 아키텍처 정의"
+icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
