@@ -476,6 +476,7 @@ sidebar-git:
     url: /git/commend/
     children:
       - title: "Branch"
+        icon: "far fa-folder-open"
         url: /git/commend/branch/
         children:
         - title: "생성하기"
@@ -532,6 +533,7 @@ sidebar-git:
     url: /git/commit-message/
     children:
       - title: "Swift"
+        icon: "far fa-folder-open"
         url: /git/commit-message/apple-swift/
         children:
         - title: "Update Swift version to 5.6"
@@ -539,6 +541,7 @@ sidebar-git:
         - title: "rename CallParameter to..."
           url: /git/commit-message/apple-swift/rename-calparameter-to-callargument/
       - title: "Promises"
+        icon: "far fa-folder-open"
         url: /git/commit-message/google-promises/
         children:
         - title: "Rename await to awaitPromise"
