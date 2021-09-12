@@ -11,6 +11,9 @@
 
 ## Proceeding
 - [ ] move to prev blog posts 
-- [ ] rewrite posts
 
+## Todo
+- [ ] Swift related posts [Swift] Add prefix
 
+## rewrite posts list
+- [ ] ...
