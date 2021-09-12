@@ -6,6 +6,7 @@ title: "좋은 개발자(1)"
 toc: true
 toc_sticky: true
 toc_label: 목차
+icon: "fab fa-youtube"
 excerpt : 우아한형제들 김범준 대표님
 ---
 [Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
