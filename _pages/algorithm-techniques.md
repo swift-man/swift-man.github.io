@@ -4,8 +4,9 @@ permalink: /algorithm/techniques/
 layout: category
 taxonomy: techniques
 classes: wide
+icon: "far fa-folder-open"
 sidebar:
   title: "Algorithm"
-  url: /algorithm/
   nav: sidebar-algorithm
+  icon: "fas fa-calculator"
 ---
