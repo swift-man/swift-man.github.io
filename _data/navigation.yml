@@ -523,6 +523,10 @@ sidebar-git:
       - title: "무료 아이콘"
         icon: "fas fa-link"
         url: https://fontawesome.com/v5.15/icons?d=gallery&p=3&s=solid&m=free
+      - title: "minimal-mistakes"
+        icon: "fas fa-link"
+        url: https://mmistakes.github.io/minimal-mistakes/
+        
 
   - title: "Commit Message"
     url: /git/commit-message/
