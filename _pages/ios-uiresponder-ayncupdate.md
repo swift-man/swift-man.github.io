@@ -4,7 +4,9 @@ permalink: /ios/uiresponder/uiview/asyncupdate/
 layout: category
 taxonomy: asyncupdate
 classes: wide
+icon: "far fa-folder-open"
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 ---
