@@ -9,5 +9,8 @@
 - [ ] add posts hitcount
 - [ ] add apps page - grid
 
-## rewrite
+## Proceeding
+- [ ] move to prev blog posts 
+- [ ] rewrite posts
+
 
