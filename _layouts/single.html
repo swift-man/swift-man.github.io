@@ -16,7 +16,6 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
-
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -24,6 +23,27 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <div class="page__inner-wrap">
+      {% if page.depth %}
+      <div style="border:1px solid; border-color: #343434; padding:8px; background-color: #282828; margin-bottom: 20px;">
+        {% for depth in page.depth %}
+          {% if depth.url %}
+            {% if depth.title %}
+            <a href="{{ depth.url }}">
+              <font style="color: #F5F5F7"; font size="2px";>
+                {% if depth.icon %}
+                <i class="{{ depth.icon }}"></i>
+                {% endif %}{{ depth.title }}</a>
+          {% endif %}
+        {% endif %}
+        <font style="color: #bebcc0" font size="1px";><i class="fas fa-chevron-right"></i></font>
+        </font>
+        {% endfor %}
+        {% if page.title %}
+        <font style="color: #86868B"; font size="2px";>{{ page.title }}</font>
+        {% endif %}
+        </div>
+      {% endif %}
+      
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">

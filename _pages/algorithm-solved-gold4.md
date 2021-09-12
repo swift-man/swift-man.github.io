@@ -1,5 +1,5 @@
 ---
-title: "Algorithm / Solved - Gold 4"
+title: "Solved - Gold 4"
 permalink: /algorithm/solved-gold4/
 layout: category
 taxonomy: solved-gold4
@@ -9,4 +9,8 @@ sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
   icon: "fas fa-calculator"
+depth: 
+ - title: "Algorithm"
+   url: /algorithm/
+   icon: "fas fa-calculator"
 ---

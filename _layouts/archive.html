@@ -16,8 +16,32 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
-
+  
   <div class="archive">
+    {% if page.depth %}
+    <div style="border:1px solid; border-color: #343434; padding:8px; background-color: #282828; margin-bottom: 20px;">
+      {% for depth in page.depth %}
+        {% if depth.url %}
+          {% if depth.title %}
+          <a href="{{ depth.url }}">
+            <font style="color: #F5F5F7"; font size="2px";>
+              {% if depth.icon %}
+              <i class="{{ depth.icon }}"></i>
+              {% endif %}{{ depth.title }}</a>
+        {% endif %}
+      {% endif %}
+      <font style="color: #bebcc0" font size="1px";><i class="fas fa-chevron-right"></i></font>
+      </font>
+      {% endfor %}
+      {% if page.title %}
+      <font style="color: #86868B"; font size="2px";>
+        {% if page.icon %}
+        <i class="{{ page.icon }}"></i>
+        {% endif %}{{ page.title }}</font>
+      {% endif %}
+      </div>
+    {% endif %}
+    
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{% if page.icon %}
         <i class="{{ page.icon }}"> </i>
