@@ -108,11 +108,11 @@ author:
   email            : "jiniopening@naver.com"
   links:
     - label: "Month Archive"
-      icon: "fas fa-fw fa-calendar-check"
+      icon: "far fa-calendar-alt"
       url: "/month-archive/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jiniopening@naver.com"
+#      url: "mailto:jiniopening@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
