@@ -1,5 +1,5 @@
 ---
-title: "Clean Think"
+title: "Clean / Think"
 permalink: /clean/think/
 layout: category
 taxonomy: think
