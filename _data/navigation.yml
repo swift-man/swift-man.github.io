@@ -391,6 +391,11 @@ sidebar-clean:
 #    children:
 #      - title: "Operators"
 #        url: /operators/
+  - title: "English"
+    url: /clean/english/
+    children:
+      - title: "개발자가 자주 틀리는 영어발음"
+        url: /clean/think/english-pronunciation/
   - title: "Think"
     url: /clean/think/
     children:
