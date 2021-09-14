@@ -2,6 +2,7 @@
 sidebar:
   title: "Git"
   nav: sidebar-git
+  icon: "fab fa-github"
 title: "마크 다운 문법"
 toc: true
 toc_sticky: true
@@ -15,15 +16,23 @@ depth:
     icon: "far fa-folder-open"
 ---
 
-기본 적인 마크 다운 문법 외 몰랐던 문법들을 정리한다.
+기본 적인 마크 다운 문법 외 몰랐던 문법들을 정리한다.  
 
-## 1. 새창으로 링크 걸기
+## Color Asset
+- 추가하기
+
+## 새창으로 링크 걸기
+```
+[<i class="fas fa-link"></i> 보러가기](/git/){:target="_blank"}
+```
+[<i class="fas fa-link"></i> 보러가기](/git/){:target="_blank"}
+
+>아이콘은 optional 이다. 아이콘을 제거한 내용은 아래를 참고 바란다.
 ```
 [원문 보러가기(새창)](/git/){:target="_blank"}
 ```
-[원문 보러가기(새창)](/git/){:target="_blank"}
 
-## 2. 툴팁 사용하기
+## 툴팁 사용하기
 ```html
 <div>
 사용자가 커서로 항목을 가리키면 
@@ -49,25 +58,25 @@ fsf팁(tooltip)</span></p>이 나타납니다.</div>
 
 말풍선 쉽게 사용할 수 있게 할 줄 아는 분 제발 알려주세요!
 
-## 3. 밑줄
+## 밑줄
 ```
 <u>밑줄 있는 텍스트입니다</u>
 ```
 <u>밑줄 있는 텍스트입니다</u>
 
-## 4. 글씨 색
+## 글씨 색
 ```
 <span style="color:yellow">노란 글씨입니다.</span>
 ```
 <span style="color:yellow">노란 글씨입니다.</span>
 
-## 5. Gist
+## Gist
 ```
 <script src="https://gist.github.com/swift-man/ce02c13aa87a79221f3b8e01122a3311.js"></script>
 ```
 <script src="https://gist.github.com/swift-man/ce02c13aa87a79221f3b8e01122a3311.js"></script>
 
-## 6. 게시글 비공개 처리
+## 게시글 비공개 처리
 ```
 published : true
 ```
