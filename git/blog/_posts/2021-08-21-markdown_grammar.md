@@ -19,16 +19,23 @@ depth:
 기본 적인 마크 다운 문법 외 몰랐던 문법들을 정리한다.  
 
 ## Color Asset
-- 추가하기
+```html
+<span style="color:#db7093">Sand Red</span>
+```
+<span style="color:#db7093">Sand Red</span>  
+```html
+<span style="color:#2deb9e">Sand Green</span>
+```
+<span style="color:#2deb9e">Sand Green</span>
 
 ## 새창으로 링크 걸기
-```
+```html
 [<i class="fas fa-link"></i> 보러가기](/git/){:target="_blank"}
 ```
 [<i class="fas fa-link"></i> 보러가기](/git/){:target="_blank"}
 
 >아이콘은 optional 이다. 아이콘을 제거한 내용은 아래를 참고 바란다.
-```
+```html
 [원문 보러가기(새창)](/git/){:target="_blank"}
 ```
 
@@ -59,16 +66,10 @@ fsf팁(tooltip)</span></p>이 나타납니다.</div>
 말풍선 쉽게 사용할 수 있게 할 줄 아는 분 제발 알려주세요!
 
 ## 밑줄
-```
+```html
 <u>밑줄 있는 텍스트입니다</u>
 ```
 <u>밑줄 있는 텍스트입니다</u>
-
-## 글씨 색
-```
-<span style="color:yellow">노란 글씨입니다.</span>
-```
-<span style="color:yellow">노란 글씨입니다.</span>
 
 ## Gist
 ```
