@@ -395,7 +395,25 @@ sidebar-clean:
     url: /clean/english/
     children:
       - title: "개발자가 자주 틀리는 영어발음"
-        url: /clean/think/english-pronunciation/
+        url: /clean/english/english-pronunciation/
+      - title: "A.K.A"
+        url: /clean/english/aka/
+      - title: "ASAP"
+        url: /clean/english/asap/
+      - title: "BRB"
+        url: /clean/english/brb/
+      - title: "determine"
+        url: /clean/english/determine/
+      - title: "given"
+        url: /clean/english/given/
+      - title: "Nvm"
+        url: /clean/english/nvm/
+      - title: "OMW"
+        url: /clean/english/omw/
+      - title: "parentheses"
+        url: /clean/english/parentheses/
+      - title: "regenerate"
+        url: /clean/english/regenerate/
   - title: "Think"
     url: /clean/think/
     children:
@@ -423,36 +441,16 @@ sidebar-clean:
   - title: "Dictionary"
     url: /clean/dictionary/
     children:
-      - title: "A.K.A"
-        url: /clean/dictionary/aka/
-      - title: "ASAP"
-        url: /clean/dictionary/asap/
       - title: "ASCII Art"
         url: /clean/dictionary/ascii-art/
       - title: "bashrc"
         url: /clean/dictionary/bashrc/
-      - title: "BRB"
-        url: /clean/dictionary/brb/
       - title: "Command-line"
         url: /clean/dictionary/command-line/
-      - title: "determine"
-        url: /clean/dictionary/determine/
-      - title: "given"
-        url: /clean/dictionary/given/
       - title: "Jekyll"
         url: /clean/dictionary/jekyll/
-      - title: "Nvm"
-        url: /clean/dictionary/nvm/
-      - title: "OMW"
-        url: /clean/dictionary/omw/
-      - title: "parentheses"
-        url: /clean/dictionary/parentheses/
       - title: "React"
         url: /clean/dictionary/react/
-      - title: "regenerate"
-        url: /clean/dictionary/regenerate/
-      - title: "Stack"
-        url: /clean/dictionary/stack/
       - title: "Stack overflow"
         url: /clean/dictionary/stack-overflow/
       - title: "zshrc"
@@ -465,10 +463,12 @@ sidebar-clean:
         url: /clean/dictionary/class-hierarchy/
       - title: "햄(HAM) 라디오"
         url: /clean/dictionary/ham-radio/
-      - title: "ebitbat"
+      - title: "Ebitbat"
         url: /clean/dictionary/ebitbat/
-      - title: "bi"
+      - title: "BI"
         url: /clean/dictionary/bi/
+      - title: "트러블 슈팅"
+        url: /clean/dictionary/trouble-shooting/
       
       
 ##############

@@ -3,7 +3,7 @@ sidebar:
   title: "Clean"
   nav: sidebar-clean
   icon: "fab fa-weixin"
-title: "zshrc"
+title: "regenerate"
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -11,9 +11,8 @@ depth:
   - title: "Clean"
     url: /clean/
     icon: "fab fa-weixin"
-  - title: "Dictionary"
-    url: /clean/dictionary/
+  - title: "English"
+    url: /clean/english/
     icon: "far fa-folder-open"
 ---
-shell 의 종류 중 하나.  
-login 여부와 상관없이 항상 실행 됨
+[동사]  (지역·시설 등을) 재건하다[회생시키다]
