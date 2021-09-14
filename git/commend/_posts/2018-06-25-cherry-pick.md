@@ -3,7 +3,7 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title:  "[Git] cherry-pick"
+title:  "[Git] cherry-pick - 다른 브랜치의 일부 커밋만 반영"
 toc: true
 toc_sticky: true
 toc_label: 목차
