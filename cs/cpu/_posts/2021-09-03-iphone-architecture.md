@@ -2,33 +2,38 @@
 sidebar:
   title: "CS"
   nav: sidebar-cs
+  icon: "fas fa-microchip"
 title: "iOS 기기 별 Architecture"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : armv64, armv7, armv6, i386, x86_64
+depth: 
+  - title: "CS"
+    url: /cs/
+    icon: "fas fa-microchip"
+  - title: "CPU"
+    url: /cs/cpu/
+    icon: "far fa-folder-open"
 ---
-[CS](/cs/) / [CPU](/cs/cpu/) / **{{ page.title }}**
-{: .notice--warning}
 
-## 1. 개요
-Description of Architecture:
+iOS 기기는 시간이 변함에 따라 다양한 Architecture가 있다.  
+현재까지 나온 armv64, armv7, armv6, i386, x86_64 를 기기별로 정리해본다.
 
-## 2. armv64
-iPhoneX
-iPhone 5s-8
-iPad Air
+## armv64
+iPhoneX. 
+iPhone 5s-8  
+iPad Air  
 iPad Pro
 
-## 3. armv7
-iPhone3Gs-5c
+## armv7
+iPhone3Gs-5c  
 iPad WIFI(4th gen)
 
-## 4. armv6
+## armv6
 iPhone — iPhone3G
 
-## 5. i386
+## i386
 32-bit simulator
 
-## 6. x86_64
+## x86_64
 64-bit simulator
