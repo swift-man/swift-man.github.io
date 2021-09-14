@@ -15,7 +15,6 @@ depth:
     url: /cs/cpu/
     icon: "far fa-folder-open"
 ---
-
 iOS 기기는 시간이 변함에 따라 다양한 Architecture가 있다.  
 현재까지 나온 armv64, armv7, armv6, i386, x86_64 를 기기별로 정리해본다.
 

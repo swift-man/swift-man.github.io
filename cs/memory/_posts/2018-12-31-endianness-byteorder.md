@@ -2,17 +2,20 @@
 sidebar:
   title: "CS"
   nav: sidebar-cs
+  icon: "fas fa-microchip"
 title: Endianness Or Byte order
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 0과 1을 저장할 수 있는 저장공간을 가진 반도체
+depth: 
+  - title: "CS"
+    url: /cs/
+    icon: "fas fa-microchip"
+  - title: "CPU"
+    url: /cs/cpu/
+    icon: "far fa-folder-open"
 ---
-[CS](/cs/) / [Memory](/cs/memory/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-바이트를 배열하는 방식을 표현하는 용어
+엔디언(Endianness)은 컴퓨터의 메모리와 같은 1차원의 공간에 여러 개의 연속된 대상을 배열하는 방법을 뜻하며, 바이트를 배열하는 방법을 특히 바이트 순서(Byte order)라 한다.
 
 
 ## 2. 엔디언(Endianness)
@@ -21,7 +24,7 @@ excerpt : 0과 1을 저장할 수 있는 저장공간을 가진 반도체
 
 ### 2.2 리틀 엔디언(Little-endian)
 최하위 비트를 먼저 배열
->Intel CPU, Apple M1 CFByteOrderLittleEndian 방식을 사용한다.
+>Intel CPU, Apple M1은 CFByteOrderLittleEndian 방식을 사용한다.
 
 ```swift
 CFByteOrderGetCurrent() // 바이트오더 확인
@@ -121,3 +124,4 @@ public func CFConvertDoubleSwappedToHost(_ arg: CFSwappedFloat64) -> Double
 
 ```
 
+[<i class="fas fa-link"></i> 위키백과 - 엔디언](https://ko.wikipedia.org/wiki/%EC%97%94%EB%94%94%EC%96%B8){:target="_blank"} 

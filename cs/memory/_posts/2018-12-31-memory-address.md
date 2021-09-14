@@ -2,34 +2,22 @@
 sidebar:
   title: "CS"
   nav: sidebar-cs
+  icon: "fas fa-microchip"
 title: "메모리 주소"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 메모리에 저장된 값은 고유한 주소를 가진다.
+depth: 
+  - title: "CS"
+    url: /cs/
+    icon: "fas fa-microchip"
+  - title: "CPU"
+    url: /cs/cpu/
+    icon: "far fa-folder-open"
 ---
-[CS](/cs/) / [Memory](/cs/memory/) / **{{ page.title }}**
-{: .notice--warning}
+컴퓨터 과학에서 메모리 주소(memory address)는 메모리 위치에 대한 식별자로, 컴퓨터 프로그램이나 하드웨어 장치가 데이터를 저장하고 나중에 이를 가져오는 장소이다.
 
-## 1. 개요
-메모리에 저장된 값은 고유한 주소를 가진다.
+## CPU 의 접근
+CPU 는 메모리 주소를 저장하고 특정 위치에 접근하기 위해 [<i class="fas fa-link"></i> Register](/cs/cpu/address-register) 를 사용한다.
 
-1바이트를 저장할 수 있는 공간마다 고유한 메모리 주소가 할당되고, CPU 는 이 주소를 통해 메모리에 저장된 값에 접근한다.
-
-* 예를 들어 1KB 의 크기의 메모리는 최소 저장단위인 1바이트로 구분된 1024개의 공간을 할당할 수 있다.
-
-| 메모리 주소     | 메인 메모리     |
-|---    |---    |
-| 1023     | 1byte     |
-| 1022     | 1byte     |
-| 1021    | 1byte     |
-| 1020     | 1byte     |
-| ...     | ...     |
-| 2     | 1byte     |
-| 1     | 1byte     |
-| 0    | 1byte     |
-
-
-
-## 2. CPU 의 접근
-CPU 는 메모리 주소를 저장하고 특정 위치에 접근하기 위해 [Register](/cs/cpu/address-register) 를 사용한다.
+[<i class="fas fa-link"></i> 위키백과 - 메모리 주소](https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EB%A6%AC_%EC%A3%BC%EC%86%8C){:target="_blank"}
