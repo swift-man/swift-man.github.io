@@ -3,7 +3,7 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title: "검색 등록 하기"
+title: "GitHub Pages 검색 등록 하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -60,7 +60,7 @@ Start 를 누르자.
 
 ### RSS 제출을 하자!
 ![Image](https://drive.google.com/uc?export=view&id=19mEvtuiXOiRYLIWV4bnTGaEbk6XhY7bo)
-RSS 을 생성하여 Github Repo Root 경로에 추가 후 Push 하자.  
+RSS 을 생성하여 GitHub Repo Root 경로에 추가 후 Push 하자.  
 [<i class="fas fa-link"></i> RSS 파일 보러가기](https://github.com/swift-man/swift-man.github.io/blob/main/feed.xml){:target="_blank"}  
 
 ## Daum 등록
