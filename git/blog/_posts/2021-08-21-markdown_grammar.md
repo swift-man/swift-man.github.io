@@ -27,6 +27,10 @@ depth:
 <span style="color:#2deb9e">Sand Green</span>
 ```
 <span style="color:#2deb9e">Sand Green</span>
+```html
+<span style="color:#fcf787">Sand Yellow</span>
+```
+<span style="color:#fcf787">Sand Yellow</span>
 
 ## 새창으로 링크 걸기
 ```html
