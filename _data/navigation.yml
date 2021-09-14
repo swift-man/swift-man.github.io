@@ -515,8 +515,6 @@ sidebar-git:
         url: /git/blog/start/
       - title: "검색 등록 하기"
         url: /git/blog/register-to-search/
-      - title: "추후 볼만한 사이트 모음"
-        url: /git/blog/sites-to-see-later/
       - title: "블로그에 프로그래머스 코드 올리기"
         url: /git/blog/progremmers-copyright/
       - title: "마크 다운 문법"
