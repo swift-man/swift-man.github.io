@@ -7,6 +7,7 @@ title: "[스크랩] Creating a Source Editor Extension"
 toc: true
 toc_sticky: true
 toc_label: 목차
+icon: "fas fa-link"
 depth: 
   - title: "iOS"
     url: /ios/

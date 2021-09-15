@@ -253,7 +253,7 @@ sidebar-ios:
         url: /ios/app-thinning/on-demand/
   - title: "FairPlay Streaming"
     url: /ios/fairplay-streaming/
-    icon: "far fa-file-alt"
+    icon: "fas fa-link"
   - title: "Xcode"
     url: /ios/xcode/
     children:
