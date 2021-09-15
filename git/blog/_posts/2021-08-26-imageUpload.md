@@ -18,7 +18,7 @@ depth:
 블로그에 이미지를 업로드하는 방법은 여러가지가 있다.  
 나의 경우 추후 Github 용량을 고려하여 Google Drive 를 쓰기로 했다.
 
-## 1. 링크 만들기
+## 링크 만들기
 구글 드라이브에 이미지를 업로드 하자.
 ![Image](https://drive.google.com/uc?export=view&id=1ofLmA9slWa9shjtZtoSNHsPkWLXC5ynY)  
 
@@ -37,13 +37,13 @@ ex) https://drive.google.com/uc?export=view&id=1CuhXzbSrIdJjjs4DpbOl_O18oKV4FiL_
 https://drive.google.com/uc?export={ id }
 ```
 
-## 2. Markdown 문법으로 post 에 붙이기
+## Markdown 문법으로 post 에 붙이기
 ```
 ![Image](https://drive.google.com/uc?export=view&id=1CuhXzbSrIdJjjs4DpbOl_O18oKV4FiL_)
 ```
 이미지 태그를 추가해서 이미지가 나오는지 확인하자.
 
-## 3. MacOS 용 이미지 컨버터 툴 만들기
+## MacOS 용 이미지 컨버터 툴 만들기
 나의 경우는 하나하나 만들고 이미지를 올리기 까지 반복되는 작업이 귀찮아 툴을 하나 만들었다.  
 처음엔 입력받을 URL 칸을 10개정도 두었다. 보통 한번에 포스팅할때 이미지가 10장 이하로 들어갈 것이라고 생각했다.
 ![Image](https://drive.google.com/uc?export=view&id=1Vuq90K4Fief7QpVh1zx2Csw4o7riRTSl)
@@ -55,5 +55,5 @@ Convert 버튼을 누르면 변경 해준다.
 
 실제로 계속 사용 중인데 너무너무 편하다. 다만 Convert 버튼의 위를 변경해줘야 겠다.  
 
-프로그램 배포는 아쉽게도 어려워 코드라도 공개해 놓았다.
-[소스보기](https://github.com/swift-man/GoogleDriveOriginalURL)
+프로그램 배포는 아쉽게도 어려워 코드를 공개해 놓았다.
+[<i class="fas fa-link"></i> 소스보기](https://github.com/swift-man/GoogleDriveOriginalURL)
