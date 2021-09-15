@@ -23,4 +23,13 @@
 - [ ] Swift related posts [Swift] Add prefix
 
 ## rewrite posts list
-- [ ] ...
+- [ ] http://127.0.0.1:4000/algorithm/techniques/dfs-bfs/
+- [ ] http://127.0.0.1:4000/algorithm/data-structure/stack/
+- [ ] http://127.0.0.1:4000/algorithm/data-structure/linked-list/
+- [ ] http://127.0.0.1:4000/algorithm/sort/insertion-sort/
+- [ ] http://127.0.0.1:4000/algorithm/sort/bubble-sort/
+- [ ] http://127.0.0.1:4000/algorithm/sort/selection-sort/
+- [ ] http://127.0.0.1:4000/algorithm/techniques/recursion/
+- [ ] http://127.0.0.1:4000/swift/data-type/valuetype/
+- [ ] http://127.0.0.1:4000/swift/data-type/referencetype/
+- [ ] http://127.0.0.1:4000/swift/data-type/boxing/
