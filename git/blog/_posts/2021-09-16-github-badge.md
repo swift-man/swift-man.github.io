@@ -3,7 +3,7 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title: "Github Readme에 Badge 만들기"
+title: "GitHub Readme에 Badge 만들기"
 toc: true
 toc_sticky: true
 toc_label: 목차

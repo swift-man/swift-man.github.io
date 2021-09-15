@@ -523,6 +523,8 @@ sidebar-git:
         url: /git/blog/imageUpload/
       - title: "jekyll serve"
         url: /git/blog/jekyll-serve/
+      - title: "Readme에 Badge 만들기"
+        url: /git/blog/github-badge/
       
   - title: "Blog Support Link"
     children:
