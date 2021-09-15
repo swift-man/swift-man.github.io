@@ -23,8 +23,9 @@
 - [ ] Swift related posts [Swift] Add prefix
 - [ ] http://127.0.0.1:4000/swift/inheritance/temp/
 - [ ] http://127.0.0.1:4000/swift/closure/capture-list/
+- [ ] http://127.0.0.1:4000/swift/swift-package-manaer/swift-package-manager/
 
-## rewrite posts list
+## rewrite post list
 - [ ] http://127.0.0.1:4000/algorithm/techniques/dfs-bfs/
 - [ ] http://127.0.0.1:4000/algorithm/data-structure/stack/
 - [ ] http://127.0.0.1:4000/algorithm/data-structure/linked-list/
@@ -35,3 +36,7 @@
 - [ ] http://127.0.0.1:4000/swift/data-type/valuetype/
 - [ ] http://127.0.0.1:4000/swift/data-type/referencetype/
 - [ ] http://127.0.0.1:4000/swift/data-type/boxing/
+- [ ] http://127.0.0.1:4000/swift/stringprotocol/compare-option-range/
+- [ ] http://127.0.0.1:4000/swift/collections/array/
+- [ ] http://127.0.0.1:4000/swift/collections/dictionary/
+- [ ] http://127.0.0.1:4000/swift/collections/set/
