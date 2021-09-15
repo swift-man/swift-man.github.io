@@ -2,30 +2,29 @@
 sidebar:
   title: "Architecture"
   nav: sidebar-architecture
+  icon: "fas fa-sitemap"
 title: "소프트웨어 아키텍처의 중요성"
 icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와 중요성에 대해 설명합니다.
+depth: 
+  - title: "Architecture"
+    url: /architecture/
+    icon: "fas fa-sitemap"
+  - title: "Clean Architecture"
+    url: /architecture/clean-architecture/
+    icon: "far fa-folder-open"
 ---
-[Architecture](/architecture/) / [Clean Architecture](/architecture/clean-architecture/) / **{{ page.title }}**
-{: .notice--warning}
-![Image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlxciD%2FbtqG3lIG6ym%2FkcSRUhV2779YNl8j0ELiO1%2Fimg.jpg)
-(그림 출처 : Credit: 도서출판 인사이트)
-## 1. 개요
-
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/4E1BHTvhB7Y" frameborder="0" allowfullscreen></iframe>
----
-
-## 2. Why?
-
-다음으로 짚어볼 질문이 있는데요.
+Why? 다음으로 짚어볼 질문이 있는데요.
 왜 우리는 소프트웨어 아키텍처에 관심을 기울여야 할까요?
 왜 제가 여기서 10분 동안 여기서 아키텍처에 대해 이야기할 만큼 중요한 걸까요?
 
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/4E1BHTvhB7Y" frameborder="0" allowfullscreen></iframe>  
+
+
 여러분들은 종종 이런 이야기를 듣곤 하는데요.
->`우리는 품질에는 노력을 덜 들어야 한다. 그래야 다음 릴리즈에 더 많은 기능을 넣을 수 있으니까`
+>우리는 품질에는 노력을 덜 들어야 한다. 그래야 다음 릴리즈에 더 많은 기능을 넣을 수 있으니까
 
 얼마나 많은 사람이 소프트웨어 프로젝트를 하면서 이런 말을 들어왔을까요?
 
@@ -33,20 +32,20 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 알다시피, 설계 아이디어에서 모듈화에 대해 크게 걱정하지 않고, 품질이 낮더라도 수많은 기능 개선을 해 왔을 겁니다.
 사람들은 이런 과정에서 좌절감을 느끼게 되고 이 문제에 대해 이런 식으로 이야기하곤 하는데요.
 
->`소프트웨어 전문가로서 훌륭하게 일을 해야만 해!`
+>소프트웨어 전문가로서 훌륭하게 일을 해야만 해!
 
->`우리는 우리의 전문적인 기준을 준수해야 해`
+>우리는 우리의 전문적인 기준을 준수해야 해
 
 이는 보다 도덕적인 반응이고 소프트웨어 아키텍처에 대해 잘 이야기를 하기 위해
->`우리는 전문가로서 일을 잘 해야 해`
+>우리는 전문가로서 일을 잘 해야 해
 
->`우리는 개발 장인이 되어야 해`
+>우리는 개발 장인이 되어야 해
 
 **불행히도 제 견해를 말씀드리자면 여러분이 이런 노선을 취한다면 여러분을 패배할 것**입니다.
 
 왜냐하면 여러분이 하려고 하는 것은 장인정신과 경제의 싸움이기 때문입니다.
 
-## 3. 그리고 늘 이기는 건 경제적 관점입니다.
+## 그리고 늘 이기는 건 경제적 관점입니다.
 
 그리고 만약 여러분이 왜 아키텍처가 중요한지 잘 말하고 싶다면 경제라는 개념을 도입해야 합니다.
 
@@ -72,7 +71,7 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 
 하지만 소프트웨어 내부 품질은 장기적인 관점에서 중요한 것입니다.
 
-## 4. Design Stamina Hypothesis
+## Design Stamina Hypothesis
 제가 좀 더 복잡한 이야기를 할 건데요.
 
 물론 저는 이걸 디자인 **스테미너 가설**이라고 부르는데요.
@@ -116,8 +115,9 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 
 저 교차점을 보시면 좋은 디자인으로 설계된 소프트웨어는 짧은 기간에도 많은 기능이 추가되는걸 볼 수 있습니다.
 
-## 5. 결론
+## 결론
 **기능추가에 몇 개월이 걸리는 게 아니라 몇 주 만에 만드는 것**입니다.
 이것이 바로 아키텍처의 정의입니다.
 
-참고: [https://martinfowler.com/](https://martinfowler.com/)
+## 참고
+[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"} 

@@ -2,24 +2,23 @@
 sidebar:
   title: "Architecture"
   nav: sidebar-architecture
+  icon: "fas fa-sitemap"
 title: "소프트웨어 아키텍처 정의"
 icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와 중요성에 대해 설명합니다.
+depth: 
+  - title: "Architecture"
+    url: /architecture/
+    icon: "fas fa-sitemap"
+  - title: "Clean Architecture"
+    url: /architecture/clean-architecture/
+    icon: "far fa-folder-open"
 ---
-[Architecture](/architecture/) / [Clean Architecture](/architecture/clean-architecture/) / **{{ page.title }}**
-{: .notice--warning}
-![Image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlxciD%2FbtqG3lIG6ym%2FkcSRUhV2779YNl8j0ELiO1%2Fimg.jpg)
-(그림 출처 : Credit: 도서출판 인사이트)
-## 1. 개요
+"아키텍트"라는 단어는 제가 늘 어색하고도 이상하게 느끼는 단어입니다.
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/4E1BHTvhB7Y" frameborder="0" allowfullscreen></iframe>
----
-
-## 2. 아키텍트와 아키텍처
-**"아키텍트"**라는 단어는 제가 늘 어색하고도 이상하게 느끼는 단어입니다.
 
 개인적으로 소프트웨어 아키텍처라는 단어를 썩 좋아하지는 않는데요.
 왜냐하면 이 단어는 어떤 조직의 시니어급 사람을 연상하게 되는데
@@ -44,7 +43,7 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 
 하지만 늘 아키텍처란 무엇인가 소프트웨어 분야에서 이 단어가 무엇을 의미하는가 하는 의문만 제기되어 왔습니다.
 
-## 3. What?
+## What?
 
 왜냐하면 이 단어는 건물, 건설 분야에서 왔지만, 소프트웨어 분야에서 아키텍처의 의미는 완전히 다르기 때문입니다.
 오늘은 이 의문에 대해서는 다루지 않을 것입니다.
@@ -55,13 +54,13 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 
 아키텍처에 대해서는 저런 정의가 그동안 존재해왔습니다.
 
-## 4. Ralph Johnson
+## Ralph Johnson
 하지만 개인적으로 아키텍처가 무엇인지 무슨의미를 담고 있는지 생각했을 때 저는 사실 이분과 동일한 생각을 했습니다.
 
 ![Image](https://live.staticflickr.com/2331/1499817187_4d208050f1.jpg)
 
 이분을 모르시는 분이 얼마나 있는지는 모르겠지만 이분은 디자인패턴 책을 집필한 것으로 잘 알려져 있는
-[Gof(Gang of Four)의 Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)) 입니다.
+[<i class="fas fa-link"></i> Gof(Gang of Four)의 Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)){:target="_blank"}  입니다.
 
 그는 다른 사람들에게도 그렇듯이 제 경력에서 많은 영향을 끼쳤는데요.
 
@@ -73,7 +72,7 @@ excerpt : 소프트웨어의 거장 마틴파울러가 아키텍처의 정의와
 
 저는 이메일을 써서 주고 받은 내용이 매우 인상깊었기 때문에 이메일 본문을 통째로 가져다 칼럼에 포함시켰습니다.
 
-[Who Needs an Architect?](http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
+[<i class="fas fa-link"></i> Who Needs an Architect?](http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf){:target="_blank"} 
 
 
 Ralph 는 IEEE 의 정의를 보고 
@@ -91,7 +90,7 @@ Ralph의 생각은
 >소프트웨어 프로젝트를 잘 꾸려나가고 있을 때 중요한 점은 프로젝트 내부 소스 코드에 대해 잘 알고 있는 프로젝트에 참여하는 개발자들이 있을 건데, 그 개발자들은 상식적으로 어떻게 코드들이 실행되는지 알고 있을 것입니다.<br/>이 개발자들의 상식이 아키텍처에 영향을 미칠 거란 점입니다.
 
 
-## 5. 전문 개발자들은 시스템 디자인에 대한 지식을 공유한다.
+## 전문 개발자들은 시스템 디자인에 대한 지식을 공유한다.
 
 이건 중요한 사실인데요. 아키텍처라고 불리는 이 정의에서 사회적 요소나 꾀나 영향이 크기 때문입니다.
 
@@ -103,13 +102,13 @@ Ralph의 생각은
 
 이게 진짜 중요한 사실입니다. 하지만 저 아키텍처에 대한 정의는 아주 일반적인데요. 또 하나더 중요하게 살펴봐야 할 사실이 있습니다.
 
-## 6. 아키텍처 디자인은 먼저 진행되어야 한다.
+## 아키텍처 디자인은 먼저 진행되어야 한다.
 **아키틱처는 반드시 프로젝트가 시작되기 전에 잘 정의되어야 한다**는 점입니다.
 
 Ralph는 여기에 대해서도 한마디 거들었는데요
 >왜냐면 그때로 돌아가고 싶지 때문이지
 
-## 7. 결정은 변경하기 어렵다.
+## 결정은 변경하기 어렵다.
 >올바른 결정은 더 빨리 내려지는 것을 원한다.
 
 왜냐면 모든 결정에서는 정보가 없으면 더 일찍 할 수 없거든요. 보통 소프트웨어 프로젝트를 진행할 때 가장 걱정하는 사실 중 하나는 한번 결정하면 변경하기가 매우 어렵다는 점입니다.
@@ -124,7 +123,7 @@ Ralph는 여기에 대해서도 한마디 거들었는데요
 
 하지만 이런 이야기들은 보통 거시적으로 이야기할 때 논의되지 않죠.
 
-## 8. 아키텍처에 대한 정의
+## 아키텍처에 대한 정의
 그래서 우리는 2가지 갈림길을 확인했는데요.
 >지식을 공유하고 바꾸기 어렵다는 점 
 
@@ -149,5 +148,6 @@ Ralph는 여기에 대해서도 한마디 거들었는데요
 
 여기까지 아키텍처가 무엇인지에 대해 이야기를 해 보았습니다.
 
-참고: [https://martinfowler.com/](https://martinfowler.com/)
+## 참고
+[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"} 
 

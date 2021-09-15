@@ -18,11 +18,11 @@ depth:
 엔디언(Endianness)은 컴퓨터의 메모리와 같은 1차원의 공간에 여러 개의 연속된 대상을 배열하는 방법을 뜻하며, 바이트를 배열하는 방법을 특히 바이트 순서(Byte order)라 한다.
 
 
-## 2. 엔디언(Endianness)
-### 2.1 빅 엔디언(Big-endian)
+## 엔디언(Endianness)
+### 빅 엔디언(Big-endian)
 최상위 비트를 먼저 배열
 
-### 2.2 리틀 엔디언(Little-endian)
+### 리틀 엔디언(Little-endian)
 최하위 비트를 먼저 배열
 >Intel CPU, Apple M1은 CFByteOrderLittleEndian 방식을 사용한다.
 
@@ -31,7 +31,7 @@ CFByteOrderGetCurrent() // 바이트오더 확인
 ```
 
     
-## 4. CoreFoundation CFByteOrder 
+## CoreFoundation CFByteOrder 
 여기 있는 함수를 통해 바이트오더를 변환할 수 있다.
 ```swift
 

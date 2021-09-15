@@ -16,7 +16,7 @@ depth:
     icon: "far fa-folder-open"
 ---
 오픈소스 프로젝트의 Readme 에 한눈에 알 수 있게 뱃지가 달려있는데 어떻게 만들고 달 수 있는지 알아보자.  
-뱃지를 생성하고 링크하는 방법은 여러가지가 있으나  [<i class="fas fa-link"></i> https://shields.io/](https://shields.io/) 에서 제공해 주는 서비스가 가장 마음에 들어 해당 내용을 포스팅 한다.
+뱃지를 생성하고 링크하는 방법은 여러가지가 있으나  [<i class="fas fa-link"></i> https://shields.io/](https://shields.io/)){:target="_blank"} 에서 제공해 주는 서비스가 가장 마음에 들어 해당 내용을 포스팅 한다.
 
 ## 타 Repo 에 있는 뱃지 샘플
 <img src="https://img.shields.io/github/contributors/badges/shields" />
@@ -38,7 +38,7 @@ alt="follow on Twitter">
 정말 멋지다.
 
 ## 스타일
-먼저 [<i class="fas fa-link"></i> 뱃지 서비스를하는 사이트](https://shields.io/)부터 방문하여 형태, 컬러, 스타일이 어떻게 제공되는지 샘플이 있으므로 간단하게 확인할 수 있다.    
+먼저 [<i class="fas fa-link"></i> 뱃지 서비스를하는 사이트](https://shields.io/)){:target="_blank"}부터 방문하여 형태, 컬러, 스타일이 어떻게 제공되는지 샘플이 있으므로 간단하게 확인할 수 있다.    
 나의 경우 flat-square 스타일이 가장 마음에 들었다.
 
 ## Color
@@ -85,7 +85,7 @@ critical
 ![Badge - Carthage](https://img.shields.io/badge/Carthage-compatible-green?style=flat-square)
 
 ## 이미지 로고
-제공해 주는 이미지와 네이밍을 알아야 하기 때문에 [<i class="fas fa-link"></i> 여기](https://simpleicons.org/)에 방문하여 검색 후 해당하는 logo name 일 입력해 보자.
+제공해 주는 이미지와 네이밍을 알아야 하기 때문에 [<i class="fas fa-link"></i> 여기 simpleicons.org](https://simpleicons.org/)){:target="_blank"}에 방문하여 검색 후 해당하는 logo name 일 입력해 보자.
 ```
 ![Badge](https://img.shields.io/badge/{ label }-{ message }.svg?{ style(optional) }&logo={ logoname }&logoColor={ logo color(optional) })
 ```
