@@ -3,7 +3,7 @@ sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
   icon: "fas fa-calculator"
-title: "두 정수 사이의 합"
+title: "[Swift] 두 정수 사이의 합"
 toc: true
 toc_sticky: true
 toc_label: 목차

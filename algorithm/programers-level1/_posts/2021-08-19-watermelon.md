@@ -3,7 +3,7 @@ sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
   icon: "fas fa-calculator"
-title: "수박수박수박수박수박수?"
+title: "[Swift] 수박수박수박수박수박수?"
 toc: true
 toc_sticky: true
 toc_label: 목차
