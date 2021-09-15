@@ -21,6 +21,7 @@
 
 ## Todo
 - [ ] Swift related posts [Swift] Add prefix
+- [ ] http://127.0.0.1:4000/swift/inheritance/temp/
 
 ## rewrite posts list
 - [ ] http://127.0.0.1:4000/algorithm/techniques/dfs-bfs/
