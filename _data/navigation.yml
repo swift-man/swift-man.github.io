@@ -244,6 +244,13 @@ sidebar-ios:
   - title: "App Thinning"
     icon: "far fa-file-alt"
     url: /ios/app-thinning/
+    children:
+      - title: "App Slicing"
+        url: /ios/app-thinning/app-slicing/
+      - title: "Bitcode"
+        url: /ios/app-thinning/bitcode/
+      - title: "On-demand Resource"
+        url: /ios/app-thinning/on-demand/
   - title: "FairPlay Streaming"
     url: /ios/fairplay-streaming/
     icon: "far fa-file-alt"
