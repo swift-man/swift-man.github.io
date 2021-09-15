@@ -2,17 +2,19 @@
 sidebar:
   title: "Clean"
   nav: sidebar-clean
+  icon: "fab fa-weixin"
 title: "iOS 개발을 시작하게 된 계기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 특이하게도 이 회사는 일요일 오후도 출근을 강요했다.
+depth: 
+  - title: "Clean"
+    url: /clean/
+    icon: "fab fa-weixin"
+  - title: "Think"
+    url: /clean/think/
+    icon: "far fa-folder-open"
 ---
-[Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
-{: .notice--warning}
-
-![Image](https://developer.apple.com/news/images/og/apple-developer-og.png)
-
 ## 30세 - 퇴사
 특이하게도 이 회사는 일요일 오후도 출근을 강요했다.
 
@@ -28,7 +30,7 @@ excerpt : 특이하게도 이 회사는 일요일 오후도 출근을 강요했�
 회사생활이라는 것을 잠시나마 배우는 과정이었다. 
 
 ## 31세 - 모바일 공부를 시작하다.
-
+![Image](https://developer.apple.com/news/images/og/apple-developer-og.png)
 나는 스마트폰을 통해 세상의 변화가 있을 것이란 확신이 있었다.
 대학 졸업 작품으로 iOS 앱 cocos2d 게임을 만들었었지만 이미 많이 변화하고 있었고 UIKit 은 그 경험과는 전혀 달랐다.
 

@@ -2,21 +2,22 @@
 sidebar:
   title: "Clean"
   nav: sidebar-clean
+  icon: "fab fa-weixin"
 title: "좋은 개발자(2)"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 좋은 개발자의 5가지 기준
+depth: 
+  - title: "Clean"
+    url: /clean/
+    icon: "fab fa-weixin"
+  - title: "Think"
+    url: /clean/think/
+    icon: "far fa-folder-open"
 ---
-[Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
-{: .notice--warning}
+우아한 현제들 김범준 대표님의 영상을 보고 좋은 개발자에 대해 생각해보았다. 좋은 글이 있어 요약해보았다.
 
-## 1. 개요
-
-- 우아한 현제들 김범준 대표님의 영상을 보고 좋은 개발자에 대해 생각해보았다.
-- 단시간 생각으론 결론짓지 못하여 찾아보던 중 좋은 글이 있어 요약해보았다.
-
-## 2. 좋은 개발자의 5가지 기준
+## 좋은 개발자의 5가지 기준
 
 1. 코드의 리딩과 라이팅
     * 코드의 리딩(reading)
@@ -40,7 +41,5 @@ excerpt : 좋은 개발자의 5가지 기준
     * 빠르게 변화하는 환경 속에서 지금 좋은 개발자라 해서 몇 년 후에도 좋은 개발자라고 단정 지을 수 없다.
     * 중요한 것은 자신이 알고 있는 지식들을 깊이 있게 아는 것이다.
 
----
-
-출처 : [Good Developer 1 / 좋은 개발자의 5가지 기준](https://medium.com/code-states/good-developer-1-%EC%A2%8B%EC%9D%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-5%EA%B0%80%EC%A7%80-%EA%B8%B0%EC%A4%80-b4b9f166caf7)
-
+## 출처 
+[<i class="fas fa-link"></i> Good Developer 1 / 좋은 개발자의 5가지 기준](https://medium.com/code-states/good-developer-1-%EC%A2%8B%EC%9D%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-5%EA%B0%80%EC%A7%80-%EA%B8%B0%EC%A4%80-b4b9f166caf7){:target="_blank"}

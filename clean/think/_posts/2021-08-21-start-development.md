@@ -6,21 +6,21 @@ title: "개발을 시작하게 된 계기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 어렸던 친구는 레고에 관심이 많았다. 처음엔 설명서대로 만드는 것으로 그쳤지만, 만족하지 않았다. 기존제품을 개조해보고, 합쳐보고, 창작해보는 것이 재미있었다.
+depth: 
+  - title: "Clean"
+    url: /clean/
+    icon: "fab fa-weixin"
+  - title: "Think"
+    url: /clean/think/
+    icon: "far fa-folder-open"
 ---
-[Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 6세 - 레고
-![Image](https://mblogthumb-phinf.pstatic.net/20150711_105/warmspeech3_1436601676415eq7b0_PNG/1989040102.png?type=w2)
-
-
-어렸던 친구는 레고에 관심이 많았다.
+6살이던 아이는 레고에 관심이 많았다.
 처음엔 설명서대로 만드는 것으로 그쳤지만, 만족하지 않았다. 기존제품을 개조해보고, 합쳐보고, 창작해보는 것이 재미있었다.
 
 지금도 레고에 관심이 많다. 다 만들고 나서의 희열은 레고를 해본 사람은 알 것이다.
 
 그때부터 무언가를 만드는 것이 좋았다.
+![Image](https://mblogthumb-phinf.pstatic.net/20150711_105/warmspeech3_1436601676415eq7b0_PNG/1989040102.png?type=w2)
 
 ## 12세 - 게임
 모두 게임 때문이있다.

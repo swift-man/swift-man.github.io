@@ -2,18 +2,20 @@
 sidebar:
   title: "Clean"
   nav: sidebar-clean
+  icon: "fab fa-weixin"
 title: "좋은 개발자(1)"
 toc: true
 toc_sticky: true
 toc_label: 목차
 icon: "fab fa-youtube"
-excerpt : 우아한형제들 김범준 대표님
+depth: 
+  - title: "Clean"
+    url: /clean/
+    icon: "fab fa-weixin"
+  - title: "Think"
+    url: /clean/think/
+    icon: "far fa-folder-open"
 ---
-[Clean](/clean/) / [Think](/clean/think/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/3H4umWD5bwI" frameborder="0" allowfullscreen></iframe>
 
 ## 2. 감명 받은 부분
