@@ -14,8 +14,9 @@ depth:
   - title: "Xcode"
     url: /ios/xcode/
     icon: "far fa-folder-open"
-link: https://developer.apple.com/documentation/xcodekit/creating_a_source_editor_extension
 ---
 Xcode Extension 을 만드는 방법을 스크랩 해본다.
 
-[<i class="fas fa-link"></i> Creating a Source Editor Extension](https://developer.apple.com/documentation/xcodekit/creating_a_source_editor_extension)
+[<i class="fas fa-link"></i> Xcode extensions 생성 방법](https://m.blog.naver.com/ksseo63/221753855635){:target="_blank"}  
+[<i class="fas fa-link"></i> Creating a Source Editor Extension](https://developer.apple.com/documentation/xcodekit/creating_a_source_editor_extension){:target="_blank"}  
+

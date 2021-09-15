@@ -3,7 +3,7 @@ sidebar:
   title: "iOS"
   nav: sidebar-ios
   icon: "fab fa-app-store-ios"
-title: [Xcode Build Error] Could not find module for target x86_64-apple-ios-simulator
+title: "[Xcode Build Error] Could not find module for target x86_64-apple-ios-simulator"
 toc: true
 toc_sticky: true
 toc_label: 목차

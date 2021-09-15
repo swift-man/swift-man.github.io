@@ -259,6 +259,9 @@ sidebar-ios:
     children:
       - title: "Created by 변경하기"
         url: /ios/xcode/create-by-name/
+      - title: "Creating a Source Editor Extension"
+        url: /ios/xcode/create-source-editor-extension/
+        icon: "fas fa-link"
   - title: "Build Error"
     url: /ios/build-error/
     children:

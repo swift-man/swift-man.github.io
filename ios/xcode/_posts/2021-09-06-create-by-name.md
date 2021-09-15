@@ -3,7 +3,7 @@ sidebar:
   title: "iOS"
   nav: sidebar-ios
   icon: "fab fa-app-store-ios"
-title: [Xcode] 파일 상단 Created by 변경하기
+title: "[Xcode] 파일 상단 Created by 변경하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -22,6 +22,6 @@ Xcode에서 새 파일을 생성하면 상단 헤더가 자동으로 생성되�
 ```
 
 ## 해결
-System Preferences --> Users & Groups --> choose Current User --> right click Current User --> Advanced Options --> change the full name
+>System Preferences -> Users & Groups -> choose Current User -> right click Current User -> Advanced Options -> change the full name
 
 의 네이밍을 변경해준다.
