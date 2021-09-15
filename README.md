@@ -14,7 +14,7 @@
 - [x] add post hitcount
 - [x] add head icon
 - [ ] add posts hitcount
-- [ ] add apps page - grid
+- [ ] add apps page - grid(Release Application Page)
 
 ## Proceeding
 - [ ] move to prev blog posts 
@@ -24,6 +24,8 @@
 - [ ] http://127.0.0.1:4000/swift/inheritance/temp/
 - [ ] http://127.0.0.1:4000/swift/closure/capture-list/
 - [ ] http://127.0.0.1:4000/swift/swift-package-manaer/swift-package-manager/
+- [ ] Xcode Extension Post
+- [ ] Math Post
 
 ## rewrite post list
 - [ ] http://127.0.0.1:4000/algorithm/techniques/dfs-bfs/
