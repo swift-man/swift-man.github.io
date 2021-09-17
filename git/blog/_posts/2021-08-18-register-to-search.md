@@ -4,6 +4,7 @@ sidebar:
   nav: sidebar-git
   icon: "fab fa-github"
 title: "GitHub Pages 검색 등록 하기"
+group: "Blog"
 toc: true
 toc_sticky: true
 toc_label: 목차
