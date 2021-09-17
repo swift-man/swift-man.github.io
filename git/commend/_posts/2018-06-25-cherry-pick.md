@@ -7,6 +7,7 @@ title:  "[Git] cherry-pick - 다른 브랜치의 일부 커밋만 반영"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: git-commend
 depth: 
   - title: "Git"
     url: /git/
