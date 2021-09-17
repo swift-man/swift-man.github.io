@@ -89,17 +89,17 @@ layout: default
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
+  {% if page.id and page.group %}
     <div class="page__related">
-      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
-      <div class="grid__wrapper">
+      <h2 class="page__related-title"><font style="color: #67B7A4"><i class="fas fa-grip-vertical"></i> "{{ page.group }}"</font> {{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="group__wrapper">
         {% for post in site.posts %}
-          {% if post.group %} {% if page.group %}
+          {% if post.group %}
             {% if post.group == page.group %}
               {% if post.id == page.id %} {% continue %} {% endif %}
               {% include group-single.html %}
             {% endif %}
-          {% endif %}{% endif %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>
