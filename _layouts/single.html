@@ -91,7 +91,7 @@ layout: default
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.group %}
     <div class="page__related">
-      <h2 class="page__related-title"><font style="color: #67B7A4"><i class="fas fa-grip-vertical"></i> "{{ page.group }}"</font> {{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <h2 class="page__related-title"><font style="color: #67B7A4">"{{ page.group }}"</font> {{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }} <font style="color: #67B7A4"><i class="fas fa-caret-down"></i></font></h2>
       <div class="group__wrapper">
         {% for post in site.posts %}
           {% if post.group %}
