@@ -8,6 +8,7 @@ icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Clean Architecture"
 depth: 
   - title: "Architecture"
     url: /architecture/
