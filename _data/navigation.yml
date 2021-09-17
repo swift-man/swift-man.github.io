@@ -529,8 +529,6 @@ sidebar-git:
         url: /git/blog/progremmers-copyright/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
-      - title: "jekyll serve"
-        url: /git/blog/jekyll-serve/
 
       
   - title: "Blog Support Link"
