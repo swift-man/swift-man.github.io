@@ -7,12 +7,13 @@ title: "마크 다운 문법"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Markdown"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "Blog"
-    url: /git/blog/
+  - title: "Markdown"
+    url: /git/markdown/
     icon: "far fa-folder-open"
 ---
 

@@ -527,14 +527,11 @@ sidebar-git:
         url: /git/blog/register-to-search/
       - title: "블로그에 프로그래머스 코드 올리기"
         url: /git/blog/progremmers-copyright/
-      - title: "마크 다운 문법"
-        url: /git/blog/markdown_grammar/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
       - title: "jekyll serve"
         url: /git/blog/jekyll-serve/
-      - title: "Readme에 Badge 만들기"
-        url: /git/blog/github-badge/
+
       
   - title: "Blog Support Link"
     children:
@@ -550,7 +547,14 @@ sidebar-git:
       - title: "minimal-mistakes"
         icon: "fas fa-link"
         url: https://mmistakes.github.io/minimal-mistakes/
-        
+  
+  - title: "Markdown"
+    url: /git/markdown/
+    children:
+      - title: "마크 다운 문법"
+        url: /git/markdown/markdown_grammar/
+      - title: "Readme에 Badge 만들기"
+        url: /git/markdown/github-badge/
 
   - title: "Commit Message"
     url: /git/commit-message/

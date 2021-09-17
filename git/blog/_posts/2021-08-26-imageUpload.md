@@ -7,6 +7,7 @@ title: "블로그에 이미지 올리기"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Blog"
 depth: 
   - title: "Git"
     url: /git/

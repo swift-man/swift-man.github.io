@@ -7,13 +7,13 @@ title: "GitHub Readme에 Badge 만들기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Blog"
+group: "Markdown"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "Blog"
-    url: /git/blog/
+  - title: "Markdown"
+    url: /git/markdown/
     icon: "far fa-folder-open"
 ---
 오픈소스 프로젝트의 Readme 에 한눈에 알 수 있게 뱃지가 달려있는데 어떻게 만들고 달 수 있는지 알아보자.  
