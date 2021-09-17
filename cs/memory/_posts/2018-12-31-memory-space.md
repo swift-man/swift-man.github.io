@@ -7,12 +7,13 @@ title: 메모리 공간 분류
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "CS Memory"
 depth: 
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
-  - title: "CPU"
-    url: /cs/cpu/
+  - title: "Memory"
+    url: /cs/memory/
     icon: "far fa-folder-open"
 ---
 프로그램을 실행하면 OS는 실행에 필요한 메모리 공간을 할당한다.  

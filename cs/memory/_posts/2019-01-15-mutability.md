@@ -7,6 +7,7 @@ title: "Mutability"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "CS Memory"
 depth: 
   - title: "CS"
     url: /cs/

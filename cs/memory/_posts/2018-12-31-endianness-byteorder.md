@@ -7,12 +7,13 @@ title: Endianness Or Byte order
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "CS Memory"
 depth: 
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
-  - title: "CPU"
-    url: /cs/cpu/
+  - title: "Memory"
+    url: /cs/memory/
     icon: "far fa-folder-open"
 ---
 엔디언(Endianness)은 컴퓨터의 메모리와 같은 1차원의 공간에 여러 개의 연속된 대상을 배열하는 방법을 뜻하며, 바이트를 배열하는 방법을 특히 바이트 순서(Byte order)라 한다.
