@@ -2,22 +2,25 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
+  icon: "fas fa-calculator"
 title: "Divide and conquer"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 그대로 해결할 수 없는 문제를 작은 문제로 분할하여 문제를 해결하는 방법
+group: "기법"
+depth: 
+  - title: "Algorithm"
+    url: /algorithm/
+    icon: "fas fa-calculator"
+  - title: "기법"
+    url: /algorithm/techniques/
+    icon: "far fa-folder-open"
 ---
-[Algorithm](/algorithm/) / [기법](/algorithm/techniques/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-
 분할 정복 알고리즘(Divide and conquer algorithm)은 그대로 해결할 수 없는 문제를 작은 문제로 분할하여 문제를 해결하는 방법이나 알고리즘이다.
 
 빠른 정렬이나 합병 정렬로 대표되는 정렬 알고리즘 문제와 고속 푸리에 변환(FFT) 문제가 대표적이다.
 
-## 2. 분할 정복 알고리즘
+## 분할 정복 알고리즘
 ```
 function F(x):
   if F(x)의 문제가 간단 then:
