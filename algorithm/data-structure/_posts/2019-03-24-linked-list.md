@@ -7,6 +7,7 @@ title: "LinkedList"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Data Structure"
 depth: 
   - title: "Algorithm"
     url: /algorithm/
