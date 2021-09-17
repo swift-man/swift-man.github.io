@@ -7,6 +7,7 @@ title: "[CodeCompletion] NFC: rename CallParameter* to CallArgument*"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Git Commit Message"
 depth: 
   - title: "Git"
     url: /git/
