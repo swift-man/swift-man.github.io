@@ -2,30 +2,33 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "Median of Two Sorted Arrays"
+  icon: "fas fa-calculator"
+title: "[Swift] Median of Two Sorted Arrays"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+group: "Leet Code Hard"
+depth: 
+  - title: "Algorithm"
+    url: /algorithm/
+    icon: "fas fa-calculator"
+  - title: "Leet Code Hard"
+    url: /algorithm/leet-code-hard/
+    icon: "far fa-folder-open"
 ---
-[Algorithm](/algorithm/) / [Leet Code Medium](/algorithm/leet-code-medium/) / **4. Median of Two Sorted Arrays**
-{: .notice--warning}
-![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
-
-## 1. 개요
 Given two sorted arrays **nums1** and **nums2** of size **m** and **n** respectively, return **the median** of the two sorted arrays.
 
 The overall run time complexity should be O(log (m+n)).
-
-**Constraints:**
+```
+Constraints:
   1. nums1.length == m
   2. nums2.length == n
   3. 0 <= m <= 1000
   4. 0 <= n <= 1000
   5. 1 <= m + n <= 2000
   6. -106 <= nums1[i], nums2[i] <= 106
-{: .notice--info}
-## 2. Example
+```
+## Example
 ```swift
 Input: nums1 = [1,3], nums2 = [2]
 Output: 2.00000
@@ -53,12 +56,12 @@ Input: nums1 = [2], nums2 = []
 Output: 2.00000
 ```
 
-* [풀러가기](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+{% include b-link.html title ="풀러가기" url = "https://leetcode.com/problems/median-of-two-sorted-arrays/" %}
 
-## 3. 문제 이해
+## 문제 이해
 -
 
-## 4. 코드
+## 코드
 ```swift
 class Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
@@ -110,10 +113,10 @@ class Solution {
 }
 ```
 
-## 5. 풀이
+## 풀이
 -
 
-## 6. 다른 분의 멋진 코드
+## 다른 분의 멋진 코드
 ```swift
 class Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
@@ -159,5 +162,5 @@ class Solution {
 ```
 - wds8807
 
-## 7. 잘 배웠습니다.
+## 잘 배웠습니다.
 -
