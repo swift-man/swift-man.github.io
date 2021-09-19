@@ -2,23 +2,26 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "Longest Common Prefix"
+  icon: "fas fa-calculator"
+title: "[Swift] Longest Common Prefix"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : Write a function to find the longest common prefix string amongst an array of strings.
+group: "Leet Code Easy"
+depth: 
+  - title: "Algorithm"
+    url: /algorithm/
+    icon: "fas fa-calculator"
+  - title: "Leet Code Easy"
+    url: /algorithm/leet-code-easy/
+    icon: "far fa-folder-open"
 ---
-[Algorithm](/algorithm/) / [Leet Code Easy](/algorithm/leet-code-easy/) / **14. Longest Common Prefix**
-{: .notice--warning}
-![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
+Write a function to find the longest common prefix string amongst an array of strings.  
 
-## 1. 개요
-**Write a function to find the longest common prefix string amongst an array of strings.**
-
-**If there is no common prefix, return an empty string "".**
+If there is no common prefix, return an empty string "".
 
 
-## 2. Example
+## Example
 ```swift
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
@@ -36,12 +39,12 @@ Explanation: There is no common prefix among the input strings.
 strs[i] consists of only lower-case English letters.
 ```
 
-* [풀러가기](https://leetcode.com/problems/longest-common-prefix/)
+{% include b-link.html title="풀러가기" url="https://leetcode.com/problems/longest-common-prefix/" %}
 
-## 3. 문제 이해
+## 문제 이해
 
 
-## 4. 코드
+## 코드
 ```swift
 class Solution {
     func longestCommonPrefix(_ strs: [String]) -> String {
@@ -91,10 +94,10 @@ class Solution {
 }
 ```
 
-## 5. 풀이
+## 풀이
 -
 
-## 6. 다른 분의 멋진 코드
+## 다른 분의 멋진 코드
 ```swift
 func longestCommonPrefix(_ strs: [String]) -> String {
     guard var `prefix` = strs.min() else { return "" }
@@ -107,5 +110,5 @@ func longestCommonPrefix(_ strs: [String]) -> String {
 ```
 - FlightyNEO
 
-## 7. 잘 배웠습니다.
+## 잘 배웠습니다.
 -

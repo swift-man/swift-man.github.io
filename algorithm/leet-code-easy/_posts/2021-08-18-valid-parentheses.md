@@ -2,25 +2,30 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
-title: "Valid Parentheses"
+  icon: "fas fa-calculator"
+title: "[Swift] Valid Parentheses"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+group: "Leet Code Easy"
+depth: 
+  - title: "Algorithm"
+    url: /algorithm/
+    icon: "fas fa-calculator"
+  - title: "Leet Code Easy"
+    url: /algorithm/leet-code-easy/
+    icon: "far fa-folder-open"
 ---
-[Algorithm](/algorithm/) / [Leet Code Easy](/algorithm/leet-code-easy/) / **20. Valid [Parentheses](/clean-code/dictionary/parentheses/)**
-{: .notice--warning}
-![](https://leetcode.com/static/packages/interview_landing/images/logo.svg)
+Valid {% include link.html title="Parentheses" url="/clean-code/dictionary/parentheses/" %}
 
-## 1. 개요
-**[Given](/clean-code/dictionary/given/) a string s containing just the characters '(', ')', '{', '}', '[' and ']', [determine](/clean-code/dictionary/determine/) if the input string is valid.
-An input string is valid if:**
+{% include link.html title="Given" url="/clean-code/dictionary/given/" %} a string s containing just the characters '(', ')', '{', '}', '[' and ']', {% include link.html title="determine" url="/clean-code/dictionary/determine/" %} if the input string is valid.
+An input string is valid if:
 
     1. Open brackets must be closed by the same type of brackets.
     2. Open brackets must be closed in the correct order.
-{: .notice--info}
+{: .notice--warning}
 
-## 2. Example
+## Example
 ```swift
 Input: s = "()"
 Output: true
@@ -45,12 +50,12 @@ Output: false
 Input: s = "{[]}"
 Output: true
 ```
-* [풀러가기](https://leetcode.com/problems/valid-parentheses/)
+{% include b-link.html title="풀러가기" url="https://leetcode.com/problems/valid-parentheses/" %}
 
-## 3. 문제 이해
+## 문제 이해
 
 
-## 4. 코드
+## 코드
 ```swift
 func isValid(_ s: String) -> Bool {
     var stack: [Character] = []
@@ -81,11 +86,11 @@ func isValid(_ s: String) -> Bool {
 }
 ```
 
-## 5. 풀이
+## 풀이
 -
 
-## 6. 다른 분의 멋진 코드
+## 다른 분의 멋진 코드
 -
 
-## 7. 잘 배웠습니다.
+## 잘 배웠습니다.
 -
