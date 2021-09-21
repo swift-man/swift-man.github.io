@@ -7,6 +7,7 @@ title: "[Swift] 수박수박수박수박수박수?"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Programers level1"
 depth: 
   - title: "Algorithm"
     url: /algorithm/
