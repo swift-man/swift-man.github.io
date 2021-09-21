@@ -7,6 +7,7 @@ title: "개발자가 자주 틀리는 영어발음"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "English"
 depth: 
   - title: "Clean"
     url: /clean/
