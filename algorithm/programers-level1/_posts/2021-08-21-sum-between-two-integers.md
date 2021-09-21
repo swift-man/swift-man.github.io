@@ -7,6 +7,7 @@ title: "[Swift] 두 정수 사이의 합"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Programers level1"
 depth: 
   - title: "Algorithm"
     url: /algorithm/
