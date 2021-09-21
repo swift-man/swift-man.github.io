@@ -2,18 +2,21 @@
 sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
+  icon: "fas fa-calculator"
 title: "영어 끝말잇기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 1부터 n까지 번호가 붙어있는 n명의 사람이 영어 끝말잇기를 하고 있습니다. 영어 끝말잇기는 다음과 같은 규칙으로 진행됩니다.*
+group: "Programers level2"
+depth: 
+  - title: "Algorithm"
+    url: /algorithm/
+    icon: "fas fa-calculator"
+  - title: "Programers level2"
+    url: /algorithm/programers-level2/
+    icon: "far fa-folder-open"
 ---
-[Algorithm](/algorithm/) / [Programers level2](/algorithm/programers-level2/) / **영어 끝말잇기**
-{: .notice--warning}
-![](https://programmers.co.kr/assets/bi-programmers-light-0d164d49b51a123bab5cca11106145d6fac5a5ac04b8646780369c2a5bc0dd79.png)
-
-## 1. 개요
-**1부터 n까지 번호가 붙어있는 n명의 사람이 영어 끝말잇기를 하고 있습니다. 영어 끝말잇기는 다음과 같은 규칙으로 진행됩니다.**
+1부터 n까지 번호가 붙어있는 n명의 사람이 영어 끝말잇기를 하고 있습니다. 영어 끝말잇기는 다음과 같은 규칙으로 진행됩니다.
 
 - 1번부터 번호 순서대로 한 사람씩 차례대로 단어를 말합니다.
 - 마지막 사람이 단어를 말한 다음에는 다시 1번부터 시작합니다.
@@ -46,7 +49,7 @@ tank → kick → know → wheel → land → dream → mother → robot → tan
     만약 주어진 단어들로 탈락자가 생기지 않는다면, [0, 0]을 return 해주세요.<br/>
     {: .notice--info}
 
-## 2. Example
+## Example
 ```swift
 Input: 3, ["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"]
 Output: [3,3]
@@ -64,10 +67,10 @@ Output: [1,3]
 
 * [풀러가기](https://programmers.co.kr/learn/courses/30/lessons/12981?language=swift)
 
-## 3. 문제 이해
+## 문제 이해
 
 
-## 4. 코드
+## 코드
 ```swift
 func solution(_ n:Int, _ words:[String]) -> [Int] {
     if words.count < 2 {
@@ -102,10 +105,10 @@ func solution(_ n:Int, _ words:[String]) -> [Int] {
 }
 ```
 
-## 5. 풀이
+## 풀이
 -
 
-## 6. 다른 분의 멋진 코드
+## 다른 분의 멋진 코드
 ```swift
 func solution(_ n:Int, _ words:[String]) -> [Int] {
     var records = [String]()
@@ -128,5 +131,5 @@ func solution(_ n:Int, _ words:[String]) -> [Int] {
 ```
 - SeHo Park님
 
-## 7. 잘 배웠습니다.
+## 잘 배웠습니다.
 -
