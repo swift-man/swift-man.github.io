@@ -14,13 +14,13 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "UIResponder"
     url: /ios/uiresponder/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "UIView"
     url: /ios/uiresponder/uiview/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "비동기 업데이트"
     url: /ios/uiresponder/uiview/asyncupdate/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 업데이트 주기에 해당 View와 모든 하위 View를 레이아웃 및 draw 하도록 시스템에 알려주는 역할을 한다.
 
