@@ -2,17 +2,25 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "UIApplication Life Cycle"
 toc: true
 toc_sticky: true
 toc_label: 목차
 excerpt : Not running, Inactive, Active, Background, Suspended
+group: "UIResponder"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    icon: "far fa-file-alt"
+  - title: "UIApplicationMain"
+    url: /ios/uiresponder/uiapplicationmain/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIApplicationMain](/ios/uiresponder/uiapplicationmain/)  / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-- 앱이 포그라운드 또는 백그라운드에 있을 때 시스템 알림에 응답하고 기타 중요한 시스템 관련 이벤트를 처리한다.
+앱이 포그라운드 또는 백그라운드에 있을 때 시스템 알림에 응답하고 기타 중요한 시스템 관련 이벤트를 처리한다.  
 
 앱의 현재 상태에 따라 언제든지 할 수 있는 것과 할 수 없는 것이 결정됩니다. 예를 들어 포그라운드 앱은 사용자의 주의를 끌기 때문에 CPU를 포함한 시스템 리소스보다 우선합니다. 대조적으로, 백그라운드 앱은 가능한 한 적은 작업을 수행해야 하며, 가급적이면 화면 밖에 있기 때문에 아무 것도 하지 않는 것이 좋습니다. 앱이 상태에서 상태로 변경되면 그에 따라 동작을 조정해야 합니다.
 
