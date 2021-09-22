@@ -2,18 +2,27 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "layoutSubviews()"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기, 위치 변경한다.
+group: "UIResponder"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    icon: "far fa-file-alt"
+  - title: "UIView"
+    url: /ios/uiresponder/uiview/
+    icon: "far fa-file-alt"
+  - title: "비동기 업데이트"
+    url: /ios/uiresponder/uiview/asyncupdate/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIView](/ios/uiresponder/uiview/)  / [비동기 업데이트](/ios/uiresponder/uiview/asyncupdate/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-
-- 뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기, 위치 변경한다.
+뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기, 위치 변경한다.  
 - auto layout을 사용하면 각 뷰의 autoresizingMask프로퍼티를 설정하여 상위 뷰의 크기가 변경되었을 때 어떻게 대응할 지 규칙을 정할 수 있다.
 - 뷰의 크기에 변경이 발생하면 우선 하위 뷰들의 autoresizing 동작을 적용하는데, 변경사항을 반영하기 위하여 layoutSubviews()메서드를 호출 한다.(이 메서드 역시 하위 뷰들에서도 연쇄적으로 호출 됨)
 - 업데이트 주기에 해당 View와 모든 하위 View를 레이아웃하고 다시그려야한다는 것을 시스템에 알려주는 역할을 한다. 
