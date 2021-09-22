@@ -2,20 +2,27 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "Drawing Cycle"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : UIView클래스는 컨텐츠를 표시할 때, on-demand 드로잉 모델을 사용합니다.
+group: "UIResponder"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    icon: "far fa-file-alt"
+  - title: "UIView"
+    url: /ios/uiresponder/uiview/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIView](/ios/uiresponder/uiview/)  / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-UIView클래스는 컨텐츠를 표시할 때, on-demand 드로잉 모델을 사용합니다.
+UIView클래스는 컨텐츠를 표시할 때, on-demand 드로잉 모델을 사용한다.  
 View를 업데이트하려면 **다음 드로잉사이클** 때까지 기다렸다가 한꺼번에 업데이트 된다.
->비동기 요청을 기록하고 즉시 리턴합니다. 즉각적인 업데이트를 강제하지는 않지만, 다음 업데이트 주기를 기다리기 때문에 View를 업데이트하기 전에 여러 View의 레이아웃을 무효화하는데 사용할 수 있습니다. 
-이러한 행동은 모든 레이아웃 업데이트를 하나의 업데이트 주기로 통합할 수 있으며, 일반적으로 성능향상에 도움이 됩니다. 
+>비동기 요청을 기록하고 즉시 리턴합니다. 즉각적인 업데이트를 강제하지는 않지만, 다음 업데이트 주기를 기다리기 때문에 View를 업데이트하기 전에 여러 View의 레이아웃을 무효화하는데 사용할 수 있다. 
+이러한 행동은 모든 레이아웃 업데이트를 하나의 업데이트 주기로 통합할 수 있으며, 일반적으로 성능향상에 도움이 된다. 
 
 1. 시스템이 현재 View의 스냅샷(visual representation) 캡쳐(업데이트 전) 
 2. 컨텐츠 변경 시 시스템에게 setNeedsDisplay() 를 호출하여 View업데이트 요청
