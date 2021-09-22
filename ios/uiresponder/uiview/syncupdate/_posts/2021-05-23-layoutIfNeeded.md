@@ -14,13 +14,13 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "UIResponder"
     url: /ios/uiresponder/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "UIView"
     url: /ios/uiresponder/uiview/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "동기 업데이트"
     url: /ios/uiresponder/uiview/syncupdate/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기&위치 변경한다.  
 이 메소드는 setNeedsLayout과 같이 수동으로 layoutSubviews를 예약하는 행위이지만 해당 예약을 바로 실행시킨다.
