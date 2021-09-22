@@ -14,10 +14,10 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "Foundation"
     url: /ios/foundation/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "NSString"
     url: /ios/foundation/nsstring/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 문자열 음역(Transliteration) 변환을 제공한다.
 ```swift
