@@ -2,16 +2,27 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "setNeedsDisplay()"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : next drawing cycle 동안 View를 업데이트해야 함을 시스템에 알린다.
+group: "UIResponder"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    icon: "far fa-file-alt"
+  - title: "UIView"
+    url: /ios/uiresponder/uiview/
+    icon: "far fa-file-alt"
+  - title: "비동기 업데이트"
+    url: /ios/uiresponder/uiview/asyncupdate/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIView](/ios/uiresponder/uiview/)  / [비동기 업데이트](/ios/uiresponder/uiview/asyncupdate/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
+next drawing cycle 동안 View를 업데이트해야 함을 시스템에 알린다.  
 setNeedsDisplay()메소드 또는 setNeedsDisplay (_ :)를 사용하여 View rendering 을 시스템에 요청한다.
 
 이 메소드는 요청을 기록하고, **즉시 리턴**힌다. View는 **다음 드로잉 사이클까지 기다렸다가** 사이클이 오면 업데이트 된다.
