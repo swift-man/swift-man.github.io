@@ -2,16 +2,23 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: StringTransform
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 문자열 음역(Transliteration) 변환을 제공한다.
+group: "NSString"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "Foundation"
+    url: /ios/foundation/
+    icon: "far fa-file-alt"
+  - title: "NSString"
+    url: /ios/foundation/nsstring/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [Foundation](/ios/foundation/) / [NSString](/ios/foundation/nsstring/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
 문자열 음역(Transliteration) 변환을 제공한다.
 ```swift
 public struct StringTransform : Hashable, Equatable, RawRepresentable {
@@ -69,7 +76,7 @@ extension StringTransform {
 }
 ```
 
-## 1.1 사용 가능 함수
+### 사용 가능 함수
 ```swift
 func applyingTransform(_ transform: StringTransform, reverse: Bool) -> String?
 ```
