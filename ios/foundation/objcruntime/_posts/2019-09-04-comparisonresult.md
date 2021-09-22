@@ -14,10 +14,10 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "Foundation"
     url: /ios/foundation/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "ObjCRuntime"
     url: /ios/foundation/objcruntime/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 ascii 를 기준으로 정렬 되는 방식을 나타낸다.
 
