@@ -2,16 +2,23 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: CompareOptions
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 문자열 처리에 여러가지 옵션을 지정하여 처리할 수 있다.
+group: "NSString"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "Foundation"
+    url: /ios/foundation/
+    icon: "far fa-file-alt"
+  - title: "NSString"
+    url: /ios/foundation/nsstring/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [Foundation](/ios/foundation/) / [NSString](/ios/foundation/nsstring/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
 문자열 처리에 여러가지 옵션을 지정하여 처리할 수 있다.
 ```swift
 extension NSString {
