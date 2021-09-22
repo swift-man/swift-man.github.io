@@ -2,16 +2,27 @@
 sidebar:
   title: "iOS"
   nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "layoutIfNeeded()"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기&위치 변경
+group: "UIResponder"
+depth: 
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    icon: "far fa-file-alt"
+  - title: "UIView"
+    url: /ios/uiresponder/uiview/
+    icon: "far fa-file-alt"
+  - title: "동기 업데이트"
+    url: /ios/uiresponder/uiview/syncupdate/
+    icon: "far fa-file-alt"
 ---
-[iOS](/ios/) / [UIResponder](/ios/uiresponder/) / [UIView](/ios/uiresponder/uiview/)  / [동기 업데이트](/ios/uiresponder/uiview/syncupdate/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
+뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기&위치 변경한다.  
 이 메소드는 setNeedsLayout과 같이 수동으로 layoutSubviews를 예약하는 행위이지만 해당 예약을 바로 실행시킨다.
 
 ```swift
