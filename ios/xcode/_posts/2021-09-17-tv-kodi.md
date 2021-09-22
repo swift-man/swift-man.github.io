@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 icon: "fas fa-link"
+group: "Xcode"
 depth: 
   - title: "iOS"
     url: /ios/
