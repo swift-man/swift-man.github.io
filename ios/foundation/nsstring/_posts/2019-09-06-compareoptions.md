@@ -14,10 +14,10 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "Foundation"
     url: /ios/foundation/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "NSString"
     url: /ios/foundation/nsstring/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 문자열 처리에 여러가지 옵션을 지정하여 처리할 수 있다.
 ```swift
