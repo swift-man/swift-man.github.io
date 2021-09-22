@@ -7,6 +7,7 @@ title: "[Xcode Build Error] Could not find module for target x86_64-apple-ios-si
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "Xcode Build Error"
 depth: 
   - title: "iOS"
     url: /ios/
