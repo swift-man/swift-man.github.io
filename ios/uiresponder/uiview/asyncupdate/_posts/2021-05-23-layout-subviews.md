@@ -14,13 +14,13 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "UIResponder"
     url: /ios/uiresponder/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "UIView"
     url: /ios/uiresponder/uiview/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "비동기 업데이트"
     url: /ios/uiresponder/uiview/asyncupdate/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 뷰의 크기가 변경될 때마다 이에 대응하여 하위 뷰들의 크기, 위치 변경한다.  
 - auto layout을 사용하면 각 뷰의 autoresizingMask프로퍼티를 설정하여 상위 뷰의 크기가 변경되었을 때 어떻게 대응할 지 규칙을 정할 수 있다.
