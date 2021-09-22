@@ -14,13 +14,13 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "UIResponder"
     url: /ios/uiresponder/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "UIView"
     url: /ios/uiresponder/uiview/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "비동기 업데이트"
     url: /ios/uiresponder/uiview/asyncupdate/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 next drawing cycle 동안 View를 업데이트해야 함을 시스템에 알린다.  
 setNeedsDisplay()메소드 또는 setNeedsDisplay (_ :)를 사용하여 View rendering 을 시스템에 요청한다.
