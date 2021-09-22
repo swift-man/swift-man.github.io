@@ -7,6 +7,7 @@ title: "App Slicing"
 toc: true
 toc_sticky: true
 toc_label: 목차
+group: "App Thinning"
 depth: 
   - title: "iOS"
     url: /ios/
@@ -15,7 +16,6 @@ depth:
     url: /ios/app-thinning/
     icon: "far fa-file-alt"
 ---
-
 슬라이싱 은 다양한 대상 장치 및 운영 체제 버전에 대한 앱 번들의 변형을 만들고 제공하는 프로세스입니다.   
 변형은 대상 장치 및 운영 체제 버전에 필요한 경우에만 실행 아키텍처와 리소스가 포함되어 있습니다.   
 앱의 전체 버전을 계속 개발하고 App Store Connect에 업로드합니다. App Store는 앱이 지원하는 기기 및 운영 체제 버전에 따라 다양한 변형을 만들고 제공합니다.   
