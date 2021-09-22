@@ -14,10 +14,10 @@ depth:
     icon: "fab fa-app-store-ios"
   - title: "UIResponder"
     url: /ios/uiresponder/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
   - title: "UIView"
     url: /ios/uiresponder/uiview/
-    icon: "far fa-file-alt"
+    icon: "far fa-folder-open"
 ---
 UIView클래스는 컨텐츠를 표시할 때, on-demand 드로잉 모델을 사용한다.  
 View를 업데이트하려면 **다음 드로잉사이클** 때까지 기다렸다가 한꺼번에 업데이트 된다.
