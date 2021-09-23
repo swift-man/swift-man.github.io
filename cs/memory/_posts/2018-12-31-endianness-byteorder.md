@@ -7,7 +7,7 @@ title: Endianness Or Byte order
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "CS Memory"
+tag: "CS Memory"
 depth: 
   - title: "CS"
     url: /cs/

@@ -7,8 +7,8 @@ title: "[Swift] Valid Parentheses"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Leet Code Easy"
-depth: 
+tag: "Leet Code Easy"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"

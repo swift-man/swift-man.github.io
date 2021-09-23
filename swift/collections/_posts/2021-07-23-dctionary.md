@@ -2,74 +2,82 @@
 sidebar:
   title: "Swift"
   nav: sidebar-swift
+  icon: "fab fa-swift"
 title: "Dictionary"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : Reference type 이다.
+tag: "Swift Collections"
+depth:
+  - title: "Swift"
+    url: /swift/
+    icon: "fab fa-swift"
+  - title: "Collections"
+    url: /swift/collections/
+    icon: "far fa-folder-open"
 ---
-[Swift](/swift/) / [Collections](/swift/collections/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
+Value type 이다.  
 ```
 @frozen public struct Dictionary<Key, Value> where Key : Hashable
 ```
 
 ## subscript(_:)
+```
+O(N)
+```
 
-O(1)입니다
 
- 
 
 ## count
+```
+O(N)
+```
 
-O(1)입니다
 
- 
 
 ## contains(where:)
-
-O(N)입니다. contains(_:) method는 없습니다. (key로 바로 참조하면 알 수 있기 때문입니다.)
-
- 
-
- 
+```
+O(N)
+contains(_:) method는 없다. (key로 바로 참조하면 알 수 있기 때문)
+```
 
 ## index(forKey:)
-
-평균 O(1), bridged NSDictionary으로 Wrap된 경우 O(N)입니다.
-
-
-https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift
+```
+평균 O(1)
+bridged NSDictionary으로 Wrap된 경우 O(N)
+```
 
 ## mapValues(_:)
+```
+O(N)
+```
 
-O(N)입니다.
 
- 
 
 ## compactMapValues(_:)
+```
+O(M+N)
+N은 기존 Dictionary의 크기
+M은 결과 Dictionary의 크기
+```
 
-O(M+N)입니다. N은 기존 Dictionary의 크기이고, M은 결과 Dictionary의 크기입니다.
-
- 
 
 ## remove(at:), removeValue(forKey:), removeAll(keepingCapacity:)
+```
+O(N)
+```
 
-O(N)입니다.
 
- 
 
 ## popFirst()
+```
+평균 O(1)
+```
 
-평균 O(1)입니다.
-
- 
 
 ## rereversed()
-
-O(N)입니다.
-
-- [github.com/apple/swift/blob/main/stdlib/public/core/Dictionary](https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift)
-
+```
+O(N)
+```
+## 출처
+[<i class="fas fa-link"></i> github.com/apple/swift/blob/main/stdlib/public/core/Dictionary](https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift){:target="_blank"}

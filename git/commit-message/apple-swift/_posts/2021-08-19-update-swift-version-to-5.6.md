@@ -7,8 +7,8 @@ title: "Update Swift version to 5.6"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Git Commit Message"
-depth: 
+tag: "Git Commit Message"
+depth:
   - title: "Git"
     url: /git/
     icon: "fab fa-github"

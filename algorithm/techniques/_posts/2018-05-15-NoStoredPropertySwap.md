@@ -7,8 +7,8 @@ title: "Temp 변수를 사용하지 않고 Swap 하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "기법"
-depth: 
+tag: "기법"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"

@@ -7,8 +7,8 @@ title: "[Swift] Median of Two Sorted Arrays"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Leet Code Hard"
-depth: 
+tag: "Leet Code Hard"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"
@@ -70,18 +70,18 @@ class Solution {
         var lhsIndex = 0
         var rhsIndex = 0
         var merge: [Int] = []
-        
+
         while lhsIndex < lhsCount || rhsIndex < rhsCount {
             var lhsValue: Int?
             if lhsIndex < lhsCount {
                 lhsValue = nums1[lhsIndex]
             }
-            
+
             var rhsValue: Int?
             if rhsIndex < rhsCount {
                 rhsValue = nums2[rhsIndex]
             }
-            
+
             if let lv = lhsValue, let rv = rhsValue {
                 let v = min(lv, rv)
                 if v == lv {
@@ -101,11 +101,11 @@ class Solution {
         if merge.count == 1 {
             return Double(merge[0])
         }
-        
+
         if merge.count % 2 == 1 {
             return Double(merge[merge.count / 2])
         }
-        
+
         let l = Double(merge[merge.count / 2 - 1])
         let r = Double(merge[merge.count / 2])
         return (l + r) / 2
@@ -123,24 +123,24 @@ class Solution {
       guard nums1.count <= nums2.count  else {
             return findMedianSortedArrays(nums2, nums1)
         }
-        
+
         let m = nums1.count, n = nums2.count
         var start = 0, end = m
-        
+
         while start <= end {
             let cutPos1 = (start + end)/2
             let cutPos2 = (m + n + 1)/2 - cutPos1
-            
+
             // If cutPos1 == 0, nothing in array1 is there on the left,
             // use Int.min for maxLeft1
             // If cutPos1 == m, nothing in array1 is there on the right,
             // use Int.max for minRight1
             let maxLeft1 = cutPos1 == 0 ? Int.min : nums1[cutPos1-1]
             let minRight1 = cutPos1 == m ? Int.max : nums1[cutPos1]
-            
+
             let maxLeft2 = cutPos2 == 0 ? Int.min : nums2[cutPos2-1]
             let minRight2 = cutPos2 == n ? Int.max : nums2[cutPos2]
-            
+
             if maxLeft1 <= minRight2, maxLeft2 <= minRight1 {
                 // We have partitioned both array at correct place
                 if (m + n) % 2 == 0 {

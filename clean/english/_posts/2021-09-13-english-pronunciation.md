@@ -7,8 +7,8 @@ title: "개발자가 자주 틀리는 영어발음"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "English"
-depth: 
+tag: "English"
+depth:
   - title: "Clean"
     url: /clean/
     icon: "fab fa-weixin"
@@ -16,7 +16,7 @@ depth:
     url: /clean/english/
     icon: "far fa-folder-open"
 ---
-블라인드 알림 중 유용한 제목의 알림왔다.  내용을 보니 재미있고 좋은 글이라 포스팅 해본다. 
+블라인드 알림 중 유용한 제목의 알림왔다.  내용을 보니 재미있고 좋은 글이라 포스팅 해본다.
 프론트엔드에서 쓰는 용어는 대부분 들어봤으나 게임 업계는 아니라 처음 보는 단어도 있었다.  
 
 모르고 지나가면 민망할 수 있으니 한번쯤 보면 도움이 될 것이다.

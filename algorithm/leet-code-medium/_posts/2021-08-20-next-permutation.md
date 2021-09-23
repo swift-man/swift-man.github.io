@@ -7,8 +7,8 @@ title: "[Swift] Next Permutation"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Leet Code Medium"
-depth: 
+tag: "Leet Code Medium"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"

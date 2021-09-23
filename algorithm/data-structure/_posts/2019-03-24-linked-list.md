@@ -7,8 +7,8 @@ title: "[Swift] LinkedList"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Data Structure"
-depth: 
+tag: "Data Structure"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "far fa-folder-open"
@@ -37,8 +37,8 @@ head?.next = Node(value: 2)
 
 ## 원하는 위치에 삽입 / 삭제
 - O(n)
-- 위치에 삽입을 하고자 하면 원하는 위치를 Search 과정에 있어서 첫번째 원소부터 다 확인해봐야 한다는 것이다. 
-- Array 와는 달리 논리적 저장 순서와 물리적 저장 순서가 일치하지 않기 때문이다. 이것은 일단 삽입하고 정렬하는 것과 마찬가지이다. 
+- 위치에 삽입을 하고자 하면 원하는 위치를 Search 과정에 있어서 첫번째 원소부터 다 확인해봐야 한다는 것이다.
+- Array 와는 달리 논리적 저장 순서와 물리적 저장 순서가 일치하지 않기 때문이다. 이것은 일단 삽입하고 정렬하는 것과 마찬가지이다.
 
 
 
@@ -49,7 +49,7 @@ public class Node<T> {
   var value: T
   var next: Node?
   weak var previous: Node?
-  
+
   public init(value: T) {
     self.value = value
   }
@@ -60,7 +60,7 @@ public class Node<T> {
 public final class LinkedList<T> {
   private(set) var head: Node<T>?
   public init() {}
-  
+
   public init(_ value: T) {
     head = Node(value: value)
   }
@@ -89,12 +89,12 @@ public func insertInFront(value: T) -> Node<T> {
 ```swift
 public func first(where predicate: (Node<T>) -> Bool) -> Node<T>? {
   var node = head
-  
+
   while let nd = node {
     if predicate(nd) {
       return nd
     }
-    
+
     node = nd.next
   }
   return nil

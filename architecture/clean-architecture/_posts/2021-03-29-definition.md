@@ -8,8 +8,8 @@ icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Clean Architecture"
-depth: 
+tag: "Clean Architecture"
+depth:
   - title: "Architecture"
     url: /architecture/
     icon: "fas fa-sitemap"
@@ -73,10 +73,10 @@ depth:
 
 저는 이메일을 써서 주고 받은 내용이 매우 인상깊었기 때문에 이메일 본문을 통째로 가져다 칼럼에 포함시켰습니다.
 
-[<i class="fas fa-link"></i> Who Needs an Architect?](http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf){:target="_blank"} 
+[<i class="fas fa-link"></i> Who Needs an Architect?](http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf){:target="_blank"}
 
 
-Ralph 는 IEEE 의 정의를 보고 
+Ralph 는 IEEE 의 정의를 보고
 >이 정의의 문제점은 너무 포괄적인 컴포넌트 개념으로 정의했다는 점입니다.
 
 아키텍처에 대해 이야기할 때 거시적으로 이야기했다는 뜻입니다.
@@ -86,7 +86,7 @@ Ralph 는 IEEE 의 정의를 보고
 사실 엄청난 수의 컴포넌트와 연관 관계가 생길 수 있습니다.
 어떤 것을 선택하고 어떤 것을 배제하는 게 아키텍처에서 정말로 중요한 개념일까요?
 
-Ralph의 생각은 
+Ralph의 생각은
 
 >소프트웨어 프로젝트를 잘 꾸려나가고 있을 때 중요한 점은 프로젝트 내부 소스 코드에 대해 잘 알고 있는 프로젝트에 참여하는 개발자들이 있을 건데, 그 개발자들은 상식적으로 어떻게 코드들이 실행되는지 알고 있을 것입니다.<br/>이 개발자들의 상식이 아키텍처에 영향을 미칠 거란 점입니다.
 
@@ -126,7 +126,7 @@ Ralph는 여기에 대해서도 한마디 거들었는데요
 
 ## 아키텍처에 대한 정의
 그래서 우리는 2가지 갈림길을 확인했는데요.
->지식을 공유하고 바꾸기 어렵다는 점 
+>지식을 공유하고 바꾸기 어렵다는 점
 
 이 어려운 2개가 합쳐질 때(지식을 공유하는 것, 바꾸기 어려운 것) 비로소 아키텍처에 대한 정의를 정할 수 있었습니다.
 
@@ -150,5 +150,4 @@ Ralph는 여기에 대해서도 한마디 거들었는데요
 여기까지 아키텍처가 무엇인지에 대해 이야기를 해 보았습니다.
 
 ## 참고
-[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"} 
-
+[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"}

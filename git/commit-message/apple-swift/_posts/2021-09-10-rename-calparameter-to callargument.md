@@ -7,8 +7,8 @@ title: "[CodeCompletion] NFC: rename CallParameter* to CallArgument*"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Git Commit Message"
-depth: 
+tag: "Git Commit Message"
+depth:
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
@@ -19,7 +19,7 @@ depth:
     url: /git/commit-message/apple-swift/
     icon: "far fa-folder-open"
 ---
-Apple / Swift Type name 변경 
+Apple / Swift Type name 변경
 
 
 ## Commit message

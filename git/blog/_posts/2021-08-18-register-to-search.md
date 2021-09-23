@@ -4,11 +4,11 @@ sidebar:
   nav: sidebar-git
   icon: "fab fa-github"
 title: "GitHub Pages 검색 등록 하기"
-group: "Blog"
+tag: "Blog"
 toc: true
 toc_sticky: true
 toc_label: 목차
-depth: 
+depth:
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
@@ -20,7 +20,7 @@ depth:
 
 >post url 에 특수문자가 있으면 추가가 안될 수 있으므로 한글 url 은 권장하지 않는다.
 
-## 1. sitemap.xml 생성 
+## 1. sitemap.xml 생성
 ### 1.1 sitemap.xml 외부 사이트에서 생성
 [xml-sitemaps](https://www.xml-sitemaps.com/) 에서 sitemap.xml 을 생성하자.
 
@@ -54,7 +54,7 @@ Start 를 누르자.
 ## 3. Naver 등록
 ### 3.1 웹 페이지 수집을 등록하자.
 ![Image](https://drive.google.com/uc?export=view&id=1MjHALlwQXWoiES09nQaOY1Op1Tp8o8mK)  
-수집 요청 URL 입력인데 솔직히 잘 몰라서 index 를 입력했다. 
+수집 요청 URL 입력인데 솔직히 잘 몰라서 index 를 입력했다.
 
 ### 3.2 sitemap.xml 을 등록하자.
 ![Image](https://drive.google.com/uc?export=view&id=1o_vHpIqhZ7seaXbDlZVWCgGsol5i4wIc)

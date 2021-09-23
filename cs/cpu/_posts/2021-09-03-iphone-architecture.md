@@ -7,8 +7,8 @@ title: "iOS 기기 별 Architecture"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "CS CPU"
-depth: 
+tag: "CS CPU"
+depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"

@@ -7,8 +7,8 @@ title: StringTransform
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "NSString"
-depth: 
+tag: "NSString"
+depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"
@@ -180,7 +180,7 @@ func applyingTransform(_ transform: StringTransform, reverse: Bool) -> String?
 ## 4.1 fullwidthToHalfwidth
 전각 CJK 문자 -> 반각 형식
 ```swift
-"１２３４５６７８９＠ａｂｃｄｅｆｇ".applyingTransform(.fullwidthToHalfwidth, reverse: false) 
+"１２３４５６７８９＠ａｂｃｄｅｆｇ".applyingTransform(.fullwidthToHalfwidth, reverse: false)
 // Optional("123456789@abcdefg")
 ```
 

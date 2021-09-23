@@ -7,8 +7,8 @@ title: "[Xcode] 파일 상단 Created by 변경하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Xcode"
-depth: 
+tag: "Xcode"
+depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"

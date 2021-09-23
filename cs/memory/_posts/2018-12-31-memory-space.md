@@ -7,8 +7,8 @@ title: 메모리 공간 분류
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "CS Memory"
-depth: 
+tag: "CS Memory"
+depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
@@ -40,10 +40,10 @@ malloc, free, new, delete
 
 ## Compile 시 크기가 결정되는 영역
 ### Data
-<u>정적 변수(static)와 전역변수(global)</u> 중 컴파일 타임에 초기화 된 데이터가 저장된다. 이 이영역에 저장된 데이터는 <u>프로그램이 종료 될때까지 유지</u>된다. 
+<u>정적 변수(static)와 전역변수(global)</u> 중 컴파일 타임에 초기화 된 데이터가 저장된다. 이 이영역에 저장된 데이터는 <u>프로그램이 종료 될때까지 유지</u>된다.
 
 ### BSS(Block Stated Symbol)
-<u>정적 변수(static)와 전역변수(global)</u> 중 컴파일 타임에 초기화 되지 않은 데이터가 저장된다. 사용이 필요하면 런타임에 초기화 해야한다. 이 이영역에 저장된 데이터는 <u>프로그램이 종료 될때까지 유지</u>된다. 
-    
+<u>정적 변수(static)와 전역변수(global)</u> 중 컴파일 타임에 초기화 되지 않은 데이터가 저장된다. 사용이 필요하면 런타임에 초기화 해야한다. 이 이영역에 저장된 데이터는 <u>프로그램이 종료 될때까지 유지</u>된다.
+
 ### Code
 코드 영역에는 <u>기계어로 번역된 프로그램 코드가 저장</u>된다. 이 부분은 "read only" 영역이라 쓰기 작업이 들어오면 "access violation"이 발생한다.

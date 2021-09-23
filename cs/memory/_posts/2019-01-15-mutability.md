@@ -7,8 +7,8 @@ title: "Mutability"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "CS Memory"
-depth: 
+tag: "CS Memory"
+depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"

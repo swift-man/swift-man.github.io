@@ -7,8 +7,8 @@ title: CompareOptions
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "NSString"
-depth: 
+tag: "NSString"
+depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"
@@ -47,8 +47,8 @@ extension NSString {
 
 ## 1.1 사용 가능 함수
 ```swift
-func replacingOccurrences(of target: String, 
-                     with replacement: String, 
+func replacingOccurrences(of target: String,
+                     with replacement: String,
                   options: NSString.CompareOptions = [],
                     range searchRange: NSRange) -> String
 func range(of searchString: String) -> NSRange
@@ -187,13 +187,13 @@ print("é".compare("e", options: .diacriticInsensitive).rawValue) // 0
 ## 9. forcedOrdering
 문자열이 동일하지만 엄격하게 동일하지 않은 경우 비교는 NSOrderedAscending 또는 NSOrderedDescending을 반환하도록 강제 실행됩니다.
 ## 10. regularExpression
-검색 문자열은 ICU 호환 정규식으로 처리됩니다. 설정하면 대소문자 구분 및 고정을 제외한 다른 옵션을 적용할 수 없습니다. 
+검색 문자열은 ICU 호환 정규식으로 처리됩니다. 설정하면 대소문자 구분 및 고정을 제외한 다른 옵션을 적용할 수 없습니다.
 
 ```swift
 // 이 옵션은 이 함수에서만 사용할 수 있다.
 func range(of searchString: String) -> NSRange <br/>
-func replacingOccurrences(of target: String, 
-                     with replacement: String, 
+func replacingOccurrences(of target: String,
+                     with replacement: String,
                   options: NSString.CompareOptions = [],
                     range searchRange: NSRange) -> String
 ```

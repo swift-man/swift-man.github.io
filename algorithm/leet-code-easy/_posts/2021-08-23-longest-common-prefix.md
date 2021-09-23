@@ -7,8 +7,8 @@ title: "[Swift] Longest Common Prefix"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Leet Code Easy"
-depth: 
+tag: "Leet Code Easy"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"
@@ -62,14 +62,14 @@ class Solution {
         }
         if minStr.isEmpty {
             return ""
-        } 
-        
+        }
+
         let filteredArray = strs.filter { $0 != minStr }.map { Array($0) }
- 
+
         if filteredArray.isEmpty {
             return minStr
         }
-        
+
         var prefix = ""
         var check = false
         for (i, c) in minStr.enumerated() {
@@ -81,14 +81,14 @@ class Solution {
                     break
                 }
             }
-            
+
             if check {
                 prefix.append(c)
             } else {
                 return prefix
             }
         }
-        
+
         return prefix
     }
 }

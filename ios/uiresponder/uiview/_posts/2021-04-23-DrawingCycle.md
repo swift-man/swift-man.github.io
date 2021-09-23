@@ -3,7 +3,7 @@ sidebar:
   title: "iOS"
   nav: sidebar-ios
   icon: "fab fa-app-store-ios"
-title: "Drawing Cycle"
+title: "[UIView] Drawing Cycle"
 toc: true
 toc_sticky: true
 toc_label: 목차

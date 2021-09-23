@@ -7,8 +7,8 @@ title: "메모리의 저장 단위"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "CS Memory"
-depth: 
+tag: "CS Memory"
+depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
@@ -62,4 +62,3 @@ depth:
 양수의 비트의 값을 XOR 하여 연산한 다음 1을 더해서 음수를 표현하는 방식이다.
 
 [<i class="fas fa-link"></i> 위키백과 - 2의 보수](https://ko.wikipedia.org/wiki/2%EC%9D%98_%EB%B3%B4%EC%88%98){:target="_blank"}
-

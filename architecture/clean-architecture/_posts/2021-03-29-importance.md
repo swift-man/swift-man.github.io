@@ -8,8 +8,8 @@ icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Clean Architecture"
-depth: 
+tag: "Clean Architecture"
+depth:
   - title: "Architecture"
     url: /architecture/
     icon: "fas fa-sitemap"
@@ -121,4 +121,4 @@ Why? 다음으로 짚어볼 질문이 있는데요.
 이것이 바로 아키텍처의 정의입니다.
 
 ## 참고
-[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"} 
+[<i class="fas fa-link"></i> https://martinfowler.com/](https://martinfowler.com/){:target="_blank"}

@@ -7,8 +7,8 @@ title: "영어 끝말잇기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Programers level2"
-depth: 
+tag: "Programers level2"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"

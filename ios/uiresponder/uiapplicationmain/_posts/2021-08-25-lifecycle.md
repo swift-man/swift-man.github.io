@@ -8,8 +8,8 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 excerpt : Not running, Inactive, Active, Background, Suspended
-group: "UIResponder"
-depth: 
+tag: "UIResponder"
+depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"
@@ -34,9 +34,9 @@ depth:
 ![Image](https://docs-assets.developer.apple.com/published/c63cd35863/4d403429-fa30-4706-863f-5e3617ee21d0.png)
 
 - Not running
-- Inactive 
-- Active 
-- Background 
+- Inactive
+- Active
+- Background
 - Suspended
 
 ![Image](https://miro.medium.com/max/1400/1*n8zDfF0RCd3keeFqAqWBGA.png)
@@ -64,7 +64,7 @@ func applicationWillTerminate(_ application: UIApplication) {
 
 ### 3.2 Foreground
 #### 3.2.1 Inactive
-Foreground에서 실행 중이지만 현재 이벤트를 수신하고 불가 상태. 
+Foreground에서 실행 중이지만 현재 이벤트를 수신하고 불가 상태.
 일반적으로 다른 상태로 전환될 때 이 상태에 잠시 동안 유지된다.
 ```swift
 // Active -> Inactive

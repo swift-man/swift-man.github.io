@@ -7,8 +7,8 @@ title: "선택 정렬"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Sort"
-depth: 
+tag: "Sort"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"
@@ -25,21 +25,21 @@ depth:
 총 비교 횟수  
 (n-1)+(n-2)+...+1 = n(n-1)/2
 
- 
+
 
 >performace : O(n^2)<br />
 space compexity : O(1)
 
 ---
 
-## 기본 
+## 기본
 
 1. 아직 정렬되지 않은 값을 쭉 훑습니다.
 2. 가장 낮은 키 값을 찾습니다.
 3. 찾은 값과 정렬된 값 다음 값과 바꿉니다.(벽이 있다고 생각해봅시다.)
 
 
-## Code 
+## Code
 ```swift
 for i in 0 ..< arr.count - 1 {
     var indexOfMinValue = i
@@ -48,7 +48,7 @@ for i in 0 ..< arr.count - 1 {
             indexOfMinValue = j
         }
     }
-        
+
     arr.swapAt(i, indexOfMinValue)
 }
 ```

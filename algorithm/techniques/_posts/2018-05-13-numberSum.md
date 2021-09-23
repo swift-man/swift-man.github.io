@@ -7,8 +7,8 @@ title: "1 부터 n 까지의 합"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "기법"
-depth: 
+tag: "기법"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"

@@ -7,8 +7,8 @@ title: ComparisonResult
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "ObjCRuntime"
-depth: 
+tag: "ObjCRuntime"
+depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"

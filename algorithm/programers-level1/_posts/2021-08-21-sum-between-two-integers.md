@@ -7,8 +7,8 @@ title: "[Swift] 두 정수 사이의 합"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Programers level1"
-depth: 
+tag: "Programers level1"
+depth:
   - title: "Algorithm"
     url: /algorithm/
     icon: "fas fa-calculator"
@@ -71,7 +71,7 @@ func solution(_ a:Int, _ b:Int) -> Int64 {
 ## 잘 배웠습니다.
 ```
 (3 + 5) * (max(3, 5) - min(3, 5) + 1) / 2
--> 
+->
 (3 + 5) * (5 - 3 + 1) / 2
 ->
 8 * (2 + 1) / 2

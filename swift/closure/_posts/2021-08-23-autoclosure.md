@@ -2,22 +2,26 @@
 sidebar:
   title: "Swift"
   nav: sidebar-swift
-title: "@autoClosure"
+  icon: "fab fa-swift"
+title: "[Swift] @autoClosure"
 toc: true
 toc_sticky: true
 toc_label: 목차
-excerpt : 클로저에 자동으로 래핑되는 인수를 정의할 수 있다. 
+tag: "Swift"
+depth:
+  - title: "Swift"
+    url: /swift/
+    icon: "fab fa-swift"
+  - title: "Closure"
+    url: /swift/closure/
+    icon: "far fa-folder-open"
 ---
-[Swift](/swift/) / [Closure](/swift/closure/) / **{{ page.title }}**
-{: .notice--warning}
-
-## 1. 개요
-@autoclosure속성을 사용하면 클로저에 자동으로 **래핑**되는 인수를 정의할 수 있다. 
+@autoclosure속성을 사용하면 클로저에 자동으로 **래핑**되는 인수를 정의할 수 있다.
 일반 구문을 인자값으로 넣어도 컴파일러가 알아서 클로저로 만들어서 사용한다.
 
-이것이 Swift 표준 라이브러리에서 사용되는 한 가지 예는 assert함수다. 
+이것이 Swift 표준 라이브러리에서 사용되는 한 가지 예는 assert함수다.
 
-assert는 디버그 빌드에서만 트리거되므로 릴리스 빌드에서 assert 되는 표현식을 평가할 필요가 없다. 
+assert는 디버그 빌드에서만 트리거되므로 릴리스 빌드에서 assert 되는 표현식을 평가할 필요가 없다.
 
 ```swift
 func assert(_ expression: @autoclosure () -> Bool,
@@ -43,7 +47,7 @@ assert({ someCondition() }, { "Hey, it failed!" })
 assert(someCondition(), "Hey it failed!")
 ```
 
-## 2. 인라인 할당
+## 인라인 할당
 한 가지는 함수 호출에서 표현식을 인라인이 가능하다. 이를 통해 할당 표현식을 인수로 전달하는 것과 같은 작업을 수행할 수 있다. 유용할 수 있는 예를 살펴보자.
 
 iOS에서는 일반적으로 다음 API를 사용하여 애니메이션을 만들 수 있다.
@@ -68,7 +72,7 @@ animate(view.frame.origin.y = 100)
 ```
 위의 기술을 사용하면 가독성이나 표현력을 희생하지 않고도 애니메이션 코드의 장황함을 줄일 수 있다. 🎉
 
-## 3. 표현식으로 오류 전달
+## 표현식으로 오류 전달
 다른 상황은 오류를 처리하는 유틸리티를 작성할 수 있다. 예를 들어 API를 Optional사용하여 래핑을 해제할 수 있는 확장을 추가하고 싶다고 가정해 보자. 그렇게 하면 옵셔널이 non-nil이 되도록 요구 하거나 다음과 같이 오류를 던질 수 있다.
 ```swift
 extension Optional {
@@ -86,7 +90,7 @@ assert구현된 방법과 유사하게 옵셔널을 언래핑하려고 할 때�
 ```swift
 let name = try argument(at: 1).unwrapOrThrow(ArgumentError.missingName)
 ```
-## 4. 기본값을 사용한 유형 추론
+## 기본값을 사용한 유형 추론
 @autoclosure내가 찾은 마지막 사용 사례 는 Dictionary, 데이터베이스 또는 UserDefaults.
 
 일반적으로 유형이 지정되지 않은 사전에서 값을 추출하고 기본값을 제공할 때 다음과 같이 작성해야 한다.
@@ -113,7 +117,7 @@ extension Dictionary where Value == Any {
 ```
 >다시 말하지만, @autoclosure이 메서드가 호출될 때마다 기본값을 평가할 필요가 없도록 하기 위해 사용 한다.
 
-## 5. 지연된 실행
+## 지연된 실행
 '지연된 실행' 이라는 단어는 클로져의 특징과 관계가 있다. 클로져는 선언 단계에서 코딩된 내용이 바로 실행되지 않는다. 클로져가 호출되어야만 비로소 실행이 된다. 아래 예제를 보자.
 ```swift
 var names = ["Kim", "Park", "Lee"]
@@ -184,7 +188,7 @@ names
 기적 같지만... 여기서 생긴 변화가 실제로는 앞서 본 클로져를 이용하는 것과 동일하게 변화한다고 생각해야 한다. @autoclosure 속성은 wrapping 이라는 걸 상기하자. 즉, @autoclosure 가 표기되어 있는 곳에 들어가는 코드는 자동으로 클로져 형식으로 한번 더 감싸져서 넘어가게 된다.
 이 때문에 함수를 실행할 때에는 {} 형식의 클로저가 아닌 () 형식의 일반값을 인자 값으로 사용해야 하며, 인자 값은 코드에 작성된 시점이 아니라 해당 클로저가 실행되는 시점에 맞추어 실행된다.
 
-## 5. 결론
+## 결론
 - **@autoclosure 는 '구문을 클로져로 알아서 감싸달라' 라는 속성**
 - '코드에 모호성을 주는 문법'은 가급적 지양하자.
 - 물론 잘 쓰면 편한데, 만약 함수나 메소드의 원형에 @autoclosure 가 명시되어 있는지 미리 확인하지 않고 코드를 작성하면 문제가 발생할 여지가 있다.
@@ -193,6 +197,6 @@ names
 
 
 
-참고: 
-- [swiftbysundell.com](https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/)
-- [seorenn.blogspot.com](http://seorenn.blogspot.com/2016/04/swift-autoclosure.html)
+## 참고
+[<i class="fas fa-link"></i> swiftbysundell.com](https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/){:target="_blank"}  
+[<i class="fas fa-link"></i> seorenn.blogspot.com](http://seorenn.blogspot.com/2016/04/swift-autoclosure.html){:target="_blank"}
