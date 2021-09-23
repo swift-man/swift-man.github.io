@@ -479,6 +479,8 @@ sidebar-clean:
         url: /clean/dictionary/bi/
       - title: "트러블 슈팅"
         url: /clean/dictionary/trouble-shooting/
+      - title: "TIL"
+        url: /clean/dictionary/til/
       
       
 ##############
