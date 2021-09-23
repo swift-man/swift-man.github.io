@@ -518,6 +518,8 @@ sidebar-git:
         url: /git/commend/reset/
       - title: "Revert"
         url: /git/commend/revert/
+      - title: "설정 - 대소문자 인식"
+        url: /git/commend/case-sensitive/
   - title: "Blog"
     url: /git/blog/
     children:
