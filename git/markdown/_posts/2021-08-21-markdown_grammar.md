@@ -7,7 +7,7 @@ title: "마크 다운 문법"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Markdown"
+tag: "Markdown"
 depth: 
   - title: "Git"
     url: /git/
@@ -16,9 +16,6 @@ depth:
     url: /git/markdown/
     icon: "far fa-folder-open"
 ---
-
-기본 적인 마크 다운 문법 외 몰랐던 문법들을 정리한다.  
-
 ## Color Asset
 ```html
 <span style="color:#db7093">Sand Red</span>

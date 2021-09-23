@@ -7,7 +7,7 @@ title: "GitHub Readme에 Badge 만들기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "Markdown"
+tag: "Markdown"
 depth: 
   - title: "Git"
     url: /git/
