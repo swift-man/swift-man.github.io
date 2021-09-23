@@ -7,7 +7,7 @@ title: "layoutSubviews()"
 toc: true
 toc_sticky: true
 toc_label: 목차
-group: "UIResponder"
+tag: "UIView Drawing Cycle"
 depth: 
   - title: "iOS"
     url: /ios/
