@@ -23,6 +23,12 @@ main:
   - title: "Swift"
     url: /swift/
     icon: "fab fa-swift"
+  - title: "IT"
+    url: /it/
+    icon: "fas fa-mobile-alt"
+  - title: "Release!"
+    url: /release/
+    icon: "fas fa-user-check"
 #  - title: "SwiftUI"
 #    url: /swift-ui/
 #  - title: "TDD"
@@ -481,6 +487,8 @@ sidebar-clean:
         url: /clean/dictionary/trouble-shooting/
       - title: "TIL"
         url: /clean/dictionary/til/
+      - title: "Calendar Heatmap"
+        url: /clean/dictionary/calendar-heatmap/
       
       
 ##############
@@ -592,3 +600,11 @@ sidebar-tdd:
 #      - title: "Operators"
 #        url: /operators/
 ##############
+
+sidebar-it:
+  - title: "Nintendo Switch"
+    url: /git/commend/
+    children:
+      - title: "블루투스 키보드 연결"
+        icon: "far fa-folder-open"
+        url: /git/commend/branch/
