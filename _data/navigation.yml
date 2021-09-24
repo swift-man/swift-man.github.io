@@ -23,9 +23,9 @@ main:
   - title: "Swift"
     url: /swift/
     icon: "fab fa-swift"
-#  - title: "IT"
-#    url: /it/
-#    icon: "fas fa-mobile-alt"
+  - title: "IT"
+    url: /it/
+    icon: "fas fa-mobile-alt"
 #  - title: "Release!"
 #    url: /release/
 #    icon: "fas fa-user-check"
@@ -602,9 +602,13 @@ sidebar-tdd:
 ##############
 
 sidebar-it:
-  - title: "Nintendo Switch"
-    url: /git/commend/
+  - title: "Apple TV"
+    url: /it/apple-tv/
     children:
-      - title: "블루투스 키보드 연결"
-        icon: "far fa-folder-open"
-        url: /git/commend/branch/
+      - title: "[Apple TV 4K] 6세대 설정 및 사용 후기"
+        url: /it/apple-tv/apple-tv-4k/
+#  - title: "Nintendo Switch"
+#    url: /git/commend/
+#    children:
+#      - title: "블루투스 키보드 연결"
+#        url: /git/commend/branch/
