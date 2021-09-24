@@ -23,12 +23,12 @@ main:
   - title: "Swift"
     url: /swift/
     icon: "fab fa-swift"
-  - title: "IT"
-    url: /it/
-    icon: "fas fa-mobile-alt"
-  - title: "Release!"
-    url: /release/
-    icon: "fas fa-user-check"
+#  - title: "IT"
+#    url: /it/
+#    icon: "fas fa-mobile-alt"
+#  - title: "Release!"
+#    url: /release/
+#    icon: "fas fa-user-check"
 #  - title: "SwiftUI"
 #    url: /swift-ui/
 #  - title: "TDD"
