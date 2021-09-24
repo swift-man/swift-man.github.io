@@ -63,6 +63,9 @@ Xcode > Window > Device and Simulators
 ![Image](https://drive.google.com/uc?export=view&id=1oejbTzE4Y2PS1qowFYsupDyVx_J8KGl7)
 이렇게 Apple TV 정보가 나오면 연결 성공이다.
 
+이제 유선 연결 없이 무선으로 빌드가 되는 어떤 상징이 되는 기기가 나온 것 같다.
+미래의 아이폰도 케이블 없이 무선 빌드가 되는 것이 예측 된다.
+
 ## 참고
 [<i class="fas fa-link"></i> XCode build project for the Apple TV 4K)
 ](https://developer.apple.com/forums/thread/100785){:target="_blank"}  
