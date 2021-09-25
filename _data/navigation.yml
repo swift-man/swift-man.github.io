@@ -268,7 +268,7 @@ sidebar-ios:
       - title: "Creating a Source Editor Extension"
         url: /ios/xcode/create-source-editor-extension/
         icon: "fas fa-link"
-      - title: "Apple TV 4K 6세대 빌드를 위한 Mac 연결"
+      - title: "Apple TV 4K 6세대 Xcode로 빌드 하기"
         url: /ios/xcode/xcode-build-apple-tv-4k/
   - title: "Build Error"
     url: /ios/build-error/
