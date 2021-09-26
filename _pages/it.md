@@ -12,7 +12,7 @@ header:
   caption: "Photo credit: [**Apple**](https://www.apple.com)"
 excerpt: "Hardware specs, scrap link"
 intro: 
-  - excerpt: "하드웨어 스펙, 사용 후기 등 정리하는 공간."
+  - excerpt: "평소에 관심있는 IT 기기, 사용 후기 등 정리하는 공간."
 feature_row:
   - image_path: https://www.apple.com/v/apple-tv-4k/t/images/overview/hero/apple_tv_4k_remote__c4hmy02k6o6e_small.jpg
     title: "[Apple TV 4K] 6세대 초기 설정 및 사용 후기"
@@ -21,8 +21,18 @@ feature_row:
     image_caption: "Photo credit: [**Apple**](https://www.apple.com)"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row4:
+  - image_path: https://www.linuxadictos.com/wp-content/uploads/kodi-logo.jpg.webp
+    title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
+    excerpt: 'Mac 에서 Apple TV 4K에 Xcode 로 Kodi 설치하는 방법을 알아봅니다.'
+    url: "/it/apple-tv/apple-tv-4k-kodi/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    image_caption: "Photo credit: [**linuxadictos**](https://www.linuxadictos.com/)"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row4" type="left" %}

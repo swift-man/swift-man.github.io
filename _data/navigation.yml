@@ -491,6 +491,10 @@ sidebar-clean:
         url: /clean/dictionary/til/
       - title: "Calendar Heatmap"
         url: /clean/dictionary/calendar-heatmap/
+      - title: "Kodi"
+        url: /clean/dictionary/kodi/
+      - title: "Provisioning Profile"
+        url: /clean/dictionary/provisioning-profiles/
       
       
 ##############
@@ -609,6 +613,8 @@ sidebar-it:
     children:
       - title: "[Apple TV 4K] 6세대 설정 및 사용 후기"
         url: /it/apple-tv/apple-tv-4k/
+      - title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
+        url: /it/apple-tv/apple-tv-4k-kodi/
 #  - title: "Nintendo Switch"
 #    url: /git/commend/
 #    children:
