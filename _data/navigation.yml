@@ -410,11 +410,12 @@ sidebar-architecture:
 #        url: /operators/
 ##############
 sidebar-clean:
-#  - title: "Clean Code"
-#    url: /clean/code/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
+  - title: "Code"
+    url: /clean/code/
+    children:
+      - title: "'코드 리뷰'를 돕는 10가지 방법"
+        icon: "fas fa-link"
+        url: /clean/code/code-review-10/
   - title: "English"
     url: /clean/english/
     children:

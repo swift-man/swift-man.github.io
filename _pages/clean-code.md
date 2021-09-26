@@ -1,8 +1,8 @@
 ---
-title: "Clean Code"
+title: "Clean / Code"
 permalink: /clean/code/
 layout: category
-taxonomy: clean-code
+taxonomy: code
 classes: wide
 icon: "far fa-folder-open"
 sidebar:
