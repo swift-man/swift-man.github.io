@@ -3,7 +3,7 @@ sidebar:
   title: "iOS"
   nav: sidebar-ios
   icon: "fab fa-app-store-ios"
-title: "Apple TV 4K 6세대 Xcode로 빌드 하기"
+title: "[Apple TV 4K] 6세대 Xcode로 빌드 하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
