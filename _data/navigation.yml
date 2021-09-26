@@ -615,8 +615,8 @@ sidebar-it:
         url: /it/apple-tv/apple-tv-4k/
       - title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
         url: /it/apple-tv/apple-tv-4k-kodi/
-#  - title: "Nintendo Switch"
-#    url: /git/commend/
-#    children:
-#      - title: "블루투스 키보드 연결"
-#        url: /git/commend/branch/
+  - title: "Nintendo Switch"
+    url: /it/nintendo-switch/
+    children:
+      - title: "블루투스 이어폰 연결"
+        url: /it/nintendo-switch/nintendo-switch-bluetooth-earphone/

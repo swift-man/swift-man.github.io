@@ -21,6 +21,14 @@ feature_row:
     image_caption: "Photo credit: [**Apple**](https://www.apple.com)"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: https://www.nintendo.co.kr/hardware/detail/switch/img/01-hero/01pc.jpg
+    title: "[닌텐도 스위치] 블루투스 이어폰 연결하기"
+    excerpt: "드디어 블루투스이어폰 연결이 공식적으로 지원된다."
+    url: "/it/nintendo-switch/nintendo-switch-bluetooth-earphone/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    image_caption: "Photo credit: [**Nintendo**](https://www.nintendo.co.kr)"
 feature_row4:
   - image_path: https://www.linuxadictos.com/wp-content/uploads/kodi-logo.jpg.webp
     title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
@@ -34,5 +42,7 @@ feature_row4:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row4" type="left" %}
