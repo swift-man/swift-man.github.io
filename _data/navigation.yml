@@ -382,6 +382,12 @@ sidebar-architecture:
       - title: "소프트웨어 아키텍처가 중요한 이유"
         icon: "fab fa-youtube"
         url: /architecture/clean-architecture/importance/
+  - title: "Scrap"
+    url: /architecture/scrap/
+    children:
+      - title: "Coupang Android Architecture"
+        icon: "fas fa-link"
+        url: /architecture/scrap/coupang-android-architecture/
 #  - title: "MVVM"
 #    url: /architecture/
 #    children:
