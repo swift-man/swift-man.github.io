@@ -556,7 +556,7 @@ sidebar-git:
         url: /git/blog/imageUpload/
 
       
-  - title: "Blog Support Link"
+  - title: "Favourite Link"
     children:
       - title: "맞춤법 검사기"
         icon: "fas fa-link"
@@ -567,6 +567,9 @@ sidebar-git:
       - title: "무료 아이콘"
         icon: "fas fa-link"
         url: https://fontawesome.com/v5.15/icons?d=gallery&p=3&s=solid&m=free
+      - title: "무료 이미지"
+        icon: "fas fa-link"
+        url: https://pxhere.com/
       - title: "minimal-mistakes"
         icon: "fas fa-link"
         url: https://mmistakes.github.io/minimal-mistakes/
