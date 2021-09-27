@@ -41,7 +41,7 @@ Xcode > File > New > Project... > tvOS > App
 ```
 Xcode > Preferences... > Accounts > Apple IDs
 ```
-아래 하단 ✚ 버튼 클릭하고 애플 계정으로 로그인하자.
+아래 하단 + 버튼 클릭하고 애플 계정으로 로그인하자.
 
 >애플 개발자 계정은 두 가지로 나뉘는데, 기본으로 무료 계정이다.<br/>
 무료 계정일 경우 7일마다 재설치를 해야하며,<br/>
@@ -57,7 +57,7 @@ General / Siging & Capabilities / Resource Tags ...
 해당 탭에서 `Siging & Capabilities` 를 클릭하자.  
 먼저 프로젝트 생성 시 입력한 Organization Identifier가 보이는데 상단에 Team을 자신의 애플 계정으로 설정하면 자동 생성된다.
 
-## AppleTV 에 Kodi tvOS 19.1 설치
+## AppleTV 에 Kodi tvOS 19.1 ipa 파일 생성
 ### iOS App Signer로 ipa 파일 생성
 다운로드 받은 [<i class="fas fa-link"></i> Kodi tvOS 19.1](https://kodi.tv/download/tvos){:target="_blank"}을 설치할 수 있도록 앞서 설정한 Provisioning Profile 추가 작업이 필요하다.
 
@@ -70,7 +70,7 @@ export 작업이 하단에 보이게 되고 `Done, output... tvos.ipa` 메시지
 ### Xcode Apple TV 와 연결
 ipa 설치를 위해 [<i class="fas fa-link"></i>Xcode와 Apple TV ](http://127.0.0.1:4000/ios/xcode/xcode-build-apple-tv-4k/)를 연결하자.
 
-### Xcode로 ipa AppleTV에 설치
+### Xcode로 Kodi ipa File AppleTV에 설치
 이제 생성한 ipa파일을 Xcode를 통해 install하는 작업 진행하자.
 ```
 Xcode > Window > Device and Simulators 
@@ -83,10 +83,10 @@ Xcode 는 아무런 반응이 없는 것으로 보이지만 잘 설치되고 있
 ![Image](https://drive.google.com/uc?export=view&id=12gPtEikxwaOS3H3Lwt93FEEXQdS0CB-B)   
 >필자의 경우 약 20분 소요되었다.
 
-## 설치 완료
-### Xcode에서 설치 완료 확인
+## Kodi 설치 완료
+### Xcode에서 ipa 설치 완료 확인
 ![Image](https://drive.google.com/uc?export=view&id=1GaMO_af1Kx12HNBAC1KphK2IhpTyeLSz)  
-설치가 완료되면 tvOS 에 설치가 되었는지 Xcode 의 `INSTALLED APPS` 의 목록으로 확인이 가능하다.  
+Xcode 의 `INSTALLED APPS` 의 목록에 kodi가 추가 되었는지 확인하자.  
 ### Apple TV에서 설치 완료 확인
 ![Image](https://drive.google.com/uc?export=view&id=1hOJgf_2dHb4mdx8OFwTTmIK13ziCq7-8)  
 이제 Apple TV 의 홈 화면에 Kodi 앱 아이콘이 생겼는지 확인해 보자.
@@ -118,11 +118,11 @@ ftp://192.168.1.xx:31
 
 
 ## 후기
-꼭 해야 하는가? 에 대한 의문이 들었다. 실제로 사용해본 결과 집에 있는 케이블을 끊고 Kodi를 사용할만한 만족감은 아니었다.
+꼭 해야 하는가? 에 대한 의문이 들었다. 실제로 사용해본 결과 집에 있는 케이블을 끊고 Kodi를 사용할 정도의 만족감은 아니었다.
 
-카카오 TV 나 삼성 TV 재생은 잘 된다.  
-필자의 경우 쿠팡 플레이 유저임에도 불구하고 DRM 기능으로 막혀있어 플레이가 안 되었다.    
-티빙도 네이버 프리미엄 계정으로 모바일에선 재생이 되지만 Kodi 에선 플레이가 안 되었다.  
+Korean OTT 의 카카오 TV, 삼성 TV는 문제 없이 재생이 잘 된다.  
+필자의 경우 쿠팡 플레이 유저임에도 불구하고 DRM으로 막혀있어 kodi로 플레이가 안 되었다.    
+티빙도 네이버 프리미엄 계정이나 Kodi로 플레이가 안 되었다.  
 
 추후 가족과의 협의(?)를 통해 티빙 계정을 업그레이드하여 사용하는 방법은 좋을 듯하다.
 쿠팡 플레이도 재생이 된다면 이 환경을 유지해도 좋을 것 같다. 
