@@ -89,8 +89,6 @@ sidebar-swift:
     children:
       - title: "compare(_:)"
         url: /swift/stringprotocol/compare/
-      - title: "compare(_:options:range:locale:)"
-        url: /swift/stringprotocol/compare-option-range/
       - title: "applyingTransform(_:reverse:)"
         url: /swift/stringprotocol/applyingtransform/
   - title: "Closure"
