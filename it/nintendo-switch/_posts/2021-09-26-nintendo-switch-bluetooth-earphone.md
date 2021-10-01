@@ -40,4 +40,6 @@ excerpt: "드디어!! 출시 4년 만에 펌웨어 업데이트를 통해 블루
 
 ![Image](https://drive.google.com/uc?export=view&id=1deYC8bZFdnIuvoHJQPaCdcoI04H1HRIJ)    
 Bose App으로 연결한 모습  
-가끔 레이턴시 딜레이가 있긴 하지만 이 기능이 없어 너무 불편했는데 매우 만족하는 업데이트다.
+
+프로콘 + 블루투스 오디오로 연결 했을 시   
+가끔 레이턴시 딜레이가 있긴 하지만 블루투스 오디오가 연결되는 것에 매우 만족하는 업데이트다.
