@@ -81,6 +81,6 @@ fsf팁(tooltip)</span></p>이 나타납니다.</div>
 
 ## 게시글 비공개 처리
 ```
-published : true
+published : false
 ```
 상단 헤더에 넣어준다.
