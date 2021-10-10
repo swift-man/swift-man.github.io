@@ -45,6 +45,9 @@ sidebar-cs:
         url: /cs/cpu/register/
       - title: "iOS 기기 별 Architecture"
         url: /cs/cpu/iphone-architecture/
+      - title: "CPU는 어떻게 작동할까?"
+        icon: "fab fa-youtube"
+        url: /cs/cpu/operate-cpu/
   - title: "Memory"
     url: /cs/memory/
     children:
@@ -261,6 +264,8 @@ sidebar-ios:
   - title: "Xcode"
     url: /ios/xcode/
     children:
+      - title: "Xcode 13 Release Notes"
+        url: /ios/xcode/xcode-13/
       - title: "Created by 변경하기"
         url: /ios/xcode/create-by-name/
       - title: "Creating a Source Editor Extension"
