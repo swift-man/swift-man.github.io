@@ -408,6 +408,13 @@ sidebar-architecture:
 #        url: /operators/
 ##############
 sidebar-clean:
+  - title: "건강"
+    url: /clean/health/
+    children:
+      - title: "담배와 개발자"
+        url: /clean/health/cigarette/
+      - title: "금연과 개발자"
+        url: /clean/health/no-smoke/
   - title: "Code"
     url: /clean/code/
     children:
