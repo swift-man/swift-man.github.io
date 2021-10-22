@@ -16,9 +16,9 @@ depth:
     url: /git/markdown/
     icon: "far fa-folder-open"
 ---
-오픈소스 프로젝트의 Readme 에 한눈에 알 수 있게 뱃지가 달려있는데 어떻게 만들고 달 수 있는지 알아보자.  
+오픈소스 프로젝트의 Readme는 뱃지가 있는 경우가 대부분이다. 이러한 뱃지를 통해 이 Repo가 어떤 속성인지를 쉽게 알수 있도록 유저에게 제공 한다. 그럼 뱃지를 어떻게 만들고 게시 할 수 있는지 알아보자.  
 뱃지를 생성하고 링크하는 방법은 여러가지가 있다. 
-나의 경우 [<i class="fas fa-link"></i> shields.io/](https://shields.io){:target="_blank"} 에서 제공해 주는 서비스가 가장 마음에 들어 해당 내용을 포스팅 한다.
+팔저의 경우 [<i class="fas fa-link"></i> shields.io/](https://shields.io){:target="_blank"} 에서 제공해 주는 서비스가 가장 마음에 들어 해당 내용을 포스팅 한다.
 
 ## 타 Repo 에 있는 뱃지 샘플
 <img src="https://img.shields.io/github/contributors/badges/shields" />
