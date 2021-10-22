@@ -4,7 +4,6 @@ sidebar:
   nav: sidebar-clean
   icon: "fab fa-weixin"
 title: "객체 지향적 모델링과 네이밍"
-icon: "fas fa-link"
 toc: true
 toc_sticky: true
 toc_label: 목차
