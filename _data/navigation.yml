@@ -433,6 +433,12 @@ sidebar-clean:
       - title: "'코드 리뷰'를 돕는 10가지 방법"
         icon: "fas fa-link"
         url: /clean/code/code-review-10/
+      - title: "코드 리뷰, 어디까지 해봤니?"
+        icon: "fas fa-link"
+        url: /clean/code/kakaostory-codereview/
+      - title: "Gerrit을 이용한 코드 리뷰 시스템"
+        icon: "fas fa-link"
+        url: /clean/code/codereview-and-gerrit/
   - title: "English"
     url: /clean/english/
     children:
