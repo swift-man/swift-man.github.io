@@ -527,6 +527,8 @@ sidebar-clean:
         url: /clean/dictionary/kodi/
       - title: "Provisioning Profile"
         url: /clean/dictionary/provisioning-profiles/
+      - title: "Composition over inheritance"
+        url: /clean/dictionary/composition-over-inheritance/
       
       
 ##############
