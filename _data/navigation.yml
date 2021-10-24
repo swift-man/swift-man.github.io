@@ -81,6 +81,11 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "actor"
         url: /swift/5-5/actor/
+  - title: "SwiftUI"
+    url: /swift/swiftui/
+    children:
+      - title: "선언적 구문과 데이터 주도"
+        url: /swift/swiftui/declarative-syntax-and-data-driven/
   - title: "String"
     url: /swift/string/
     children:
