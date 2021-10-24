@@ -20,7 +20,7 @@
 - [ ] move to prev blog posts 
 
 ## Todo
-- [ ] Swift related posts [Swift] Add prefix
+- [x] Swift related posts [Swift] Add prefix
 - [ ] http://127.0.0.1:4000/swift/inheritance/temp/
 - [ ] http://127.0.0.1:4000/swift/closure/capture-list/
 - [ ] http://127.0.0.1:4000/swift/swift-package-manaer/swift-package-manager/
