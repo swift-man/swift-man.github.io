@@ -529,6 +529,8 @@ sidebar-clean:
         url: /clean/dictionary/provisioning-profiles/
       - title: "Composition over inheritance"
         url: /clean/dictionary/composition-over-inheritance/
+      - title: "콜드 스타트"
+        url: /clean/dictionary/cold-start/
       
       
 ##############
