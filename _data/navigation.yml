@@ -627,13 +627,7 @@ sidebar-git:
         
         
 ##############
-sidebar-swift-ui:
-  - title: "Swift-UI"
-    url: /swift-ui/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-##############
+
 sidebar-tdd:
   - title: "TDD"
     url: /tdd/
