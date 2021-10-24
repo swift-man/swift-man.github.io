@@ -433,6 +433,8 @@ sidebar-clean:
       - title: "'코드 리뷰'를 돕는 10가지 방법"
         icon: "fas fa-link"
         url: /clean/code/code-review-10/
+      - title: "객체 지향적 모델링과 네이밍"
+        url: /clean/code/oop-naming/
       - title: "코드 리뷰, 어디까지 해봤니?"
         icon: "fas fa-link"
         url: /clean/code/kakaostory-codereview/
