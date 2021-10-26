@@ -4,17 +4,16 @@ sidebar:
   nav: sidebar-cs
   icon: "fas fa-microchip"
 title: "Hash Table"
-icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Encryption"
+tag: "DataStructure"
 depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
   - title: "DataS"
-    url: /cs/Encryption/
+    url: /cs/datastructure/
     icon: "far fa-folder-open"
 ---
 
