@@ -42,4 +42,4 @@ Component의 attribute를 선언하는 것을 수정자라 한다. 종류는 for
 ### 데이터 주도(data driven)
 App Data와 UserInterface 및 Logic 사이의 관계를 Binding 하는 방법으로 복잡도를 해결하며 이는 데이터 주도적이다.
 
-DataModel 은 구독(subscribe)할 수 있는 데이터 변수를 게시(publish)하게 된다. 이러한 방법을 통해 Data가 변경되었다는 사실을 모든 구독자에게 자동으로 알릴 수 있다. 이 방법으로 UserInterface Component와 Data Model의 Binding을 통해 추가적인 코드를 작성하지 않아도 모든 Data의 변경 사항을 UserInterface에 자동으로 반영한다.
+Data Model은 구독(subscribe)할 수 있는 데이터 변수를 게시(publish)하게 된다. 이러한 방법을 통해 Data가 변경되었다는 사실을 모든 구독자에게 자동으로 알릴 수 있다. 이 방법으로 UserInterface Component와 Data Model의 Binding을 통해 추가적인 코드를 작성하지 않아도 모든 Data의 변경 사항을 UserInterface에 자동으로 반영한다.
