@@ -477,6 +477,9 @@ sidebar-clean:
         url: /clean/think/good-developer1/
       - title: "좋은 개발자(2)"
         url: /clean/think/good-developer2/
+      - title: "좋은 개발자(3)"
+        icon: "fab fa-youtube"
+        url: /clean/think/good-developer3/
       - title: "개발을 시작하게 된 계기"
         url: /clean/think/start-development/
       - title: "iOS 개발을 시작하게 된 계기"
