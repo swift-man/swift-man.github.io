@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 icon: "fab fa-youtube"
+tag: "좋은 개발자"
 depth: 
   - title: "Clean"
     url: /clean/

@@ -7,6 +7,7 @@ title: "좋은 개발자(2)"
 toc: true
 toc_sticky: true
 toc_label: 목차
+tag: "좋은 개발자"
 depth: 
   - title: "Clean"
     url: /clean/
