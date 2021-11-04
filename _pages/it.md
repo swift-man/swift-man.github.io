@@ -15,7 +15,7 @@ intro:
   - excerpt: "평소에 관심있는 IT 기기, 사용 후기 등 정리하는 공간."
 feature_row:
   - image_path: https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY
-    title: "[Apple TV] 한국 출시"
+    title: "[Apple TV+] 한국 출시"
     excerpt: "집 안에 찾아온 미래. 라는데 정말?!"
     url: "/it/apple-tv/apple-tv-korea/"
     image_caption: "Photo credit: [**Apple**](https://www.apple.com)"

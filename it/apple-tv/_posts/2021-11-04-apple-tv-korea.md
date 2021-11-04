@@ -3,7 +3,7 @@ sidebar:
   title: "IT"
   nav: sidebar-it
   icon: "fas fa-mobile-alt"
-title: "[Apple TV] 한국 출시"
+title: "[Apple TV+] 한국 출시"
 toc: true
 toc_sticky: true
 toc_label: 목차
