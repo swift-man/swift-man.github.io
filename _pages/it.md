@@ -14,6 +14,13 @@ excerpt: "Hardware specs, scrap link"
 intro: 
   - excerpt: "평소에 관심있는 IT 기기, 사용 후기 등 정리하는 공간."
 feature_row:
+  - image_path: https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY
+    title: "[Apple TV] 한국 출시"
+    excerpt: "집 안에 찾아온 미래. 라는데 정말?!"
+    url: "/it/apple-tv/apple-tv-korea/"
+    image_caption: "Photo credit: [**Apple**](https://www.apple.com)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: https://www.apple.com/v/apple-tv-4k/t/images/overview/hero/apple_tv_4k_remote__c4hmy02k6o6e_small.jpg
     title: "[Apple TV 4K] 6세대 초기 설정 및 사용 후기"
     excerpt: "현재 한국에 미 출시 상태, 그러나 구매 가치가 있는지 후기를 적어봅니다."
