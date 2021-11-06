@@ -11,9 +11,9 @@
 - [x] add post icon
 - [x] add posts icon
 - [x] add nav icon
-- [x] add post hitcount
+- [x] ~~add post hitcount~~
 - [x] add head icon
-- [ ] add posts hitcount
+- [ ] ~~add posts hitcount~~
 - [ ] add apps page - grid(Release Application Page)
 
 ## Proceeding
