@@ -73,240 +73,52 @@ sidebar-cs:
       - title: "HashTable"
         url: /cs/datastructure/hashtable/
         
-        
-sidebar-swift:
-  - title: "Data Type"
-    url: /swift/data-type/
+sidebar-architecture:
+#  - title: "Dependency Inversion"
+#    url: /architecture/
+  - title: "Clean Architecture"
+    url: /architecture/clean-architecture/
     children:
-      - title: "Value Type"
-        url: /swift/data-type/valuetype/
-      - title: "Reference Type"
-        url: /swift/data-type/referencetype/
-      - title: "Boxing"
-        url: /swift/data-type/boxing/
-  - title: "Swift 5.5"
-    url: /swift/5-5/
+      - title: "소프트웨어 아키텍처 정의"
+        icon: "fab fa-youtube"
+        url: /architecture/clean-architecture/definition/
+      - title: "소프트웨어 아키텍처가 중요한 이유"
+        icon: "fab fa-youtube"
+        url: /architecture/clean-architecture/importance/
+  - title: "Software Engineering"
+    url: /architecture/software-engineering/
     children:
-      - title: "async await"
-        url: /swift/5-5/async-await/
-      - title: "actor"
-        url: /swift/5-5/actor/
-  - title: "SwiftUI"
-    url: /swift/swiftui/
+      - title: "객체 지향의 5가지 설계 원칙"
+        url: /architecture/software-engineering/solid/
+  - title: "Scrap"
+    url: /architecture/scrap/
     children:
-      - title: "선언적 구문과 데이터 주도"
-        url: /swift/swiftui/declarative-syntax-and-data-driven/
-  - title: "String"
-    url: /swift/string/
-    children:
-      - title: "init(format:_:)"
-        url: /swift/string/init-format/
-
-  - title: "StringProtocol"
-    url: /swift/stringprotocol/
-    children:
-      - title: "compare(_:)"
-        url: /swift/stringprotocol/compare/
-      - title: "applyingTransform(_:reverse:)"
-        url: /swift/stringprotocol/applyingtransform/
-  - title: "Closure"
-    url: /swift/closure/
-    children:
-      - title: "@autoclosure"
-        url: /swift/closure/autoclosure/
-      - title: "@escaping"
-        url: /swift/closure/escaping/
-      - title: "@nonescaping"
-        url: /swift/closure/nonescaping/
-      - title: "Capture List"
-        url: /swift/closure/capture-list/
-      - title: "Currying"
-        url: /swift/closure/currying/
-      
-  - title: "Collections"
-    url: /swift/collections/
-    children:
-      - title: "Array"
-        url: /swift/collections/array/
-      - title: "Dictionary"
-        url: /swift/collections/dictionary/
-      - title: "Set"
-        url: /swift/collections/set/
-      - title: "Performance, FP"
-        url: /swift/collections/performance-fp/
-      - title: "copy-on-write"
-        url: /swift/collections/copy-on-write/
-  - title: "Inheritance"
-    url: /swift/inheritance/
-    children:
-      - title: "상속"
-        url: /swift/inheritance/temp/
-      - title: "final"
-        url: /swift/inheritance/final/
-  - title: "Swift Package Manager"
-    url: /swift/swift-package-manager/
-    children:
-      - title: "생성하기"
-        url: /swift/swift-package-manaer/swift-package-manager/
-#
-#  - title: "Swift 5.4 Released!"
-#    url: https://swift.org/blog/swift-5-4-released/
-#    children:
-#      - title: "Edge Case: Nested and Mixed Lists"
-#        url: /swift/5.4/edge-case-nested-and-mixed-lists/
-#
-#  - title: "Swift 5.3 Released!"
-#    url: https://swift.org/blog/swift-5-3-released/
-#    children:
-#      - title: "comming soon"
-#        url: /child-1-page-url/
-#
-#  - title: "Swift 5.2 Released!"
-#    url: https://swift.org/blog/swift-5-2-released/
-#    children:
-#      - title: "comming soon"
-#        url: /child-1-page-url/
-#
-#  - title: "Swift 5.1 Released!"
-#    url: https://swift.org/blog/swift-5-1-released/
-#    children:
-#      - title: "comming soon"
-#        url: /child-1-page-url/
-#
-#  - title: "Swift 5 Released!"
-#    url: https://swift.org/blog/swift-5-released/
-#    children:
-#      - title: "comming soon"
-#        url: /child-1-page-url/
-#
-#  - title: "Swift 4.2 Released!"
-#    url: https://swift.org/blog/swift-4-2-released/
-#    children:
-#      - title: "comming soon"
-#        url: /child-1-page-url/
-#
-#  - title: "Swift 4 Released!"
-#    url: https://swift.org/blog/swift-4-0-released/
-#    children:
-#      - title: "release"
-#        url: swift/4.0/release/
-##############
-sidebar-ios:
-  - title: "Objective-C"
-    url: /ios/objectivec/
-    children:
-      - title: "NSObject"
-        icon: "far fa-folder-open"
-        url: /ios/objectivec/nsobject/
-        children:
-        - title: "nil, Nil, NULL, NSNull 대한 차이"
-          url: /ios/objectivec/nsobject/nsnull/
-  - title: "Foundation"
-    url: /ios/foundation/
-    children:
-      - title: "NSString"
-        icon: "far fa-folder-open"
-        url: /ios/foundation/nsstring/
-        children:
-        - title: "CompareOptions"
-          url: /ios/foundation/nsstring/compareoptions/
-        - title: "StringTransform"
-          url: /ios/foundation/nsstring/stringtransform/
-      - title: "ObjCRuntime"
-        url: /ios/foundation/objcruntime/
-        icon: "far fa-folder-open"
-        children:
-        - title: "ComparisonResult"
-          url: /ios/foundation/objcruntime/comparisonresult/
-        
-  - title: "UIResponder"
-    url: /ios/uiresponder/
-    children:
-      - title: "@UIApplicationMain"
-        url: /ios/uiresponder/uiapplicationmain/
-        icon: "far fa-folder-open"
-        children:
-        - title: "UIApplication Life Cycle"
-          url: /ios/uiresponder/uiapplicationmain/lifecycle/
-      - title: "UIViewController"
-        icon: "far fa-folder-open"
-        url: /ios/uiresponder/uiviewcontroller/
-        children:
-        - title: "Life cycle"
-          url: /ios/uiresponder/uiviewcontroller/lifecycle/
-      - title: "UIView"
-        icon: "far fa-folder-open"
-        url: /ios/uiresponder/uiview/
-        children:
-        - title: "bounds"
-          url: /ios/uiresponder/uiview/bounds/
-        - title: "frame"
-          url: /ios/uiresponder/uiview/frame/
-        - title: "draw(_ rect: CGRect)"
-          url: /ios/uiresponder/uiview/draw-rect/
-        - title: "Drawing Cycle"
-          url: /ios/uiresponder/uiview/DrawingCycle/
-          children:
-          - title: "sync"
-            url: /ios/uiresponder/uiview/syncupdate/
-            icon: "far fa-folder-open"
-            children:
-            - title: "layoutIfNeeded()"
-              url: /ios/uiresponder/uiview/syncupdate/layoutIfNeeded/
-          - title: "async"
-            url: /ios/uiresponder/uiview/asyncupdate/
-            icon: "far fa-folder-open"
-            children:
-            - title: "layoutSubviews()"
-              url: /ios/uiresponder/uiview/asyncupdate/layout-subviews/
-            - title: "setNeedsLayout()"
-              url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
-            - title: "setNeedsDisplay()"
-              url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
-  - title: "App Thinning"
-    icon: "far fa-file-alt"
-    url: /ios/app-thinning/
-    children:
-      - title: "App Slicing"
-        url: /ios/app-thinning/app-slicing/
-      - title: "Bitcode"
-        url: /ios/app-thinning/bitcode/
-      - title: "On-demand Resource"
-        url: /ios/app-thinning/on-demand/
-  - title: "FairPlay Streaming"
-    url: /ios/fairplay-streaming/
-    icon: "fas fa-link"
-  - title: "Xcode"
-    url: /ios/xcode/
-    children:
-      - title: "Xcode 13 Release Notes"
-        url: /ios/xcode/xcode-13/
-      - title: "Xcode 13.1 Release Notes"
-        url: /ios/xcode/xcode-13_1/
-      - title: "Created by 변경하기"
-        url: /ios/xcode/create-by-name/
-      - title: "Creating a Source Editor Extension"
-        url: /ios/xcode/create-source-editor-extension/
+      - title: "Coupang Android Architecture"
         icon: "fas fa-link"
-      - title: "Apple TV 4K 6세대 Xcode로 빌드 하기"
-        url: /ios/xcode/xcode-build-apple-tv-4k/
-  - title: "Build Error"
-    url: /ios/build-error/
-    children:
-    - title: "Could not find module for target x86_64..."
-      url: /ios/build-error/x86_64-apple-ios-simulator/
-        
-    
+        url: /architecture/scrap/coupang-android-architecture/
+#  - title: "MVVM"
+#    url: /architecture/
 #    children:
-#      - title: "iOS 15"
+#      - title: "Operators"
 #        url: /operators/
-#  - title: "iOS 14"
-#    url: /ios14/
-#  - title: "iOS 13"
-#    url: /ios13/
-#  - title: "iOS 12"
-#    url: /ios12/
+#  - title: "MVC"
+#    url: /architecture/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
+#  - title: "MVI"
+#    url: /architecture/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
+#  - title: "RIBs"
+#    url: /architecture/
+#    children:
+#      - title: "Operators"
+#        url: /operators/
 ##############
+
+
 sidebar-algorithm:
 #  - title: "수학"
 #    url: /algorithm/math/
@@ -385,50 +197,7 @@ sidebar-algorithm:
       - title: "빠른 입출력 - FileIO"
         url: /algorithm/baekjoon/fileio/
 ##############
-sidebar-architecture:
-#  - title: "Dependency Inversion"
-#    url: /architecture/
-  - title: "Clean Architecture"
-    url: /architecture/clean-architecture/
-    children:
-      - title: "소프트웨어 아키텍처 정의"
-        icon: "fab fa-youtube"
-        url: /architecture/clean-architecture/definition/
-      - title: "소프트웨어 아키텍처가 중요한 이유"
-        icon: "fab fa-youtube"
-        url: /architecture/clean-architecture/importance/
-  - title: "Software Engineering"
-    url: /architecture/software-engineering/
-    children:
-      - title: "객체 지향의 5가지 설계 원칙"
-        url: /architecture/software-engineering/solid/
-  - title: "Scrap"
-    url: /architecture/scrap/
-    children:
-      - title: "Coupang Android Architecture"
-        icon: "fas fa-link"
-        url: /architecture/scrap/coupang-android-architecture/
-#  - title: "MVVM"
-#    url: /architecture/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-#  - title: "MVC"
-#    url: /architecture/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-#  - title: "MVI"
-#    url: /architecture/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-#  - title: "RIBs"
-#    url: /architecture/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-##############
+
 sidebar-clean:
   - title: "건강"
     url: /clean/health/
@@ -651,6 +420,244 @@ sidebar-tdd:
 #    children:
 #      - title: "Operators"
 #        url: /operators/
+##############
+
+sidebar-ios:
+  - title: "Objective-C"
+    url: /ios/objectivec/
+    children:
+      - title: "NSObject"
+        icon: "far fa-folder-open"
+        url: /ios/objectivec/nsobject/
+        children:
+        - title: "nil, Nil, NULL, NSNull 대한 차이"
+          url: /ios/objectivec/nsobject/nsnull/
+  - title: "Foundation"
+    url: /ios/foundation/
+    children:
+      - title: "NSString"
+        icon: "far fa-folder-open"
+        url: /ios/foundation/nsstring/
+        children:
+        - title: "CompareOptions"
+          url: /ios/foundation/nsstring/compareoptions/
+        - title: "StringTransform"
+          url: /ios/foundation/nsstring/stringtransform/
+      - title: "ObjCRuntime"
+        url: /ios/foundation/objcruntime/
+        icon: "far fa-folder-open"
+        children:
+        - title: "ComparisonResult"
+          url: /ios/foundation/objcruntime/comparisonresult/
+        
+  - title: "UIResponder"
+    url: /ios/uiresponder/
+    children:
+      - title: "@UIApplicationMain"
+        url: /ios/uiresponder/uiapplicationmain/
+        icon: "far fa-folder-open"
+        children:
+        - title: "UIApplication Life Cycle"
+          url: /ios/uiresponder/uiapplicationmain/lifecycle/
+      - title: "UIViewController"
+        icon: "far fa-folder-open"
+        url: /ios/uiresponder/uiviewcontroller/
+        children:
+        - title: "Life cycle"
+          url: /ios/uiresponder/uiviewcontroller/lifecycle/
+      - title: "UIView"
+        icon: "far fa-folder-open"
+        url: /ios/uiresponder/uiview/
+        children:
+        - title: "bounds"
+          url: /ios/uiresponder/uiview/bounds/
+        - title: "frame"
+          url: /ios/uiresponder/uiview/frame/
+        - title: "draw(_ rect: CGRect)"
+          url: /ios/uiresponder/uiview/draw-rect/
+        - title: "Drawing Cycle"
+          url: /ios/uiresponder/uiview/DrawingCycle/
+          children:
+          - title: "sync"
+            url: /ios/uiresponder/uiview/syncupdate/
+            icon: "far fa-folder-open"
+            children:
+            - title: "layoutIfNeeded()"
+              url: /ios/uiresponder/uiview/syncupdate/layoutIfNeeded/
+          - title: "async"
+            url: /ios/uiresponder/uiview/asyncupdate/
+            icon: "far fa-folder-open"
+            children:
+            - title: "layoutSubviews()"
+              url: /ios/uiresponder/uiview/asyncupdate/layout-subviews/
+            - title: "setNeedsLayout()"
+              url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
+            - title: "setNeedsDisplay()"
+              url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
+  - title: "App Thinning"
+    icon: "far fa-file-alt"
+    url: /ios/app-thinning/
+    children:
+      - title: "App Slicing"
+        url: /ios/app-thinning/app-slicing/
+      - title: "Bitcode"
+        url: /ios/app-thinning/bitcode/
+      - title: "On-demand Resource"
+        url: /ios/app-thinning/on-demand/
+  - title: "FairPlay Streaming"
+    url: /ios/fairplay-streaming/
+    icon: "fas fa-link"
+  - title: "Xcode"
+    url: /ios/xcode/
+    children:
+      - title: "Xcode 13 Release Notes"
+        url: /ios/xcode/xcode-13/
+      - title: "Xcode 13.1 Release Notes"
+        url: /ios/xcode/xcode-13_1/
+      - title: "Created by 변경하기"
+        url: /ios/xcode/create-by-name/
+      - title: "Creating a Source Editor Extension"
+        url: /ios/xcode/create-source-editor-extension/
+        icon: "fas fa-link"
+      - title: "Apple TV 4K 6세대 Xcode로 빌드 하기"
+        url: /ios/xcode/xcode-build-apple-tv-4k/
+  - title: "Build Error"
+    url: /ios/build-error/
+    children:
+    - title: "Could not find module for target x86_64..."
+      url: /ios/build-error/x86_64-apple-ios-simulator/
+        
+    
+#    children:
+#      - title: "iOS 15"
+#        url: /operators/
+#  - title: "iOS 14"
+#    url: /ios14/
+#  - title: "iOS 13"
+#    url: /ios13/
+#  - title: "iOS 12"
+#    url: /ios12/
+##############
+
+sidebar-swift:
+  - title: "Data Type"
+    url: /swift/data-type/
+    children:
+      - title: "Value Type"
+        url: /swift/data-type/valuetype/
+      - title: "Reference Type"
+        url: /swift/data-type/referencetype/
+      - title: "Boxing"
+        url: /swift/data-type/boxing/
+  - title: "Swift 5.5"
+    url: /swift/5-5/
+    children:
+      - title: "async await"
+        url: /swift/5-5/async-await/
+      - title: "actor"
+        url: /swift/5-5/actor/
+  - title: "SwiftUI"
+    url: /swift/swiftui/
+    children:
+      - title: "선언적 구문과 데이터 주도"
+        url: /swift/swiftui/declarative-syntax-and-data-driven/
+      - title: "당장 적용하는 SwiftUI의 아이디어"
+        icon: "fab fa-youtube"
+        url: /swift/swiftui/swiftui-idea/
+  - title: "String"
+    url: /swift/string/
+    children:
+      - title: "init(format:_:)"
+        url: /swift/string/init-format/
+
+  - title: "StringProtocol"
+    url: /swift/stringprotocol/
+    children:
+      - title: "compare(_:)"
+        url: /swift/stringprotocol/compare/
+      - title: "applyingTransform(_:reverse:)"
+        url: /swift/stringprotocol/applyingtransform/
+  - title: "Closure"
+    url: /swift/closure/
+    children:
+      - title: "@autoclosure"
+        url: /swift/closure/autoclosure/
+      - title: "@escaping"
+        url: /swift/closure/escaping/
+      - title: "@nonescaping"
+        url: /swift/closure/nonescaping/
+      - title: "Capture List"
+        url: /swift/closure/capture-list/
+      - title: "Currying"
+        url: /swift/closure/currying/
+      
+  - title: "Collections"
+    url: /swift/collections/
+    children:
+      - title: "Array"
+        url: /swift/collections/array/
+      - title: "Dictionary"
+        url: /swift/collections/dictionary/
+      - title: "Set"
+        url: /swift/collections/set/
+      - title: "Performance, FP"
+        url: /swift/collections/performance-fp/
+      - title: "copy-on-write"
+        url: /swift/collections/copy-on-write/
+  - title: "Inheritance"
+    url: /swift/inheritance/
+    children:
+      - title: "상속"
+        url: /swift/inheritance/temp/
+      - title: "final"
+        url: /swift/inheritance/final/
+  - title: "Swift Package Manager"
+    url: /swift/swift-package-manager/
+    children:
+      - title: "생성하기"
+        url: /swift/swift-package-manaer/swift-package-manager/
+#
+#  - title: "Swift 5.4 Released!"
+#    url: https://swift.org/blog/swift-5-4-released/
+#    children:
+#      - title: "Edge Case: Nested and Mixed Lists"
+#        url: /swift/5.4/edge-case-nested-and-mixed-lists/
+#
+#  - title: "Swift 5.3 Released!"
+#    url: https://swift.org/blog/swift-5-3-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5.2 Released!"
+#    url: https://swift.org/blog/swift-5-2-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5.1 Released!"
+#    url: https://swift.org/blog/swift-5-1-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 5 Released!"
+#    url: https://swift.org/blog/swift-5-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 4.2 Released!"
+#    url: https://swift.org/blog/swift-4-2-released/
+#    children:
+#      - title: "comming soon"
+#        url: /child-1-page-url/
+#
+#  - title: "Swift 4 Released!"
+#    url: https://swift.org/blog/swift-4-0-released/
+#    children:
+#      - title: "release"
+#        url: swift/4.0/release/
 ##############
 
 sidebar-it:
