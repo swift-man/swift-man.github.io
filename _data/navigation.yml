@@ -281,6 +281,8 @@ sidebar-ios:
     children:
       - title: "Xcode 13 Release Notes"
         url: /ios/xcode/xcode-13/
+      - title: "Xcode 13.1 Release Notes"
+        url: /ios/xcode/xcode-13_1/
       - title: "Created by 변경하기"
         url: /ios/xcode/create-by-name/
       - title: "Creating a Source Editor Extension"
