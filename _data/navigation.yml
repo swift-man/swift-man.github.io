@@ -72,6 +72,8 @@ sidebar-cs:
         url: /cs/datastructure/linked-list/
       - title: "HashTable"
         url: /cs/datastructure/hashtable/
+        
+        
 sidebar-swift:
   - title: "Data Type"
     url: /swift/data-type/
@@ -393,6 +395,11 @@ sidebar-architecture:
       - title: "소프트웨어 아키텍처가 중요한 이유"
         icon: "fab fa-youtube"
         url: /architecture/clean-architecture/importance/
+  - title: "Software Engineering"
+    url: /architecture/software-engineering/
+    children:
+      - title: "객체 지향의 5가지 설계 원칙"
+        url: /architecture/software-engineering/solid/
   - title: "Scrap"
     url: /architecture/scrap/
     children:
