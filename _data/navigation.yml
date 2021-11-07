@@ -432,6 +432,8 @@ sidebar-ios:
         children:
         - title: "nil, Nil, NULL, NSNull 대한 차이"
           url: /ios/objectivec/nsobject/nsnull/
+        - title: "NSCache"
+          url: /ios/objectivec/nsobject/nscache/
   - title: "Foundation"
     url: /ios/foundation/
     children:
