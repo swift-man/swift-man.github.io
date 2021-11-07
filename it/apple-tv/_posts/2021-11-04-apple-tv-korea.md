@@ -16,7 +16,7 @@ header:
 excerpt: "집 안에 찾아온 미래. 라는데 정말?!"
 ---
 Apple TV가 2021년 11월 4일에 한국에 공식 출시하였다.  
-해당 내용은 [<i class="fas fa-link"></i> 공식 홈페이지](https://www.apple.com/kr/tv-home/?afid=p238%7Cs4D4MFn78-dc_mtid_20925v0y67308_pcrid_555748410434_)에서 확인이 가능하다.
+해당 내용은 [<i class="fas fa-link"></i> 공식 홈페이지](https://www.apple.com/kr/tv-home/?afid=p238%7Cs4D4MFn78-dc_mtid_20925v0y67308_pcrid_555748410434_){:target="_blank"}에서 확인이 가능하다.
 
 ## 3개월 무료 구독
 애플 TV를 구매하면 3개월 무료 구독을 제공해준다. 바로 구독하자.
@@ -37,14 +37,14 @@ Apple TV의 주 계정 변경 옵션을 찾아봐도 보이지 않았다. 기존
 >애플은 피트니스 구독 서비스 제공 대상에 15개국을 추가했다. 새로 추가된 국가로는 오스트리아, 브라질, 콜롬비아, 프랑스, 독일, 인도네시아, 이탈리아, 말레이시아, 멕시코, 포르투갈, 러시아, 사우디아라비아, 스페인, 스위스, 아랍에미리트가 있다. 11월 3일부터 총 21개 국가에서 애플 피트니스 플러스를 이용할 수 있다.<br/><br/>
 이 서비스는 아직 영어 음성으로 제공되지만, 브라질 포르투갈어, 영어, 프랑스어, 독일어, 이탈리아어, 러시아어, 스페인어 자막이 제공된다.
   
-[<i class="fas fa-link"></i> 기사 원문](https://www.itworld.co.kr/news/213354) 
+[<i class="fas fa-link"></i> 기사 원문](https://www.itworld.co.kr/news/213354){:target="_blank"}
 
 ## Mac에서 실행
 ### 인증 오류 발생 시 
 ![Image](https://drive.google.com/uc?export=view&id=1vpOS6SgE-P5PZfKr-j9Y7qXB7I3HTwyw)
 
 만약 5개의 맥이 이미 연동되어 있다면, 5대 인증 오류가 발생 할 수 있다. 모두 인증 해지 후 다시 인증해야 한다.
-해당 내용은 [<i class="fas fa-link"></i>  링크](https://support.apple.com/ko-kr/HT201251?&cid=acs::fm-itunes_HT201251)를 참고하자.
+해당 내용은 [<i class="fas fa-link"></i>  링크](https://support.apple.com/ko-kr/HT201251?&cid=acs::fm-itunes_HT201251){:target="_blank"}를 참고하자.
 
 ![Image](https://drive.google.com/uc?export=view&id=1ihqPaftXhqryNRs9LDrIFrJuU5AgRud3)
 음악 앱이나 애플TV 앱에서 빨간색 영역의 버튼을 누르면 5대 인증이 모두 해지되고 다시 인증하면 해결이 가능하다.  
