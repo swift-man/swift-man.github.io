@@ -1,19 +1,19 @@
 ---
 sidebar:
-  title: "Algorithm"
-  nav: sidebar-algorithm
-  icon: "fas fa-calculator"
+  title: "CS"
+  nav: sidebar-cs
+  icon: "fas fa-microchip"
 title: "[Swift] LinkedList"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Data Structure"
+tag: "DataStructure"
 depth:
-  - title: "Algorithm"
-    url: /algorithm/
-    icon: "far fa-folder-open"
-  - title: "Data Structure"
-    url: /algorithm/data-structure/
+  - title: "CS"
+    url: /cs/
+    icon: "fas fa-microchip"
+  - title: "DataStructure"
+    url: /cs/datastructure/
     icon: "far fa-folder-open"
 ---
 리스트의 다음 원소에 대한 연결고리(link, 포인터 또는 레퍼런스) 가 들어있다.  

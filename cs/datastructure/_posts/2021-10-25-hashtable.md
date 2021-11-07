@@ -12,7 +12,7 @@ depth:
   - title: "CS"
     url: /cs/
     icon: "fas fa-microchip"
-  - title: "DataS"
+  - title: "DataStructure"
     url: /cs/datastructure/
     icon: "far fa-folder-open"
 ---
