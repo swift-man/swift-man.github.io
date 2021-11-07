@@ -3,7 +3,7 @@ sidebar:
   title: "Swift"
   nav: sidebar-swift
   icon: "fab fa-swift"
-title: "applyingTransform(_:, reverse: Bool)"
+title: "[Swift] StringProtocol.applyingTransform(_:, reverse: Bool)"
 toc: true
 toc_sticky: true
 toc_label: 목차

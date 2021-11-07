@@ -3,7 +3,7 @@ sidebar:
   title: "Swift"
   nav: sidebar-swift
   icon: "fab fa-swift"
-title: "init(format:_:)"
+title: "[Swift] String.init(format:_:)"
 toc: true
 toc_sticky: true
 toc_label: 목차
