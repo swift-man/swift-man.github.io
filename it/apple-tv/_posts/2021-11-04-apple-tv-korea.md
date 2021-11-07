@@ -19,7 +19,7 @@ Apple TV가 2021년 11월 4일에 한국에 공식 출시하였다.
 해당 내용은 [<i class="fas fa-link"></i> 공식 홈페이지](https://www.apple.com/kr/tv-home/?afid=p238%7Cs4D4MFn78-dc_mtid_20925v0y67308_pcrid_555748410434_)에서 확인이 가능하다.
 
 ## 3개월 무료 구독
-애플 TV를 구매하면 3개월 무료 구독을 제공해준다. 바로 바로 구독하자.
+애플 TV를 구매하면 3개월 무료 구독을 제공해준다. 바로 구독하자.
 
 ![Image](https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY)
 
@@ -43,7 +43,7 @@ Apple TV의 주 계정 변경 옵션을 찾아봐도 보이지 않았다. 기존
 ### 인증 오류 발생 시 
 ![Image](https://drive.google.com/uc?export=view&id=1vpOS6SgE-P5PZfKr-j9Y7qXB7I3HTwyw)
 
-5대 인증 오류가 발생 할 수 있다. 만약 5개의 맥이 이미 연동되어 있다면, 모두 인증 해지 후 다시 인증해야 한다.
+만약 5개의 맥이 이미 연동되어 있다면, 5대 인증 오류가 발생 할 수 있다. 모두 인증 해지 후 다시 인증해야 한다.
 해당 내용은 [<i class="fas fa-link"></i>  링크](https://support.apple.com/ko-kr/HT201251?&cid=acs::fm-itunes_HT201251)를 참고하자.
 
 ![Image](https://drive.google.com/uc?export=view&id=1ihqPaftXhqryNRs9LDrIFrJuU5AgRud3)
