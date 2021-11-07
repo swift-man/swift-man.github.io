@@ -63,7 +63,15 @@ sidebar-cs:
         url: /cs/memory/memory-space/
       - title: "Mutability"
         url: /cs/memory/mutability/
-        
+  - title: "Data Structure"
+    url: /cs/datastructure/
+    children:
+      - title: "Stack"
+        url: /cs/datastructure/stack/
+      - title: "LinkedList"
+        url: /cs/datastructure/linked-list/
+      - title: "HashTable"
+        url: /cs/datastructure/hashtable/
 sidebar-swift:
   - title: "Data Type"
     url: /swift/data-type/
@@ -296,13 +304,6 @@ sidebar-ios:
 #    url: /ios12/
 ##############
 sidebar-algorithm:
-  - title: "Data Structure"
-    url: /algorithm/data-structure/
-    children:
-      - title: "Stack"
-        url: /algorithm/data-structure/stack/
-      - title: "LinkedList"
-        url: /algorithm/data-structure/linked-list/
 #  - title: "수학"
 #    url: /algorithm/math/
 #        children:
