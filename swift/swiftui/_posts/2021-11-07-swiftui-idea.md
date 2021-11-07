@@ -104,7 +104,7 @@ class ViewModel: ObservableObject {
 }
 
 struct MyView: View {
-  @observedObject var viewModel: ViewModel
+  @ObservedObject var viewModel: ViewModel
   
   var body: some View {
     Slider(value: $viewModel.modelValue)  // viewModel에 종속적, 일종의 observer pattern
