@@ -16,12 +16,12 @@ header:
   caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
 excerpt: "How we debug with Charle"
 ---
-앱을 처음 켜면 WEB DEBUG PROXY 하고 나오지만, 안드로이드, iOS 시뮬레이터에서 동작함으로 호출되는 API의 정상 여부, 각 상세 정보 등을 확인할 수 있어 매우 유용하다.
+앱을 처음 켜면 WEB DEBUG PROXY 라고 나오지만, 안드로이드, iOS 시뮬레이터도 동작하는 네이티브 개발자에게도 유용한 개발 도구다. 해당 디바이스에서 호출되는 API의 정상 여부, 각 상세 정보 등을 확인할 수 있어 매우 유용하다.
 
 Map Local, Rewrite 등 매우 유용한 기능도 탑재하고 있어 강력하다.  
 추후 이 기능들에 대해 포스팅하도록 하겠다.
 
-Charles를 아주 가끔 세팅하기 때문에 세팅법을 항상 잊어버리기 마련이다. 이참에 세팅법을 적기로 했다.  
+Charles를 아주 가끔 세팅하기 때문에 세팅법을 항상 잊어버리게 된다. 그래서 이참에 세팅법을 적기로 했다.  
 ![Image](https://drive.google.com/uc?export=view&id=1UZ3lhBiWu3eeTDLpkIodF4Aj3KWhyWb2)  
 개발 도구라고 느껴지지 않는 아주 고급스러운 디자인의 아이콘이다. 
 
@@ -60,11 +60,12 @@ Root Certificate는 자신의 컴퓨터가 대상이 되며, 개발용 시뮬레
 
 ![Image](https://drive.google.com/uc?export=view&id=13QhN6Dtey65aw143hHl0_1Q0pqc90a0f)  
 
-만약 찰스를 더 이상 사용하지 않거나, Proxy를 사용할 때만 신뢰를 하고 싶다면 안타깝게도 키체인에서 수동으로 `신뢰` <-> `허용하지 않음`을 변경해주어야 한다.
+만약 찰스를 더 이상 사용하지 않거나, Proxy를 사용할 때만 신뢰를 하고 싶다면 키체인에서 `항상 신뢰` <-> `신뢰하지 않음`을 ~~안타깝게~~ 수동으로 변경해주어야 한다.
 
 ## 라이선스 구매
-[<i class="fas fa-link"></i> Charles의 공식 홈페이지](https://www.charlesproxy.com/buy/){:target="_blank"}의 Buy 탭에서 구매할 수 있다. 
+[<i class="fas fa-link"></i> Charles의 공식 홈페이지](https://www.charlesproxy.com/buy/){:target="_blank"}의 Buy 탭에서 구매할 수 있다.  
 구매 페이지에 입력란이 있는데 기관이 아닌 개인이라면 Individual 을 선택하도록 하자.
+
 ![Image](https://drive.google.com/uc?export=view&id=1mZpM31Z5zQDXTJwlcH0xVxqNJJllAYZ4)    
 ### 가격
 ![Image](https://drive.google.com/uc?export=view&id=1bFFDtvQK_-A5pSuPxbsus2AptqayG7DI)  
