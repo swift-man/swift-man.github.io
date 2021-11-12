@@ -677,3 +677,8 @@ sidebar-it:
     children:
       - title: "블루투스 이어폰 연결"
         url: /it/nintendo-switch/nintendo-switch-bluetooth-earphone/
+  - title: "Charles"
+    url: /it/charles/
+    children:
+      - title: "[Charles] 설정하기"
+        url: /it/charles/charles-setting/
