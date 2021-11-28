@@ -103,6 +103,8 @@ GitHub의 zip 주소로 설치가 가능할 것으로 예상했으나, 불가능
 여러 시도를 한 끝에 [<i class="fas fa-link"></i> QuickFTP Server](https://apps.apple.com/kr/app/quickftp-server/id1451646819?mt=12){:target="_blank"} 로 파일 설치를 성공했다.
 
 먼저 [<i class="fas fa-link"></i> Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/tvingM){:target="_blank"}의 zip 파일을 다운로드 받은 후 Mac 의 다운로드 폴더를 내부 FTP 망을 만들어 주고 21 포트가 아닌 다른 포트를 설정해 주자.
+>해당 폴더에서 Korea OTT Package for Kodi 19 (public)-19.0.0.zip 압축을 풀지 않고 Kodi에서 다운로드 해야한다.
+
 ![Image](https://drive.google.com/uc?export=view&id=1yCqZiq_6Vrz_P8Jjws7ePE0T1A_ikSAV)  
 Start Server 를 클릭했을 시 오류가 발생한다면 center 탭의 권한을 확인하자. 정상인 경우 Status 가 녹색으로 변하게 된다.
 
