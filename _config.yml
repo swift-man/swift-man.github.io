@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "SwiftMan Blog"
 title_separator          : "-"
-subtitle                 : "iOS Dev"# site tagline that appears below site title in masthead
+subtitle                 : "blog.slarea.com"# site tagline that appears below site title in masthead
 name                     : "SwiftMan"
-description              : "슬금슬금 공부하기."
-url                      : #"https://swift-man.github.io/"# the base hostname & protocol for your site e.g.
+description              : "blog.slarea.com"
+url                      : "https://blog.slarea.com/"# the base hostname & protocol for your site e.g.
 baseurl                  : #"/blog"# the subpath of your site, e.g. "/blog"
 repository               : "swift-man/swift-man.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/swift-man.png"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/swift-man_88x88.png"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Swift-Man Blog"# overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "SwiftMan Blog"# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : false # true, false (default) // _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 50 #해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
 comments:
