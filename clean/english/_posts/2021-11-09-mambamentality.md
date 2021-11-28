@@ -7,6 +7,7 @@ title: "Mamba Mentality"
 toc: true
 toc_sticky: true
 toc_label: 목차
+tag: English
 depth: 
   - title: "Clean"
     url: /clean/
@@ -31,28 +32,30 @@ depth:
 코비 브라이언트는 오른손이 부러저 부상당했을 때 왼손을 집중적으로 연습할 수 있는 기회라 생각하고 왼손을 집중적으로 연습했다.
 
 ## The man.
->It's really simple is like whatever you're doing at that moment is what you're doing at that monet.
-<br/><br/>이건 굉장히 단순해. 네가 그 순간에 무엇을 할 때는, 그것에만 집중해.
+![Image](https://c.pxhere.com/photos/2c/06/kobe_bryant_action_figure_basketball_athlete_celebrity_sport_player-1065252.jpg!d)  
 
->hat's where the obsessiveness is having attention to detail for this action that you are performing at the time you're performing it,
-<br/><br/>그럼 너의 강박이 집요해지며 다른 것에 방해받지 않고 네가 하는 것에만 집중할 수 있게 돼.
+It's really simple is like whatever you're doing at that moment is what you're doing at that monet.
+>이건 굉장히 단순해. 네가 그 순간에 무엇을 할 때는, 그것에만 집중해.
 
->and if you can have that Kind of focus, you can't help with, to have a certain level of obession or attention to detail.
-<br/><br/>이런 방식으로 몰두한다면, 특정 수준의 강박에 도달하거나 디테일에 집중할 수 밖에 없게 되지
+hat's where the obsessiveness is having attention to detail for this action that you are performing at the time you're performing it,
+>그럼 너의 강박이 집요해지며 다른 것에 방해받지 않고 네가 하는 것에만 집중할 수 있게 돼.
+
+and if you can have that Kind of focus, you can't help with, to have a certain level of obession or attention to detail.
+>이런 방식으로 몰두한다면, 특정 수준의 강박에 도달하거나 디테일에 집중할 수 밖에 없게 되지
 
 ## Mentor
->I really really try and apple myself and I fail nonetheless you know how does it make me feel.
-<br/><br/>정말 열심히 노력했던 팀원들이 있었지만, 그럼에도 불구하고 폼이 떨어진 친구들이 있었지.
+I really really try and apple myself and I fail nonetheless you know how does it make me feel.
+>정말 열심히 노력했던 팀원들이 있었지만, 그럼에도 불구하고 폼이 떨어진 친구들이 있었지.
 
-> Where's my self-worth and so when that situation occurs you figure out what those insecurities are
-<br/><br/>그땐 정말 슬펐어. 그래서 그런일이 일어났을때, 난 그들의 불안함을 찾아내고
+Where's my self-worth and so when that situation occurs you figure out what those insecurities are
+>그땐 정말 슬펐어. 그래서 그런일이 일어났을때, 난 그들의 불안함을 찾아내고
 
-> and you try to help them navigate through then, and so i got to menor players.
-<br/><br/>그들이 옮은 길로 가도록 이끌어주려고 노력했고, 지속적인 멘토링이 필요했어.
+and you try to help them navigate through then, and so i got to menor players.
+>그들이 옮은 길로 가도록 이끌어주려고 노력했고, 지속적인 멘토링이 필요했어.
 
 ## Leadership
->Well, it's about trying to maximize potential and talent of teammates.
-<br/><br/>내 '리더쉽'의 뜻은 내 팀원들의 기량이 최고로 발휘될 수 있도록 도와주는 것이다.
+Well, it's about trying to maximize potential and talent of teammates.
+>내 '리더쉽'의 뜻은 내 팀원들의 기량이 최고로 발휘될 수 있도록 도와주는 것이다.
 
->Trying to make them better. so prove them.
-<br/><br/>그들이 더 나을 수 있도록 해주는 것이라고! 팀원들을 증명해!
+Trying to make them better. so prove them.
+>그들이 더 나을 수 있도록 해주는 것이라고! 팀원들을 증명해!

@@ -223,6 +223,8 @@ sidebar-clean:
   - title: "English"
     url: /clean/english/
     children:
+      - title: "Mamba Mentality"
+        url: /clean/english/mambamentality/
       - title: "개발자가 자주 틀리는 영어발음"
         url: /clean/english/english-pronunciation/
       - title: "A.K.A"
