@@ -684,3 +684,5 @@ sidebar-it:
     children:
       - title: "[Charles] 설정하기"
         url: /it/charles/charles-setting/
+      - title: "[Charles] iPhone Device 설정하기"
+        url: /it/charles/charles-setting-iphone/
