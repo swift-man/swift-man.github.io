@@ -52,6 +52,13 @@ feature_row5:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
+  - image_path: https://cdn-laravel.vapor.cloud/image/nstack/translate_values/charles_IPjFgz7Fvv.png
+    title: "[Charles] iPhone Device 설정하기"
+    excerpt: 'How we debug with Charle'
+    url: "/it/charles/charles-setting-iphone/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    image_caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
 ---
 
 {% include feature_row id="intro" type="center" %}
