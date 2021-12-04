@@ -52,10 +52,10 @@ Domain의 상세 URL, Header, Body, Response 등 자세한 정보를 알고 싶�
 ```
 에 가면 다양한 Certificate를 제공하고 있다.
 ![Image](https://drive.google.com/uc?export=view&id=1eWiuppv7fM_0gry6Lal6zv5-aXVgS3f0)  
-Root Certificate는 자신의 컴퓨터가 대상이 되며, 개발용 시뮬레이터도 설치가 가능하다. 개발용 시뮬레이터에 인증서를 설치할 시 시뮬레이터를 켜둔 상태에서 `Install Charles Root ...` 메뉴를 누르면 된다.
+Root Certificate는 자신의 컴퓨터가 대상이 되며, 개발용 시뮬레이터도 설치가 가능하다. 개발용 시뮬레이터에 인증서를 설치할 시 시뮬레이터를 켜둔 상태에서 `Install Charles Root Certificate in iOS Simulators` 메뉴를 누르면 된다.
 > iOS 시뮬레이터의 경우 시뮬레이터를 완전히 종료 후 재구동 시 정상 작동된다.
 
-![Image](https://drive.google.com/uc?export=view&id=1OkEotKDlpjkULxRcgAHoUf5zoPyc-oqv)  
+![Image](https://drive.google.com/uc?export=view&id=1OkEotKDlpjkULxRcgAHoUf5zoPyc-oqv)   
 맥에서 사용 시 키체인에 인증서를 허용해주어야 한다. 인증서 설치 메뉴를 누르면 신뢰하지 않는 인증서가 키체인에 추가되게 된다. 이 인증서를 자세히 보기 하여 `항상 신뢰`로 변경해주면 된다.
 
 ![Image](https://drive.google.com/uc?export=view&id=13QhN6Dtey65aw143hHl0_1Q0pqc90a0f)  
