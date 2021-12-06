@@ -42,9 +42,8 @@ Device를 Mac에 연결한뒤 해당 메뉴의 `Install Charles Root Certificate
 
 4. HTTP 프록시 Section의 프록시 구성을 `수동`으로 구성한다.
 ![Image](https://drive.google.com/uc?export=view&id=1oXBPePfdt_5-FgT7LSfwicucc-GKb5Zl)
-5. 서버는 Charls가 구성된 Mac의 로컬 IP 주소로 선택한다.
-6. Port는 Charls 의 Mac Proxy Port를 선택한다.
-> 8888 기본 포트이다.
+5. 서버는 Charles가 구성된 Mac의 로컬 IP 주소로, Port는 Charles 의 Mac Proxy Port를 선택한다.
+> 8888은 Charles에서 기본 설정 포트이다.
 
 ## iOS Device 인증서 설치
 1. iPhone 사파리에서 [<i class="fas fa-link"></i> http://charlesproxy.com/getssl](http://charlesproxy.com/getssl){:target="_blank"}에 접속하여 인증서를 설치한다. 이때 경고를 허용해야 하니 해당 내용을 읽어보고 허용하는 것을 권장한다.
