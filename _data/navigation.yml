@@ -72,6 +72,11 @@ sidebar-cs:
         url: /cs/datastructure/linked-list/
       - title: "HashTable"
         url: /cs/datastructure/hashtable/
+  - title: "Database"
+    url: /cs/database/
+    children:
+      - title: "대문자 컬럼을 소문자로 만들기"
+        url: /cs/database/column_lowercase/
         
 sidebar-architecture:
 #  - title: "Dependency Inversion"
