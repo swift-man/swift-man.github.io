@@ -77,6 +77,11 @@ sidebar-cs:
     children:
       - title: "대문자 컬럼을 소문자로 만들기"
         url: /cs/database/column_lowercase/
+      - title: "Error Code 1366"
+        url: /cs/database/insert-1366-error/
+      - title: "Json, CVS to SQL"
+        url: https://www.convertjson.com/
+        icon: "fas fa-link"
         
 sidebar-architecture:
 #  - title: "Dependency Inversion"
