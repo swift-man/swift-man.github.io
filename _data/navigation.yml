@@ -79,6 +79,8 @@ sidebar-cs:
         url: /cs/database/column_lowercase/
       - title: "Error Code 1366"
         url: /cs/database/insert-1366-error/
+      - title: "Error Code 1175"
+        url: /cs/database/delete-1175-error/
       - title: "Json, CVS to SQL"
         url: https://www.convertjson.com/
         icon: "fas fa-link"
