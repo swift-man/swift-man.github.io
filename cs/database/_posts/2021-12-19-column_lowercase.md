@@ -36,3 +36,4 @@ ALTER TABLE hig_schools CHANGE `DGHT_SC_CODE` `dght_sc_code` varchar(3);
 ALTER TABLE hig_schools CHANGE `FOND_SC_CODE` `fond_sc_code` varchar(2);
 ...
 ```
+> 'id' 컬럼은 이미 소문자이기 때문에 실행하지 않아도 된다. 따라 조회 조건에서 제거하거나 실행명령어에서 제외해도 되며, 실행해도 문제는 없다.
