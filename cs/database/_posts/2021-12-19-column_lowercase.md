@@ -28,12 +28,12 @@ WHERE TABLE_SCHEMA = 'innodb';
 ## 조회된 명령어를 실행하기
 이렇게 조회하면 아래와 같은 결과가 나오게 되고, 아래 결과물을 명령어로 실행하면 변경되게 된다.
 ```
-ALTER TABLE hig_schools CHANGE `id` `id` int(11);
-ALTER TABLE hig_schools CHANGE `SCHUL_RDNMA` `schul_rdnma` varchar(42);
-ALTER TABLE hig_schools CHANGE `SCHUL_FOND_TYP_CODE` `schul_fond_typ_code` varchar(2);
-ALTER TABLE hig_schools CHANGE `FOAS_MEMRD` `foas_memrd` int(11);
-ALTER TABLE hig_schools CHANGE `DGHT_SC_CODE` `dght_sc_code` varchar(3);
-ALTER TABLE hig_schools CHANGE `FOND_SC_CODE` `fond_sc_code` varchar(2);
+ALTER TABLE hig_school CHANGE `id` `id` int(11);
+ALTER TABLE hig_school CHANGE `SCHUL_RDNMA` `schul_rdnma` varchar(42);
+ALTER TABLE hig_school CHANGE `SCHUL_FOND_TYP_CODE` `schul_fond_typ_code` varchar(2);
+ALTER TABLE hig_school CHANGE `FOAS_MEMRD` `foas_memrd` int(11);
+ALTER TABLE hig_school CHANGE `DGHT_SC_CODE` `dght_sc_code` varchar(3);
+ALTER TABLE hig_school CHANGE `FOND_SC_CODE` `fond_sc_code` varchar(2);
 ...
 ```
 > 'id' 컬럼은 이미 소문자이기 때문에 실행하지 않아도 된다. 따라 조회 조건에서 제거하거나 실행명령어에서 제외해도 되며, 실행해도 문제는 없다.
