@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "Database"
+icon: "fas fa-link"
 depth:
   - title: "CS"
     url: /cs/
