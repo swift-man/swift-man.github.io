@@ -84,6 +84,11 @@ sidebar-cs:
       - title: "Json, CVS to SQL"
         url: https://www.convertjson.com/
         icon: "fas fa-link"
+      - title: "Data Definition Language 규칙"
+        url: /cs/database/mariadb-ddl/
+        icon: "fas fa-link"
+      - title: "Auto Increment 사용하기"
+        url: /cs/database/mariadb-auto-increment/
         
 sidebar-architecture:
 #  - title: "Dependency Inversion"
