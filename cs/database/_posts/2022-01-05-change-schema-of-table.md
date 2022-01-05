@@ -3,12 +3,11 @@ sidebar:
   title: "CS"
   nav: sidebar-cs
   icon: "fas fa-microchip"
-title: "[MariaDB] TABLE의 SCHEMA 변경하기"
+title: "[MariaDB] TABLE SCHEMA 변경하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "Database"
-icon: "fas fa-link"
 depth:
   - title: "CS"
     url: /cs/
