@@ -3,7 +3,7 @@ sidebar:
   title: "Clean"
   nav: sidebar-clean
   icon: "fab fa-weixin"
-title: "9개월 아기, 이번생에 머리끈 공격은 처음이라.."
+title: "9개월 아기, 처음먹는 수박! 더는 못참지! 더줘!"
 toc: false
 toc_sticky: true
 toc_label: 목차
@@ -17,5 +17,5 @@ depth:
     url: /clean/think/
     icon: "far fa-folder-open"
 ---
-## 9개월 아기, 이번생에 머리끈 공격은 처음이라..
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/WpPbTDhlrA0" frameborder="0" allowfullscreen></iframe>
+## 9개월 아기, 처음먹는 수박! 더는 못참지! 더줘!
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/IUs053ZCFFM" frameborder="0" allowfullscreen></iframe>
