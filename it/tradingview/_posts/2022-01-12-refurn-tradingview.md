@@ -3,7 +3,7 @@ sidebar:
   title: "IT"
   nav: sidebar-it
   icon: "fas fa-mobile-alt"
-title: "[TradingView] 자동결제 환불 받기"
+title: "[TradingView] 자동결제 환불 성공기"
 toc: false
 toc_sticky: true
 toc_label: 목차
