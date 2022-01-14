@@ -7,13 +7,11 @@ title: "[TradingView] 자동결제 환불 성공기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-classes: wide
 tag: "TradingView"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: https://drive.google.com/uc?export=view&id=1JaHrf04wdyhqTVxNsnH470klH0z2-5UL
-  caption: "Photo credit: [**TradingView**](https://www.tradingview.com/)"
 excerpt: "자동결제 환불 가능할까?"
 ---
 TradingView 에서 차트를 보고, 공유하고, 커뮤니티를 제공하는 서비스가 있다.  
