@@ -63,9 +63,7 @@ TradingView 에서 차트를 보고, 공유하고, 커뮤니티를 제공하는 
 ## 이미 결제되었다면 환불받기
 ### 환불 정책 확인하기
 
-정책은 변경될 수 있으니 공식 홈페이지의 내용을 확인하자. 
-[<i class="fas fa-link"></i> 자동으로 1해 / 2해 비용이 청구되었습니다. 리펀드 받고 싶습니다](https://kr.tradingview.com/support/solutions/43000471716/){:target="_blank"}
-
+정책은 변경될 수 있으니 [<i class="fas fa-link"></i> 공식 홈페이지 "자동으로 1해 / 2해 비용이 청구되었습니다. 리펀드 받고 싶습니다"](https://kr.tradingview.com/support/solutions/43000471716/){:target="_blank"}의 내용을 확인하자. 
 환불을 원한다면 결제일로부터 14일 이내에 환불 신청을 해야한다.  
 
 ### 환불 신청하기
