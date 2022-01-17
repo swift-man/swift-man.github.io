@@ -67,10 +67,11 @@ TradingView 에서 차트를 보고, 공유하고, 커뮤니티를 제공하는 
 환불을 원한다면 결제일로부터 14일 이내에 환불 신청을 해야한다.  
 
 ### 환불 신청하기
-페이팔에 있는 정보의 메일로 환불요청을 하면 안 된다.  
 ![Image](https://drive.google.com/uc?export=view&id=1s_Evcs7MDHBEu-9ghoNJPmtjGuzDuyjq)  
-필자가 메일을 보내니 티켓으로 연동되고 있으니 티켓을 작성하라는 답변을 받았다.
-![Image](https://drive.google.com/uc?export=view&id=1DQ1WUZ4I7mo-zB3h2qClHWALUjTcT6Xv)
+페이팔에 있는 정보의 메일로 환불요청을 하면 안 된다.  
+
+![Image](https://drive.google.com/uc?export=view&id=1DQ1WUZ4I7mo-zB3h2qClHWALUjTcT6Xv)   
+필자가 메일을 보내니 티켓으로 연동되고 있으니 티켓을 작성하라는 아래와 답변을 받았다.
 TradingView를 사용했으나 티켓을 몰랐던 필자는 매우 당황하였으나 JIRA와 같은 티켓과 유사하다.
 
 ### 마이 서포트 티켓에 티켓 작성하기

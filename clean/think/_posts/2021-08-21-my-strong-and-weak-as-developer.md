@@ -7,6 +7,7 @@ title: "개발자로서의 나의 장점과 단점"
 toc: true
 toc_sticky: true
 toc_label: 목차
+published : false
 depth: 
   - title: "Clean"
     url: /clean/
