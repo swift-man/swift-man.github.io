@@ -59,6 +59,13 @@ feature_row5:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
+feature_row6:
+  - image_path: https://drive.google.com/uc?export=view&id=1JaHrf04wdyhqTVxNsnH470klH0z2-5UL
+    title: "[TradingView] 자동결제 환불 성공기"
+    excerpt: '자동결제 환불 가능할까?'
+    url: "/it/tradingview/refurn-tradingview/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -70,3 +77,5 @@ feature_row5:
 {% include feature_row id="feature_row4" type="left" %}
 
 {% include feature_row id="feature_row5" type="left" %}
+
+{% include feature_row id="feature_row6" type="left" %}
