@@ -703,3 +703,8 @@ sidebar-it:
         url: /it/charles/charles-setting/
       - title: "[Charles] iPhone Device 설정하기"
         url: /it/charles/charles-setting-iphone/
+  - title: "TradingView"
+    url: /it/tradingview/
+    children:
+      - title: "[TradingView] 자동결제 환불 성공기"
+        url: /it/tradingview/refurn-tradingview/
