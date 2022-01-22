@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "UIView Drawing Cycle"
+published : false
 depth: 
   - title: "iOS"
     url: /ios/
@@ -157,25 +158,7 @@ struct Mountain: Hashable {
      * BackgroundQueue에서 이뤄지더라도 안전성 보장
      * Framework는 diffable을 계산이 완료되면 MainQueue 에서 결과 적용
 
-## SwiftUI
-* SwiftUI 로 충분히 구현 가능
-
-
-## UICollectionViewCompositionalLayout
-![image](https://media.vlpt.us/images/haanwave/post/71c674f9-a8ae-4cc8-b123-41e6dd24f748/layout.png)
-* 다음 회차 진행
-
-## Section (NSCollectionLayoutSection)
-* 다음 회차 진행
-
-## NSCollectionLayoutBoundarySupplementaryItem
-### HeaderView
-* 다음 회차 진행
-
-### FooterView
-* 다음 회차 진행
-
-
+## 출처
 https://www.google.com/search?q=Diffable+Data+Source&rlz=1C5CHFA_enKR963KR963&oq=Diffable+Data+Source&aqs=chrome..69i57j0i512l6j69i61.1028j0j7&sourceid=chrome&ie=UTF-8
 
 

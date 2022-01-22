@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "UICollectionView"
+published : false
 depth: 
   - title: "iOS"
     url: /ios/
@@ -22,4 +23,16 @@ depth:
     url: /ios/uiresponder/uiview/uicollectionview/
     icon: "far fa-folder-open"
 ---
+## UICollectionViewCompositionalLayout
+![image](https://media.vlpt.us/images/haanwave/post/71c674f9-a8ae-4cc8-b123-41e6dd24f748/layout.png)
+* 
 
+## Section (NSCollectionLayoutSection)
+* 
+
+## NSCollectionLayoutBoundarySupplementaryItem
+### HeaderView
+* 
+
+### FooterView
+*
