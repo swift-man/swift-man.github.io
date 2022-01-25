@@ -1,8 +1,8 @@
 ---
-title: "Swift / Locale"
-permalink: /swift/locale/
+title: "Swift / DateFormatter"
+permalink: /swift/dateformatter/
 layout: category
-taxonomy: locale
+taxonomy: dateformatter
 classes: wide
 icon: "far fa-folder-open"
 sidebar:

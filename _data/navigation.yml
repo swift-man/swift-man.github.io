@@ -598,11 +598,11 @@ sidebar-swift:
         url: /swift/stringprotocol/compare/
       - title: "applyingTransform(_:reverse:)"
         url: /swift/stringprotocol/applyingtransform/
-  - title: "Locale"
-    url: /swift/locale/
+  - title: "DateFormatter"
+    url: /swift/dateformatter/
     children:
-      - title: "사용자의 날짜 및 시간 가져오기"
-        url: /swift/locale/is24hour/
+      - title: "사용자의 날짜 및 시간포맷 사용하기"
+        url: /swift/dateformatter/is24hour/
   - title: "Closure"
     url: /swift/closure/
     children:
