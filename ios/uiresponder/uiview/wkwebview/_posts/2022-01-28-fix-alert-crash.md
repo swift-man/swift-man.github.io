@@ -22,7 +22,11 @@ depth:
     url: /ios/uiresponder/uiview/wkwebview/
     icon: "far fa-folder-open"
 ---
-Fatal Exception: NSInternalInconsistencyException
+WKWebView를 사용하다보면 종종 아래와 같은 크래시를 발견할 수 있다.  
+원인은 Alert를 네이티브에서 띄우고, Alert를 소유한 ViewController 가 dismiss 되면, completionHandler를 리턴하지 못하면서 발생한다.
+이것은 CompletionHandlerWrapper 로 방어할 수 있는데, 이러한 치명적 오류는 아래 코드를 통해 방어할 수 있다.
+
+>Fatal Exception: NSInternalInconsistencyException
 Completion handler passed to -[UIViewController webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:] was not called
 
 ## WKUIDelegate
