@@ -515,6 +515,12 @@ sidebar-ios:
               url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
             - title: "setNeedsDisplay()"
               url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
+          - title: "WKWebView"
+            url: /ios/uiresponder/uiview/wkwebview/
+            icon: "far fa-folder-open"
+            children:
+            - title: "Alert Crash"
+              url: /ios/uiresponder/uiview/wkwebview/fix-alert-crash/
   - title: "App Thinning"
     icon: "far fa-file-alt"
     url: /ios/app-thinning/
