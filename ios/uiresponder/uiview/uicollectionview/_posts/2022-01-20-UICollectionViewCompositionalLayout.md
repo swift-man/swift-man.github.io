@@ -392,3 +392,7 @@ configuration.leadingSwipeActionsConfigurationProvider = { [weak self] (indexPat
     return self.leadingSwipeActionConfigurationForListCellItem(item)
 }
 ```
+
+## 참고
+[<i class="fas fa-link">developer.apple.com</i> Title](https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views){:target="_blank"}  
+* 여기에 가시면 샘플 예제와 함께 더 자세한 내용을 보실 수 있어요!
