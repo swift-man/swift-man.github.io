@@ -68,7 +68,7 @@ Start 버튼을 클릭하자.
 export 작업이 하단에 보이게 되고 `Done, output... tvos.ipa` 메시지가 보이면 완료이다.
 
 ### Xcode Apple TV 와 연결
-ipa 설치를 위해 [<i class="fas fa-link"></i>Xcode와 Apple TV ](http://127.0.0.1:4000/ios/xcode/xcode-build-apple-tv-4k/)를 연결하자.
+ipa 설치를 위해 [<i class="fas fa-link"></i>Xcode와 Apple TV ](/ios/xcode/xcode-build-apple-tv-4k/)를 연결하자.
 
 ### Xcode로 Kodi ipa File AppleTV에 설치
 이제 생성한 ipa파일을 Xcode를 통해 install하는 작업 진행하자.
