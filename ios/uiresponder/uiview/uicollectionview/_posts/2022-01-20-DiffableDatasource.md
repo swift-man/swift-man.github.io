@@ -197,8 +197,47 @@ func applySnapshot(animatingDifferrences: Bool = true) {
   * BackgroundQueue에서 이뤄지더라도 안전성 보장
   * Framework는 diffable을 계산이 완료되면 MainQueue 에서 결과 적용
   
+## UICollectionViewCompositionalLayout 적용
+```swift
+private func configureLayout() {
+  collectionView.register(
+    SectionHeaderReusableView.self,
+    forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
+    withReuseIdentifier: SectionHeaderReusableView.reuseIdentifier
+  )
+  
+  collectionView.collectionViewLayout = UICollectionViewCompositionalLayout(sectionProvider: { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
+    let isPhone = layoutEnvironment.traitCollection.userInterfaceIdiom == UIUserInterfaceIdiom.phone
+    let size = NSCollectionLayoutSize(
+      widthDimension: NSCollectionLayoutDimension.fractionalWidth(1),
+      heightDimension: NSCollectionLayoutDimension.absolute(isPhone ? 280 : 250)
+    )
+    let itemCount = isPhone ? 1 : 3
+    let item = NSCollectionLayoutItem(layoutSize: size)
+    let group = NSCollectionLayoutGroup.horizontal(layoutSize: size, subitem: item, count: itemCount)
+    let section = NSCollectionLayoutSection(group: group)
+    section.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
+    section.interGroupSpacing = 10
+    
+    // Supplementary header view setup
+    let headerFooterSize = NSCollectionLayoutSize(
+      widthDimension: .fractionalWidth(1.0),
+      heightDimension: .estimated(20)
+    )
+    let sectionHeader = NSCollectionLayoutBoundarySupplementaryItem(
+      layoutSize: headerFooterSize,
+      elementKind: UICollectionView.elementKindSectionHeader,
+      alignment: .top
+    )
+    section.boundarySupplementaryItems = [sectionHeader]
+    
+    return section
+  })
+}
+```
+[<i class="fas fa-link"></i> UICollectionViewCompositionalLayout에 대한 Post는 여기 가기](/ios/uiresponder/uiview/uicollectionview/UICollectionViewCompositionalLayout/)로 가시면 되요~!😍
 
-[<i class="fas fa-link"></i> 모든 코드 보러 가기](https://github.com/swift-man/iOS-Tutorial-Collection-View-and-Diffable-Data-Source){:target="_blank"}   
+[<i class="fas fa-link"></i> 해당 프로젝트 보러 가기](https://github.com/swift-man/iOS-Tutorial-Collection-View-and-Diffable-Data-Source){:target="_blank"}   
 ## 출처
 [<i class="fas fa-link"></i> ZeddiOS](https://zeddios.tistory.com/1197){:target="_blank"}  
 [<i class="fas fa-link"></i> ellyheetov.devlog](https://velog.io/@ellyheetov/UI-Diffable-Data-Source){:target="_blank"}  
