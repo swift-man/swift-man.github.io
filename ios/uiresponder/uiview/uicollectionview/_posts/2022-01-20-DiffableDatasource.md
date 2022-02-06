@@ -22,8 +22,6 @@ depth:
     url: /ios/uiresponder/uiview/uicollectionview/
     icon: "far fa-folder-open"
 ---
-![Image](https://koenig-media.raywenderlich.com/uploads/2020/02/phone-animation.gif)
-
 * TableView(또는 CollectionView)를 그리기 위한 데이터를 관리하고 UI를 업데이트 하는 역할
 * Data Source와 달리 데이터가 달라진 부분을 추적하여 자연스럽게 UI를 업데이트
 * UI Data를 관리하고, 변경된 데이터만 UI를 자연스럽게 업데이트 해주는 객체
@@ -31,6 +29,8 @@ depth:
 * Diffable Data Source를 이용하면 코드량이 줄어든다.
 * UI Transition 
 * 데이터 자동 동기화로 에러를 방지
+
+![Image](https://koenig-media.raywenderlich.com/uploads/2020/02/phone-animation.gif)
 
 ## 특징
 * 소개
@@ -70,40 +70,96 @@ struct NSDiffableDataSourceSnapshot<SectionIdentifierType, ItemIdentifierType>
 
 apply시에 각 hash value를 비교하여 추가 or 삭제된 부분을 인지하게 된다.
 
+## Item Model
+```swift
+class Video: Hashable {
+  var id = UUID()
+  var title: String
+  var thumbnail: UIImage?
+  var lessonCount: Int
+  var link: URL?
+  
+  init(title: String, thumbnail: UIImage? = nil, lessonCount: Int, link: URL?) {
+    self.title = title
+    self.thumbnail = thumbnail
+    self.lessonCount = lessonCount
+    self.link = link
+  }
+  
+  static func == (lhs: Video, rhs: Video) -> Bool {
+    lhs.id == rhs.id
+  }
+  
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(id)
+  }
+}
+```
+
+## Section Model
+```swift
+class Section: Hashable {
+  var id = UUID()
+  var title: String
+  var videos: [Video]
+  
+  init(title: String, videos: [Video]) {
+    self.title = title
+    self.videos = videos
+  }
+  
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(id)
+  }
+  
+  static func == (lhs: Section, rhs: Section) -> Bool {
+    lhs.id == rhs.id
+  }
+}
+```
+
 ## CollectionView 적용
 ```swift
-self.dataSource = UICollectionViewDiffableDataSource<Section, String>(collectionView: self.collectionView) { (collectionView, indexPath, dj) -> UICollectionViewCell? in 
-    guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? DJCollectionViewCell else { preconditionFailure() } 
-    cell.configure(text: dj) 
-    return cell 
+typealias DataSource = UICollectionViewDiffableDataSource<Section, Video>
+func makeDataSource() -> DataSource {
+  let dataSource = DataSource(
+    collectionView: collectionView) { (collectionView, indexPath, video) -> UICollectionViewCell? in
+      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "VideoCollectionViewCell", for: indexPath) as? VideoCollectionViewCell
+      cell?.video = video
+      return cell
+    }
+    
+  dataSource.supplementaryViewProvider = { collectionView, kind, indexPath in
+    guard kind == UICollectionView.elementKindSectionHeader else {
+      return nil
+    }
+    
+    let view = collectionView.dequeueReusableSupplementaryView(
+      ofKind: kind,
+      withReuseIdentifier: SectionHeaderReusableView.reuseIdentifier,
+      for: indexPath) as? SectionHeaderReusableView
+
+    let section = self.dataSource.snapshot()
+      .sectionIdentifiers[indexPath.section]
+    view?.titleLabel.text = section.title
+    return view
+  }
+  return dataSource
 }
 ```
 
 ## snapshot 생성 및 적용
 ```swift
-var snapshot = NSDiffableDataSourceSnapshot<Int, MyModel>()
-snapshot.appendSections(storage.sections)
-
-for section in storage.sections {
-  snapshot.appendItems(storage.modelsForSection(section), toSection: section)
-}
-
-datasource.apply(snapshot)
-```
-
-## Hash Value가 같아서 구별 할 수 없는 경우
-```swift
-struct Mountain: Hashable {
-    let name: String
-    let height: Int
-    let identifier = UUID()
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(identifier)
-    }
+typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Video>
+func applySnapshot(animatingDifferrences: Bool = true) {
+  var snapshot = Snapshot()
+  snapshot.appendSections(sections)
+  sections.forEach { section in
+    snapshot.appendItems(section.videos, toSection: section)
+  }
+  dataSource.apply(snapshot, animatingDifferences: animatingDifferrences)
 }
 ```
-
 
 ## UITableViewDataSource, UICollectionViewDataSource와 차이점
 * UITableViewDataSource, UICollectionViewDataSource는 Protocol
@@ -140,7 +196,9 @@ struct Mountain: Hashable {
   * DataSource의 apply작업이 오래걸린다면, background queue에서 수행 가능
   * BackgroundQueue에서 이뤄지더라도 안전성 보장
   * Framework는 diffable을 계산이 완료되면 MainQueue 에서 결과 적용
+  
 
+[<i class="fas fa-link"></i> 모든 코드 보러 가기](https://github.com/swift-man/iOS-Tutorial-Collection-View-and-Diffable-Data-Source){:target="_blank"}   
 ## 출처
 [<i class="fas fa-link"></i> ZeddiOS](https://zeddios.tistory.com/1197){:target="_blank"}  
 [<i class="fas fa-link"></i> ellyheetov.devlog](https://velog.io/@ellyheetov/UI-Diffable-Data-Source){:target="_blank"}  
