@@ -35,5 +35,5 @@ excerpt: "계정을 잠갔다는 이상한 메일"
 ![Image](https://drive.google.com/uc?export=view&id=1UUYj-HYChbFyZQJzQc2jTZkE1AkaSSuq)
 
 - paypal의 도메인은 [<i class="fas fa-link"></i> paypal.com](https://www.paypal.com/){:target="_blank"}이다.
-
-사기 피해가 없길 바라며, 추가로 해당 메일은 `로그인 업데이트` 버튼 외 다른 기능은 동작하지 않는다.
+사칭에 주의가 필요하며 사기 피해가 없길 바란다.  
+추가로 해당 메일은 `로그인 업데이트` 버튼 외 다른 기능은 동작하지 않는다.
