@@ -693,6 +693,13 @@ sidebar-swift:
 ##############
 
 sidebar-it:
+  - title: "YouTube"
+    url: /it/apple-tv/
+    children:
+      - title: "[YouTube] 구독자 100명 모으기"
+        url: /it/youtube/subscribe-100/
+      - title: "[YouTube] 채널 1달 운영 회고"
+        url: /it/youtube/1-month/
   - title: "Apple TV"
     url: /it/apple-tv/
     children:
