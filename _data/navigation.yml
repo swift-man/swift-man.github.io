@@ -719,3 +719,8 @@ sidebar-it:
     children:
       - title: "[TradingView] 자동결제 환불 성공기"
         url: /it/tradingview/refurn-tradingview/
+  - title: "Paypal"
+    url: /it/paypal/
+    children:
+      - title: "[Paypal] 해킹 메일 주의하세요."
+        url: /it/paypal/paypal-hacked-mail/
