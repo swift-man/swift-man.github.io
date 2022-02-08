@@ -4,14 +4,14 @@ sidebar:
   nav: sidebar-it
   icon: "fas fa-mobile-alt"
 title: "[Paypal] 해킹 메일 주의하세요."
-toc: true
+toc: false
 toc_sticky: true
 toc_label: 목차
 tag: "Paypal"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://drive.google.com/uc?export=view&id=1vaSbLAUUdMLg1KCKChGNbKdptqDdo6Mr
+  overlay_image: https://drive.google.com/uc?export=view&id=1MSVQTxbAsCIhjkm4l7CDmTWuMF49rZzE
 excerpt: "계정을 잠갔다는 이상한 메일"
 ---
 악성 메일을 한 통 받았다. 해당 메일은 스팸처리도 되지 않고 정크로도 걸리지 않은 메일이었다.    
@@ -29,13 +29,11 @@ excerpt: "계정을 잠갔다는 이상한 메일"
 `로그인 업데이트`버튼을 누르면 아래 스크린샷과 같은 웹이 열린다.
 
 ## 반드시 URL Domain 을 확인하자.
+저 메일을 타고 들어간 도메인은 매우 유사하게 만든 <u>다른 도메인</u>이다.  
+<u>절대로 로그인해서는 안된다.</u>  
 
 ![Image](https://drive.google.com/uc?export=view&id=1UUYj-HYChbFyZQJzQc2jTZkE1AkaSSuq)
 
-
 - paypal의 도메인은 [<i class="fas fa-link"></i> paypal.com](https://www.paypal.com/){:target="_blank"}이다.
-
-저 메일을 타고 들어간 도메인은 매우 유사하게 만든 <u>다른 도메인</u>이다.  
-<u>절대로 로그인해서는 안된다.</u>  
 
 사기 피해가 없길 바라며, 추가로 해당 메일은 `로그인 업데이트` 버튼 외 다른 기능은 동작하지 않는다.
