@@ -714,6 +714,11 @@ sidebar-it:
     children:
       - title: "블루투스 이어폰 연결"
         url: /it/nintendo-switch/nintendo-switch-bluetooth-earphone/
+  - title: "MacOS"
+    url: /it/macos/
+    children:
+      - title: "[macOS Monterey] 빠른 메모 끄기"
+        url: /it/macos/disabled-macos-monterey-fast-memo/
   - title: "Charles"
     url: /it/charles/
     children:
