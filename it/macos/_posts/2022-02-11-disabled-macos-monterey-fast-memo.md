@@ -12,7 +12,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: https://drive.google.com/uc?export=view&id=1rrEVW9I8NYclHd7Yt6B5J9_jcYDRJAxB
-excerpt: "빠른 메모 끄는 방법"
+excerpt: "오히려 불편해.. 빠른 메모 끄는 방법"
 ---
 macOS Monterey에 빠른 메모가 기본으로 설정 되었으나, 동영상 전체화면 종료와 제스쳐가 겹쳐 불편한 점이 생긴다.  
 필자는 이 기능을 끄는 것을 선택했으며 끄는 방법을 알아보자.
