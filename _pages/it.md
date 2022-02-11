@@ -80,6 +80,13 @@ feature_row6:
     url: "/it/tradingview/refurn-tradingview/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row7:
+  - image_path: https://drive.google.com/uc?export=view&id=1rrEVW9I8NYclHd7Yt6B5J9_jcYDRJAxB
+    title: "[macOS Monterey] 빠른 메모 끄기"
+    excerpt: '빠른 메모 끄는 방법'
+    url: "/it/macos/disabled-macos-monterey-fast-memo/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -95,3 +102,5 @@ feature_row6:
 {% include feature_row id="feature_row5" type="left" %}
 
 {% include feature_row id="feature_row6" type="left" %}
+
+{% include feature_row id="feature_row7" type="left" %}
