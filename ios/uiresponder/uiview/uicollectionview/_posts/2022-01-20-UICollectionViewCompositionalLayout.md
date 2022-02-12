@@ -22,6 +22,11 @@ depth:
     url: /ios/uiresponder/uiview/uicollectionview/
     icon: "far fa-folder-open"
 ---
+유연하고 시각적으로 항목을 결합하는 Layout이며 iOS 13+ 이상에서 사용할 수 있다. 
+Group이라는 중간 계층이 추가되어 horizontal scroll, group items 등 다양한 화면을 만들 수 있다.
+
+![Image](https://docs-assets.developer.apple.com/published/2308306163/rendered2x-1585241228.png)
+
 ### Create a Grid Layout
 * NSCollectionLayoutDimension
   * absoulte - 절대 크기
