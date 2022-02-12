@@ -515,6 +515,14 @@ sidebar-ios:
               url: /ios/uiresponder/uiview/asyncupdate/setNeedsLayout/
             - title: "setNeedsDisplay()"
               url: /ios/uiresponder/uiview/asyncupdate/setNeedsDisplay/
+          - title: "UICollectionView"
+            url: /ios/uiresponder/uiview/uicollectionview/
+            icon: "far fa-folder-open"
+            children:
+            - title: "DiffableDatasource"
+              url: /ios/uiresponder/uiview/uicollectionview/DiffableDatasource/
+            - title: "UICollectionViewCompositionalLayout"
+              url: /ios/uiresponder/uiview/uicollectionview/UICollectionViewCompositionalLayout/
           - title: "WKWebView"
             url: /ios/uiresponder/uiview/wkwebview/
             icon: "far fa-folder-open"
@@ -548,6 +556,8 @@ sidebar-ios:
         icon: "fas fa-link"
       - title: "Apple TV 4K 6세대 Xcode로 빌드 하기"
         url: /ios/xcode/xcode-build-apple-tv-4k/
+      - title: "Xcode 13 Column Breakpoints"
+        url: /ios/xcode/xcode-13_column-breakpoints/
   - title: "Build Error"
     url: /ios/build-error/
     children:
