@@ -704,7 +704,7 @@ sidebar-swift:
 
 sidebar-it:
   - title: "YouTube"
-    url: /it/apple-tv/
+    url: /it/youtube/
     children:
       - title: "[YouTube] 구독자 100명 모으기"
         url: /it/youtube/subscribe-100/
