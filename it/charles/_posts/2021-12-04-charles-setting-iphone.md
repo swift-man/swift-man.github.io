@@ -55,7 +55,13 @@ Device를 Mac에 연결한뒤 해당 메뉴의 `Install Charles Root Certificate
 3. 인증서를 확인하면 프록시를 사용할 수 있다.
 ![Image](https://drive.google.com/uc?export=view&id=17ZmbKCSCTx1C66EFb--okTqygEPXxOBx)
 
-이제 프록시를 사용하여 iPhone의 Network 트래픽을 빠르게 맥에서 확인 할 수 있으며, 개발 및 트러블슈팅에 빠르게 대응할 수 있다.
+## 인증서 신뢰 하기
+```
+설정 > 일반 > 정보 > 인증서 신뢰 설정 > 해당 인증서 ON
+```
+![Image](https://drive.google.com/uc?export=view&id=1hCA90BEdSrSlBWLF0SzUVQWT5sD4ewW-)
+
+이제 프록시를 사용하여 iPhone의 Network 트래픽을 빠르게 맥에서 확인 할 수 있다.
 
 ## 참고
 [<i class="fas fa-link"></i>  ssl-certificates](https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/){:target="_blank"}
