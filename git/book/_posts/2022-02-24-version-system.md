@@ -7,13 +7,13 @@ title:  "[Git] 버전 관리 시스템"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Git"
+tag: "Git book"
 depth: 
-  - title: "Git"
+  - title: "Git book"
     url: /git/
     icon: "fab fa-github"
-  - title: "Commend"
-    url: /git/commend/
+  - title: "book"
+    url: /git/book/
     icon: "far fa-folder-open"
 ---
 ## Version Control System; VCS

@@ -7,13 +7,13 @@ title:  "[Git] Fork"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Git"
+tag: "Git book"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "Commend"
-    url: /git/commend/
+  - title: "book"
+    url: /git/book/
     icon: "far fa-folder-open"
 ---
 Fork프로그램은 Git GUI 프로그램이며, 평가판과 구매판과 기능의 차이는 없다.
