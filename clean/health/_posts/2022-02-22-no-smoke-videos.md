@@ -23,3 +23,10 @@ depth:
 
 ## 충.격.실.화 병든 폐 vs 건강한 폐 차이는?
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/TxFKpl1z0DA" frameborder="0" allowfullscreen></iframe>
+
+## 흡연은 고혈압 주범
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/XL0g5aOooW8" frameborder="0" allowfullscreen></iframe>
+
+## 담배는 인체에 어떤 영향을 미칠까?
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/CbKnzhV9WzM" frameborder="0" allowfullscreen></iframe>
+
