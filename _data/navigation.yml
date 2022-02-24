@@ -351,6 +351,15 @@ sidebar-edp:
 #        url: /operators/
 ##############
 sidebar-git:
+  - title: "book"
+    url: /git/book/
+    children:
+      - title: "버전 관리 시스템"
+        url: /git/book/version-system/
+      - title: "기초"
+        url: /git/book/git-history/
+      - title: "Fork"
+        url: /git/book/fork-download/
   - title: "Commend"
     url: /git/commend/
     children:
