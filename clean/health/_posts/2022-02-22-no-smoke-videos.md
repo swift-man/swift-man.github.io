@@ -3,7 +3,7 @@ sidebar:
   title: "Clean"
   nav: sidebar-clean
   icon: "fab fa-weixin"
-title: "[극혐] 흡연 충동 시 보았던 영상 모음"
+title: "[극혐] 금연 중 흡연 충동 시 보았던 영상 모음"
 toc: true
 toc_sticky: true
 toc_label: 목차
