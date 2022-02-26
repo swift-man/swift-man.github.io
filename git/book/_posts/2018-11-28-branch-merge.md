@@ -3,16 +3,16 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title:  "[Git] iOS 앱 개발 시 브랜치 관리"
+title:  "[Git] iOS 앱 개발 시 배포 브랜치 관리"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Git book"
+tag: "Git Book"
 depth: 
-  - title: "Git book"
+  - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "book"
+  - title: "Book"
     url: /git/book/
     icon: "far fa-folder-open"
 ---

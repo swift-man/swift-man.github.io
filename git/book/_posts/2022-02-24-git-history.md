@@ -7,12 +7,12 @@ title:  "[Git] 기초"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Git book"
+tag: "Git Book"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "book"
+  - title: "Book"
     url: /git/book/
     icon: "far fa-folder-open"
 ---

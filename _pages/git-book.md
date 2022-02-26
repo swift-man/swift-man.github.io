@@ -1,5 +1,5 @@
 ---
-title: "Git / book"
+title: "Git / Book"
 permalink: /git/book/
 layout: category
 taxonomy: book
