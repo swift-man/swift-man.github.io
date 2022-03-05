@@ -724,6 +724,8 @@ sidebar-it:
         url: /it/youtube/subscribe-100/
       - title: "[YouTube] 채널 1달 운영 회고"
         url: /it/youtube/1-month/
+      - title: "[YouTube] 채널 2달 운영 회고"
+        url: /it/youtube/2-month/
   - title: "Apple TV"
     url: /it/apple-tv/
     children:
