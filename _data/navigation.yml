@@ -89,6 +89,8 @@ sidebar-cs:
         icon: "fas fa-link"
       - title: "Auto Increment 사용하기"
         url: /cs/database/mariadb-auto-increment/
+      - title: "Table Schema 변경하기"
+        url: /cs/database/change-schema-of-table/
         
 sidebar-architecture:
 #  - title: "Dependency Inversion"
