@@ -12,8 +12,8 @@ depth:
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "GubHub Actions"
-    url: /git/github-actions/
+  - title: "GubHub"
+    url: /git/github/
     icon: "far fa-folder-open"
 ---
 왜 GitHub Actions을 써야하죠?
