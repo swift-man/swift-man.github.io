@@ -158,6 +158,8 @@ sidebar-algorithm:
         url: /algorithm/techniques/recursion/
       - title: "Temp 변수를 사용하지 않고 Swap 하기"
         url: /algorithm/techniques/NoStoredPropertySwap/
+      - title: "0으로 나누기는 왜 안될까?"
+        url: /algorithm/techniques/division-by-zero/
   - title: "Sort"
     url: /algorithm/sort/
     children:
@@ -364,6 +366,8 @@ sidebar-git:
         url: /git/book/fork-download/
       - title: "배포 브랜치 관리"
         url: /git/book/branch-merge/
+      - title: ".gitignore 적용하기"
+        url: /git/book/gitignore/
   - title: "Commend"
     url: /git/commend/
     children:
