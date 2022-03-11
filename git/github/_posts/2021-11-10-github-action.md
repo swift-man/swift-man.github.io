@@ -3,7 +3,7 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title:  "GubHub Actions"
+title:  "GitHub Actions"
 toc: true
 toc_sticky: true
 toc_label: 목차
