@@ -400,7 +400,15 @@ sidebar-git:
         url: /git/blog/progremmers-copyright/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
-
+  - title: "GitHub"
+    url: /git/blog/
+    children:
+      - title: "GitHub Actions"
+        url: /git/github/github-action/
+      - title: "기업내 오픈소스 문화 세미나 후기"
+        url: /git/github/github-korea-1conference/
+      - title: "2020 통계로 보는 개발자와 코로나"
+        url: /git/github/github-trand-2020/
       
   - title: "Favourite Link"
     children:
