@@ -389,6 +389,15 @@ sidebar-git:
         url: /git/commend/revert/
       - title: "설정 - 대소문자 인식"
         url: /git/commend/case-sensitive/
+  - title: "GitHub"
+    url: /git/blog/
+    children:
+      - title: "GitHub Actions"
+        url: /git/github/github-action/
+      - title: "2019 GitHub Korea"
+        url: /git/github/github-korea-1conference/
+      - title: "2020 통계로 보는 현 시국"
+        url: /git/github/github-trand-2020/
   - title: "Blog"
     url: /git/blog/
     children:
@@ -396,40 +405,31 @@ sidebar-git:
         url: /git/blog/start/
       - title: "검색 등록 하기"
         url: /git/blog/register-to-search/
-      - title: "블로그에 프로그래머스 코드 올리기"
+      - title: "프로그래머스 코드 올리기"
         url: /git/blog/progremmers-copyright/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
-  - title: "GitHub"
-    url: /git/blog/
-    children:
-      - title: "GitHub Actions"
-        url: /git/github/github-action/
-      - title: "기업내 오픈소스 문화 세미나 후기"
-        url: /git/github/github-korea-1conference/
-      - title: "2020 통계로 보는 개발자와 코로나"
-        url: /git/github/github-trand-2020/
-      
-  - title: "Favourite Link"
-    children:
-      - title: "맞춤법 검사기"
-        icon: "fas fa-link"
-        url: https://speller.cs.pusan.ac.kr/
-      - title: "표 만들기"
-        icon: "fas fa-link"
-        url: https://www.tablesgenerator.com/markdown_tables
-      - title: "무료 아이콘"
-        icon: "fas fa-link"
-        url: https://fontawesome.com/v5.15/icons?d=gallery&p=3&s=solid&m=free
-      - title: "무료 이미지"
-        icon: "fas fa-link"
-        url: https://pxhere.com/
-      - title: "minimal-mistakes"
-        icon: "fas fa-link"
-        url: https://mmistakes.github.io/minimal-mistakes/
-      - title: "Google Analytics"
-        icon: "fas fa-link"
-        url: https://analytics.google.com/
+      - title: "Favourite Link"
+        url: /git/blog/
+        children:
+          - title: "맞춤법 검사기"
+            icon: "fas fa-link"
+            url: https://speller.cs.pusan.ac.kr/
+          - title: "표 만들기"
+            icon: "fas fa-link"
+            url: https://www.tablesgenerator.com/markdown_tables
+          - title: "무료 아이콘"
+            icon: "fas fa-link"
+            url: https://fontawesome.com/v5.15/icons?d=gallery&p=3&s=solid&m=free
+          - title: "무료 이미지"
+            icon: "fas fa-link"
+            url: https://pxhere.com/
+          - title: "minimal-mistakes"
+            icon: "fas fa-link"
+            url: https://mmistakes.github.io/minimal-mistakes/
+          - title: "Google Analytics"
+            icon: "fas fa-link"
+            url: https://analytics.google.com/
   
   - title: "Markdown"
     url: /git/markdown/
