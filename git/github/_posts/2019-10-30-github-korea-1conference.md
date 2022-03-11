@@ -177,12 +177,3 @@ depth:
 
 ## Github Korea
 ![Image](https://drive.google.com/uc?export=view&id=1WeOqKpTwN9XjH-M8g0nBYknaIZrQCz1h)  
-
-
-
-
-
-
-
-
-
