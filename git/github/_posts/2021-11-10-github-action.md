@@ -7,12 +7,12 @@ title:  "GubHub Actions"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "GubHub Actions"
+tag: "GitHub"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "GubHub"
+  - title: "GitHub"
     url: /git/github/
     icon: "far fa-folder-open"
 ---
