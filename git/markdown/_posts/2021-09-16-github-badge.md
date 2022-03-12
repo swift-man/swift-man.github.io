@@ -37,11 +37,11 @@ alt="chat on Discord">
 <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter"
 alt="follow on Twitter">
 
-정말 멋지다.
+>정말 멋지다.
 
 ## 스타일
-먼저 뱃지 서비스를하는 사이트 [<i class="fas fa-link"></i>  shields.io](https://shields.io/){:target="_blank"}부터 방문하여 형태, 컬러, 스타일 등 제공되는 샘플을 볼 수 있다.    
-필자의 경우 'flat-square' 스타일이 가장 마음에 들었다.
+[<i class="fas fa-link"></i> 뱃지 서비스 사이트 shields.io](https://shields.io/){:target="_blank"}에 방문하여 형태, 컬러, 스타일 등 제공되는 샘플을 보자.      
+>필자의 경우 'flat-square' 스타일이 가장 마음에 들었다.
 
 ## Color
 기본적으로 아래와 목록에 해당하는 컬러를 지원한다.
@@ -57,8 +57,6 @@ success
 important
 critical
 ```
-Hex Color도 지원한다.    
-사이트의 샘플과 원하는 컬러 를 이용하며 뱃지를 만들어보자.  
 
 ### critical color
 ```
@@ -69,6 +67,8 @@ Hex Color도 지원한다.
 ### important color
 ![Generic badge](https://img.shields.io/badge/version-0.0.1-important.svg)
 
+Hex Color도 지원한다.    
+사이트의 샘플 정보를 참고하여 기본 컬러 또는 원하는 컬러를 이용하며 뱃지를 만들어보자.  
 
 ## Text 로고
 ### 단일 Text
@@ -87,8 +87,8 @@ Hex Color도 지원한다.
 ![Badge - Carthage](https://img.shields.io/badge/Carthage-compatible-green?style=flat-square)
 
 ## 이미지 로고
-이미지의 경우 이미지와 네이밍을 알아야 한다. [<i class="fas fa-link"></i>  simpleicons.org](https://simpleicons.org/){:target="_blank"}에서 제공하고 있다. 방문하여 확인하자.  
-검색 후 해당하는 logo name 일 입력해 보자.
+이미지를 사용할 경우 네이밍을 알아야 한다. [<i class="fas fa-link"></i>  simpleicons.org](https://simpleicons.org/){:target="_blank"}에서 제공하고 있다.  
+검색 후 해당하는 logo name 을 입력해 보자.
 ```
 ![Badge](https://img.shields.io/badge/{ label }-{ message }.svg?{ style(optional) }&logo={ logoname }&logoColor={ logo color(optional) })
 ```
