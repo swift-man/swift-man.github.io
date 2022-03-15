@@ -22,9 +22,18 @@ toc_label: 목차
 * '불편한 것'을 편하게 할 수 있는 방법을 개선하는 것을 좋아합니다.
 * 좋아하는 것을 꾸준하게 하는 성향입니다.
 * 제가 만든 것에 자부심을 갖을수 있도록 노력합니다.
- 
-## Intoduction
 * 성장하려는 의지가 있습니다.
+
+## Experience
+
+| Organization | Date | Description | 
+| --- | --- | --- |
+| Aselcni | 2010.12 ~ 2011.06 | Swift, Objective C |
+| App Disco | 2011.12 ~ 2012.04 | Swift, Objective C |
+| Sstrade | 2013.01 ~ 2014.03 | Swift, Objective C |
+| SK M&Service | 2014.03 ~ 2018.06 | RxSwift, Combine |
+| NHN | 2018.08 ~ 2021.05 | XCTest, Nimble, QuickSpec |
+| NHN Edu | 2021.06 ~ 현재 | Clean Architecture, MVVM, MVI |
 
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
