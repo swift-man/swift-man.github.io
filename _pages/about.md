@@ -29,11 +29,11 @@ toc_label: 목차
 | Organization | Date | Description | 
 | --- | --- | --- |
 | Aselcni | 2010.12 ~ 2011.06 | Swift, Objective C |
-| App Disco | 2011.12 ~ 2012.04 | Swift, Objective C |
-| Sstrade | 2013.01 ~ 2014.03 | Swift, Objective C |
-| SK M&Service | 2014.03 ~ 2018.06 | RxSwift, Combine |
-| NHN | 2018.08 ~ 2021.05 | XCTest, Nimble, QuickSpec |
-| NHN Edu | 2021.06 ~ 현재 | Clean Architecture, MVVM, MVI |
+| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"} | 2011.12 ~ 2012.04 | Swift, Objective C |
+| [<i class="fas fa-link"></i> Sstrade](http://sstrade.co.kr){:target="_blank"} | 2013.01 ~ 2014.03 | Swift, Objective C |
+| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"} | 2014.03 ~ 2018.06 | RxSwift, Combine |
+| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"} | 2018.08 ~ 2021.05 | XCTest, Nimble, QuickSpec |
+| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"} | 2021.06 ~ 현재 | Clean Architecture, MVVM, MVI |
 
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
@@ -102,3 +102,34 @@ For even more demo pages check the [posts archive][year-archive].
 ---
 
 Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+
+## 참고 사이트
+https://jojoldu.github.io/
+
+https://hyunseob.github.io/resume/
+
+https://github.com/uyu423/resume-nextjs
+
+https://resume.yowu.dev/
+
+https://42place.innovationacademy.kr/wp-content/uploads/2020/12/Resume_Dongjunkang_censored.pdf
+
+https://jbee.io/about/
+
+https://velog.io/@academey/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EB%A0%A5%EC%84%9C-%EB%B3%B8%EA%B2%A9%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%93%B0%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%8B%A4%EC%A0%84%ED%8E%B8
+
+https://hyesunzzang.tistory.com/224
+
+https://kingname.tistory.com/209
+
+https://github.com/sesang06/RESUME
+
+https://torch-ray.tistory.com/3
+
+https://perfectacle.github.io/about/
+
+https://github.com/JSpiner/RESUME
+
+https://techblog.woowahan.com/2531/
+
+https://twins1040.github.io/
