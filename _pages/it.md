@@ -94,6 +94,12 @@ feature_row7:
     url: "/it/macos/disabled-macos-monterey-fast-memo/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: https://drive.google.com/uc?export=view&id=1M_dwgG38GMyIyHXjB_EEfFD8Xq0mYCyu
+    title: "M1에서 iPhone 백업/복구 동기화 하기"
+    excerpt: '아이튠즈가 사라졌는데 어떻게 백업하지?'
+    url: "/it/macos/finder-iphone-backup/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
