@@ -765,8 +765,10 @@ sidebar-it:
   - title: "MacOS"
     url: /it/macos/
     children:
-      - title: "[macOS Monterey] 빠른 메모 끄기"
+      - title: "macOS Monterey 빠른 메모 끄기"
         url: /it/macos/disabled-macos-monterey-fast-memo/
+      - title: "M1에서 iPhone 백업/복구 동기화 하기"
+        url: /it/macos/finder-iphone-backup/
   - title: "Charles"
     url: /it/charles/
     children:
