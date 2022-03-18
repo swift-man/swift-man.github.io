@@ -104,32 +104,23 @@ For even more demo pages check the [posts archive][year-archive].
 Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
 
 ## 참고 사이트
-https://jojoldu.github.io/
+### 도움 되는 글
+[<i class="fas fa-link"></i> 이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/){:target="_blank"}  
+[<i class="fas fa-link"></i> 비전공자 iOS 신입개발자 취업 성공기 feat. 우아한형제들](https://torch-ray.tistory.com/3){:target="_blank"}  
+[<i class="fas fa-link"></i> 개발자 이력서 본격적으로 쓰는 방법 - 실전편](https://velog.io/@academey/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EB%A0%A5%EC%84%9C-%EB%B3%B8%EA%B2%A9%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%93%B0%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%8B%A4%EC%A0%84%ED%8E%B8){:target="_blank"}  
+[<i class="fas fa-link"></i> 주니어 iOS 개발자 이직기](https://hyesunzzang.tistory.com/224){:target="_blank"}  
+[<i class="fas fa-link"></i> 개발자 경력 이력서 작성기](https://kingname.tistory.com/209){:target="_blank"} 
 
-https://hyunseob.github.io/resume/
-
-https://github.com/uyu423/resume-nextjs
-
-https://resume.yowu.dev/
-
-https://42place.innovationacademy.kr/wp-content/uploads/2020/12/Resume_Dongjunkang_censored.pdf
-
-https://jbee.io/about/
-
-https://velog.io/@academey/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EB%A0%A5%EC%84%9C-%EB%B3%B8%EA%B2%A9%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%93%B0%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%8B%A4%EC%A0%84%ED%8E%B8
-
-https://hyesunzzang.tistory.com/224
-
-https://kingname.tistory.com/209
-
-https://github.com/sesang06/RESUME
-
-https://torch-ray.tistory.com/3
-
-https://perfectacle.github.io/about/
-
-https://github.com/JSpiner/RESUME
-
-https://techblog.woowahan.com/2531/
-
-https://twins1040.github.io/
+### 플랫폼
+ [<i class="fas fa-link"></i> 누구나 예쁜 웹 이력서를 쉽게 만들 수 있어 (약간의 코딩으로..)](https://github.com/uyu423/resume-nextjs){:target="_blank"}  
+### 실제 이력서
+[<i class="fas fa-link"></i> 이동욱](https://jojoldu.github.io/){:target="_blank"}  
+[<i class="fas fa-link"></i> 반갑습니다,
+저는 이현섭입니다.](https://hyunseob.github.io/resume/){:target="_blank"}  
+[<i class="fas fa-link"></i> 유 용 우](https://resume.yowu.dev/){:target="_blank"}  
+[<i class="fas fa-link"></i> 강동준](https://42place.innovationacademy.kr/wp-content/uploads/2020/12/Resume_Dongjunkang_censored.pdf){:target="_blank"}  
+[<i class="fas fa-link"></i> 한재엽](https://jbee.io/about/){:target="_blank"}  
+[<i class="fas fa-link"></i> 조세상](https://github.com/sesang06/RESUME){:target="_blank"}  
+[<i class="fas fa-link"></i> 양권성이란...?](https://perfectacle.github.io/about/){:target="_blank"}  
+[<i class="fas fa-link"></i> 정성민](https://github.com/JSpiner/RESUME){:target="_blank"}  
+[<i class="fas fa-link"></i> 천 명 욱](https://twins1040.github.io/){:target="_blank"}  
