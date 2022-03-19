@@ -28,12 +28,14 @@ toc_label: 목차
 
 | Organization | Date | Description | 
 | --- | --- | --- |
-| Aselcni | 2010.12 ~ 2011.06 | Swift, Objective C |
-| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"} | 2011.12 ~ 2012.04 | Swift, Objective C |
-| [<i class="fas fa-link"></i> Sstrade](http://sstrade.co.kr){:target="_blank"} | 2013.01 ~ 2014.03 | Swift, Objective C |
-| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"} | 2014.03 ~ 2018.06 | RxSwift, Combine |
-| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"} | 2018.08 ~ 2021.05 | XCTest, Nimble, QuickSpec |
-| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"} | 2021.06 ~ 현재 | Clean Architecture, MVVM, MVI |
+| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재 | iOS Developer | Clean Architecture, MVVM, MVI |
+| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05 | iOS Developer | XCTest, Nimble, QuickSpec |
+| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06 | iOS Developer |RxSwift, Combine |
+| Sstrade<br/>2013.01 ~ 2014.03 | iOS Developer | Swift, Objective C |
+| 소프트노믹스<br/>2012.09 ~ 2012.12 | Android Developer | Swift, Objective C |
+| exfiniti inc<br/>2012.05 ~ 2012.09 | iOS Developer | Swift, Objective C |
+| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04 | iOS Developer | Swift, Objective C |
+| Aselcni<br/>2010.12 ~ 2011.06 | Server Developer | Swift, Objective C |
 
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
