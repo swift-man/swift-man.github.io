@@ -29,13 +29,13 @@ toc_label: 목차
 | Organization | Date | Description | 
 | --- | --- | --- |
 | [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재 | iOS Developer | 핑크다이어리 앱 개발 |
-| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05 | iOS Developer | 아이엠스쿨, 아이엠티처, 클래스123 앱 개발 |
-| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06 | iOS Developer | 기프티콘, 틸리언 앱 개발 |
-| Sstrade<br/>2013.01 ~ 2014.03 | iOS Developer | 여보세요? 무료국제전화 앱 개발 |
-| 소프트노믹스<br/>2012.09 ~ 2012.12 | Android Developer | 커픤 그루나루 Pos 시스템 개발 |
-| exfiniti inc<br/>2012.05 ~ 2012.09 | iOS Developer | 추억의 만화 앱 개발 |
-| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04 | iOS Developer | 애드라떼 앱 개발 |
-| Aselcni<br/>2010.12 ~ 2011.06 | Server Developer | (주)이브자리 ERP 프로그램 개발 |
+| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS Developer | 아이엠스쿨, 아이엠티처, 클래스123 앱 개발 |
+| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS Developer | 기프티콘, 틸리언 앱 개발 |
+| Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS Developer | 여보세요? 무료국제전화 앱 개발 |
+| 소프트노믹스<br/>2012.09 ~ 2012.12(4개월) | Android Developer | 커픤 그루나루 Pos 시스템 개발 |
+| exfiniti inc<br/>2012.05 ~ 2012.09(5개월) | iOS Developer | 추억의 만화 앱 개발 |
+| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04(5개월) | iOS Developer | 애드라떼 앱 개발 |
+| Aselcni<br/>2010.12 ~ 2011.06(7개월) | Server Developer | (주)이브자리 ERP 프로그램 개발 |
 
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
@@ -52,6 +52,7 @@ toc_label: 목차
 | Architecture | Clean Architecture, MVVM, MVI |
 | UI | SwiftUI, UIKit |
 | Dependency | CocoaPods, Carhtage, SPM |
+| Database | SQLite, CoreData |
 
 | Backend                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
@@ -64,8 +65,7 @@ toc_label: 목차
 | AWS | EC2, S3, RDS, CloudFront, Route53 |
 | DB | MariaDB |
 | Web | Nginx |
-| Frontend | HTML, CSS3(CSSS) |
-| Collaboration | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
+| etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
 
 ## Work Experience & Projects
