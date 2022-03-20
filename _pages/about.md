@@ -24,6 +24,9 @@ toc_label: 목차
 * '제가 만든 것'에 자부심을 갖을수 있도록 노력합니다.
 * '성장하는 것'에 의지가 있습니다.
 
+---
+![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
+
 ## Experience
 
 | Organization | Date | Description | 
