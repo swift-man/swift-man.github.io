@@ -24,9 +24,6 @@ toc_label: 목차
 * '제가 만든 것'에 자부심을 갖을수 있도록 노력합니다.
 * '성장하는 것'에 의지가 있습니다.
 
----
-![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
-
 ## Experience
 
 | Organization | Date | Description | 
@@ -39,6 +36,8 @@ toc_label: 목차
 | exfiniti inc<br/>2012.05 ~ 2012.09(5개월) | iOS Developer | 추억의 만화 앱 개발 |
 | [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04(5개월) | iOS Developer | 애드라떼 앱 개발 |
 | Aselcni<br/>2010.12 ~ 2011.06(7개월) | Server Developer | (주)이브자리 ERP 프로그램 개발 |
+
+![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
 
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
