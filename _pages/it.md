@@ -57,6 +57,14 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**Nintendo**](https://www.nintendo.co.kr)"
+feature_row3:
+  - image_path: https://blog.ko.playstation.com/tachyon/sites/9/2021/09/f17292c3ca7b494b497755a6d6f42979353d67f0.png?resize=1088%2C612&crop_strategy=smart&zoom=1
+    title: "[PS5] 플레이스테이션5 추첨 당첨 되기"
+    excerpt: "드디어 블루투스이어폰 연결이 공식적으로 지원된다."
+    url: "/it/ps5/lottery-ps5/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    image_caption: "Photo credit: [**blog.ko.playstation**](https://blog.ko.playstation.com/)"
 feature_row4:
   - image_path: https://www.linuxadictos.com/wp-content/uploads/kodi-logo.jpg.webp
     title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
@@ -109,6 +117,8 @@ feature_row7:
 {% include feature_row id="feature_row1" %}
 
 {% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="left" %}
 
 {% include feature_row id="feature_row4" type="left" %}
 
