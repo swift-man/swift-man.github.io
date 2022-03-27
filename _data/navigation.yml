@@ -501,7 +501,17 @@ sidebar-ios:
         children:
         - title: "ComparisonResult"
           url: /ios/foundation/objcruntime/comparisonresult/
-        
+          
+  - title: "AVFoundation"
+    url: /ios/avfoundation/
+    children:
+      - title: "AVPlayer"
+        icon: "far fa-folder-open"
+        url: /ios/avfoundation/avplayer/
+        children:
+        - title: "영상 크기 가져오기"
+          url: /ios/avfoundation/avplayer/avplayer-frame/
+            
   - title: "UIResponder"
     url: /ios/uiresponder/
     children:
@@ -589,11 +599,18 @@ sidebar-ios:
         url: /ios/xcode/xcode-build-apple-tv-4k/
       - title: "Xcode 13 Column Breakpoints"
         url: /ios/xcode/xcode-13_column-breakpoints/
-  - title: "Build Error"
+  - title: "Xcode Build Error"
     url: /ios/build-error/
     children:
     - title: "Could not find module for target x86_64..."
       url: /ios/build-error/x86_64-apple-ios-simulator/
+    - title: "[Cocoapods] Running pod install with an..."
+      url: /ios/build-error/pods-install-date-error/
+  - title: "Xcode Rumtime Error"
+    url: /ios/runtime-error/
+    children:
+    - title: "flock failed to lock list file"
+      url: /ios/runtime-error/flock-failed-to-lock-list-file/
   - title: "Fastlane"
     url: /ios/fastlane/
     children:
@@ -762,6 +779,11 @@ sidebar-it:
     children:
       - title: "블루투스 이어폰 연결"
         url: /it/nintendo-switch/nintendo-switch-bluetooth-earphone/
+  - title: "Playstation 5"
+    url: /it/ps5/
+    children:
+      - title: "플레이스테이션5 추첨 당첨 되기"
+        url: /it/ps5/lottery-ps5/
   - title: "MacOS"
     url: /it/macos/
     children:
