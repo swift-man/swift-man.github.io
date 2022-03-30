@@ -12,7 +12,7 @@ tag: "Charles"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://cdn-laravel.vapor.cloud/image/nstack/translate_values/charles_IPjFgz7Fvv.png
+  overlay_image: https://miro.medium.com/max/1400/1*v3T43SKR1rSqnx7j5XLfcA.png
   caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
 excerpt: "How we debug with Charle"
 ---

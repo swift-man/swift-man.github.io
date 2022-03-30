@@ -74,14 +74,14 @@ feature_row4:
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**linuxadictos**](https://www.linuxadictos.com/)"
 feature_row5:
-  - image_path: https://cdn-laravel.vapor.cloud/image/nstack/translate_values/charles_IPjFgz7Fvv.png
+  - image_path: https://miro.medium.com/max/1400/1*v3T43SKR1rSqnx7j5XLfcA.png
     title: "[Charles] 설정하기"
     excerpt: 'How we debug with Charle'
     url: "/it/charles/charles-setting/"
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
-  - image_path: https://cdn-laravel.vapor.cloud/image/nstack/translate_values/charles_IPjFgz7Fvv.png
+  - image_path: https://miro.medium.com/max/1400/1*v3T43SKR1rSqnx7j5XLfcA.png
     title: "[Charles] iPhone Device 설정하기"
     excerpt: 'How we debug with Charle'
     url: "/it/charles/charles-setting-iphone/"
