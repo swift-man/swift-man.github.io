@@ -14,26 +14,26 @@ excerpt: "Hardware specs, scrap link"
 intro: 
   - excerpt: "평소에 관심있는 IT 기기, 사용 후기 등 정리하는 공간."
 feature_row:
-- image_path: https://images.roa.ai/articles/2020/02/youtube.png
-  title: "[YouTube] 구독자 100명 모으기"
-  excerpt: "초보 유튜버의 기록"
-  url: "/it/youtube/subscribe-100/"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
-- image_path: https://images.roa.ai/articles/2020/02/youtube.png
-  title: "[YouTube] 채널 운영 실수와 반복"
-  excerpt: "채널 1달 운영 회고"
-  url: "/it/youtube/1-month/"
-  image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
-- image_path: https://images.roa.ai/articles/2020/02/youtube.png
-  title: "[YouTube] 틱톡, 인스타 연동하면 채널 효과가 있을까?"
-  excerpt: "채널 2달 운영 회고"
-  url: "/it/youtube/2-month/"
-  image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
+  - image_path: https://images.roa.ai/articles/2020/02/youtube.png
+    title: "[YouTube] 구독자 100명 모으기"
+    excerpt: "초보 유튜버의 기록"
+    url: "/it/youtube/subscribe-100/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: https://images.roa.ai/articles/2020/02/youtube.png
+    title: "[YouTube] 채널 운영 실수와 반복"
+    excerpt: "채널 1달 운영 회고"
+    url: "/it/youtube/1-month/"
+    image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: https://images.roa.ai/articles/2020/02/youtube.png
+    title: "[YouTube] 틱톡, 인스타 연동하면 채널 효과가 있을까?"
+    excerpt: "채널 2달 운영 회고"
+    url: "/it/youtube/2-month/"
+    image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row1:
   - image_path: https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY
     title: "[Apple TV+] 한국 출시"
@@ -109,7 +109,6 @@ feature_row7:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
