@@ -756,15 +756,6 @@ sidebar-swift:
 ##############
 
 sidebar-it:
-  - title: "YouTube"
-    url: /it/youtube/
-    children:
-      - title: "[YouTube] 구독자 100명 모으기"
-        url: /it/youtube/subscribe-100/
-      - title: "[YouTube] 채널 1달 운영 회고"
-        url: /it/youtube/1-month/
-      - title: "[YouTube] 채널 2달 운영 회고"
-        url: /it/youtube/2-month/
   - title: "Apple TV"
     url: /it/apple-tv/
     children:
@@ -808,3 +799,12 @@ sidebar-it:
     children:
       - title: "[Paypal] 해킹 메일 주의하세요."
         url: /it/paypal/paypal-hacked-mail/
+  - title: "YouTube"
+    url: /it/youtube/
+    children:
+      - title: "[YouTube] 구독자 100명 모으기"
+        url: /it/youtube/subscribe-100/
+      - title: "[YouTube] 채널 1달 운영 회고"
+        url: /it/youtube/1-month/
+      - title: "[YouTube] 채널 2달 운영 회고"
+        url: /it/youtube/2-month/
