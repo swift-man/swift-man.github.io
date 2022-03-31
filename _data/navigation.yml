@@ -604,6 +604,8 @@ sidebar-ios:
     children:
     - title: "Could not find module for target x86_64..."
       url: /ios/build-error/x86_64-apple-ios-simulator/
+    - title: "Failed to prepare device for development"
+      url: /ios/build-error/failed-to-prepare-device-for-development/
     - title: "[Cocoapods] Running pod install with an..."
       url: /ios/build-error/pods-install-date-error/
   - title: "Xcode Rumtime Error"
