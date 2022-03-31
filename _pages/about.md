@@ -40,7 +40,7 @@ toc_label: 목차
 
 ![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
 
-## 사용되는 전문 분야 기술 들
+## 경험해본 도메인
 * Video Conference
 * Billing & Payment
 * Image Processing
@@ -78,7 +78,7 @@ toc_label: 목차
 | Web | Nginx |
 | etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
-## 경험하고 싶은 기술 분야
+## 경험하고 싶은 관심 기술 분야
 * Sokect Level 통신
 * Music Streaming
 * 인증서 및 보안
