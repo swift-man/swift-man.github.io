@@ -40,6 +40,14 @@ toc_label: 목차
 
 ![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
 
+## 사용되는 전문 분야 기술 들
+* Video Conference
+* Billing & Payment
+* Image Processing
+* 일정관리 및 캘린더
+* 지도 및 위치확인
+* 컨텐츠 서비스
+
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
 * GitHub | [<i class="fas fa-link"></i> https://github.com/swift-man](https://github.com/swift-man){:target="_blank"}
@@ -69,6 +77,13 @@ toc_label: 목차
 | DB | MariaDB |
 | Web | Nginx |
 | etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
+
+## 경험하고 싶은 기술 분야
+* Sokect Level 통신
+* Music Streaming
+* 인증서 및 보안
+* encryption & decryption
+* MVOIP Audio Call
 
 
 ## Work Experience & Projects
