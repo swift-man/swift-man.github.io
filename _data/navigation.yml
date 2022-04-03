@@ -418,7 +418,7 @@ sidebar-git:
         children:
           - title: "맞춤법 검사기"
             icon: "fas fa-link"
-            url: https://speller.cs.pusan.ac.kr/
+            url: https://alldic.daum.net/grammar_checker.do
           - title: "표 만들기"
             icon: "fas fa-link"
             url: https://www.tablesgenerator.com/markdown_tables
