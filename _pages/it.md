@@ -67,7 +67,7 @@ feature_row2:
 feature_row3:
   - image_path: https://blog.ko.playstation.com/tachyon/sites/9/2021/09/f17292c3ca7b494b497755a6d6f42979353d67f0.png?resize=1088%2C612&crop_strategy=smart&zoom=1
     title: "[PS5] 플레이스테이션5 추첨 당첨 되기"
-    excerpt: "드디어 블루투스이어폰 연결이 공식적으로 지원된다."
+    excerpt: "추첨방식으로 변경된 PS5 정가 구매, 당첨 잘되는 방법에 대한 고찰"
     url: "/it/ps5/lottery-ps5/"
     btn_label: "Read More"
     btn_class: "btn--primary"
