@@ -3,7 +3,7 @@ sidebar:
   title: "Swift"
   nav: sidebar-swift
   icon: "fab fa-swift"
-title: 생성하기
+title: Swift Package Manager 생성해보기
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -16,8 +16,6 @@ depth:
     url: /swift/swift-package-manager/
     icon: "far fa-folder-open"
 ---
-Swift Package Manager 생성해보기
-
 ## 요약 - 터미널 명령어
 ```
 swift package init --type library
