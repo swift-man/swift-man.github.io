@@ -35,7 +35,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://images.roa.ai/articles/2020/02/youtube.png
-    title: "[YouTube] 홍보는 조심히 하고, 예약 기능을 사용해보자"
+    title: "[YouTube] 홍보는 조심히 하자"
     excerpt: "채널 3달 운영 회고"
     url: "/it/youtube/3-month/"
     image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
