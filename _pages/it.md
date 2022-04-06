@@ -34,6 +34,13 @@ feature_row:
     image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: https://images.roa.ai/articles/2020/02/youtube.png
+    title: "[YouTube] 홍보는 조심히 하고, 예약 기능을 사용해보자"
+    excerpt: "채널 3달 운영 회고"
+    url: "/it/youtube/3-month/"
+    image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row1:
   - image_path: https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY
     title: "[Apple TV+] 한국 출시"
