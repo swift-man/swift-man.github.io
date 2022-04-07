@@ -58,3 +58,6 @@ Convert 버튼을 누르면 변경 해준다.
 
 프로그램 배포는 아쉽게도 어려워 코드를 공개해 놓았다.
 [<i class="fas fa-link"></i> 소스보기](https://github.com/swift-man/GoogleDriveOriginalURL)
+
+### Updated v0.0.5
+![Image](https://drive.google.com/uc?export=view&id=1yx_5rYcLm2Xv3GfL8OEWH-bUDqhdefZ6)  
