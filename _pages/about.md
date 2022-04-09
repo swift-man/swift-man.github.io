@@ -24,6 +24,7 @@ toc_label: 목차
 * '좋아하는 것'을 꾸준하게 지속하는 성향입니다.
 * '제가 만든 것'에 자부심을 갖도록 노력합니다.
 * '성장하는 것'에 의지가 있습니다.
+* '공부한 내용을 공유하는 것'을 생활화 합니다.
 * '고객이 좋아하는 것'에 끊임없이 고민합니다.
 * '사용자가 터치 한번을 줄일 수 있는 것'을 연구합니다.
 * 'Scrollable한 Animation'을 멋쩍어 합니다.
@@ -78,7 +79,6 @@ toc_label: 목차
 
 
 ## 🔨Skills
-
 | iOS                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | Xcode | Swift, Objective C |
@@ -86,7 +86,7 @@ toc_label: 목차
 | TDD | XCTest, Nimble, QuickSpec |
 | Architecture | Clean Architecture, MVVM, MVI |
 | UI | SwiftUI, UIKit |
-| Dependency | CocoaPods, Carhtage, SPM |
+| Dependency | CocoaPods, Carthage, SPM |
 | Database | SQLite, CoreData |
 
 | Backend                                        | Description                                           |
@@ -102,15 +102,28 @@ toc_label: 목차
 | Web | Nginx, Tomcat |
 | etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
+## Project
 
+### 핑크다이어리
 
-## Other:
+### 아이엠스쿨
 
+### flace
+
+### 틸리언
+
+### 기프티콘
+
+### 여보세요?
+
+### 애드라떼
+
+## Other
 - 영상편집
   * 유튜브, Ticktok에서 크리에이터를 작게 하고 있습니다.
   
 - 이미지 편집
-  * 간단한 이미지 편집이 가능합니다.
+  * 간단한 이미지 편집/합성이 가능합니다.
 
 ---
 
