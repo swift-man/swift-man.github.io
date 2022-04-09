@@ -71,6 +71,7 @@ toc_label: 목차
 
 ## 경험하고 싶은 관심 기술 분야
 * Sokect Level 통신
+* Live Video Streaming
 * Music Streaming
 * 인증서 및 보안
 * encryption & decryption
