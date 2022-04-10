@@ -111,6 +111,17 @@ Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 �
 
 ![Image](https://drive.google.com/uc?export=view&id=1yx_5rYcLm2Xv3GfL8OEWH-bUDqhdefZ6)  
 
+* 결과 / 성과:
+   * [<i class="fas fa-link"></i> GitHub](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"}
+   
+### Blog
+개인 공부 공간으로 2018년 6월에 시작하여 2021년 5월 리뉴얼을 하였습니다.  
+Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있습니다.
+
+* 결과 / 성과:
+   * [<i class="fas fa-link"></i> Website](https://blog.slarea.com){:target="_blank"}
+   * 2022년 03월 기준 MAU 약 1400
+  
 ### 핑크다이어리
 NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
@@ -125,8 +136,8 @@ NHN Edu 여성 건강 애플리케이션
 ![Image](/assets/gif/핑다 인트로 영상.mov.gif)
 ![Image](/assets/gif/핑다 태아 상태.mov.gif)
 
-* 결과/성과:
-  * 앱스토어 링크
+* 결과 / 성과:
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"}
   * MAU 약 130만 명
   
 ### 아이엠스쿨
@@ -146,8 +157,8 @@ NHN Edu 교육 애플리케이션
 * Google Ad Manager를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
 * 코드 일관성을 위한 SwiftLint 적용
-* 결과 / 성과 : 
-  * 앱스토어 교육 부분 무료 순위 1위
+* 결과/성과 : 
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} 교육 부분 무료 순위 1위
   * 네이버 실시간 검색어 7위
   * 근로에 대한 성과를 인정받아 CTO님 포상
 
@@ -159,7 +170,9 @@ NHN Edu 교육 애플리케이션
 * 선생님이 학부모와 상담할 수 있는 상담톡 기능 개발
 * Photos - 사진 업로드, 사진 뷰어 등 크래시 이슈 처리
 * 일부 Objective C코드 Swift 전환
-
+* 결과/성과: 
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"}
+  
 ### 클래스123
 NHN Edu 교육 애플리케이션
 * 2020.03 ~ 2020.10
@@ -167,7 +180,9 @@ NHN Edu 교육 애플리케이션
 * 비디오 업로드를 위한 AVAssetExportSession을 RxSwift로 래핑하여 변경 되는 상태를 옵저빙 및 편의 기능 개발
 * 3년간 유지보수 되지 않던 프로젝트를 iOS 13 대응 및 deprecated API 전환, 각종 크래시 수정 등 정상화
 * AVAudioRecorder를 사용한 소음 측정 기능 유지보수 등
-
+* 결과/성과: 
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"}
+  
 ### flace
 옷장 서비스이며 개인 프로젝트
 * Google AI를 활용하여 사진 업로드 및 카테고리 자동 선택 기능 개발
@@ -180,7 +195,7 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/gif/flace 메뉴 동작.mov.gif)
 ![Image](/assets/gif/flace 메뉴2.mov.gif)
 * 결과/성과: 
-  * 앱스토어 링크
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"}
 
 ### Beautiful Bible(서비스종료)
 다국어 성경 / 메모 기능을 제공하는 개인 프로젝트  
@@ -220,6 +235,7 @@ SKPlanet(현 (주)S.M. CULTURE&CONTENTS) 설문 서비스 애플리케이션
 * Youtube 연동 개발
 * 결과/성과 : 
   * 설문 부분 서비스 1위
+  * 앱스토어에 등록되어 있으나 현재 리뉴얼 상태
 
 ### 기프티콘
 SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
@@ -230,11 +246,11 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 ![Image](/assets/gif/기콘테스트.gif)
 * Photos 연동 개발 - 사진첩의 사진을 이요한 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
-  * 약 앱스토어 무료 부분 80위
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
   * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상
 ![Image](/assets/images/about/기콘스토어.PNG)
 
-### 여보세요?
+### 여보세요?(서비스종료)
 주소록 관리 서비스 / 전화를 통한 포인트 적립 애플리케이션  
 ![Image](/assets/images/about/여보세요.001.jpeg)  
 * Objective C
