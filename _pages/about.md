@@ -109,8 +109,6 @@ toc_label: 목차
 ### GoogleDriveOriginalURL
 Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 개인 프로젝트
 
-![Image](https://drive.google.com/uc?export=view&id=1yx_5rYcLm2Xv3GfL8OEWH-bUDqhdefZ6)  
-
 * 결과 / 성과:
    * [<i class="fas fa-link"></i> GitHub](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"}
    
@@ -132,7 +130,7 @@ NHN Edu 여성 건강 애플리케이션
 ![Image](/assets/gif/pink-logout.gif)  
 * Video 관련 기능 개발
   * Video 관련 코드를 RxSwift로 리펙토링
-  * 인트로 Video 기능 개발  
+  * 인트로, 태아 영상 등 Video 기능 개발  
 ![Image](/assets/gif/pink-video002.gif)
 ![Image](/assets/gif/pink-video001.gif)
 
@@ -145,14 +143,15 @@ NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
 ![Image](/assets/gif/school-child-insert.gif)
-![Image](/assets/gif/school-child-detail.gif)
 ![Image](/assets/gif/school-child-remove.gif)
 * Costom AlertController 디자인과 협업 및 기능 제작
+![Image](/assets/gif/school-child-detail.gif)
 * Obejctive C -> Swift 전환
 * 캘린더, 캘린더 필터 등 기능 개발
 * 기관별 보기/관심 기관/교육정보 기능 개발  
 ![Image](/assets/gif/school-organizations.gif)
 ![Image](/assets/gif/school-organization-delete.gif)
+* 기관 검색 개발
 ![Image](/assets/gif/school-organization-insert.gif)
 * Google Ad Manager를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
@@ -185,13 +184,13 @@ NHN Edu 교육 애플리케이션
   
 ### flace
 옷장 서비스이며 개인 프로젝트
-* Google AI를 활용하여 사진 업로드 및 카테고리 자동 선택 기능 개발
+* Google AI를 활용하여 사진 업로드 및 카테고리 자동 선택 기능 개발  
+![Image](/assets/gif/flace-photos.gif)
+![Image](/assets/gif/flace-lookbook.gif)
 * 클린 아키텍처 적용
 * 각 Feature별 모듈화
 * Swinject를 활용한 DI적용
 * RxDatasource를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발  
-![Image](/assets/gif/flace-photos.gif)
-![Image](/assets/gif/flace-lookbook.gif)
 ![Image](/assets/gif/flace-menu001.gif)
 ![Image](/assets/gif/flace-menu002.gif)
 * 결과/성과: 
@@ -256,14 +255,15 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 * Objective C
 * Left/Right Side Menu UI 
 ![Image](/assets/images/about/hello003.jpeg)
-* 주소록 - Sqlite를 활용해 주소록을 재 구성하여 한글 초성 검색 기능 제공 
-![Image](/assets/images/about/hello002.jpeg)
+* 주소록 - Sqlite를 활용해 주소록을 재 구성하여 한글 초성 검색 기능 제공
 * 주소록 - Facebook SDK를 활용한 친구목록을 내 주소록 동기화(iOS 6)
-* 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 검색 결과 정렬
+* 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 검색 결과 정렬  
+![Image](/assets/images/about/hello002.jpeg)
 * 포인트 - 일별 누적 포인트를 Core Graphics를 활용한 애니메이션이 되는 그래프 제작 및 제공
 ![Image](/assets/images/about/hello004.jpeg)
-* 기타 GoogleMap을 활용한 컨텐츠, 유심 정보 관련 기능 개발
+* Async Networing, 기타 GoogleMap을 활용한 컨텐츠
 ![Image](/assets/images/about/hello005.jpeg)  
+* 유심 정보 관련 기능, 고객 문의를 잘 받을 수 있는 프로세스 개발
 ![Image](/assets/images/about/hello006.jpeg)
 
 ### 추억의 만화(서비스종료)
