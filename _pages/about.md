@@ -143,7 +143,7 @@ NHN Edu 여성 건강 애플리케이션
 ### 아이엠스쿨
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
-* RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발
+* RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
 ![Image](/assets/gif/스쿨 자녀 등록.mov.gif)
 ![Image](/assets/gif/스쿨 자녀 상세.mov.gif)
 ![Image](/assets/gif/스쿨 자녀 삭제.mov.gif)
@@ -242,7 +242,7 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 * UIWebView를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
 * Keychain을 활용한 로그인 정보 저장 기능 개발
 * APNS 기능 개발
-* PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)
+* PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)  
 ![Image](/assets/gif/기콘테스트.gif)
 * Photos 연동 개발 - 사진첩의 사진을 이요한 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
