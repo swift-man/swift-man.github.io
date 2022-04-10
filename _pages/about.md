@@ -37,7 +37,7 @@ toc_label: 목차
 
 | Organization | Info | Description | 성과 |
 | --- | --- | --- | --- |
-| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 80만 |
+| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 130만 |
 | [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
 | [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
@@ -107,22 +107,80 @@ toc_label: 목차
 
 ## Project
 ### 핑크다이어리
-
+MAU 약 130만 명
 ### 아이엠스쿨
+* 도메인 : 자녀, 학부모 사용자 연결
+  * 
+자녀연결 프로젝트 진행, Costom AlertController, Obejctive C -> Swift 전환
+코드리뷰 진행 및 설계 리뷰, RxSwift, RxAlamofire 등 적용 검토 및 개발자 간 공유 진행
+
+### 아이엠티처 
+
+### 클래스123
 
 ### flace
 
+### Beautiful Bible(서비스종료)
+다국어 성경 / 메모 기능을 제공하는 개인 프로젝트  
+퇴근 후 집에서 다양한 시도를 하고 있습니다.
+
+* iOS App
+  * Objective C
+  * SDWebImage, AFNetworking
+  * CoreData - Book Mark, 메모 기능, 검색 히스토리
+  * 정확도 검색을 위한 SQLite(FTS3)로 데이터 구축
+  * CoreText - Drop Text Style 이펙트
+  * GIF TableViewCell
+  * Auto Layout
+  * On-demand 방식의 폰트 다운로드 및 적용 기능 제공
+  * Font Size 제어 기능 제공
+* Server
+  * AWS EC2 - 서비스 호스팅
+  * AWS EC2 - Image Resize
+  * AWS S3
+  * Nginx
+  * Route53
+  * SSL(Let's encrypt)
+  * MariaDB
+
+* HTML To Plist Converter 유틸리티 제작
+  * HTML tag 를 분석하여 row 데이터로 변환
+  
+* Plist To SQLite Converter 유틸리티 제작
+  * 검색 가능한 Full Text Search Table(FTS3)
+
 ### 틸리언
+Autolayout
+Youtube 연동, TableViewCell의 동영상 광고 탑재
+OK 케시백 포인트 적립 연동
+Image Cache
 
 ### 기프티콘
+위치정보 기반 서버 통신
+WebView 상호 연동(사진첩, 주소록, script)
+Keychain, Apns
+앱스토어 80위 / 성능 개선을 인정받아 Unit 포상(앱 진입 기존 7초 -> 3초 이내)
 
 ### 여보세요?
+사용한 Skill 또는 지식 : Objective C, Async Image Download, Facebook SDK, Left/Right Side Menu, 초성/전화번호부 검색, Naver 검색 Api, Sqlite, GoogleMap
+결과/성과 : iOS 의 전화번호부 구조 이해 및 커스텀 데이터 화 / Async 이미지 로드 / 한글 및 초성 검색 / 현재 위치에 따른 검색 결과 정렬 / 포인트 누적 그래프 제작
+
+### 추억의 외화(서비스종료)
+추억의 외화, 만화 컨턴츠를 서버 API 로 받아 캐시하고, 정보를 제공, Youtube 연동을 통해 연관 영상을 재생하고, 상세페이지에서 컨텐츠 제공, 컨텐츠 댓글 / 좋아요 제공
 
 ### 애드라떼
+iOS 앱 개발(커머스 탭바, 광고 재생 관련 Vedio UI), php 관리자 페이지, Ad SDK 제작 설계
+Objective - C , PHP
+
+### 이브자리(주) 이브자리 사내 ERP 어플리케이션 개발
+사내 프레임워크를 사용하여, 쿼리 및 화면을 작성
+C# 기반으로 웹으로 구동되는 스마트어플리케이션 개발,
+품평회, PRM 개발
+
 
 ## Other
 - 영상편집
-  * 유튜브, Ticktok에서 크리에이터를 작게 하고 있습니다.
+  * 유튜브, Ticktok에서 크리에이터를 조그마하게 하고 있어요.
   
 - 이미지 편집
   * 간단한 이미지 편집/합성이 가능합니다.
