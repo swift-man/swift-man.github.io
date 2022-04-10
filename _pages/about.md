@@ -115,8 +115,16 @@ Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 �
 NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
 * 캘린더 Swift전환 모듈 제작
-* Video 관련 코드를 RxSwift로 전환
-* 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)
+![Image](/assets/images/about/핑다 캘린더.001.jpeg)
+* 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
+![Image](/assets/gif/핑다 로그인.mov.gif)
+![Image](/assets/gif/핑다 로그 아웃.mov.gif)  
+* Video 관련 기능 개발
+  * Video 관련 코드를 RxSwift로 리펙토링
+  * 인트로 Video 기능 개발  
+![Image](/assets/gif/핑다 인트로 영상.mov.gif)
+![Image](/assets/gif/핑다 태아 상태.mov.gif)
+
 * 결과/성과:
   * 앱스토어 링크
   * MAU 약 130만 명
@@ -125,10 +133,16 @@ NHN Edu 여성 건강 애플리케이션
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발
+![Image](/assets/gif/스쿨 자녀 등록.mov.gif)
+![Image](/assets/gif/스쿨 자녀 상세.mov.gif)
+![Image](/assets/gif/스쿨 자녀 삭제.mov.gif)
 * Costom AlertController 디자인과 협업 및 기능 제작
 * Obejctive C -> Swift 전환
 * 캘린더, 캘린더 필터 등 기능 개발
-* 기관별 보기 기능 개발
+* 기관별 보기/관심 기관/교육정보 기능 개발  
+![Image](/assets/gif/스쿨 관심학교 등록.mov.gif)
+![Image](/assets/gif/스쿨 교육 정보 삭제.mov.gif)
+![Image](/assets/gif/스쿨 교육정보 추가.mov.gif)
 * Google Ad Manager를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
 * 코드 일관성을 위한 SwiftLint 적용
@@ -160,7 +174,11 @@ NHN Edu 교육 애플리케이션
 * 클린 아키텍처 적용
 * 각 Feature별 모듈화
 * Swinject를 활용한 DI적용
-* RxDatasource를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발
+* RxDatasource를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발  
+![Image](/assets/gif/flace 사진첩.mov.gif)
+![Image](/assets/gif/플레이스 - 룩북 메뉴 추가.mov.gif)
+![Image](/assets/gif/flace 메뉴 동작.mov.gif)
+![Image](/assets/gif/flace 메뉴2.mov.gif)
 * 결과/성과: 
   * 앱스토어 링크
 
@@ -209,20 +227,28 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 * Keychain을 활용한 로그인 정보 저장 기능 개발
 * APNS 기능 개발
 * PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)
+![Image](/assets/gif/기콘테스트.gif)
 * Photos 연동 개발 - 사진첩의 사진을 이요한 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
-  * 약 앱스토어 80위
+  * 약 앱스토어 무료 부분 80위
   * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상
+![Image](/assets/images/about/기콘스토어.PNG)
 
 ### 여보세요?
-한국에 거주하는 중국인들을 위한 주소록 애플리케이션
+주소록 관리 서비스 / 전화를 통한 포인트 적립 애플리케이션  
+![Image](/assets/images/about/여보세요.001.jpeg)  
 * Objective C
 * Left/Right Side Menu UI 
+![Image](/assets/images/about/여보세요.003.jpeg)
 * 주소록 - Sqlite를 활용해 주소록을 재 구성하여 한글 초성 검색 기능 제공 
+![Image](/assets/images/about/여보세요.002.jpeg)
 * 주소록 - Facebook SDK를 활용한 친구목록을 내 주소록 동기화(iOS 6)
 * 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 검색 결과 정렬
 * 포인트 - 일별 누적 포인트를 Core Graphics를 활용한 애니메이션이 되는 그래프 제작 및 제공
-* GoogleMap을 활용한 컨텐츠 제공
+![Image](/assets/images/about/여보세요.004.jpeg)
+* 기타 GoogleMap을 활용한 컨텐츠, 유심 정보 관련 기능 개발
+![Image](/assets/images/about/여보세요.005.jpeg)  
+![Image](/assets/images/about/여보세요.006.jpeg)
 
 ### 추억의 만화(서비스종료)
 외화, 만화 컨턴츠 소개하는 컨텐츠 애플리케이션
@@ -232,6 +258,7 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 ### 애드라떼(서비스종료)
 광고를 보면 포인트를 주는 광고 애플리케이션
 * 베스트 탭 화면 개발
+  * ![Image](/assets/images/about/애드라뗴.JPG)
 * 광고 베너, 영상을 제공하는 SDK 기능 개발
 
 ### 이브자리(주) ERP 어플리케이션 개발
