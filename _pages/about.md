@@ -190,10 +190,10 @@ NHN Edu 교육 애플리케이션
 * 각 Feature별 모듈화
 * Swinject를 활용한 DI적용
 * RxDatasource를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발  
-![Image](/assets/gif/flace 사진첩.mov.gif)
-![Image](/assets/gif/플레이스 - 룩북 메뉴 추가.mov.gif)
-![Image](/assets/gif/flace 메뉴 동작.mov.gif)
-![Image](/assets/gif/flace 메뉴2.mov.gif)
+![Image](/assets/gif/flace-photos.gif)
+![Image](/assets/gif/flace-lookbook.gif)
+![Image](/assets/gif/flace-menu001.gif)
+![Image](/assets/gif/flace-menu002.gif)
 * 결과/성과: 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"}
 
@@ -243,7 +243,7 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 * Keychain을 활용한 로그인 정보 저장 기능 개발
 * APNS 기능 개발
 * PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)  
-![Image](/assets/gif/기콘테스트.gif)
+![Image](/assets/gif/gifttest.gif)
 * Photos 연동 개발 - 사진첩의 사진을 이요한 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
