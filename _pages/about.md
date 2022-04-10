@@ -128,13 +128,13 @@ NHN Edu 여성 건강 애플리케이션
 * 캘린더 Swift전환 모듈 제작
 ![Image](/assets/images/about/pink_calendar001.jpeg)
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
-![Image](/assets/gif/핑다 로그인.mov.gif)
-![Image](/assets/gif/핑다 로그 아웃.mov.gif)  
+![Image](/assets/gif/pink-login.gif)
+![Image](/assets/gif/pink-logout.gif)  
 * Video 관련 기능 개발
   * Video 관련 코드를 RxSwift로 리펙토링
   * 인트로 Video 기능 개발  
-![Image](/assets/gif/핑다 인트로 영상.mov.gif)
-![Image](/assets/gif/핑다 태아 상태.mov.gif)
+![Image](/assets/gif/pink-video002.gif)
+![Image](/assets/gif/pink-video001.gif)
 
 * 결과 / 성과:
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"}
@@ -144,16 +144,16 @@ NHN Edu 여성 건강 애플리케이션
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
-![Image](/assets/gif/스쿨 자녀 등록.mov.gif)
-![Image](/assets/gif/스쿨 자녀 상세.mov.gif)
-![Image](/assets/gif/스쿨 자녀 삭제.mov.gif)
+![Image](/assets/gif/school-child-insert.gif)
+![Image](/assets/gif/school-child-detail.gif)
+![Image](/assets/gif/school-child-remove.gif)
 * Costom AlertController 디자인과 협업 및 기능 제작
 * Obejctive C -> Swift 전환
 * 캘린더, 캘린더 필터 등 기능 개발
 * 기관별 보기/관심 기관/교육정보 기능 개발  
-![Image](/assets/gif/스쿨 관심학교 등록.mov.gif)
-![Image](/assets/gif/스쿨 교육 정보 삭제.mov.gif)
-![Image](/assets/gif/스쿨 교육정보 추가.mov.gif)
+![Image](/assets/gif/school-organizations.gif)
+![Image](/assets/gif/school-organization-delete.gif)
+![Image](/assets/gif/school-organization-insert.gif)
 * Google Ad Manager를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
 * 코드 일관성을 위한 SwiftLint 적용
