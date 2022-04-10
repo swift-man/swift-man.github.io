@@ -126,7 +126,7 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
 NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
 * 캘린더 Swift전환 모듈 제작
-![Image](/assets/images/about/핑다 캘린더.001.jpeg)
+![Image](/assets/images/about/pink_calendar001.jpeg)
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/핑다 로그인.mov.gif)
 ![Image](/assets/gif/핑다 로그 아웃.mov.gif)  
@@ -248,23 +248,23 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
   * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
-![Image](/assets/images/about/기콘스토어.PNG)
+![Image](/assets/images/about/gift_store.PNG)
 
 ### 여보세요?(서비스종료)
 주소록 관리 서비스 / 전화를 통한 포인트 적립 애플리케이션  
-![Image](/assets/images/about/여보세요.001.jpeg)  
+![Image](/assets/images/about/hello001.jpeg)  
 * Objective C
 * Left/Right Side Menu UI 
-![Image](/assets/images/about/여보세요.003.jpeg)
+![Image](/assets/images/about/hello003.jpeg)
 * 주소록 - Sqlite를 활용해 주소록을 재 구성하여 한글 초성 검색 기능 제공 
-![Image](/assets/images/about/여보세요.002.jpeg)
+![Image](/assets/images/about/hello002.jpeg)
 * 주소록 - Facebook SDK를 활용한 친구목록을 내 주소록 동기화(iOS 6)
 * 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 검색 결과 정렬
 * 포인트 - 일별 누적 포인트를 Core Graphics를 활용한 애니메이션이 되는 그래프 제작 및 제공
-![Image](/assets/images/about/여보세요.004.jpeg)
+![Image](/assets/images/about/hello004.jpeg)
 * 기타 GoogleMap을 활용한 컨텐츠, 유심 정보 관련 기능 개발
-![Image](/assets/images/about/여보세요.005.jpeg)  
-![Image](/assets/images/about/여보세요.006.jpeg)
+![Image](/assets/images/about/hello005.jpeg)  
+![Image](/assets/images/about/hello006.jpeg)
 
 ### 추억의 만화(서비스종료)
 외화, 만화 컨턴츠 소개하는 컨텐츠 애플리케이션
@@ -274,7 +274,7 @@ SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
 ### 애드라떼(서비스종료)
 광고를 보면 포인트를 주는 광고 애플리케이션
 * 베스트 탭 화면 개발
-  * ![Image](/assets/images/about/애드라뗴.JPG)
+  * ![Image](/assets/images/about/adlatte.JPG)
 * 광고 베너, 영상을 제공하는 SDK 기능 개발
 
 ### 이브자리(주) ERP 어플리케이션 개발
