@@ -226,7 +226,7 @@ NHN Edu 교육 애플리케이션
   * 검색 가능한 Full Text Search Table(FTS3)
 
 ### 틸리언
-SKPlanet(현 (주)S.M. CULTURE&CONTENTS) 설문 서비스 애플리케이션
+SKPlanet 설문 서비스 애플리케이션
 * StoryBoard, Code를 이용한 Autolayout
 * 설문 타입/레포트 개발
 * TableViewCell의 동영상 광고 개발
@@ -237,7 +237,7 @@ SKPlanet(현 (주)S.M. CULTURE&CONTENTS) 설문 서비스 애플리케이션
   * 앱스토어에 등록되어 있으나 현재 리뉴얼 상태
 
 ### 기프티콘
-SKPlanet(현 11번가) 모바일 상품권 서비스 애플리케이션
+SKPlanet 모바일 상품권 서비스 애플리케이션
 * UIWebView를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
 * Keychain을 활용한 로그인 정보 저장 기능 개발
 * APNS 기능 개발
