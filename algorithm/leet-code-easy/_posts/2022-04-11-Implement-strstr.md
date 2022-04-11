@@ -42,7 +42,7 @@ Output: -1
 ```
 
 ### Constraints:
-* `1 <= haystack.length, needle.length <= $10^4$`
+* 1 <= haystack.length, needle.length <= $10^4$
 * `haystack` and `needle` consist of only lowercase English characters.
 
 {% include b-link.html title="풀러가기" url="https://leetcode.com/problems/implement-strstr/" %}
