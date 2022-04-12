@@ -434,6 +434,9 @@ sidebar-git:
           - title: "Google Analytics"
             icon: "fas fa-link"
             url: https://analytics.google.com/
+          - title: "Jekyll MathJax"
+            icon: "fas fa-link"
+            url: https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/
   
   - title: "Markdown"
     url: /git/markdown/
