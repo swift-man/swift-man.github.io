@@ -261,7 +261,7 @@ SKPlanet 모바일 상품권 서비스 애플리케이션
 ![Image](/assets/images/about/hello002.jpeg)
 * 포인트 - 일별 누적 포인트를 Core Graphics를 활용한 애니메이션이 되는 그래프 제작 및 제공
 ![Image](/assets/images/about/hello004.jpeg)
-* Async Networing, 기타 GoogleMap을 활용한 컨텐츠
+* Async Networking, 기타 GoogleMap을 활용한 컨텐츠
 ![Image](/assets/images/about/hello005.jpeg)  
 * 유심 정보 관련 기능, 고객 문의를 잘 받을 수 있는 프로세스 개발
 ![Image](/assets/images/about/hello006.jpeg)
