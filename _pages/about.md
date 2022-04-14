@@ -257,13 +257,13 @@ SKPlanet 모바일 상품권 서비스 애플리케이션
 ![Image](/assets/images/about/hello003.jpeg)
 * 주소록 - Sqlite를 활용해 주소록을 재 구성하여 한글 초성 검색 기능 제공
 * 주소록 - Facebook SDK를 활용한 친구목록을 내 주소록 동기화(iOS 6)
-* 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 검색 결과 정렬  
+* 검색 - 네이버 검색 API를 통한 주변 전화번호 검색하여 현재 위치에 따른 정렬 된 검색 결과 제공  
 ![Image](/assets/images/about/hello002.jpeg)
 * 포인트 - 일별 누적 포인트를 Core Graphics를 활용한 애니메이션이 되는 그래프 제작 및 제공
 ![Image](/assets/images/about/hello004.jpeg)
 * Async Networking, 기타 GoogleMap을 활용한 컨텐츠
 ![Image](/assets/images/about/hello005.jpeg)  
-* 유심 정보 관련 기능, 고객 문의를 잘 받을 수 있는 프로세스 개발
+* 유심 정보 관련 기능 개발, 고객 문의를 잘 받을 수 있는 프로세스 개발
 ![Image](/assets/images/about/hello006.jpeg)
 
 ### 추억의 만화(서비스종료)
