@@ -243,7 +243,7 @@ SKPlanet 모바일 상품권 서비스 애플리케이션
 * APNS 기능 개발
 * PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)  
 ![Image](/assets/gif/gifttest.gif)
-* Photos 연동 개발 - 사진첩의 사진을 이요한 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
+* Photos 연동 개발 - 사진첩의 사진을 사용해 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
   * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
