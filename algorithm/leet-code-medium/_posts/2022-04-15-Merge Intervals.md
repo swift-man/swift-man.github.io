@@ -19,14 +19,12 @@ use_math: true
 ---
 Given an array of <u>intervals</u> where <u>intervals[i] = [start$_i$, end$_i$]</u>, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
-
 ## Example 1:
 ```swift
 Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
 Output: [[1,6],[8,10],[15,18]]
 Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
 ```
-[<i class="fas fa-link"></i> 풀러가기](https://leetcode.com/problems/merge-intervals/){:target="_blank"}
 
 ## Example 1:
 ```swift
@@ -39,6 +37,8 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 * 1 <= intervals.length <= 10$^4$
 * intervals[i].length == 2
 * 0 <= starti <= endi <= 10$^4$
+
+[<i class="fas fa-link"></i> 풀러가기](https://leetcode.com/problems/merge-intervals/){:target="_blank"}
 
 ## 문제 이해
 
