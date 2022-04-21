@@ -183,10 +183,12 @@ sidebar-algorithm:
   - title: "Leet Code - Medium"
     url: /algorithm/leet-code-medium/
     children:
+      - title: "6. Zigzag Conversion"
+        url: /algorithm/leet-code-medium/zigzag-conversion/
       - title: "31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
       - title: "56. Merge Intervals"
-        url: /algorithm/leet-code-medium/Merge-Intervals/
+        url: /algorithm/leet-code-medium/merge-intervals/
       - title: "146. LRU Cache"
         url: /algorithm/leet-code-medium/lrucache/
   - title: "Leet Code - Hard"
