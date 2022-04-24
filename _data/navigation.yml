@@ -227,6 +227,16 @@ sidebar-algorithm:
     children:
       - title: "빠른 입출력 - FileIO"
         url: /algorithm/baekjoon/fileio/
+  - title: "HackerRank Easy"
+    url: /algorithm/hacker-rank-easy/
+    children:
+      - title: "(String)Super Reduced String"
+        url: /algorithm/hacker-rank-easy/super-reduced-string/
+  - title: "HackerRank Medium"
+    url: /algorithm/hacker-rank-medium/
+    children:
+      - title: "(String)Highest Value Palindrome"
+        url: /algorithm/hacker-rank-medium/highest-value-palindrome/
 ##############
 
 sidebar-clean:
