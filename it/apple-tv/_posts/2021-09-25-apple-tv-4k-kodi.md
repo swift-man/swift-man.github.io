@@ -116,7 +116,7 @@ ftp://192.168.1.xx:31
 
 ## Korea OTT Package for Kodi 19 설치 완료
 ![Image](https://drive.google.com/uc?export=view&id=1_OPO3IA9gBhKDDlgXjm5OQWb_JEYB-ir)  
-이제 각 애드온의 설치, 설정하여 즐기자.
+이제 각 애드온의 설치, 설정하여 즐기자.  
 {% include ga-display-horizontal.js %}
 
 ## 후기
