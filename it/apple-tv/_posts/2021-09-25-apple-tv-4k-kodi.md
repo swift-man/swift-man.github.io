@@ -25,7 +25,7 @@ Apple TV에 [<i class="fas fa-link"></i> Kodi](/clean/dictionary/kodi)를 설치
 * [<i class="fas fa-link"></i> QuickFTP Server](https://apps.apple.com/kr/app/quickftp-server/id1451646819?mt=12){:target="_blank"}
 * [<i class="fas fa-link"></i> Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/tvingM){:target="_blank"}
 
-
+{% include ga-display-vertical.js %}
 
 ## Xcode 설정
 ### 임시 프로젝트 생성
@@ -117,7 +117,7 @@ ftp://192.168.1.xx:31
 ## Korea OTT Package for Kodi 19 설치 완료
 ![Image](https://drive.google.com/uc?export=view&id=1_OPO3IA9gBhKDDlgXjm5OQWb_JEYB-ir)  
 이제 각 애드온의 설치, 설정하여 즐기자.
-
+{% include ga-display-horizontal.js %}
 
 ## 후기
 꼭 해야 하는가? 에 대한 의문이 들었다. 실제로 사용해본 결과 집에 있는 케이블을 끊고 Kodi를 사용할 정도의 만족감은 아니었다.
