@@ -7,7 +7,6 @@ title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-ga: true
 tag: "Apple TV"
 header:
   overlay_color: "#000"
