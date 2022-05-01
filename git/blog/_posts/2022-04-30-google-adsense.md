@@ -32,7 +32,7 @@ depth:
 [<i class="fas fa-link"></i> Google AdSense](https://www.google.com/adsense/){:target="_blank"}에 접속하면 아래와 같은 화면이 나온다. 상단의 로그인이나 시작하기 버튼으로 구글 계정 로그인을 하자.
 ![Image](https://drive.google.com/uc?export=view&id=1E36Nivj917eOby7wb1qYgOyL5gJ0Aqvm)  
 
-## 로그인 오류 해결
+### 로그인 오류 해결
 만약 로그인 시도 중 아래와 같은 문제가 발생하면 로그인이 불가한데, 이게 어떤 방법으로든 해결이 되지 않았다.
 ![Image](https://drive.google.com/uc?export=view&id=14640vqGllL_ZHKsyzoLdklXGVn-yU5yo)  
 
@@ -41,7 +41,7 @@ depth:
   
 ## 로그인 완료  
 ![Image](https://drive.google.com/uc?export=view&id=1yutaA5HLygTRjygZS0KiJvwb761Z94E7)  
-로그인을 완료하면 좌측의 결제 정보와 오른쪽의 사이트 연결이 매우 중요하다. 가운데 선택사항은 건드리지 않았으며 필요성을 느끼지 못했다.
+로그인을 완료하면 좌측의 결제 정보와 오른쪽의 사이트 연결이 매우 중요하다. 가운데 선택사항은 건드리지 않았다. 추후 필요성을 느끼면 시도 해보는 것으로...
 
 ### 결제 정보
 진입하면 나오는 여러 항목 들(카드 번호 등)을 입력하도록 하자.
@@ -54,8 +54,9 @@ depth:
 이런 형태의 코드를 볼 수 있으며, Root 경로에 삽입하라고 나올 것이다. 이 코드는 필자 사이트의 코드라서 반드시 본인의 코드를 head 영역에 추가하자. 필자의 경우 다음 날 연결되었다는 메일을 받을 수 있었다.
 
 ## 광고
-왼쪽 상단의 더보기 버튼을 누르면 `광고`메뉴가 있다. 이 것을 클릭하면 광고를 만들 수 있다.  
+왼쪽 상단의 더보기 버튼을 누르면 `광고`메뉴가 있다.  
 ![Image](https://drive.google.com/uc?export=view&id=1V2Hc2SxSFq1ic2ruU9d2363CTsaYgHLl)  
+해당 메뉴를 통해 광고를 만들 수 있다. 클릭하자.  
 
 ### 자동 광고
 ![Image](https://drive.google.com/uc?export=view&id=1FIdWgjzkD8Xsg0f9TW9IFg14jYZGQpW9)  
