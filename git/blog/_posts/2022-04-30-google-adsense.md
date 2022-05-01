@@ -25,7 +25,7 @@ depth:
 
 이번에 Google AdSence 추가했던 일을 포스팅한다.  
 
-{% include ga-display-horizontal.js %}  
+{% include ga-display-quadrangle.js %}
 
 ## Google AdSense 로그인
 
