@@ -435,6 +435,8 @@ sidebar-git:
         url: /git/blog/progremmers-copyright/
       - title: "블로그에 이미지 올리기"
         url: /git/blog/imageUpload/
+      - title: "블로그에 광고 달기"
+        url: /git/blog/google-adsense/
       - title: "Favourite Link"
         url: /git/blog/
         children:
