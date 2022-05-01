@@ -26,7 +26,6 @@ depth:
 이번에 Google AdSence 추가했던 일을 포스팅한다.  
 
 {% include ga-display-horizontal.js %}  
-{% include ga-display-horizontal.js %}  
 
 ## Google AdSense 로그인
 
@@ -76,8 +75,13 @@ depth:
 // google-adsence-display-horizontal.html
 {% include ga-display-horizontal.js %}
 ```
+>현재 포스팅에 있는 광고가 디스플레이-가로형 광고다.  
+
+{% include ga-display-horizontal.js %}  
 
 ## ads.txt
 ![Image](https://drive.google.com/uc?export=view&id=17jOmIvJf0fdgore8GXgp_U4-FCN-_B2A) 
 상단에 이런 메시지가 뜨는 것을 볼 수 있는데, 상위 도메인과 서브 도메인 모두 추가했다.  
 Git Pages repo의 root 경로에 추가해주면 된다.
+
+
