@@ -3,7 +3,7 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title: "[Jekyll][Google AdSence] 블로그에 광고로 수익 창출 하기"
+title: "Jekyll 블로그에 Google AdSence 광고 탑재하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -20,8 +20,8 @@ depth:
 ![Image](https://drive.google.com/uc?export=view&id=1xeF0tT3n_Pn4VHn-6VVjwxNGepjgV_M2)  
  
 블로그에 광고를 추가했다. 이유는 간단하다. Google AdSense를 사용해보고 싶었고, jekyll 블로그를 통한 광고 개재 가능 여부 등을 알고 싶었다. 1개의 게시물에 광고를 시험적으로 추가했다. 역시 클릭수는 0이다.😁
-무분별한 광고는 추가하지 않을 예정이며, 사용자의 관심사가 증가한 게시물 중 글자수 500, 이미지 4개 이상이 되는 게시물에는 추후 추가해볼 예정이다.  
-포스팅 제목과는 다르게 수익이 크게 창출되지는 않을 것으로 예상되며 크게 기대하지 않고 있다.😊  
+무분별한 광고는 추가하지 않을 예정이며, 필자가 세운 기준은 사용자의 관심사가 증가한 게시물 중 글자수 500, 이미지 4개 이상이 되는 게시물에 추가해볼 예정이다.  
+포스팅 제목과는 다르게 수익이 크게 창출과는 무관하되지는 않을 것으로 예상되며 크게 기대하지 않고 있다.😊  
 
 이번에 Google AdSence 추가했던 일을 포스팅한다.  
 
@@ -52,6 +52,13 @@ depth:
      crossorigin="anonymous"></script>
 ```
 이런 형태의 코드를 볼 수 있으며, Root 경로에 삽입하라고 나올 것이다. 이 코드는 필자 사이트의 코드라서 반드시 본인의 코드를 head 영역에 추가하자. 필자의 경우 다음 날 연결되었다는 메일을 받을 수 있었다.
+
+## 심사 등록 및 
+사이트 연결 후 심사 등록을 버튼을 통해 심사 등록을 하자.  
+심사를 등록하면 며칠 후 심사 결과에 대한 이메일이 오게 된다.  
+필자는 2022-04-25(월)~2022-04-29(금) 5 영업일이 이후 심사 성공 이메일을 받을 수 있었다.  
+
+![Image](https://drive.google.com/uc?export=view&id=12b7OPY-x79EHVheN_cEnTSZ2oD-6ZGYx)  
 
 ## 광고
 왼쪽 상단의 더보기 버튼을 누르면 `광고`메뉴가 있다.  
