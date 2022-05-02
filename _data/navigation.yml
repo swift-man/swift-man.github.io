@@ -183,6 +183,8 @@ sidebar-algorithm:
   - title: "Leet Code - Medium"
     url: /algorithm/leet-code-medium/
     children:
+      - title: "2. Add Two Numbers"
+        url: /algorithm/leet-code-medium/add-two-numbers/
       - title: "6. Zigzag Conversion"
         url: /algorithm/leet-code-medium/zigzag-conversion/
       - title: "8. String to Integer (atoi)"
