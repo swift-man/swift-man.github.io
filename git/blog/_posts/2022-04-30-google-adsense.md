@@ -60,10 +60,12 @@ depth:
 
 ![Image](https://drive.google.com/uc?export=view&id=12b7OPY-x79EHVheN_cEnTSZ2oD-6ZGYx)  
 
-## 광고
+## 광고 만들기
 왼쪽 상단의 더보기 버튼을 누르면 `광고`메뉴가 있다.  
 ![Image](https://drive.google.com/uc?export=view&id=1V2Hc2SxSFq1ic2ruU9d2363CTsaYgHLl)  
-해당 메뉴를 통해 광고를 만들 수 있다. 클릭하자.  
+해당 메뉴를 통해 광고를 만들 수 있다. 클릭하자. 
+
+> 광고는 원하는 타입, 디자인 선택 후 HTML 코드를 제공해주며, 해당 코드를 블로그에 추가하는 형태이다. 
 
 ### 자동 광고
 ![Image](https://drive.google.com/uc?export=view&id=1FIdWgjzkD8Xsg0f9TW9IFg14jYZGQpW9)  
