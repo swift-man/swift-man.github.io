@@ -3,17 +3,17 @@ sidebar:
   title: "Git"
   nav: sidebar-git
   icon: "fab fa-github"
-title:  "[Git] Error 'failed to push some refs to ...'"
+title:  "[Git Error] failed to push some refs to"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "GitHub"
+tag: "Git Error"
 depth: 
   - title: "Git"
     url: /git/
     icon: "fab fa-github"
-  - title: "GitHub"
-    url: /git/github/
+  - title: "Git Error"
+    url: /git/git-error/
     icon: "far fa-folder-open"
 ---
 브랜치를 Push 했을 때 발생하는 에러이다. 해결 방법은 매우 간단하다.

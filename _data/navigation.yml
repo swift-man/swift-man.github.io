@@ -417,6 +417,11 @@ sidebar-git:
         url: /git/commend/revert/
       - title: "설정 - 대소문자 인식"
         url: /git/commend/case-sensitive/
+  - title: "Git Error"
+    url: /git/git-error/
+    children:
+      - title: "failed to push some refs to"
+        url: /git/git-error/failed-to-push-some-refs-to/
   - title: "GitHub"
     url: /git/blog/
     children:
