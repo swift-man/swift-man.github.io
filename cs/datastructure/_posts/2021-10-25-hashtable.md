@@ -75,7 +75,12 @@ LinkedList에 데이터가 체이닝 된다면 검색 속도는 O(N)이 될 수 
   * 해시된 값을 한번 더 해싱하여 해시의 규칙성을 없앰
   * 해시된 값을 한번 더 해싱하여 새로운 주소를 할당하기 때문에 다른 방법들보다 많은 연산을 함
 
-
+## Java의 HashMap과 HashTable 차이
+HashTable은 synchronized 지원
+* HashTable
+  * 동기화 지원
+* HashMap
+  * 동기화 미지원
 
 ## 출처
 [<i class="fas fa-link"></i> MangKyu's Diary - [자료구조] 해시테이블(HashTable)이란?](https://mangkyu.tistory.com/102){:target="_blank"}
