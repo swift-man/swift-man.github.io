@@ -747,6 +747,15 @@ sidebar-swift:
     children:
       - title: "생성하기"
         url: /swift/swift-package-manaer/swift-package-manager/
+  - title: "OpenSource"
+    url: /swift/swift-package-manager/
+    children:
+      - title: "SwiftBitset"
+        icon: "fas fa-link"
+        url: https://github.com/lemire/SwiftBitset
+      - title: "디프만 - 디자이너와 프로그래머가 만났을 때"
+        icon: "fas fa-link"
+        url: https://github.com/depromeet
 #
 #  - title: "Swift 5.4 Released!"
 #    url: https://swift.org/blog/swift-5-4-released/
