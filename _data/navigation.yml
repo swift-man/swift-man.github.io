@@ -661,6 +661,11 @@ sidebar-ios:
 ##############
 
 sidebar-swift:
+  - title: "Int"
+    url: /swift/int/
+    children:
+      - title: "절대값 magnitude, abs"
+        url: /swift/int/abs-magnitude/
   - title: "Data Type"
     url: /swift/data-type/
     children:
