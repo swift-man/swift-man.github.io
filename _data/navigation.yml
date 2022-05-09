@@ -718,10 +718,8 @@ sidebar-swift:
     children:
       - title: "@autoclosure"
         url: /swift/closure/autoclosure/
-      - title: "@escaping"
+      - title: "@escaping, @nonescaping"
         url: /swift/closure/escaping/
-      - title: "@nonescaping"
-        url: /swift/closure/nonescaping/
       - title: "Capture List"
         url: /swift/closure/capture-list/
       - title: "Currying"
@@ -761,6 +759,12 @@ sidebar-swift:
       - title: "디프만 - 디자이너와 프로그래머가 만났을 때"
         icon: "fas fa-link"
         url: https://github.com/depromeet
+      - title: "httpswift/swifter"
+        icon: "fas fa-link"
+        url: https://github.com/httpswift/swifter
+      - title: "MovieSwiftUI"
+        icon: "fas fa-link"
+        url: https://github.com/Dimillian/MovieSwiftUI
 #
 #  - title: "Swift 5.4 Released!"
 #    url: https://swift.org/blog/swift-5-4-released/
