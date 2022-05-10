@@ -468,6 +468,9 @@ sidebar-git:
           - title: "Jekyll MathJax"
             icon: "fas fa-link"
             url: https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/
+          - title: "GitHub Pages site with HTTPS"
+            icon: "fas fa-link"
+            url: https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
   
   - title: "Markdown"
     url: /git/markdown/
