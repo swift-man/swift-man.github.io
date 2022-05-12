@@ -599,7 +599,7 @@ sidebar-ios:
             children:
             - title: "DiffableDatasource"
               url: /ios/uiresponder/uiview/uicollectionview/DiffableDatasource/
-            - title: "UICollectionViewCompositionalLayout"
+            - title: "CompositionalLayout"
               url: /ios/uiresponder/uiview/uicollectionview/UICollectionViewCompositionalLayout/
           - title: "WKWebView"
             url: /ios/uiresponder/uiview/wkwebview/
