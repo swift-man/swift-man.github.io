@@ -51,7 +51,8 @@ depth:
 * Combine
   * SwiftUI
   
-## Rx-Observable, Combine-Publisher
+## Types
+### Observable, Publisher
 * RxSwift
 ```swift
 // class Type
@@ -62,22 +63,6 @@ Observable<Element>
 ```swift
 //struct Type
 AnyPublisher<Element, Error> 
-```
-
-### Operator
-* RxSwift
-```swift
-.subscribe()
-.onNext()
-.onComplated()
-.bind(to: )
-```
-* Combine
-```swift
-.sink()
-.send()
-.send(completion .finished)
-.subscribe()
 ```
 
 ### Subject
@@ -94,7 +79,23 @@ CurrentValueSubject<Element, Error>
 Just(1)
 ```
 
-## 중단 및 메모리 해지
+## Operator
+* RxSwift
+```swift
+.subscribe()
+.onNext()
+.onComplated()
+.bind(to: )
+```
+* Combine
+```swift
+.sink()
+.send()
+.send(completion .finished)
+.subscribe()
+```
+
+## Memory
 * RxSwift
 ```swift
 Disposable 
@@ -105,6 +106,7 @@ DisposeBag()
 Cancellable
 [Cancelable]()
 ```
+
 ## Thread
 * RxSwift
 ```swift
