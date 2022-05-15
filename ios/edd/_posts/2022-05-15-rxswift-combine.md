@@ -53,14 +53,12 @@ depth:
   
 ## Rx-Observable, Combine-Publisher
 * RxSwift
-
 ```swift
 // class Type
 Observable<Element>
 ```
 
 * Combine
-
 ```swift
 //struct Type
 AnyPublisher<Element, Error> 
@@ -68,60 +66,52 @@ AnyPublisher<Element, Error>
 
 ### Operator
 * RxSwift
-
 ```swift
-subscribe()
-onNext()
-onComplated()
+.subscribe()
+.onNext()
+.onComplated()
+.bind(to: )
 ```
 * Combine
-
 ```swift
-sink()
-send()
-send(completion .finished)
+.sink()
+.send()
+.send(completion .finished)
+.subscribe()
 ```
 
 ### Subject
 * RxSwift
-
 ```swift
 PublishSubject<Element>
 BehaviorSubject<Element>
 Observable.just(1)
-.bind(to: )
 ```
 * Combine
-
 ```swift
 PassthroughSubject<Element, Error>
 CurrentValueSubject<Element, Error>
 Just(1)
-.subscribe()
 ```
 
 ## 중단 및 메모리 해지
 * RxSwift
-
 ```swift
 Disposable 
 DisposeBag()
 ```
 * Combine
-
 ```swift
 Cancellable
 [Cancelable]()
 ```
 ## Thread
 * RxSwift
-
 ```swift
 .observe(on: )
 .subscribe(on: )
 ```
 * Combine
-
 ```swift
 .receive(on: )
 .subscribe(on: )
