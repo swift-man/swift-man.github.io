@@ -607,6 +607,11 @@ sidebar-ios:
             children:
             - title: "Alert Crash"
               url: /ios/uiresponder/uiview/wkwebview/fix-alert-crash/
+  - title: "EDD"
+    url: /ios/edd/
+    children:
+      - title: "Combine, RxSwift 차이"
+        url: /ios/edd/rxswift-combine/
   - title: "App Thinning"
     icon: "far fa-file-alt"
     url: /ios/app-thinning/
