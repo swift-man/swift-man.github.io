@@ -33,7 +33,7 @@ depth:
 * Combine
   * Reactive Steams(+adjustments)
 
-## Framework Consumpition
+## Framework Consumption
 * RxSwift
   * Third-party
 * Combine
@@ -45,7 +45,7 @@ depth:
 * Combine
   * Apple
 
-## UIBining
+## UIBindings
 * RxSwift
   * RxCocoa
 * Combine
