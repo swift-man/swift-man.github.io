@@ -3,7 +3,7 @@ sidebar:
   title: "CS"
   nav: sidebar-cs
   icon: "fas fa-microchip"
-title: "[스크랩] CPU는 어떻게 작동할까?"
+title: "CPU는 어떻게 작동할까?"
 icon: "fab fa-youtube"
 toc: true
 toc_sticky: true
