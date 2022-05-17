@@ -22,14 +22,14 @@ toc_label: 목차
 * '어떤 것'을 만드는 것을 좋아합니다.
 * '불편한 것'을 편하게 할 수 있도록 개선하는 것을 좋아합니다.
 * '좋아하는 것'을 꾸준히 하는 성향입니다.
-* '제가 만든 것'에 자부심을 갖으며 노력합니다.
+* '제가 만든 것'에 자부심을 갖습니다.
 * '성장하는 것'에 의지가 있습니다.
 * '문제를 해결하는 것'을 지속합니다.
 * '공부한 내용을 공유하는 것'을 생활화 합니다.
 * '고객이 좋아하는 것'에 끊임없이 고민합니다.
 * '사용자가 터치 한번을 줄일 수 있는 것'을 연구합니다.
 * 'Scrollable한 Animation'을 멋쩍어 합니다.
-* '유저 반응과 어려워 하는 것'을 모니터링 합니다.
+* '유저 반응과 어려워 하는 것'을 모니터링하려고 노력합니다.
 * '가족과 함께 하는 모든 것'을 사랑합니다.
 * '커피를 마시는 것'은 일상입니다.
 
@@ -39,7 +39,7 @@ toc_label: 목차
 | --- | --- | --- | --- |
 | [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 130만 |
 | [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
-| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
+| [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 개발 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
 | 소프트노믹스<br/>2012.09 ~ 2012.12(4개월) | Android<br/>Developer | 커픤 그루나루 Pos 시스템 개발 |
 | exfiniti inc<br/>2012.05 ~ 2012.09(5개월) | iOS<br/>Developer | 추억의 만화 iOS 앱 개발, 지원 중단 |
@@ -153,9 +153,9 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/gif/school-organization-delete.gif)
 * 기관 검색 개발  
 ![Image](/assets/gif/school-organization-insert.gif)
-* Google Ad Manager를 이용한 광고 개발
+* [<i class="fas fa-link"></i> Google Ad Manager](https://admanager.google.com/intl/ko/home/){:target="_blank"}를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
-* 코드 일관성을 위한 SwiftLint 적용
+* 코드 일관성을 위한 [<i class="fas fa-link"></i> SwiftLint](https://github.com/realm/SwiftLint){:target="_blank"} 적용
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} 교육 부분 무료 순위 1위
   * 네이버 실시간 검색어 7위
@@ -164,7 +164,7 @@ NHN Edu 교육 애플리케이션
 ### 아이엠티처 
 NHN Edu 교육 애플리케이션
 * 2018.12 ~ 2020.10
-* UIWebView를 WKWebView 전환 및 모듈화 개발
+* [<i class="fas fa-link"></i> UIWebView](https://developer.apple.com/documentation/uikit/uiwebview?language=objc){:target="_blank"}를 [<i class="fas fa-link"></i> WKWebView](https://developer.apple.com/documentation/webkit/wkwebview?language=objc){:target="_blank"} 전환 및 모듈화 개발
 * 선생님이 여러 학급을 담당 할 수 있는 기능 개발
 * 선생님이 학부모와 상담할 수 있는 상담톡 기능 개발
 * Photos - 사진 업로드, 사진 뷰어 등 크래시 이슈 처리
@@ -175,10 +175,10 @@ NHN Edu 교육 애플리케이션
 ### 클래스123
 NHN Edu 교육 애플리케이션
 * 2020.03 ~ 2020.10
-* RxFlow를 적용하여 코디네이터 패턴 적용
-* 비디오 업로드를 위한 AVAssetExportSession을 RxSwift로 래핑하여 변경 되는 상태를 옵저빙 및 편의 기능 개발
+* [<i class="fas fa-link"></i> RxFlow](https://github.com/RxSwiftCommunity/RxFlow){:target="_blank"}를 적용하여 Reactive coordinators 패턴 적용
+* 비디오 업로드를 위한 [<i class="fas fa-link"></i> AVAssetExportSession](https://developer.apple.com/documentation/avfoundation/avassetexportsession?language=objc){:target="_blank"}을 RxSwift로 래핑하여 변경 되는 상태를 옵저빙 및 편의 기능 개발
 * 3년간 유지보수 되지 않던 프로젝트를 iOS 13 대응 및 deprecated API 전환, 각종 크래시 수정 등 정상화
-* AVAudioRecorder를 사용한 소음 측정 기능 유지보수 등
+* [<i class="fas fa-link"></i> AVAudioRecorder](https://developer.apple.com/documentation/avfaudio/avaudiorecorder?language=objc){:target="_blank"}를 사용한 소음 측정 기능 유지보수 등
 * 결과/성과: 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"}
   
@@ -188,9 +188,10 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/gif/flace-photos.gif)
 ![Image](/assets/gif/flace-lookbook.gif)
 * 클린 아키텍처 적용
+* [<i class="fas fa-link"></i> Alamofire](https://github.com/Alamofire/Alamofire){:target="_blank"}를 활용한 네트워킹
 * 각 Feature별 모듈화
-* Swinject를 활용한 DI적용
-* RxDatasource를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발  
+* [<i class="fas fa-link"></i> Swinject](https://github.com/Swinject/Swinject){:target="_blank"}를 활용한 Dependency injection적용
+* [<i class="fas fa-link"></i> RxDatasource](https://github.com/RxSwiftCommunity/RxDataSources){:target="_blank"}를 활용한 옷장 등록, 태깅, 룩북 등 기능 개발  
 ![Image](/assets/gif/flace-menu001.gif)
 ![Image](/assets/gif/flace-menu002.gif)
 * 결과/성과: 
@@ -198,16 +199,20 @@ NHN Edu 교육 애플리케이션
 
 ### Beautiful Bible(서비스종료)
 다국어 성경 / 메모 기능을 제공하는 개인 프로젝트  
-퇴근 후 집에서 다양한 시도를 하고 있어요.
+퇴근 후 집에서 다양한 시도를 하고 있어요.  
+서버는 잘 못하지만 어느 정도 인프라를 구축하고 작은 트래픽에 대해 CRUD가 처리 될 수 있도록 구축해본 경험이 있어요.
 
 * iOS App
   * Objective C
-  * SDWebImage, AFNetworking
-  * CoreData - Book Mark, 메모 기능, 검색 히스토리
-  * 정확도 검색을 위한 SQLite(FTS3)로 데이터 구축
-  * CoreText - Drop Text Style 이펙트
+  * [<i class="fas fa-link"></i> SDWebImage](https://github.com/SDWebImage/SDWebImage){:target="_blank"}, [<i class="fas fa-link"></i> AFNetworking](https://github.com/AFNetworking/AFNetworking){:target="_blank"}
+  * [<i class="fas fa-link"></i> CoreData](https://developer.apple.com/documentation/coredata){:target="_blank"}
+    * Book Mark, 메모, 검색 히스토리 제공 등 유저 이벤트 저장 스토어로 활용
+  * [<i class="fas fa-link"></i> SQLite FTS5](https://www.sqlite.org/fts5.html){:target="_blank"}로 데이터 구축
+    * 정확도 검색 지원을 위한 저장 스토어로 구축
+  * [<i class="fas fa-link"></i> CoreText](https://developer.apple.com/documentation/coretext){:target="_blank"}
+    * Drop Text Style 이펙트
   * GIF TableViewCell
-  * Auto Layout
+  * [<i class="fas fa-link"></i> Auto Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html){:target="_blank"}을 사용한 뷰 배치
   * On-demand 방식의 폰트 다운로드 및 적용 기능 제공
   * Font Size 제어 기능 제공
 * Server
@@ -216,7 +221,7 @@ NHN Edu 교육 애플리케이션
   * AWS S3
   * Nginx
   * Route53
-  * SSL(Let's encrypt)
+  * SSL(Let's encrypt, AWS Certificate Manager)
   * MariaDB
 
 * HTML To Plist Converter 유틸리티 제작
@@ -226,24 +231,28 @@ NHN Edu 교육 애플리케이션
   * 검색 가능한 Full Text Search Table(FTS3)
 
 ### 틸리언
-SKPlanet 설문 서비스 애플리케이션
+[<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 설문 서비스 애플리케이션
 * StoryBoard, Code를 이용한 Autolayout
 * 설문 타입/레포트 개발
 * TableViewCell의 동영상 광고 개발
-* OK 캐시백 포인트 적립 연동 개발
+* [<i class="fas fa-link"></i> OK 캐시백](https://okcashbag.com){:target="_blank"} 포인트 적립 연동 개발
 * Youtube 연동 개발
 * 결과/성과 : 
   * 설문 부분 서비스 1위
   * 앱스토어에 등록되어 있으나 현재 리뉴얼 상태
 
 ### 기프티콘
-SKPlanet 모바일 상품권 서비스 애플리케이션
-* UIWebView를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
-* Keychain을 활용한 로그인 정보 저장 기능 개발
-* APNS 기능 개발
-* PG 연동 개발 - 각 카드사 연동(KCP, 이니시스, 계좌이체)  
+[<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 모바일 상품권 서비스 애플리케이션
+* [<i class="fas fa-link"></i> UIWebView](https://developer.apple.com/documentation/uikit/uiwebview?language=objc){:target="_blank"}를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
+* [<i class="fas fa-link"></i> Keychain Service](https://developer.apple.com/documentation/security/keychain_services?language=objc){:target="_blank"} 을 활용한 정보 저장 기능 개발
+* [<i class="fas fa-link"></i>  APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc){:target="_blank"} 기능 개발 및 기능 개선 프로젝트 진행
+* 각 카드사 PG 연동 결제 개발
+  * [<i class="fas fa-link"></i> KCP](https://kcp.co.kr/){:target="_blank"}
+  * [<i class="fas fa-link"></i>  이니시스](https://www.inicis.com/){:target="_blank"}, 
+  * 계좌이체    
 ![Image](/assets/gif/gifttest.gif)
-* Photos 연동 개발 - 사진첩의 사진을 사용해 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
+* [<i class="fas fa-link"></i> Photos](https://developer.apple.com/documentation/photokit?language=objc){:target="_blank"} 연동 개발 
+  * 사진첩의 사진을 사용해 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
   * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
@@ -277,8 +286,8 @@ SKPlanet 모바일 상품권 서비스 애플리케이션
   * ![Image](/assets/images/about/adlatte.JPG)
 * 광고 베너, 영상을 제공하는 SDK 기능 개발
 
-### 이브자리(주) ERP 어플리케이션 개발
-C# 기반으로 웹으로 구동되는 PRM 스마트애플리케이션  
+### ERP 어플리케이션 개발
+[<i class="fas fa-link"></i> (주)이브자리](https://evezary.co.kr){:target="_blank"} C# 기반으로 웹으로 구동되는 PRM 스마트애플리케이션  
 사내 프레임워크를 사용하여 쿼리 및 화면을 작성
 * 품평회 기능 개발
 * 일부 재고조회 기능 개발
