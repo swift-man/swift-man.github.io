@@ -91,6 +91,11 @@ sidebar-cs:
         url: /cs/database/mariadb-auto-increment/
       - title: "Table Schema 변경하기"
         url: /cs/database/change-schema-of-table/
+  - title: "Security"
+    url: /cs/security/
+    children:
+      - title: "[양자 컴퓨터] 이중인증이 중요해지는 이유"
+        url: /cs/security/two-factor-authentication-and-quantum-computer/
         
 sidebar-architecture:
 #  - title: "Dependency Inversion"

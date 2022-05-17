@@ -3,7 +3,7 @@ sidebar:
   title: "CS"
   nav: sidebar-cs
   icon: "fas fa-microchip"
-title: "[양자 컴퓨터] 이중인증이 중요해지는 이유"
+title: "[양자 컴퓨터] 이중 인증이 중요해지는 이유"
 toc: true
 toc_sticky: true
 toc_label: 목차
