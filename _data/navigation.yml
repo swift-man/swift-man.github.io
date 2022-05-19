@@ -91,6 +91,11 @@ sidebar-cs:
         url: /cs/database/mariadb-auto-increment/
       - title: "Table Schema 변경하기"
         url: /cs/database/change-schema-of-table/
+  - title: "Network"
+    url: /cs/network/
+    children:
+      - title: "IaaS, PaaS, SaaS"
+        url: /cs/network/iaas-paas-saas/
   - title: "Security"
     url: /cs/security/
     children:
