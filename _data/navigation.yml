@@ -94,6 +94,8 @@ sidebar-cs:
   - title: "Network"
     url: /cs/network/
     children:
+      - title: "OSI 7 계층"
+        url: /cs/network/osi-7-layer/
       - title: "IaaS, PaaS, SaaS"
         url: /cs/network/iaas-paas-saas/
   - title: "Security"
