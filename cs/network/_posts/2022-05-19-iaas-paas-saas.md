@@ -29,6 +29,8 @@ depth:
   * 유연하지 못함
 
 ## IaaS(Infrastructure-as-a-Service)
+* 물리적 서비스
+  * 네트워크, 하드웨어
 * Instance 를 사용해 가상의 서버를 제공
   * 가상화 인프라 서비스
   * 스토리지 서비스
@@ -48,6 +50,7 @@ depth:
   * 서비스 신뢰성이 높은 업체를 선정해야 함
   
 ## PaaS(Platforms-as-a-Service)
+* OS, 미들웨어(웹서버)
 * OS, Web, Was, DB 등 플랫폼(Application)을 제공하는 서비스이며 주로 프로그래머에게 유용하다.
 * 지속적으로 웹 기반 애플리케이션을 빌드 및 커스터마이징 할 수 있는 방법
 * 제공 업체
@@ -84,6 +87,47 @@ depth:
   * 제어, 보안 및 성능과 관련한 비용 소요
   * 신뢰할 수 있는 제공업체 선택이 중요
   
+## 인프라의 구성 시 고려할 점
+* 가장 중요한 점은 안정성
+  * 이중화 L4
+    * ELB
+      * Was1
+      * Was2
+* 가용성
+  * 전체시간 - 장애상황을 제외한 시간  
+* 성능, 확장성(클라우드)
+* 유지보수
+* 보안
+
+### 이중화의 3가지 방식
+```
+웹 or API -> Web -> Was -> DB
+웹 or API -> Web -> Was -> DB
+```
+* 네트워크 장애나 무중단을 위한 구성을 위해 장비를 여러대를 두는 것이 보통이다.
+* 문재 장애 발생 시
+  * 복구
+  * 완전 분석
+    * 재발 방지
+    
+* Hot Standby
+  * 여러대의 Was가 실시간으로 동기화되고 있으며 유지되고 있다.
+* Warm Standby
+  * 준비 단계 - 기동만 하면 바로 사용할 수 있음
+* Cold Standby
+  * 정지되어 있는 단계
+
+> 프로비저닝<br/>
+또 다른 기종의 서버(Was) 또는 DB를 바로 사용 될 수 있게 구성 하는 것<br/>
+* scale-out - 장비 대 수를 늘리는 것
+* sacle-up - 용량을 늘리는 것
+
+> Digital recovery<br/>
+여러 Region을 사용해서 장애상황에 대응하는 것
+
+### FailOver
+* 여러대의 DB 장비 중 하나가 망가졌을 때 정상적인 DB의 데이터로 복구하는 것
+
 ## 참고
 [<i class="fas fa-link"></i> redhat.com/ko/topics/cloud-computing](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas){:target="_blank"}
 
