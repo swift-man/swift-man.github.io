@@ -103,7 +103,7 @@ sidebar-cs:
   - title: "Security"
     url: /cs/security/
     children:
-      - title: "[양자 컴퓨터] 이중인증이 중요해지는 이유"
+      - title: "이중인증의 필요성"
         url: /cs/security/two-factor-authentication-and-quantum-computer/
         
 sidebar-architecture:
