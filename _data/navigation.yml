@@ -63,6 +63,8 @@ sidebar-cs:
         url: /cs/memory/memory-space/
       - title: "Mutability"
         url: /cs/memory/mutability/
+      - title: "32Bit vs 64Bit"
+        url: /cs/memory/32bit-vs-64bit/
   - title: "Data Structure"
     url: /cs/datastructure/
     children:
