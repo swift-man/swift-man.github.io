@@ -107,6 +107,8 @@ ALL F 학점을 친구에게 자랑 했다.
 ## 29세 - 취업
 면접에 쓴맛을 보았다. 그러나 쥐구멍에도 볕 들 날이 있었다.
 
+![Image](https://drive.google.com/uc?export=view&id=1SZ9GwaoX9rzQNyqw8ZcxrtwMfLzzqcmT)  
+
 합격한 회사는 두 곳이였다.
 
 - 연봉 2,200만원 SI 업체
