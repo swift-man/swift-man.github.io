@@ -6,6 +6,7 @@ title: "개발을 시작하게 된 계기"
 toc: true
 toc_sticky: true
 toc_label: 목차
+tag: Think
 depth: 
   - title: "Clean"
     url: /clean/
