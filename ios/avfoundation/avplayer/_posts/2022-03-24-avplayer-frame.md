@@ -19,7 +19,9 @@ depth:
     url: /ios/avfoundation/avplayer
     icon: "far fa-folder-open"
 ---
-iOS 10 부터 지원하는 `videoRect` property 를 사용해서 play 중인 영상의 frame을 가져올 수 있다. 이때 영상이 재생 중이 아닐때는 `.zero` 를 리턴함으로 영상이 재생 중인지 확인 후 가져와야 한다.
+iOS 10 부터 지원하는 [<i class="fas fa-link"></i> videoRect](https://developer.apple.com/documentation/avfoundation/avplayerlayer/1385745-videorect){:target="_blank"} property 를 사용해서 play 중인 영상의 frame을 가져올 수 있다.  
+
+영상이 재생 중이 아닐때는 `.zero` frame을 리턴하게 된다. 그래서 영상의 사이즈를 가져오려면 영상의 재생 여부를 옵저빙 후 가져와야 한다.
 ```swift
 import AVKit
 
@@ -40,6 +42,8 @@ private func setupAVPlayer() {
   self.playerLayer = playerLayer
 }
 ```
+AVPlayer와 AVPlayerLayer 세트의 생성 코드이다. 여기서 "timeControlStatus"를 KVO하여 플레이어의 상태를 옵져빙한다.
+
 
 ```swift
 override func observeValue(forKeyPath keyPath: String?,
@@ -55,3 +59,4 @@ override func observeValue(forKeyPath keyPath: String?,
   print(playerLayer?.videoRect)
 }
 ```
+이후 영상이 플레이가 되면 이벤트가 발생하고 videoRect를 얻어 올 수 있다. 해당 frame으로 영상에 맞는 서브뷰들을 배치할 수 있다!
