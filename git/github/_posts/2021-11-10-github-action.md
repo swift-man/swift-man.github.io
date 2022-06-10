@@ -102,5 +102,11 @@ jobs:                                             # Job
 ![Image](https://drive.google.com/uc?export=view&id=111OL9i8xzrq0MAYzYUboSyJZTYYoXgTu)  
 ![Image](https://drive.google.com/uc?export=view&id=1PL3-emCf3QXRJ3ubc7KVtBsK-N0DvIi2)
 
+## How to Automate XCTests With GitHub Actions
+[<i class="fas fa-link"></i> How to Automate XCTests With GitHub Actions](https://betterprogramming.pub/how-to-automate-xctests-with-github-actions-6570fcd21519){:target="_blank"}  
+[<i class="fas fa-link"></i> Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions){:target="_blank"}  
+
+
+
 ## 참고
 [<i class="fas fa-link"></i> GitHub Actions로 수행하는 CI/CD DevOps, 리포트 만들기, 메시지 보내기 등의 놀라운 작업들](https://www.youtube.com/watch?v=356L7uv_W8Q){:target="_blank"}
