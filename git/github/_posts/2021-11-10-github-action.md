@@ -105,7 +105,7 @@ jobs:                                             # Job
 ## How to Automate XCTests With GitHub Actions
 [<i class="fas fa-link"></i> How to Automate XCTests With GitHub Actions](https://betterprogramming.pub/how-to-automate-xctests-with-github-actions-6570fcd21519){:target="_blank"}  
 [<i class="fas fa-link"></i> Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions){:target="_blank"}  
-
+[<i class="fas fa-link"></i> [CI/CD] Github Actions 를 이용한 xcode build & test 자동화](https://sujinnaljin.medium.com/ci-cd-github-actions-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-xcode-build-test-%EC%9E%90%EB%8F%99%ED%99%94-73b90a3dcc65){:target="_blank"}  
 
 
 ## 참고
