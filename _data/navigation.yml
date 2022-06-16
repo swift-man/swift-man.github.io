@@ -674,8 +674,8 @@ sidebar-ios:
   - title: "Fastlane"
     url: /ios/fastlane/
     children:
-    - title: "명령어로 앱 버전 올리기"
-      url: /ios/fastlane/fastlane-version-update/
+    - title: "fastlane으로 관리"
+      url: /ios/fastlane/fastlane/
         
     
 #    children:
