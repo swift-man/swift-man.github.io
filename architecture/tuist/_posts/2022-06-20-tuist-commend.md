@@ -13,7 +13,7 @@ depth:
     url: /architecture/
     icon: "fas fa-sitemap"
   - title: "Tuist"
-    url: /tuist/tuist/
+    url: /architecture/tuist/
     icon: "far fa-folder-open"
 ---
 
