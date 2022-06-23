@@ -123,6 +123,16 @@ sidebar-architecture:
     children:
       - title: "객체 지향의 5가지 설계 원칙"
         url: /architecture/software-engineering/solid/
+  - title: "TDD"
+    url: /architecture/tdd/
+    children:
+      - title: "[XCUITests] result bundle"
+        url: /architecture/tdd/test-your-app/manage-tests/view-and-share-test-results/
+  - title: "모듈화"
+    url: /architecture/tuist/
+    children:
+      - title: "[Tuist] 명령어 모음"
+        url: /architecture/tuist/tuist-commend/
   - title: "Scrap"
     url: /architecture/scrap/
     children:
