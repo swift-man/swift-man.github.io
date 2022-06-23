@@ -126,6 +126,8 @@ sidebar-architecture:
   - title: "TDD"
     url: /architecture/tdd/
     children:
+      - title: "[TDD] iOS"
+        url: /architecture/tdd/tdd-for-ios/
       - title: "[XCUITests] result bundle"
         url: /architecture/tdd/test-your-app/manage-tests/view-and-share-test-results/
   - title: "모듈화"
