@@ -124,7 +124,8 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
 NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
 * 캘린더 Swift전환 및 캘린더를 3개의 모듈화 하여 제작  
-![Image](/assets/images/about/pink_calendar001.jpeg)
+![Image](/assets/images/about/pink_calendar001.jpeg)  
+* tuist를 사용한 모듈화
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
 ![Image](/assets/gif/pink-logout.gif)  
@@ -148,6 +149,7 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/gif/school-child-detail.gif)
 * Obejctive C -> Swift 전환
 * 캘린더, 캘린더 필터 등 기능 개발
+![Image](/assets/images/about/school-calendar.001.png)  
 * 기관별 보기/관심 기관/교육정보 기능 개발  
 ![Image](/assets/gif/school-organizations.gif)
 ![Image](/assets/gif/school-organization-delete.gif)
