@@ -126,7 +126,7 @@ NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
 * 캘린더 Swift전환 및 캘린더를 3개의 모듈화 하여 제작  
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
-* tuist를 사용한 모듈화
+* [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
 ![Image](/assets/gif/pink-logout.gif)  
