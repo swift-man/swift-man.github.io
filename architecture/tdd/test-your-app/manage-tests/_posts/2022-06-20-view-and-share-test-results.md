@@ -7,7 +7,7 @@ title: "[XCUITest] View and share test results"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Tuist"
+tag: "XCUITest"
 depth:
   - title: "Architecture"
     url: /architecture/
@@ -53,35 +53,39 @@ Pass analyze, build, build-for-testing, test 또는 빌드 없이 test action을
 
 더 많은 옵션을 보려면 터미널에 `man xcodebuild`를 입력하세요.
 
-## 프로젝트 없이 result bundle 열기
-* Double-click the result bundle (a file with a .xcresult file extension).
-The result bundle appears in a standalone Report navigator.
+## 프로젝트에서 원하는 result bundle 열기
+* result bundle(파일 확장명이 .xcresult인 파일)을 Double-click 합니다.
+result bundle은 Report navigator에 나타납니다.
 ![Image](https://help.apple.com/xcode/mac/current/en.lproj/Art/rb_open_result_bundle.png)  
 
 ## workspace에서 result bundle 열기
-If you [<i class="fas fa-link"></i> open a result bundle without the project](https://help.apple.com/xcode/mac/current/#/devc38fc7392?sub=devae9a50aac){:target="_blank"} open but you have the project folder on your Mac, you can open it in the workspace.
-
-* In the standalone Report navigator, Control-Click the result bundle or a test in the result bundle, then choose Open in Workspace from the pop-up menu (or choose Editor > Open in Workspace).  
-The project opens with the result bundle in the Report navigator.
+[<i class="fas fa-link"></i> open a result bundle without the project](https://help.apple.com/xcode/mac/current/#/devc38fc7392?sub=devae9a50aac){:target="_blank"}를 열었지만 Mac에 프로젝트 폴더가 있으면 workspace에서 열 수 있습니다.
+* Report navigator에서 result bundle 또는 test in the result bundle을 Control-Click한 다음 팝업 메뉴에서 choose Open in Workspace를 선택합니다(또는 Editor > Open in Workspace).  
+Report navigator에서 result bundle과 함께 프로젝트가 열립니다.
 
 ## result bundle의 Object 조회
-You can get the contents of a result bundle by using the xcrun xcresulttool command in Terminal.
+터미널에서 `xcrun xcresulttool` command를 사용하여 result bundle의 내용을 가져올 수 있습니다.
 
-* To get a human readable description of the objects, enter:
+* Object에 대한 사람이 읽을 수 있는 설명을 얻으려면 다음을 입력하십시오:
 ```
 xcresulttool formatDescription
 ```
-To get a JSON or Markdown representation, pass --format json or --format markdown.
+JSON 또는 Markdown 표현을 가져오려면 `--format json` 또는 `--format Markdown` 을 추가합니다.
 
-* To export the root bundle object called ActionInvocationRecord, enter:
+* `ActionInvocationRecord`라는root bundle object를 export하려면 다음을 입력하십시오:
 ```
 xcrun xcresulttool get --path [Path to .xcresult file] --format json
 ```
-* To get an object by reference, enter:
+* object by reference를 가져오려면 다음을 입력하십시오:
 ```
 xcrun xcresulttool get --path [Path to .xcresult file] --id [Object ID]
 ```
-If the reference is an attachment payload, pass --format raw to get the raw bytes. If the reference is to another structured object, pass --format json to get a JSON representation.  
+만약 reference가 attachment payload인 경우 `--format raw`를 전달하여 raw bytes를 가져옵니다. 만약 reference가 다른 structured object에 대한 것이라면 `--format json`을 전달하여 JSON 표현을 가져옵니다.
 
-For more options, enter xcrun xcresulttool --help or man xcresulttool in Terminal.
+더 많은 옵션을 보려면 터미널에 `xcrun xcresulttool --help` 또는 `man xcresulttool`을 입력하십시오.
 
+ 
+
+## 참고
+[<i class="fas fa-link"></i> Building from the Command Line with Xcode FAQ](https://developer.apple.com/library/archive/technotes/tn2339/_index.html){:target="_blank"}  
+[<i class="fas fa-link"></i> View and share test results](https://help.apple.com/xcode/mac/current/#/devc38fc7392?sub=devae9a50aac){:target="_blank"}
