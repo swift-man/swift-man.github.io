@@ -104,7 +104,7 @@ func test버튼_누르면_로깅() {
 * 평소에 눈에 보이지 않기에 누락 될 가능성
 
 ```swift
-func testMyViewController() anyc throws {
+func testMyViewController() async throws {
   let viewController = MyViewController()
   await viewController.doSomeBusinessLogic()
   
