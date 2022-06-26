@@ -846,6 +846,11 @@ sidebar-swift:
 ##############
 
 sidebar-it:
+  - title: "Apple Developer Program"
+    url: /it/apple-developer/
+    children:
+      - title: "애플 개발자 프로그램 등록 하기"
+        url: /it/apple-developer/apple-develper-program/
   - title: "Apple TV"
     url: /it/apple-tv/
     children:
