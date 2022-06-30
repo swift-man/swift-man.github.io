@@ -36,7 +36,7 @@ depth:
 2. 팝업 메뉴에서 Show in Finder를 선택합니다.
 result bundle(파일 확장명이 .xcresult인 파일)이 Finder에서 하이라이트되어 표시됩니다.  
 
-또는 `-resultBundlePath` flag를 `xcodebuild` command에 전달하여 result bundle을 지정된 위치에 저장할 수 있습니다. 예를 들어 테스트를 빌드하는 동안 결과 번들을 저장합니다:
+또는 `-resultBundlePath` flag를 `xcodebuild` command에 전달하여 result bundle을 지정된 위치에 저장할 수 있습니다. 예를 들어 테스트를 빌드하는 동안 result bundle을 저장합니다:
 ```
 xcodebuild test -scheme [App Name] -project [Project file path] -resultBundlePath [Result bundle path]
 ```
@@ -45,7 +45,7 @@ xcodebuild test -scheme [App Name] -project [Project file path] -resultBundlePat
 ## command-line에서 result bundle 저장
 `-resultBundlePath` flag를 `xcodebuild` command에 전달하여 result bundle을 지정된 위치에 저장할 수 있습니다.
 
-* 터미널에서 빌드 작업을 수행하는 동안 결과 번들을 저장합니다:  
+* 터미널에서 빌드 작업을 수행하는 동안 result bundle을 저장합니다:  
 ```
 xcodebuild [action] -scheme [App Name] -project [Project file path] -resultBundlePath [Result bundle path]
 ```
