@@ -68,7 +68,7 @@ Report navigator에서 result bundle과 함께 프로젝트가 열립니다.
 
 * Object에 대한 사람이 읽을 수 있는 설명을 얻으려면 다음을 입력하십시오:
 ```
-xcresulttool formatDescription
+xcrun xcresulttool formatDescription
 ```
 JSON 또는 Markdown 표현을 가져오려면 `--format json` 또는 `--format Markdown` 을 추가합니다.
 
