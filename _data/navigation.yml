@@ -129,12 +129,27 @@ sidebar-architecture:
       - title: "[TDD] iOS"
         url: /architecture/tdd/tdd-for-ios/
       - title: "[XCUITests] result bundle"
-        url: /architecture/tdd/test-your-app/manage-tests/view-and-share-test-results/
+        url: /architecture/tdd/result-bundle/
+      - title: "Test Your App"
+        url: /architecture/tdd/test-your-app/
+        icon: "far fa-folder-open"
+        children:
+          - title: "Manage Tests"
+            url: /architecture/tdd/test-your-app/manage-tests/
+            icon: "far fa-folder-open"
+            children:
+            - title: "View and share test results"
+              url: /architecture/tdd/test-your-app/manage-tests/view-and-share-test-results/
   - title: "모듈화"
     url: /architecture/tuist/
     children:
       - title: "[Tuist] 명령어 모음"
         url: /architecture/tuist/tuist-commend/
+  - title: "EDD"
+    url: /architecture/edd/
+    children:
+      - title: "Combine, RxSwift 차이"
+        url: /architecture/edd/rxswift-combine/
   - title: "Scrap"
     url: /architecture/scrap/
     children:
@@ -392,19 +407,6 @@ sidebar-clean:
       - title: "콜드 스타트"
         url: /clean/dictionary/cold-start/
       
-      
-##############
-sidebar-edp:
-  - title: "Rx"
-    url: /rx/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-  - title: "Combine"
-    url: /combine/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
 ##############
 sidebar-git:
   - title: "Book"
@@ -635,11 +637,6 @@ sidebar-ios:
             children:
             - title: "Alert Crash"
               url: /ios/uiresponder/uiview/wkwebview/fix-alert-crash/
-  - title: "EDD"
-    url: /ios/edd/
-    children:
-      - title: "Combine, RxSwift 차이"
-        url: /ios/edd/rxswift-combine/
   - title: "App Thinning"
     icon: "far fa-file-alt"
     url: /ios/app-thinning/

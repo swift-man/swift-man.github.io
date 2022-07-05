@@ -7,12 +7,13 @@ title: "[iOS] Combine, RxSwift 차이"
 toc: true
 toc_sticky: true
 toc_label: 목차
-depth: 
-  - title: "iOS"
-    url: /ios/
-    icon: "fab fa-app-store-ios"
+tag: "EDD"
+depth:
+  - title: "Architecture"
+    url: /architecture/
+    icon: "fas fa-sitemap"
   - title: "EDD"
-    url: /ios/edd/
+    url: /architecture/edd/
     icon: "far fa-folder-open"
 ---
 ## Deployment Target

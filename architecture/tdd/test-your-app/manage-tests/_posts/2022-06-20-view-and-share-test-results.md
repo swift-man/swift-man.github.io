@@ -7,7 +7,7 @@ title: "[XCUITest] View and share test results"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "TDD"
+tag: "XCUITest"
 depth:
   - title: "Architecture"
     url: /architecture/
