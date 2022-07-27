@@ -28,16 +28,21 @@ let title: String
 let image: UIImage
 let activityViewController = UIActivityViewController(activityItems: [title, image], 
   applicationActivities: nil)
-self.present(activityViewController, animated: true, completion: nil)
+self.present(activityViewController, 
+  animated: true, 
+  completion: nil)
 ```
 
 ![Image](https://i.stack.imgur.com/XdTuA.gif)
 
-문제의 상황은 presentViewController 에서 UIActivityViewController를 present 했을 때 인데, "이미지 저장" 등 특정 상황에서 UIActivityViewController 가 자동으로 닫히며 presnetViewController 도 같이 닫힌다는 문제다. 닫기나 다른 앱에 공유하는 액션은 문제되지 않는다.
+## 문제의 상황
+presentViewController에서 UIActivityViewController를 present 시, "이미지 저장" 등 특정 상황에서 UIActivityViewController 가 자동으로 닫히며 presnetViewController 도 같이 닫힌다. 닫기나 다른 앱에 공유하는 액션은 문제되지 않는다.  
+
+![Image](https://drive.google.com/uc?export=view&id=1Q3fkIyhZp0uu0CvwZZRZjZ2fwoWX6ytz)  
 > 아마 애플 버그 인듯?
 
-[<i class="fas fa-link"></i> `completionWithItemsHandler`](https://developer.apple.com/documentation/uikit/uiactivityviewcontroller/1622022-completionwithitemshandler){:target="_blank"}를 통해 완료 시점의 클로저를 제공해주는데 이를 활용해서 버그를 막을 수 있다.  
-코드는 아래와 같다.
+## 해결
+[<i class="fas fa-link"></i> `completionWithItemsHandler`](https://developer.apple.com/documentation/uikit/uiactivityviewcontroller/1622022-completionwithitemshandler){:target="_blank"}를 통해 완료 시점의 클로저를 제공해주는데 이를 활용해서 버그를 막을 수 있다. 코드는 아래와 같다.
 ```swift
 let title: String
 let image: UIImage
@@ -46,7 +51,7 @@ let activityViewController = UIActivityViewController(activityItems: [title, ima
 
 let tempViewController = UIViewController()
 tempViewController.modalPresentationStyle = .overFullScreen
-activityViewController.completionWithItemsHandler = { [weak tempController] _, _, _, _ in
+activityViewController.completionWithItemsHandler = { [weak tempViewController] _, _, _, _ in
   if let presentingViewController = tempViewController?.presentingViewController {
       presentingViewController.dismiss(animated: false, completion: nil)
   } else {
@@ -55,7 +60,9 @@ activityViewController.completionWithItemsHandler = { [weak tempController] _, _
 }
 
 present(tempViewController, animated: false) { [weak tempController] in
-  tempViewController?.present(activityViewController, animated: true, completion: nil)
+  tempViewController?.present(activityViewController, 
+    animated: true, 
+    completion: nil)
 }
 ```
-presentViewController 가 같이 닫히는 문제는 해결할 수가 없다. 닫히는 tempViewController를 dummy로 생성하여 버그 발생 시 dummy 가 닫히도록 처리하였다.
+presentViewController 가 같이 닫히는 문제는 해결할 수가 없다. 버그로 닫히는 tempViewController를 dummy로 생성하여 버그 발생 시 dummy 가 닫히도록 처리하였다.
