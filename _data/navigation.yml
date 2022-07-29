@@ -544,6 +544,11 @@ sidebar-tdd:
 ##############
 
 sidebar-ios:
+  - title: "Apple-Docs"
+    children:
+      - title: "App Store 심사 지침"
+        icon: "fas fa-link"
+        url: https://developer.apple.com/kr/app-store/review/guidelines/
   - title: "Objective-C"
     url: /ios/objectivec/
     children:
@@ -598,6 +603,12 @@ sidebar-ios:
         children:
         - title: "Life cycle"
           url: /ios/uiresponder/uiviewcontroller/lifecycle/
+      - title: "UIActivityViewController"
+        icon: "far fa-folder-open"
+        url: /ios/uiresponder/uiactivityviewcontroller/
+        children:
+        - title: "Dismiss Bug 해결"
+          url: /ios/uiresponder/uiactivityviewcontroller/uiactivityviewcontroller-dismiss-bug/
       - title: "UIView"
         icon: "far fa-folder-open"
         url: /ios/uiresponder/uiview/
