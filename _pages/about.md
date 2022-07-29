@@ -17,7 +17,32 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
-안녕하세요. 7년차 iOS 개발자 김승진입니다.
+안녕하세요. 9년차 iOS 개발자 김승진입니다.
+
+## 🔨Skills
+### iOS
+
+| Xcode | Swift, Objective C |
+| EDD | RxSwift, Combine |
+| TDD | XCTest, Nimble, QuickSpec |
+| Architecture | Clean Architecture, MVVM, MVI |
+| UI | SwiftUI, UIKit |
+| Dependency | CocoaPods, Carthage, SPM |
+| Database | SQLite, CoreData |
+
+### Backend
+
+| IntelliJ IDA | Spring Boot, Java, Kotlin |
+| Dependency | Gradle |
+| Git, Sourcetree |
+
+### DevOps
+
+| AWS | EC2, S3, RDS, CloudFront, Route53 |
+| DB | MariaDB, Oracle |
+| Web | Nginx, Tomcat |
+| etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
+
 ## 저는
 * '어떤 것'을 만드는 것을 좋아합니다.
 * '불편한 것'을 편하게 할 수 있도록 개선하는 것을 좋아합니다.
@@ -43,7 +68,7 @@ toc_label: 목차
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
 | 소프트노믹스<br/>2012.09 ~ 2012.12(4개월) | Android<br/>Developer | 커픤 그루나루 Pos 시스템 개발 |
 | exfiniti inc<br/>2012.05 ~ 2012.09(5개월) | iOS<br/>Developer | 추억의 만화 iOS 앱 개발, 지원 중단 |
-| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04(5개월) | iOS Developer | 애드라떼 iOS 앱 개발, 지원 중단 | 광고 상품 개발 경험 |
+| [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04(5개월) | iOS<br/>Developer | 애드라떼 iOS 앱 개발, 지원 중단 | 광고 상품 개발 경험 |
 | Aselcni<br/>2010.12 ~ 2011.06(7개월) | Server<br/>Developer | (주)이브자리 ERP 프로그램 개발 | MS-SQL, C# 개발 경험 |
 
 ## 개인 프로젝트
@@ -59,6 +84,8 @@ toc_label: 목차
 | Beautiful Bible iOS<br/>2016.06 ~ 2017.11<br/>⚡️개인 프로젝트 | iOS<br/>Developer | 지원 중단<br/>Bitbucket에 코드 및 커밋 내역 존재 | CoreText<br/>10000개가 넘는 Row를 다룬 경험 |
 
 ![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
+
+> 정보처리기사 2011.10
 
 ## 경험해본 기술 분야
 * Video Conference
@@ -79,32 +106,6 @@ toc_label: 목차
 * encryption & decryption
 * MVOIP Audio Call
 
-
-
-## 🔨Skills
-
-| iOS                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| Xcode | Swift, Objective C |
-| EDD | RxSwift, Combine |
-| TDD | XCTest, Nimble, QuickSpec |
-| Architecture | Clean Architecture, MVVM, MVI |
-| UI | SwiftUI, UIKit |
-| Dependency | CocoaPods, Carthage, SPM |
-| Database | SQLite, CoreData |
-
-| Backend                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| IntelliJ IDA | Spring Boot, Java, Kotlin |
-| Dependency | Gradle |
-| Git, Sourcetree |
-
-| DevOps                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| AWS | EC2, S3, RDS, CloudFront, Route53 |
-| DB | MariaDB, Oracle |
-| Web | Nginx, Tomcat |
-| etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
 ## Project
 ### GoogleDriveOriginalURL
