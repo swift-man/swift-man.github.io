@@ -63,7 +63,7 @@ toc_label: 목차
 | Organization | Info | Description | 성과 |
 | --- | --- | --- | --- |
 | [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 130만 |
-| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
+| [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
 | [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 개발 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
 | 소프트노믹스<br/>2012.09 ~ 2012.12(4개월) | Android<br/>Developer | 커픤 그루나루 Pos 시스템 개발 |
@@ -124,8 +124,12 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
   
 ### 핑크다이어리
 NHN Edu 여성 건강 애플리케이션
+* 2020.11~
 * 주요 Objective C코드 Swift전환
-* 캘린더 Swift전환 및 캘린더를 3개의 모듈화 하여 제작  
+* SnapKit, Source Base를 사용한 Morden UI 개발
+* 캘린더, 설정, Utils 등 주요 기능 Swift전환
+* 캘린더, 설정 등 아키텍처 Layer, Feature 모듈화 제작  
+* AI 임신 테스트 기능, 커플커텍트 개발
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
 * [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
@@ -188,6 +192,7 @@ NHN Edu 교육 애플리케이션
   
 ### flace
 옷장 서비스이며 개인 프로젝트
+* 2020.06 ~ 2021.12
 * Google AI를 활용하여 사진 업로드 및 카테고리 자동 선택 기능 개발  
 ![Image](/assets/gif/flace-photos.gif)
 ![Image](/assets/gif/flace-lookbook.gif)
@@ -202,6 +207,8 @@ NHN Edu 교육 애플리케이션
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"}
 
 ### Beautiful Bible(서비스종료)
+* 2016.06 ~ 2017.11
+
 다국어 성경 / 메모 기능을 제공하는 개인 프로젝트  
 퇴근 후 집에서 다양한 시도를 하고 있어요.  
 서버는 잘 못하지만 어느 정도 인프라를 구축하고 작은 트래픽에 대해 CRUD가 처리 될 수 있도록 구축해본 경험이 있어요.
@@ -236,6 +243,7 @@ NHN Edu 교육 애플리케이션
 
 ### 틸리언
 [<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 설문 서비스 애플리케이션
+* 2016.03 ~ 2018.06
 * StoryBoard, Code를 이용한 Autolayout
 * 설문 타입/레포트 개발
 * TableViewCell의 동영상 광고 개발
@@ -247,6 +255,8 @@ NHN Edu 교육 애플리케이션
 
 ### 기프티콘
 [<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 모바일 상품권 서비스 애플리케이션
+* 2014.03 ~ 2018.06
+
 * [<i class="fas fa-link"></i> UIWebView](https://developer.apple.com/documentation/uikit/uiwebview?language=objc){:target="_blank"}를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
 * [<i class="fas fa-link"></i> Keychain Service](https://developer.apple.com/documentation/security/keychain_services?language=objc){:target="_blank"} 을 활용한 정보 저장 기능 개발
 * [<i class="fas fa-link"></i>  APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc){:target="_blank"} 기능 개발 및 기능 개선 프로젝트 진행
@@ -263,6 +273,8 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/images/about/gift_store.PNG)
 
 ### 여보세요?(서비스종료)
+* 2013.01 ~ 2014.03
+
 주소록 관리 서비스 / 전화를 통한 포인트 적립 애플리케이션  
 ![Image](/assets/images/about/hello001.jpeg)  
 * Objective C
@@ -280,17 +292,23 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/images/about/hello006.jpeg)
 
 ### 추억의 만화(서비스종료)
+* 2012.05 ~ 2012.09
+
 외화, 만화를 소개하는 컨텐츠 애플리케이션
 * Youtube 연동
 * 컨텐츠 내 댓글 / 좋아요 제공
 
 ### 애드라떼(서비스종료)
+* 2011.12 ~ 2012.04
+
 광고를 보면 포인트를 주는 광고 애플리케이션
 * 베스트 탭 화면 개발
   * ![Image](/assets/images/about/adlatte.JPG)
 * 광고 베너, 영상을 제공하는 SDK 기능 개발
 
 ### ERP 어플리케이션 개발
+* 2010.12 ~ 2011.06
+
 [<i class="fas fa-link"></i> (주)이브자리](https://evezary.co.kr){:target="_blank"} C# 기반으로 웹으로 구동되는 PRM 스마트애플리케이션  
 사내 프레임워크를 사용하여 쿼리 및 화면을 작성
 * 품평회 기능 개발
