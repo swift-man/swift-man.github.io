@@ -358,6 +358,8 @@ sidebar-clean:
         url: /clean/think/senior-developer/
       - title: "개발을 시작하게 된 계기"
         url: /clean/think/start-development/
+      - title: "아무 회사나 취업하면 안 되는 이유"
+        url: /clean/think/should-not-work-for-any-company/
       - title: "iOS 개발을 시작하게 된 계기"
         url: /clean/think/start-development-ios/
       - title: "오늘"
@@ -533,14 +535,6 @@ sidebar-git:
         
 ##############
 
-sidebar-tdd:
-  - title: "TDD"
-    url: /tdd/
-#    children:
-#      - title: "Operators"
-#        url: /operators/
-##############
-
 sidebar-ios:
   - title: "Apple-Docs"
     children:
@@ -679,6 +673,8 @@ sidebar-ios:
         url: /ios/xcode/xcode-build-apple-tv-4k/
       - title: "Xcode 13 Column Breakpoints"
         url: /ios/xcode/xcode-13_column-breakpoints/
+      - title: "[xcrun] simulrator open url"
+        url: /ios/xcode/xcrun-simctl-open-url-booted/
   - title: "Xcode Build Error"
     url: /ios/build-error/
     children:
@@ -688,6 +684,8 @@ sidebar-ios:
       url: /ios/build-error/failed-to-prepare-device-for-development/
     - title: "[Cocoapods] Running pod install with an..."
       url: /ios/build-error/pods-install-date-error/
+    - title: "Codesign wants to access key ..."
+      url: /ios/build-error/codesign-wants-to-access-key-access-in-your-bunch-of-keys/
   - title: "Xcode Rumtime Error"
     url: /ios/runtime-error/
     children:
