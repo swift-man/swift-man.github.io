@@ -22,6 +22,27 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row1:
+  - image_path: https://drive.google.com/uc?export=view&id=1Ql6FXg4a-GmRAzvwnJIcn7ONjyMbfEs0
+    title: "[WWDC22] What's new in Swift 5.7"
+    excerpt: "채널 2달 운영 회고"
+    url: "/it/conference/whats-new-in-swift-5-7/"
+    image_caption: "Photo credit: [**developer.apple**](https://developer.apple.com/)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: https://static.toss.im/assets/homepage/slash22/giftbox.png
+    title: "[SLASH22] 인상 깊은 영상, 스페셜 굿즈 수령 후기"
+    excerpt: "초보 유튜버의 기록"
+    url: "/it/conference/slash22/"
+    image_caption: "Photo credit: [**toss**](https://static.toss.im)"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: https://drive.google.com/uc?export=view&id=1Q5ItpDUyP5p1AMp2DTd7LPfMpPoDclsc
+    title: "'GitHub와 기업내 오픈소스 문화' 세미나 후기"
+    excerpt: "GitHub Korea 2019"
+    url: "/it/conference/github-korea-1conference/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row2:
   - image_path: https://images.roa.ai/articles/2020/02/youtube.png
     title: "[YouTube] 구독자 100명 모으기"
     excerpt: "초보 유튜버의 기록"
@@ -56,7 +77,7 @@ feature_row1:
     image_caption: "Photo credit: [**YouTube**](https://www.youtube.com)"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
+feature_row3:
   - image_path: https://drive.google.com/uc?export=view&id=14XW2gQ2powGH_u7rvnqRL01XeQLBediY
     title: "[Apple TV+] 한국 출시"
     excerpt: "집 안에 찾아온 미래. 라는데 정말?!"
@@ -71,7 +92,7 @@ feature_row2:
     image_caption: "Photo credit: [**Apple**](https://www.apple.com)"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
+feature_row4:
   - image_path: https://www.nintendo.co.kr/hardware/detail/switch/img/01-hero/01pc.jpg
     title: "[닌텐도 스위치] 블루투스 이어폰 연결하기"
     excerpt: "드디어 블루투스이어폰 연결이 공식적으로 지원된다."
@@ -79,7 +100,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**Nintendo**](https://www.nintendo.co.kr)"
-feature_row4:
+feature_row5:
   - image_path: https://blog.ko.playstation.com/tachyon/sites/9/2021/09/f17292c3ca7b494b497755a6d6f42979353d67f0.png?resize=1088%2C612&crop_strategy=smart&zoom=1
     title: "[PS5] 플레이스테이션5 추첨 당첨 되기"
     excerpt: "추첨방식으로 변경된 PS5 정가 구매, 당첨 잘되는 방법에 대한 고찰"
@@ -87,7 +108,7 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**blog.ko.playstation**](https://blog.ko.playstation.com/)"
-feature_row5:
+feature_row6:
   - image_path: https://www.linuxadictos.com/wp-content/uploads/kodi-logo.jpg.webp
     title: "[Apple TV 4K] 6세대 kodi 설치 성공 후기"
     excerpt: 'Mac 에서 Apple TV 4K에 Xcode 로 Kodi 설치하는 방법을 알아봅니다.'
@@ -95,7 +116,7 @@ feature_row5:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**linuxadictos**](https://www.linuxadictos.com/)"
-feature_row6:
+feature_row7:
   - image_path: https://miro.medium.com/max/1400/1*v3T43SKR1rSqnx7j5XLfcA.png
     title: "[Charles] 설정하기"
     excerpt: 'How we debug with Charle'
@@ -110,14 +131,14 @@ feature_row6:
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_caption: "Photo credit: [**charlesproxy**](https://www.charlesproxy.com/)"
-feature_row7:
+feature_row8:
   - image_path: https://drive.google.com/uc?export=view&id=1JaHrf04wdyhqTVxNsnH470klH0z2-5UL
     title: "[TradingView] 자동결제 환불 성공기"
     excerpt: '자동결제 환불 가능할까?'
     url: "/it/tradingview/refurn-tradingview/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row8:
+feature_row9:
   - image_path: https://drive.google.com/uc?export=view&id=1rrEVW9I8NYclHd7Yt6B5J9_jcYDRJAxB
     title: "[macOS Monterey] 빠른 메모 끄기"
     excerpt: '빠른 메모 끄는 방법'
@@ -139,7 +160,7 @@ feature_row8:
 
 {% include feature_row id="feature_row2" %}
 
-{% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row3" %}
 
 {% include feature_row id="feature_row4" type="left" %}
 
@@ -150,3 +171,5 @@ feature_row8:
 {% include feature_row id="feature_row7" type="left" %}
 
 {% include feature_row id="feature_row8" type="left" %}
+
+{% include feature_row id="feature_row9" type="left" %}

@@ -1,20 +1,18 @@
 ---
 sidebar:
-  title: "Git"
-  nav: sidebar-git
-  icon: "fab fa-github"
+  title: "IT"
+  nav: sidebar-it
+  icon: "fas fa-mobile-alt"
 title:  "'GitHub와 기업내 오픈소스 문화' 세미나 후기"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "GitHub"
-depth: 
-  - title: "Git"
-    url: /git/
-    icon: "fab fa-github"
-  - title: "GitHub"
-    url: /git/github/
-    icon: "far fa-folder-open"
+tag: "IT Conference"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://drive.google.com/uc?export=view&id=1Q5ItpDUyP5p1AMp2DTd7LPfMpPoDclsc
+excerpt: "GitHub Korea 2019"
 ---
 ## 들어가기 앞서
 ![Image](https://drive.google.com/uc?export=view&id=1Q5ItpDUyP5p1AMp2DTd7LPfMpPoDclsc)  
@@ -175,5 +173,6 @@ depth:
 
 * 그 외 Github 관련 유용한 라이브러리나, 스크립트를 소개
 
-## Github Korea
+## 후기
+###Github Korea
 ![Image](https://drive.google.com/uc?export=view&id=1WeOqKpTwN9XjH-M8g0nBYknaIZrQCz1h)  

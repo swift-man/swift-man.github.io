@@ -461,8 +461,6 @@ sidebar-git:
     children:
       - title: "GitHub Actions"
         url: /git/github/github-action/
-      - title: "2019 GitHub Korea"
-        url: /git/github/github-korea-1conference/
       - title: "2020 통계로 보는 현 시국"
         url: /git/github/github-trand-2020/
   - title: "Blog"
@@ -863,6 +861,15 @@ sidebar-it:
     children:
       - title: "애플 개발자 프로그램 등록 하기"
         url: /it/apple-developer/apple-develper-program/
+  - title: "IT Conference"
+    url: /it/conference/
+    children:
+      - title: "[WWDC22] Swift 5.7"
+        url: /it/conference/whats-new-in-swift-5-7/
+      - title: "[SLASH22] 스페셜 굿즈 수령 후기"
+        url: /it/conference/slash22/
+      - title: "[GitHub Korea] 2019"
+        url: /it/conference/github-korea-1conference/
   - title: "Apple TV"
     url: /it/apple-tv/
     children:
@@ -877,11 +884,6 @@ sidebar-it:
     children:
       - title: "블루투스 이어폰 연결"
         url: /it/nintendo-switch/nintendo-switch-bluetooth-earphone/
-  - title: "Playstation 5"
-    url: /it/ps5/
-    children:
-      - title: "플레이스테이션5 추첨 당첨 되기"
-        url: /it/ps5/lottery-ps5/
   - title: "MacOS"
     url: /it/macos/
     children:
@@ -919,3 +921,8 @@ sidebar-it:
         url: /it/youtube/3-month/
       - title: "[YouTube] 채널 4달 운영 회고"
         url: /it/youtube/4-month/
+  - title: "Playstation 5"
+    url: /it/ps5/
+    children:
+      - title: "플레이스테이션5 추첨 당첨 되기"
+        url: /it/ps5/lottery-ps5/
