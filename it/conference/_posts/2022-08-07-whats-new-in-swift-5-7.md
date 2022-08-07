@@ -257,3 +257,6 @@ let tvShow: [any Equatable] = ["Brooklyn", 99]
 ](https://developer.apple.com/videos/play/wwdc2022/110352/){:target="_blank"}  
 [<i class="fas fa-link"></i> Design protocol interfaces in Swift
 ](https://developer.apple.com/videos/play/wwdc2022/110353){:target="_blank"}  
+
+## 출처
+[<i class="fas fa-link"></i> What's new in Swift](https://developer.apple.com/videos/play/wwdc2022/110354/){:target="_blank"}
