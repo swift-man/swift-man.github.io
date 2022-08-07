@@ -144,6 +144,8 @@ NHN Edu 여성 건강 애플리케이션
 * 결과 / 성과:
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"}
   * MAU 약 130만 명
+  * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상
+  ![Image](/assets/images/about/20220806_154314.jpg)
   
 ### 아이엠스쿨
 NHN Edu 교육 애플리케이션
