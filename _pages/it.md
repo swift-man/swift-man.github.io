@@ -24,7 +24,7 @@ feature_row:
 feature_row1:
   - image_path: https://drive.google.com/uc?export=view&id=1Ql6FXg4a-GmRAzvwnJIcn7ONjyMbfEs0
     title: "[WWDC22] What's new in Swift 5.7"
-    excerpt: "채널 2달 운영 회고"
+    excerpt: "Community update, Swift on Server, Swift packages..."
     url: "/it/conference/whats-new-in-swift-5-7/"
     image_caption: "Photo credit: [**developer.apple**](https://developer.apple.com/)"
     btn_label: "Read More"
