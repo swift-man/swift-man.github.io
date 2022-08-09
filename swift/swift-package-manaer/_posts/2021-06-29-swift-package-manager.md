@@ -58,5 +58,6 @@ xed . // 현재 폴더의 프로젝트 열기 명령어
 
 - 열었을때 Xcode 의 오류가 없으면 성공
 
-## dependencies 생성
-- 추후 작성하기
+## 출처
+* [<i class="fas fa-link"></i> developer.apple](https://developer.apple.com/documentation/xcode/creating-a-standalone-swift-package-with-xcode){:target="_blank"}
+
