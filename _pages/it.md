@@ -31,7 +31,7 @@ feature_row1:
     btn_class: "btn--primary"
   - image_path: https://static.toss.im/assets/homepage/slash22/giftbox.png
     title: "[SLASH22] 인상 깊은 영상, 스페셜 굿즈 수령 후기"
-    excerpt: "초보 유튜버의 기록"
+    excerpt: "Thanks Toss!"
     url: "/it/conference/slash22/"
     image_caption: "Photo credit: [**toss**](https://static.toss.im)"
     btn_label: "Read More"
