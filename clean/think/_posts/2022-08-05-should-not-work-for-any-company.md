@@ -2,7 +2,7 @@
 sidebar:
   title: "Clean"
   nav: sidebar-clean
-title: "아무 회사나 취업하면 안 되는 이유"
+title: "좋좋소 개발 인생 시작"
 toc: true
 toc_sticky: true
 toc_label: 목차
