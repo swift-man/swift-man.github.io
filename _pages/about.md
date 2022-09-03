@@ -17,7 +17,9 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
-안녕하세요. 9년차 iOS 개발자 김승진입니다.
+안녕하세요. 9년차 iOS 개발자 김승진입니다.  
+우리 사회에 도움이 되는 서비스를 개발하는 것이 목표입니다.  
+제가 만든 서비스를 통해 사람과 사회에게 큰 도움이 되는 고마운 서비스를 개발하고 싶습니다.  
 
 ## 🔨Skills
 ### iOS
@@ -29,19 +31,22 @@ toc_label: 목차
 | UI | SwiftUI, UIKit |
 | Dependency | CocoaPods, Carthage, SPM |
 | Database | SQLite, CoreData |
+| Module tool | Tuist |
+| GitFlow |
+| CI | Xcode Server, GithubAction |
 
 ### Backend
 
 | IntelliJ IDA | Spring Boot, Java, Kotlin |
 | Dependency | Gradle |
-| Git, Sourcetree |
+| DB | MariaDB, Oracle |
+| Web | Nginx, Tomcat |
 
 ### DevOps
 
 | AWS | EC2, S3, RDS, CloudFront, Route53 |
-| DB | MariaDB, Oracle |
-| Web | Nginx, Tomcat |
-| etc | Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
+| SSL | AWS, Let's Encript |
+| etc | Microsoft Outlook, Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
 ## 저는
 * '어떤 것'을 만드는 것을 좋아합니다.
@@ -66,7 +71,7 @@ toc_label: 목차
 | [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
 | [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 개발 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
-| 소프트노믹스<br/>2012.09 ~ 2012.12(4개월) | Android<br/>Developer | 커픤 그루나루 Pos 시스템 개발 |
+| 소프트노믹스<br/>2012.09 ~ 2013.1(5개월) | Android<br/>Developer | 커픤 그루나루 Pos 시스템 개발 |
 | exfiniti inc<br/>2012.05 ~ 2012.09(5개월) | iOS<br/>Developer | 추억의 만화 iOS 앱 개발, 지원 중단 |
 | [<i class="fas fa-link"></i> App Disco](https://www.linkedin.com/company/appdisco-inc-/about/){:target="_blank"}<br/>2011.12 ~ 2012.04(5개월) | iOS<br/>Developer | 애드라떼 iOS 앱 개발, 지원 중단 | 광고 상품 개발 경험 |
 | Aselcni<br/>2010.12 ~ 2011.06(7개월) | Server<br/>Developer | (주)이브자리 ERP 프로그램 개발 | MS-SQL, C# 개발 경험 |
@@ -92,20 +97,12 @@ toc_label: 목차
 * Billing & Payment
 * Image Processing
 * 일정관리 및 캘린더
-* 지도 및 위치확인
+* 지도 및 위치 정보 서비스
 * 컨텐츠 서비스
 * 글로벌 서비스
-* 주소록 연동
-* 한글 초성 검색
-
-## 경험하고 싶은 관심 기술 분야
-* Sokect Level 통신
-* Live Video Streaming
-* Music Streaming
-* 인증서 및 보안
-* encryption & decryption
-* MVOIP Audio Call
-
+* 주소록 연동 서비스
+* 한글 초성 검색 서비스
+* AI 연동 서비스
 
 ## Project
 ### GoogleDriveOriginalURL
@@ -125,13 +122,14 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
 ### 핑크다이어리
 NHN Edu 여성 건강 애플리케이션
 * 2020.11~
+* [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
 * 주요 Objective C코드 Swift전환
 * SnapKit, Source Base를 사용한 Morden UI 개발
 * 캘린더, 설정, Utils 등 주요 기능 Swift전환
 * 캘린더, 설정 등 아키텍처 Layer, Feature 모듈화 제작  
 * AI 임신 테스트 기능, 커플커텍트 개발
+  * * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
-* [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
 ![Image](/assets/gif/pink-logout.gif)  
@@ -144,8 +142,6 @@ NHN Edu 여성 건강 애플리케이션
 * 결과 / 성과:
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"}
   * MAU 약 130만 명
-  * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상
-  ![Image](/assets/images/about/20220806_154314.jpg)
   
 ### 아이엠스쿨
 NHN Edu 교육 애플리케이션
@@ -242,7 +238,17 @@ NHN Edu 교육 애플리케이션
   
 * Plist To SQLite Converter 유틸리티 제작
   * 검색 가능한 Full Text Search Table(FTS3)
+  
+### 한차오
 
+[<i class="fas fa-link"></i> 코네스트](https://www.konest.com/){:target="_blank"} 중국인을 위한 한국 여행 가이드
+* 2017.03 ~ 2018.06
+* Objective C
+* SK LBS Map 라이브러리 연동
+* 위치기반 서비스 개발
+* 결과/성과 : 
+  * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%E9%9F%A9%E5%B7%A2%E9%9F%A9%E5%9B%BD%E5%9C%B0%E5%9B%BE/id1048867778){:target="_blank"} 
+  
 ### 틸리언
 [<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 설문 서비스 애플리케이션
 * 2016.03 ~ 2018.06
@@ -253,7 +259,7 @@ NHN Edu 교육 애플리케이션
 * Youtube 연동 개발
 * 결과/성과 : 
   * 설문 부분 서비스 1위
-  * 앱스토어에 등록되어 있으나 현재 리뉴얼 상태
+  * 앱스토어에 등록되어 있으나 현재 리뉴얼 상태 - [<i class="fas fa-link"></i> 헤이폴]( https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891)
 
 ### 기프티콘
 [<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 모바일 상품권 서비스 애플리케이션
@@ -328,7 +334,6 @@ NHN Edu 교육 애플리케이션
 
 설계 및 유지관리에 신경을 많이 쓰고 있습니다.  
 서울에서 살고 있으며, 현 직장은 판교 입니다.  
-현재도 꾸준히 AWS를 통한 ⚡️개인 프로젝트를 연구 중에 있습니다.  
 
 읽어주셔서 감사합니다.  
 
