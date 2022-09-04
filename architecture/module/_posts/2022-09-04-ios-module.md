@@ -1,8 +1,8 @@
 ---
 sidebar:
-  title: "iOS"
-  nav: sidebar-ios
-  icon: "fab fa-app-store-ios"
+  title: "Architecture"
+  nav: sidebar-architecture
+  icon: "fas fa-sitemap"
 title: "[iOS] 앱 모듈화의 필요성"
 toc: true
 toc_sticky: true

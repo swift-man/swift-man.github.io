@@ -1,8 +1,8 @@
 ---
 sidebar:
-  title: "iOS"
-  nav: sidebar-ios
-  icon: "fab fa-app-store-ios"
+  title: "Architecture"
+  nav: sidebar-architecture
+  icon: "fas fa-sitemap"
 title: "[iOS] Combine, RxSwift 차이"
 toc: true
 toc_sticky: true
