@@ -90,7 +90,7 @@ toc_label: 목차
 
 ![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
 
-> 정보처리기사 2011.10
+> 정보처리기사 2012.08.17 12202010673X
 
 ## 경험해본 기술 분야
 * Video Conference
