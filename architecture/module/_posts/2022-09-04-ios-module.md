@@ -29,13 +29,50 @@ IT 소프트웨어 산업은 계속 성장하고 있다. 아마도 많은 서비
 서비스의 성장 또는 시간이 지남에 따라 기능은 점점 많아지고, 요구사항은 점점 복잡해진다. 이를 해결하기 위해 책임을 나누고 역할을 분리한다. 그리고 조립해 사용하도록 코드를 만들면 더 좋은 품질의 프로젝트로 거듭 날 수 있다.
 
 ## 최적화와 빌드 속도 향상
+### Xcode New Build System
+Xcode9부터 `Xcode New Build System`이 도입되었다. 빌드 시스템 전체 빌드 시간을 줄이는 것이 목표인 시스템이며 Xcode10부터 기본 선택이다.  
 
+![Image](https://drive.google.com/uc?export=view&id=1_Rt-Bpvg8QKsdziwCTScvFpCccc-hX7U)  
+
+XCBuild로 부르며 확인 New Build System 적용 여부는 Xcode 아래의 메뉴에서 확인 가능하다.  
+```
+File - Workspace Setting... - New Build System
+```
+
+### Parallelizing Build
+Xcode 10부터 Parallelizing Build로 모듈 별 병렬로 빌드를 진행한다. 이로 인해 모듈화를 하면 빌드 속도에 이점이 있다.
+
+Xcodes Targets and Dependencies
+* iOS App
+* Framework
+* Unit Tests
+
+아래 그림과 같이 모듈별 가장 의존성이 적은 순서대로 트리구조를 형성 및 먼저 빌드하며 프로젝트 최적화로 인해 상황에 따라 빌드 성능이 3배까지 향상 가능하다.
+![Image](https://drive.google.com/uc?export=view&id=1KY5Fsk24w5U9ToKb0EU6ciszypCsW8eX)  
+
+따라 개발자는 이 효율성을 사용하기 위해 의존성을 최소화하며 프로젝트를 구성하는 것이 매우 좋다. 코드 베이스 분리 또는 모듈화하고 프로젝트의 모든 대상을 실행 순서대로 분리하여 빌드 프로세스의 내부적 의존성을 재배치하는 시간을 절약하는데 도움이 된다.
+
+![Image](https://drive.google.com/uc?export=view&id=1GF7yFiTCzf-18dCG5Gy9CRW57nwarp82)  
+
+의존성은 컴파일러가 가능한 최선의 방법으로 빌드를 할 수 있는 중요한 역할을 한다.
+
+### Link Frameworks Automacticallty
+`Link Frameworks Automacticallty`를 통해 프로젝트의 추가된 모든 프레임워크가 빌드 중 컴파일러에 의해 자동으로 링크가 된다. 
+
+![Image](https://drive.google.com/uc?export=view&id=14m5ISaHMCJF4hiE9pzSXrpBVTVgaTZ2X)  
+
+Default 설정은 YES이다.  
+
+이 설정은 매우 유용하지만 Application Target에서 import를 누락하더라도 알아서 Link 하여 빌드해주지만, 이는 빌드 속도에 영향을 미친다. 오히려 모듈화를 통해 Framework를 생성한다면 더 엄격하게 import를 검사하기 때문에 더 빠르게 빌드되는 프로젝트를 구축을 할 수 있다.
+
+![Image](https://drive.google.com/uc?export=view&id=1unI26fBXgTaOkdMXWQabcbFDZBez0PAD)  
+자동으로 잘 되더라도 Link Frameworks Automatically에 의존하지 않고 수동으로 연결해주는 것이 가장 좋다.
 
 
 ## 접근제한자
 
 
 ## 작은 책임 단위
-
+![Image](https://drive.google.com/uc?export=view&id=1xDRFh6L0xLnJMODMAHK9FMSiO70hRSSt)  
 
 ## 모듈 별 테스트
