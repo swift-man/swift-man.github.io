@@ -7,13 +7,13 @@ title: "[Tuist] 명령어 모음"
 toc: true
 toc_sticky: true
 toc_label: 목차
-tag: "Tuist"
+tag: "Module"
 depth:
   - title: "Architecture"
     url: /architecture/
     icon: "fas fa-sitemap"
-  - title: "Tuist"
-    url: /architecture/tuist/
+  - title: "Module"
+    url: /architecture/module/
     icon: "far fa-folder-open"
 ---
 

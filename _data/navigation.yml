@@ -141,10 +141,12 @@ sidebar-architecture:
             - title: "View and share test results"
               url: /architecture/tdd/test-your-app/manage-tests/view-and-share-test-results/
   - title: "모듈화"
-    url: /architecture/tuist/
+    url: /architecture/module/
     children:
+      - title: "앱 모듈화의 필요성"
+        url: /architecture/module/ios-module/
       - title: "[Tuist] 명령어 모음"
-        url: /architecture/tuist/tuist-commend/
+        url: /architecture/module/tuist-commend/
   - title: "EDD"
     url: /architecture/edd/
     children:
