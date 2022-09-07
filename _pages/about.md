@@ -27,7 +27,7 @@ toc_label: 목차
 | Xcode | Swift, Objective C |
 | EDD | RxSwift, Combine |
 | TDD | XCTest, Nimble, QuickSpec |
-| Architecture | Clean Architecture, MVVM, MVI |
+| Architecture | Clean Architecture, MVVM, MVI, ReactorKit |
 | UI | SwiftUI, UIKit |
 | Dependency | CocoaPods, Carthage, SPM |
 | Database | SQLite, CoreData |
@@ -123,6 +123,7 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
 NHN Edu 여성 건강 애플리케이션
 * 2020.11~
 * [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
+* Clean Architecture, MVVM, ReactorKit
 * 주요 Objective C코드 Swift전환
 * SnapKit, Source Base를 사용한 Morden UI 개발
 * 캘린더, 설정, Utils 등 주요 기능 Swift전환
@@ -146,6 +147,7 @@ NHN Edu 여성 건강 애플리케이션
 ### 아이엠스쿨
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
+* Clean Architecture, MVVM, ReactorKit
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
 ![Image](/assets/gif/school-child-insert.gif)
 ![Image](/assets/gif/school-child-remove.gif)
