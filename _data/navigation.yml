@@ -123,6 +123,11 @@ sidebar-architecture:
     children:
       - title: "객체 지향의 5가지 설계 원칙"
         url: /architecture/software-engineering/solid/
+  - title: "Composable Architecture"
+    url: /architecture/composable-architecture/
+    children:
+      - title: "Composable Architecture"
+        url: /architecture/composable-architecture/composable-architecture/
   - title: "TDD"
     url: /architecture/tdd/
     children:
