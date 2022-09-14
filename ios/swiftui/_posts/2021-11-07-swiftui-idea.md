@@ -17,7 +17,7 @@ depth:
     url: /ios/swiftui/
     icon: "far fa-folder-open"
 ---
-절차지향적 프로그래밍은 디버깅, 데이터의 무결성에 단점을 가지고 있다.  
+절차 지향적 프로그래밍은 디버깅, 데이터의 무결성에 단점을 가지고 있다.  
 또한 코드가 `if else`로 분기되며 많은 코드들이 조건문으로 쌓이게 됨으로 시간이 지날수록 수정하기 어렵게 되고 유지보수에 불리하게 된다.
  
 SwiftUI가 암시하는 것
@@ -27,6 +27,8 @@ SwiftUI가 암시하는 것
 - 미리 MVVM 아키텍처를 따라 코드를 만들고 익숙해지면, 추후 코드를 SwiftUI로 포팅하기 쉽고 머리도 SwiftUI 코드에 적응하기 쉽다.
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/7fanl8FrAbY" frameborder="0" allowfullscreen></iframe>
+
+> 선언적 프로그래밍을 하기 위한 좋은 UI Framework는 SwiftUI, RxDataSource, DiffableDataSource 등이 있다.
 
 ## UIViewController에서 SwiftUI의 Preview기능 사용하기
 - @available(iOS 13.0, *)
