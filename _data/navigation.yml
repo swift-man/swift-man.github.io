@@ -548,6 +548,14 @@ sidebar-ios:
       - title: "App Store 심사 지침"
         icon: "fas fa-link"
         url: https://developer.apple.com/kr/app-store/review/guidelines/
+  - title: "SwiftUI"
+    url: /swift/swiftui/
+    children:
+      - title: "선언적 구문과 데이터 주도"
+        url: /ios/swiftui/declarative-syntax-and-data-driven/
+      - title: "당장 적용하는 SwiftUI의 아이디어"
+        icon: "fab fa-youtube"
+        url: /ios/swiftui/swiftui-idea/
   - title: "Json"
     children:
       - title: "Quicktype"
@@ -743,14 +751,6 @@ sidebar-swift:
         url: /swift/5-5/async-await/
       - title: "actor"
         url: /swift/5-5/actor/
-  - title: "SwiftUI"
-    url: /swift/swiftui/
-    children:
-      - title: "선언적 구문과 데이터 주도"
-        url: /swift/swiftui/declarative-syntax-and-data-driven/
-      - title: "당장 적용하는 SwiftUI의 아이디어"
-        icon: "fab fa-youtube"
-        url: /swift/swiftui/swiftui-idea/
   - title: "String"
     url: /swift/string/
     children:

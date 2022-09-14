@@ -1,12 +1,12 @@
 ---
-title: "Swift / SwiftUI"
-permalink: /swift/swiftui/
+title: "iOS / SwiftUI"
+permalink: /ios/swiftui/
 layout: category
 taxonomy: swiftui
 classes: wide
 icon: "far fa-folder-open"
 sidebar:
-  title: "Swift"
-  nav: sidebar-swift
-  icon: "fab fa-swift"
+  title: "iOS"
+  nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 ---

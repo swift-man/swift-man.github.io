@@ -1,19 +1,19 @@
 ---
 sidebar:
-  title: "Swift"
-  nav: sidebar-swift
-  icon: "fab fa-swift"
+  title: "iOS"
+  nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "[SwiftUI] 선언적 구문과 데이터 주도"
 toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "SwiftUI"
 depth:
-  - title: "Swift"
-    url: /swift/
-    icon: "fab fa-swift"
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
   - title: "SwiftUI"
-    url: /swift/swiftui/
+    url: /ios/swiftui/
     icon: "far fa-folder-open"
 ---
 Swift의 장점은 선언적 구분과 데이터 주도 기반에서 비롯된다.

@@ -1,8 +1,8 @@
 ---
 sidebar:
-  title: "Swift"
-  nav: sidebar-swift
-  icon: "fab fa-swift"
+  title: "iOS"
+  nav: sidebar-ios
+  icon: "fab fa-app-store-ios"
 title: "당장 적용하는 SwiftUI의 아이디어"
 toc: true
 toc_sticky: true
@@ -10,13 +10,16 @@ toc_label: 목차
 tag: "SwiftUI"
 icon: "fab fa-youtube"
 depth:
-  - title: "Swift"
-    url: /swift/
-    icon: "fab fa-swift"
+  - title: "iOS"
+    url: /ios/
+    icon: "fab fa-app-store-ios"
   - title: "SwiftUI"
-    url: /swift/swiftui/
+    url: /ios/swiftui/
     icon: "far fa-folder-open"
 ---
+절차지향적 프로그래밍은 디버깅, 데이터의 무결성에 단점을 가지고 있다.  
+또한 코드가 `if else`로 분기되며 많은 코드들이 조건문으로 쌓이게 됨으로 시간이 지날수록 수정하기 어렵게 되고 유지보수에 불리하게 된다.
+ 
 SwiftUI가 암시하는 것
 - SwiftUI가 제시하는 아키텍처 - MVVM과 매우 비슷하다.
   언젠가 나아갈 방향이다.
