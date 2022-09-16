@@ -129,7 +129,7 @@ NHN Edu 여성 건강 애플리케이션
 * 캘린더, 설정, Utils 등 주요 기능 Swift전환
 * 캘린더, 설정 등 아키텍처 Layer, Feature 모듈화 제작  
 * AI 임신 테스트 기능, 커플커텍트 개발
-  * * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상
+  * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상  
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
