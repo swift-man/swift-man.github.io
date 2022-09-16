@@ -65,4 +65,10 @@ present(tempViewController, animated: false) { [weak tempController] in
     completion: nil)
 }
 ```
-presentViewController 가 같이 닫히는 문제는 해결할 수가 없다. 버그로 닫히는 tempViewController를 dummy로 생성하여 버그 발생 시 dummy 가 닫히도록 처리하였다.
+presentViewController 가 같이 닫히는 문제는 해결할 수가 없다.  
+그럼 어떻게 처리할까?  
+> 우리에겐 꼼수라는 좋은 프로그래밍 방법이 있다.  
+
+버그 발생 시 버그로 닫히는 dummyViewController를 생성하고 버그 발생 시 dummyViewController가 대신 닫히도록 한다.  
+
+이거.. 생각보다 깔끔하게 처리된다.  
