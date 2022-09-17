@@ -241,6 +241,8 @@ sidebar-algorithm:
         url: /algorithm/leet-code-medium/zigzag-conversion/
       - title: "8. String to Integer (atoi)"
         url: /algorithm/leet-code-medium/string-to-integer-atoi/
+      - title: "16. 3Sum Closest"
+        url: /algorithm/leet-code-medium/3sum-closest/
       - title: "31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
       - title: "56. Merge Intervals"
