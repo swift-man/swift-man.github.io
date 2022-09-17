@@ -15,7 +15,6 @@ depth:
   - title: "Leet Code Medium"
     url: /algorithm/leet-code-medium/
     icon: "far fa-folder-open"
-use_math: true
 ---
 Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to `target`.  
 

@@ -15,7 +15,6 @@ depth:
   - title: "HackerRank Easy"
     url: /algorithm/hacker-rank-easy/
     icon: "far fa-folder-open"
-use_math: true
 ---
 Reduce a string of lowercase characters in range `ascii[‘a’..’z’]`by doing a series of operations. In each operation, select a pair of adjacent letters that match, and delete them.
 

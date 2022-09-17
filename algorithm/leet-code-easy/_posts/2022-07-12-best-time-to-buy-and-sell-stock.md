@@ -15,7 +15,6 @@ depth:
   - title: "Leet Code Easy"
     url: /algorithm/leet-code-easy/
     icon: "far fa-folder-open"
-use_math: true
 ---
 You are given an array `prices` where `prices[i]` is the price of a given stock on the <b>i$^{th}$</b> day.  
 

@@ -15,7 +15,6 @@ depth:
   - title: "HackerRank Medium"
     url: /algorithm/hacker-rank-medium/
     icon: "far fa-folder-open"
-use_math: true
 ---
 Palindromes are strings that read the same from the left or right, for example madam or 0110.
 

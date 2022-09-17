@@ -15,7 +15,6 @@ depth:
   - title: "Leet Code Easy"
     url: /algorithm/leet-code-easy/
     icon: "far fa-folder-open"
-use_math: true
 ---
 Implement [<i class="fas fa-link"></i> strStr](http://www.cplusplus.com/reference/cstring/strstr/){:target="_blank"}.  
 

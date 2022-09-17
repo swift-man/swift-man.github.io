@@ -15,7 +15,6 @@ depth:
   - title: "Leet Code Medium"
     url: /algorithm/leet-code-medium/
     icon: "far fa-folder-open"
-use_math: true
 ---
 Given an array of <u>intervals</u> where <u>intervals[i] = [start$_i$, end$_i$]</u>, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
