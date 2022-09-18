@@ -15,7 +15,6 @@ depth:
   - title: "보안"
     url: /cs/security/
     icon: "far fa-folder-open"
-use_math: true
 ---
 애플의 아이폰, 구글의 유튜브 등 많은 실리콘벨리 플랫폼 기업들은 이중 인증을 권고하고 있다.  
 플랫폼에서 지원한다면 필자도 이중 인증을 서서히 늘려가고 있다. 왜 이중 인증을 해야 할까?  
