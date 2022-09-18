@@ -230,6 +230,8 @@ sidebar-algorithm:
         url: /algorithm/leet-code-easy/Implement-strstr/
       - title: "121. Best Time to Buy and Sell Stock"
         url: /algorithm/leet-code-easy/best-time-to-buy-and-sell-stock/
+      - title: "125. Valid Palindrome"
+        url: /algorithm/leet-code-easy/valid-palindrome/
       - title: "268. Missing Number"
         url: /algorithm/leet-code-easy/missing-number/
   - title: "Leet Code - Medium"
