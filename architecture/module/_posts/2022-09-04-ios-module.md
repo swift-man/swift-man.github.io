@@ -63,7 +63,7 @@ Xcodes Targets and Dependencies
 
 Default 설정은 YES이다.  
 
-이 설정은 매우 유용하지만 Application Target에서 import를 누락하더라도 알아서 Link 하여 빌드해주지만, 이는 빌드 속도에 영향을 미친다. 오히려 모듈화를 통해 Framework를 생성한다면 더 엄격하게 import를 검사하기 때문에 더 빠르게 빌드되는 프로젝트를 구축을 할 수 있다.
+Application Target에서 import를 누락하더라도 알아서 Link 하여 빌드해주어 이 설정은 매우 유용하다. 다만 Auto Link는 빌드 속도에 영향을 미친다. 오히려 모듈화를 통해 Framework를 생성한다면 더 엄격하게 import를 검사하기 때문에 더 빠르게 빌드되는 프로젝트를 구축을 할 수 있다.
 
 ![Image](https://drive.google.com/uc?export=view&id=1unI26fBXgTaOkdMXWQabcbFDZBez0PAD)  
 자동으로 잘 되더라도 Link Frameworks Automatically에 의존하지 않고 수동으로 연결해주는 것이 가장 좋다.
