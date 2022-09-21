@@ -210,6 +210,8 @@ sidebar-algorithm:
         url: /algorithm/techniques/division-by-zero/
       - title: "[Swift] 순열"
         url: /algorithm/techniques/swift-permuation/
+      - title: "[Swift] 윤년 계산"
+        url: /algorithm/techniques/leapYear/
   - title: "Sort"
     url: /algorithm/sort/
     children:
