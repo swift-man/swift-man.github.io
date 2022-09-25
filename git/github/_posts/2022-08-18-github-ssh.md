@@ -119,3 +119,14 @@ ssh-add -K ~/.ssh/id_rsa
 그래도 해결이 안된다면 github docs [<i class="fas fa-link"></i> Error: Permission denied (publickey)](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey){:target="_blank"}를 참고하자.
 
 
+### Xcode SPM authentication failed because no credentials provided
+```
+git config --global --edit
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+```
+그래도 해결이 안된다면
+```
+git config --global --unset-all url.git@github.com:.insteadof
+```
