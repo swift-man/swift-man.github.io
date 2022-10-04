@@ -613,6 +613,8 @@ sidebar-ios:
         children:
         - title: "영상 크기 가져오기"
           url: /ios/avfoundation/avplayer/avplayer-frame/
+        - title: "영상 백그라운드에서 제어"
+          url: /ios/avfoundation/avplayer/avplayer-playing_audio_from_a_video_asset_in_the_background/
             
   - title: "UIResponder"
     url: /ios/uiresponder/
