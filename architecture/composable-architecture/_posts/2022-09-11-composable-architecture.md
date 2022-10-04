@@ -31,6 +31,8 @@ SwiftUI, UIKit, and more, and on any Apple platform (iOS, macOS, tvOS, and watch
 
 Composability는 구성요소의 상호 관계를 다루는 시스템 설계 원칙이다. 점점 커지는 시스템은 특정 사용자 요구사항을 만족하기 위해 다양한 조합을 할 수 있는 구성 요소를 제공한다. 작은 단위로 만든 각 제품은 평가하기 쉬워 타 시스템보다 더 신뢰할 수 있다. 또한 독립적으로 구성한 모듈만 독립적으로 배포할 수 있다. 다른 구성 요소와 협력할 수 있으며 구성요소의 종속성 또한 교체 가능하다. 각 모듈은 존재여부를 모를 수 있으나 Protocol로 조합할 수 있으며, request에 대해을 이전 request와 관련 없는 독립으로 처리하며, Managed state를 구성한다.
 
+> [<i class="fas fa-link"></i> Composable Architecture는 한국어 README 도 지원한다.](https://gist.github.com/pilgwon/ea05e2207ab68bdd1f49dff97b293b17){:target="_blank"}
+
 ## Managed state
 Redux의 state 관리와 동일하게 상태를 읽을 수 있으나 직접 수정 할 수 없다. 극단적인 방법인데, action을 사용해서만 state 를 변경한다.
 
