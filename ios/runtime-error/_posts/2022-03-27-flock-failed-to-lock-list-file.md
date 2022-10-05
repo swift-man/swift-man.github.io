@@ -12,7 +12,7 @@ depth:
   - title: "iOS"
     url: /ios/
     icon: "fab fa-app-store-ios"
-  - title: "Build Error"
+  - title: "Xcode Runtime"
     url: /ios/runtime-error/
     icon: "far fa-folder-open"
 ---
