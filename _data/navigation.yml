@@ -711,6 +711,8 @@ sidebar-ios:
         url: /ios/xcode/xcode-13_column-breakpoints/
       - title: "[xcrun] simulrator open url"
         url: /ios/xcode/xcrun-simctl-open-url-booted/
+      - title: "UIKit 기반 코드 베이스 프로젝트 세팅 하기"
+        url: /ios/xcode/uikit-code-based-project/
   - title: "Xcode Build Error"
     url: /ios/build-error/
     children:
