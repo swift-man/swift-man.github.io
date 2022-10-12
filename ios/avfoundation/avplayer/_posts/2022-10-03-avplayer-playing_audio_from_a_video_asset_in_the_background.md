@@ -24,6 +24,7 @@ depth:
 > 영상은 UI영역에 해당함으로 Background에 진입하면 자동으로 멈추게 된다.<br/>아쉽게도 자동으로 멈춘 영상은 다시 Foreground 상태가 되더라도 자동 재생되지 않는다. 따라 개발자가 다시 재생해주거나 player layer를 다시 세팅해줄 필요가 있다.
 
 ![Image](https://drive.google.com/uc?export=view&id=12zQCboBmaZY8M-lO6Cqag4-Si8fCcS0g)  
+> 애플.. 그냥 알아서 해주면 안 되는거야?
 
 Player를 가진 Controller는 Application의 Life Cycle 과 영상 종료시점을 Notification을 통해 이벤트를 전달 받도록 하였다.
 ```swift
