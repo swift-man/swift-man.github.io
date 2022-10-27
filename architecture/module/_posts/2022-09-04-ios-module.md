@@ -100,3 +100,4 @@ fileprivate
 ![Image](https://drive.google.com/uc?export=view&id=1xDRFh6L0xLnJMODMAHK9FMSiO70hRSSt)  
 
 ## 모듈 별 테스트
+`unit test`는 다른 모듈로 부터 독립적으로 테스트를 요구한다. 테스트 가능한 모듈을 만들 때 의존성이 있으면 `unit test` 작성이 어려워 진다는 점도 있다. 그래서 의존성 주입이 필요하다.
