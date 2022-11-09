@@ -4,11 +4,12 @@ sidebar:
   nav: sidebar-it
   icon: "fas fa-mobile-alt"
 title: "[Asus 라우터] Bose SoundBar 맞춤 설정"
-toc: false
+toc: true
 toc_sticky: true
 toc_label: 목차
 classes: wide
 tag: "Bose"
+published : false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
