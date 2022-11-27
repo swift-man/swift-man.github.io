@@ -59,7 +59,7 @@ sidebar-cs:
         url: /cs/memory/memory-address
       - title: "Endianness Or Byte order"
         url: /cs/memory/endianness-byteorder/
-      - title: "메모리 공간의 분류"
+      - title: "메모리 공간의 분류와 크기 결정 Time"
         url: /cs/memory/memory-space/
       - title: "Mutability"
         url: /cs/memory/mutability/

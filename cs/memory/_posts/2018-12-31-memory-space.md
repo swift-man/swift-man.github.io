@@ -3,7 +3,7 @@ sidebar:
   title: "CS"
   nav: sidebar-cs
   icon: "fas fa-microchip"
-title: 메모리 공간 분류
+title: 메모리 공간 분류와 크기 결정 Time
 toc: true
 toc_sticky: true
 toc_label: 목차
