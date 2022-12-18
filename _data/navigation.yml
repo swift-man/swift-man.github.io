@@ -315,6 +315,14 @@ sidebar-clean:
         url: /clean/health/cigarette/
       - title: "금연과 개발자"
         url: /clean/health/no-smoke/
+  - title: "기업 문화"
+    children:
+      - title: "넷플릭스의 문화 — 탁월함을 추구하다"
+        icon: "fas fa-link"
+        url: https://jobs.netflix.com/culture?lang=%ED%95%9C%EA%B5%AD%EC%96%B4
+      - title: "토스 기업 문화 – 토스 팀의 핵심 가치"
+        icon: "fas fa-link"
+        url: https://blog.toss.im/article/toss-core-values
   - title: "Code"
     url: /clean/code/
     children:
