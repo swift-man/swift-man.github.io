@@ -50,3 +50,10 @@ final class CustomTabBarController: UITabBarController {
   }
 }
 ```
+
+## object_setClass
+
+```swift
+// Objective-C 에서 사용 시
+objc_setClass(self.tabBar, CustomHeightTabBar.class);
+```
