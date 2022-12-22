@@ -227,6 +227,8 @@ sidebar-algorithm:
         url: /algorithm/sort/bubble-sort/
       - title: "선택 정렬"
         url: /algorithm/sort/selection-sort/
+      - title: "Quick 정렬"
+        url: /algorithm/sort/quick-sort/
   - title: "Leet Code - Easy"
     url: /algorithm/leet-code-easy/
     children:
