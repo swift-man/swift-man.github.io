@@ -234,6 +234,8 @@ sidebar-algorithm:
         url: /algorithm/leet-code-easy/valid-parentheses/
       - title: "28. Implement strStr()"
         url: /algorithm/leet-code-easy/Implement-strstr/
+      - title: "144. Binary Tree Preorder Traversal"
+        url: /algorithm/leet-code-easy/binary-tree-preorder-traversal/
       - title: "121. Best Time to Buy and Sell Stock"
         url: /algorithm/leet-code-easy/best-time-to-buy-and-sell-stock/
       - title: "125. Valid Palindrome"
