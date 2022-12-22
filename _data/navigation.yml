@@ -694,6 +694,12 @@ sidebar-ios:
             children:
             - title: "Alert Crash"
               url: /ios/uiresponder/uiview/wkwebview/fix-alert-crash/
+      - title: "UITabBarController"
+        icon: "far fa-folder-open"
+        url: /ios/uiresponder/uitabbarcontroller/
+        children:
+        - title: "Height 변경"
+          url: /ios/uiresponder/uitabbarcontroller/configure-tabbar-height/
   - title: "App Thinning"
     icon: "far fa-file-alt"
     url: /ios/app-thinning/
