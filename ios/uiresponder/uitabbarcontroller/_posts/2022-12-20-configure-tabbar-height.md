@@ -3,7 +3,7 @@ sidebar:
   title: "iOS"
   nav: sidebar-ios
   icon: "fab fa-app-store-ios"
-title: "UITabBarController Height 사이즈 조절"
+title: "UITabBarController Height 변경하기"
 toc: true
 toc_sticky: true
 toc_label: 목차
