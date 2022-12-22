@@ -259,6 +259,8 @@ sidebar-algorithm:
         url: /algorithm/leet-code-medium/3sum-closest/
       - title: "18. 4Sum"
         url: /algorithm/leet-code-medium/4sum/
+      - title: "19. Remove Nth Node From End of List"
+        url: /algorithm/leet-code-medium/remove-nth-node-from-end-of-list/
       - title: "31. Next Permutation"
         url: /algorithm/leet-code-medium/next-permutation/
       - title: "56. Merge Intervals"
