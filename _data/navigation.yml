@@ -156,6 +156,8 @@ sidebar-architecture:
         url: /architecture/module/ios-module/
       - title: "[Tuist] 명령어 모음"
         url: /architecture/module/tuist-commend/
+      - title: "[iOS] ModuleMap"
+        url: /architecture/module/ios-modulemap/
   - title: "EDD"
     url: /architecture/edd/
     children:
