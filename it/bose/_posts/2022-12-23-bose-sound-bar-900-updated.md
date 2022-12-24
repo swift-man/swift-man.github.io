@@ -4,10 +4,9 @@ sidebar:
   nav: sidebar-it
   icon: "fas fa-mobile-alt"
 title: "[Bose] Sound Bar 900 업데이트 오류 해결(feat. Asus라우터)"
-toc: false
+toc: true
 toc_sticky: true
 toc_label: 목차
-classes: wide
 tag: "Bose"
 header:
   overlay_color: "#000"
@@ -19,12 +18,14 @@ excerpt: "보스 사운드바 900 무한 update error"
 이 글은 Bose Sound Bar 900의 스피커 성능을 다루지 않습니다.  
 Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년 초부터 2022년 하반기까지의 업데이트 오류로 인한 해결 삽질기를 다룹니다.  
 
+{% include ga-display-horizontal.js %}
+
 ## 결론
-* 인터넷 라우터 설정을 변경해 업데이트를 해결해 보자.
-  * 방화벽 OFF
-  * Bose에서 권고하는 라우터 설정을 해보자.
+* 인터넷 라우터 설정을 변경해 업데이트를 해결
+  * 방화벽 설정에서 OFF 하고 업데이트를 재시도
+  * Bose에서 권고하는 라우터 설정
     * [<i class="fas fa-link"></i> Recommended router settings for use with Bose Wi-Fi products](https://www.bose.com/en_us/support/articles/HC1380/productCodes/soundtouch_120/article.html){:target="_blank"}
-  * Asus Router를 사용한다면 멀린펌보단 순정펌을 사용 해 보자.
+  * Asus Router를 사용한다면 멀린펌보단 순정펌을 사용
     * 멀린펌에서 업데이트 완료된 적이 있으나 다시 오류가 발생했고 현재 순정펌으로 변경해 이를 해결한 적이 있으며 현재 순정펌을 사용 중이다.
 
 ## Bose Sound Software 좋은 점
@@ -40,6 +41,7 @@ Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년
 * 자동 업데이트 기반이며, 유저가 업데이트를 선택할 수 없다. 즉 강제 업데이트다.
 * 현재 업데이트 진행 상태에 대해 하드웨어든 소프트웨어든 표시해 주지 않는다.
   * 최소한의 프로그래스바만 있어도 좋으련만..
+* 업데이트가 완료가 되지 않는 벽돌현상이 해결할 때까지 발생하면 사운드바를 사용할 수 없다.
   
 ## 보스의 업데이트 오류는 많은 사람들이 겪고 있는 문제이다.
 * [<i class="fas fa-link"></i> 보스 900 펌웨어 업데이트 단념 합니다](https://dprime.kr/g2/bbs/board.php?bo_table=soundbar&wr_id=41238){:target="_blank"}
@@ -78,7 +80,7 @@ https://worldwide.bose.com/support/SB900FW
 > 위의 Updating system 상태라면 서비스모드로 진입하지 못하기 때문에 수동 업데이트는 작동하지 않는다.
 
 ### 입고
-업데이트 오류로 사운드바가 작동하지 않아 보스 공식 AS센터에 2번 사운드바를 보냈다.
+보스 공식 AS센터에 2번 사운드바를 보냈다.
 황당하게도 AS센터에 도착해서 전원을 켜니 5분~20분 후 정상 작동되었다. AS엔지니어분과 자세히 통화했고 AS센터의 Wifi망, 사운드바 제어 여부를 자세히 문의했으나, 별 다른 점은 없었다.  
 
 > 웬만하면 입고를 추천하지 않으며 필자와 비슷한 상태라면 인터넷 Router의 설정을 변경해서 문제를 해결하길 바란다.<br/>1회는 처리가 될지 몰라도 Bose는 1~2달 간격으로 업데이트를 하기 때문에 다시 업데이트가 안될 수 있다.<br/>하드웨어는 택배 처리 과정에서의 충격이 있을 수 있으며, 센터에서도 자동업데이트가 안되면 메인보드를 뜯어야 하는데 AS엔지니어분은 메인보드 뜯는 것 자체가 제품이 좋지 않다고 말해주었다.
