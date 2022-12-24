@@ -41,7 +41,7 @@ Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년
 * 자동 업데이트 기반이며, 유저가 업데이트를 선택할 수 없다. 즉 강제 업데이트다.
 * 현재 업데이트 진행 상태에 대해 하드웨어든 소프트웨어든 표시해 주지 않는다.
   * 최소한의 프로그래스바만 있어도 좋으련만..
-* 업데이트가 완료가 되지 않는 벽돌현상이 해결할 때까지 발생하면 사운드바를 사용할 수 없다.
+* 업데이트가 완료가 되지 않는 벽돌현상을 해결할 때까지 사운드바를 사용할 수 없다.
   
 ## 보스의 업데이트 오류는 많은 사람들이 겪고 있는 문제이다.
 * [<i class="fas fa-link"></i> 보스 900 펌웨어 업데이트 단념 합니다](https://dprime.kr/g2/bbs/board.php?bo_table=soundbar&wr_id=41238){:target="_blank"}
@@ -85,6 +85,8 @@ https://worldwide.bose.com/support/SB900FW
 
 > 웬만하면 입고를 추천하지 않으며 필자와 비슷한 상태라면 인터넷 Router의 설정을 변경해서 문제를 해결하길 바란다.<br/>1회는 처리가 될지 몰라도 Bose는 1~2달 간격으로 업데이트를 하기 때문에 다시 업데이트가 안될 수 있다.<br/>하드웨어는 택배 처리 과정에서의 충격이 있을 수 있으며, 센터에서도 자동업데이트가 안되면 메인보드를 뜯어야 하는데 AS엔지니어분은 메인보드 뜯는 것 자체가 제품이 좋지 않다고 말해주었다.
 
+{% include ga-display-quadrangle.js %}
+
 ## 필자의 경우 ASUS RT-AC68U Router를 사용하고 있다.
 Bose 사운드바를 사용하는데 인터넷 라우터 장비를 언급하는 이유는 왜 AS센터에는 바로 업데이트가 되었고, 집에서는 안될까 고민하다 Wifi Router 설정이 다른 점을 추측하고 Router 설정을 변경해 보기로 했다.
 
@@ -94,6 +96,14 @@ Bose 사운드바를 사용하는데 인터넷 라우터 장비를 언급하는 
 
 [<i class="fas fa-link"></i> Using Recovery mode](https://www.bose.com/en_us/support/articles/HC2620/productCodes/bose_home_speaker_500/article.html){:target="_blank"}
 
+## Wifi Update
+http://192.168.1.53:17008/update.html
 
 
+[<i class="fas fa-link"></i> Product stopped working after updating it](https://www.boselatam.com/en_ar/support/articles/HC1075/productCodes/bose_smart_soundbar_900/article.html){:target="_blank"}
 
+[<i class="fas fa-link"></i> Resetting your product](https://www.bose.com/en_us/support/articles/HC2563/productCodes/bose_smart_soundbar_900/article.html){:target="_blank"}
+
+[<i class="fas fa-link"></i> Software or firmware update will not install](https://www.bose.com/en_us/support/articles/HC2555/productCodes/bose_smart_soundbar_900/article.html){:target="_blank"}
+
+[<i class="fas fa-link"></i> Updating the software or firmware of your product](https://www.bose.com/en_us/support/articles/HC2474/productCodes/bose_smart_soundbar_900/article.html){:target="_blank"}
