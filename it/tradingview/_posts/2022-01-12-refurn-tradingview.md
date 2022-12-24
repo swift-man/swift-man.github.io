@@ -29,6 +29,8 @@ TradingView 에서 차트를 보고, 공유하고, 커뮤니티를 제공하는 
 환불에 대한 내용을 검색결과는 대부분 환불받기 어렵고, TradingView 에서도 환불해주지 않으려고 한다는 글이 많았다.  
 그래서 직접 사이트를 조사해 환불조치 받았고, 그 과정을 적었다.
 
+{% include ga-display-quadrangle.js %}
+
 ## 자동결제 사전에 방지하기
 환불까지 가지 않고 사전에 자동결제를 취소하는 방법이 가장 좋다.  
 왜냐하면, 블랙프라이데이에 할인받은 가격으로 구매했더라도, 자동 결제는 그런 거 없다.  
@@ -65,6 +67,8 @@ TradingView 에서 차트를 보고, 공유하고, 커뮤니티를 제공하는 
 
 정책은 변경될 수 있으니 [<i class="fas fa-link"></i> 공식 홈페이지 "자동으로 1해 / 2해 비용이 청구되었습니다. 리펀드 받고 싶습니다"](https://kr.tradingview.com/support/solutions/43000471716/){:target="_blank"}의 내용을 확인하자. 
 환불을 원한다면 결제일로부터 14일 이내에 환불 신청을 해야한다.  
+
+{% include ga-display-horizontal.js %}
 
 ### 환불 신청하기
 ![Image](https://drive.google.com/uc?export=view&id=1s_Evcs7MDHBEu-9ghoNJPmtjGuzDuyjq)  
