@@ -972,6 +972,11 @@ sidebar-it:
         url: /it/youtube/3-month/
       - title: "[YouTube] 채널 4달 운영 회고"
         url: /it/youtube/4-month/
+  - title: "Bose"
+    url: /it/bose/
+    children:
+      - title: "Sound Bar 900 업데이트 오류 해결"
+        url: /it/bose/bose-sound-bar-900-updated/
   - title: "Playstation 5"
     url: /it/ps5/
     children:
