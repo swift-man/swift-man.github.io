@@ -25,7 +25,7 @@ Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년
   * 방화벽 설정에서 OFF 하고 업데이트를 재시도
   * Bose에서 권고하는 라우터 설정
     * [<i class="fas fa-link"></i> Recommended router settings for use with Bose Wi-Fi products](https://www.bose.com/en_us/support/articles/HC1380/productCodes/soundtouch_120/article.html){:target="_blank"}
-  * Asus Router를 사용한다면 멀린펌보단 순정펌을 사용
+  * Asus Router를 사용한다면 멀린펌보단 [<i class="fas fa-link"></i> 순정 FIRMWARE](https://www.asus.com/supportonly/rt-ac68u/helpdesk_bios/){:target="_blank"}를 사용
     * 멀린펌에서 업데이트 완료된 적이 있으나 다시 오류가 발생했고 현재 순정펌으로 변경해 이를 해결한 적이 있으며 현재 순정펌을 사용 중이다.
 
 ## Bose Sound Software 좋은 점
@@ -39,9 +39,11 @@ Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년
 
 ## Bose Sound Software 아쉬운 점
 * 자동 업데이트 기반이며, 유저가 업데이트를 선택할 수 없다. 즉 강제 업데이트다.
-* 현재 업데이트 진행 상태에 대해 하드웨어든 소프트웨어든 표시해 주지 않는다.
+* 현재 업데이트 중인지는 표시해주지만, 진행 상태에 대해 하드웨어든 소프트웨어든 표시해 주지 않는다.
   * 최소한의 프로그래스바만 있어도 좋으련만..
 * 업데이트가 완료가 되지 않는 벽돌현상을 해결할 때까지 사운드바를 사용할 수 없다.
+
+![GIF](https://drive.google.com/uc?export=view&id=1gYZo2WfamjWpI_bpZQ20d48X6ofh-0Zh)  
   
 ## 보스의 업데이트 오류는 많은 사람들이 겪고 있는 문제이다.
 * [<i class="fas fa-link"></i> 보스 900 펌웨어 업데이트 단념 합니다](https://dprime.kr/g2/bbs/board.php?bo_table=soundbar&wr_id=41238){:target="_blank"}
@@ -55,12 +57,26 @@ Bose 소프트웨어의 좋은 점과 아쉬운 점을 다루어 보고, 2022년
 * 이 상태는 필자의 경험으론 15분~20분 정도 걸린다. 
   * 공식 AS센터에서는 이 상태에서 절대 사운드바를 종료해서는 안된다고 한다.
     * 만약 1시간 이상 이 상태가 유지된다면, 업데이트가 안되고 있는 것이다.
-    * 지속적으로 이 상태라면 재부팅해보는 것을 권장한다. 
+    * 지속적으로 이 상태라면 위험하더라도 재부팅해할 수밖에 없다. 
       * 일주일을 기다려도 이 상태라서 어쩔 수 없다.
   
 * 업데이트가 잘 되면 슬라이드 LED는 꺼지고 정상 업데이트 완료 된 것이다. 
 
+## 무한 Update 시 상태 확인
 
+Bose 공식에서는 [<i class="fas fa-link"></i> Cannot connect to Wi-Fi network](https://www.bose.com/en_us/support/articles/HC947/productCodes/soundlink_air/article.html){:target="_blank"}로 Wifi Connecting 상태를 안내해주고 있다.
+* 필자의 경우 인터넷 Router 관리자 페이지를 통해, 현재 Wifi로 잡혀 있고 할당 된 내부 IP인지 아닌지 확인한다.
+
+![Image](https://drive.google.com/uc?export=view&id=1xVo0pHtdNNFc-XZTmBBmKx-wFm53qups)  
+
+* 만약 Wifi 연결이 불가능 하다면?
+  * 두가지 옵션으로 해결 할 수 있다.
+    * USB와 컴퓨터를 연결해 펌웨어 수동 Update
+    * 인터넷 유선 연결
+      * [<i class="fas fa-link"></i> Wifi Update](#wifi-update)
+      * 복구 모드 진입 - [<i class="fas fa-link"></i> Using Recovery mode](https://www.bose.com/en_us/support/articles/HC2620/productCodes/bose_home_speaker_500/article.html){:target="_blank"}
+  * [<i class="fas fa-link"></i> Connecting to a Wi-Fi network](https://www.bose.com/en_us/support/articles/HC2569/productCodes/bose_home_speaker_500/article.html){:target="_blank"}를 통해 Wifi 연결을 시도하자.
+  
 
 ## 공식 AS센터 입고 후기
 ### 공식 AS센터에서는 수동 USB업데이트를 안내해주고, 이게 안되면 입고를 안내해준다.
@@ -83,22 +99,19 @@ https://worldwide.bose.com/support/SB900FW
 보스 공식 AS센터에 2번 사운드바를 보냈다.
 황당하게도 AS센터에 도착해서 전원을 켜니 5분~20분 후 정상 작동되었다. AS엔지니어분과 자세히 통화했고 AS센터의 Wifi망, 사운드바 제어 여부를 자세히 문의했으나, 별 다른 점은 없었다.  
 
-> 웬만하면 입고를 추천하지 않으며 필자와 비슷한 상태라면 인터넷 Router의 설정을 변경해서 문제를 해결하길 바란다.<br/>1회는 처리가 될지 몰라도 Bose는 1~2달 간격으로 업데이트를 하기 때문에 다시 업데이트가 안될 수 있다.<br/>하드웨어는 택배 처리 과정에서의 충격이 있을 수 있으며, 센터에서도 자동업데이트가 안되면 메인보드를 뜯어야 하는데 AS엔지니어분은 메인보드 뜯는 것 자체가 제품이 좋지 않다고 말해주었다.
+> 입고 후 완만한 자동업데이트로 처리되어 집으로 오는 경우 1회는 처리되어도, Bose는 1~2달 간격으로 업데이트를 하기 때문에 다시 업데이트가 안될 수 있다.<br/>하드웨어는 택배 처리 과정에서의 충격이 있을 수 있으며, 센터에서도 자동업데이트가 안되면 메인보드를 뜯어야 하는데 AS엔지니어분은 메인보드 뜯는 것 자체가 제품이 좋지 않다고 한다.
 
 {% include ga-display-quadrangle.js %}
 
 ## 필자의 경우 ASUS RT-AC68U Router를 사용하고 있다.
 Bose 사운드바를 사용하는데 인터넷 라우터 장비를 언급하는 이유는 왜 AS센터에는 바로 업데이트가 되었고, 집에서는 안될까 고민하다 Wifi Router 설정이 다른 점을 추측하고 Router 설정을 변경해 보기로 했다.
 
-[<i class="fas fa-link"></i> Cannot connect to Wi-Fi network](https://www.bose.com/en_us/support/articles/HC947/productCodes/soundlink_air/article.html){:target="_blank"}
-
-[<i class="fas fa-link"></i> Connecting to a Wi-Fi network](https://www.bose.com/en_us/support/articles/HC2569/productCodes/bose_home_speaker_500/article.html){:target="_blank"}
-
-[<i class="fas fa-link"></i> Using Recovery mode](https://www.bose.com/en_us/support/articles/HC2620/productCodes/bose_home_speaker_500/article.html){:target="_blank"}
 
 ## Wifi Update
-http://192.168.1.53:17008/update.html
-
+```
+http://내부 IP 주소:17008/update.html
+ex) http://192.168.1.78:17008/update.html
+```
 
 [<i class="fas fa-link"></i> Product stopped working after updating it](https://www.boselatam.com/en_ar/support/articles/HC1075/productCodes/bose_smart_soundbar_900/article.html){:target="_blank"}
 
