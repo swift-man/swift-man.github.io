@@ -123,7 +123,7 @@ NHN Edu 여성 건강 애플리케이션
 * 주요 Objective C코드 Swift전환
 * SnapKit, Source Base를 사용한 Morden UI 개발
 * 캘린더, 설정, Utils 등 주요 기능 Swift전환
-* 캘린더, 설정 등 아키텍처 Layer, Feature 모듈화 제작  
+* 캘린더, 설정, 알림 등 아키텍처 Layer, Feature 모듈화 제작  
 * AI 임신 테스트 기능, 커플커텍트 개발
   * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상  
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
@@ -136,6 +136,7 @@ NHN Edu 여성 건강 애플리케이션
 ![Image](/assets/gif/pink-video002.gif)
 ![Image](/assets/gif/pink-video001.gif)
 
+* 약 복용, 각종 알림 기능 개발
 * 결과 / 성과:
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"}
   * MAU 약 130만 명
@@ -144,6 +145,8 @@ NHN Edu 여성 건강 애플리케이션
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
 * Clean Architecture, MVVM, ReactorKit
+* SearchKit, AlertKit 등 공용 UI Component를 디자이너와 협업하여 모듈화
+* Color를 디자이너와 협업하여 ColorSet을 정의하고 협업
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
 ![Image](/assets/gif/school-child-insert.gif)
 ![Image](/assets/gif/school-child-remove.gif)
