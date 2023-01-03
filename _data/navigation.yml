@@ -519,6 +519,8 @@ sidebar-git:
         url: /git/blog/imageUpload/
       - title: "블로그에 광고 달기"
         url: /git/blog/google-adsense/
+      - title: "블로그에 커스텀 URL설정"
+        url: /git/blog/github-pages-custom-domain/
       - title: "Favourite Link"
         url: /git/blog/
         children:
