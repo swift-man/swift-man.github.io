@@ -194,21 +194,21 @@ func createSection(at sectionIndex: Int,
 ![Image](https://drive.google.com/uc?export=view&id=1NaeRf4sFMvJU1VWV06X-4ahq9Ss9jst6)  
 ```swift
 func createGroup(at sectionIndex: Int,
-                     with item: NSCollectionLayoutItem,
-                     snapshot: Snapshot) -> NSCollectionLayoutGroup {
-    let groupSize: NSCollectionLayoutSize
-    if let sectionReactor = snapshot.sectionIdentifiers[safe: sectionIndex],
-        sectionReactor.currentState.cellReactors.isEmpty {
-        groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
+                 with item: NSCollectionLayoutItem,
+                 snapshot: Snapshot) -> NSCollectionLayoutGroup {
+  let groupSize: NSCollectionLayoutSize
+  if let sectionReactor = snapshot.sectionIdentifiers[safe: sectionIndex],
+    sectionReactor.currentState.cellReactors.isEmpty {
+    groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
                                          heightDimension: .absolute(0))
-    } else {
-        groupSize = NSCollectionLayout  Size(widthDimension: .estimated(1200),
-                                       heightDimension: .absolute(72))
-    }
-
-    let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
-    return group
+  } else {
+    groupSize = NSCollectionLayoutSize(widthDimension: .estimated(1200),
+                                         heightDimension: .absolute(72))
   }
+
+  let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+  return group
+}
 ```
 ![Image](https://drive.google.com/uc?export=view&id=188-aYz5ZXyPCUmfiuFqNJbp6HqBILcrk)  
 
