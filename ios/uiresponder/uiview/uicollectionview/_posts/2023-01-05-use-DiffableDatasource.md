@@ -251,10 +251,10 @@ func createSectionHeader() -> NSCollectionLayoutBoundarySupplementaryItem {
     * `section.contentInsets` 상대로 사이즈가 잡혀서 원하는 `full size`가 잡히지 않음
 
 ## pinToVisibleBounds
-![Image](https://drive.google.com/uc?export=view&id=1TON4UKC6VRflIS4ojhGxLAiw-h2R1bEr)  
+![Image](https://drive.google.com/uc?export=view&id=1fpKZFvvzjdflC6QVCI7WKT9qUWtkNf4O)  
 
 * iOS 14 이하에서 화면이 깨지는 버그가 있음
-![약복용.PNG](/files/3444517650285627643)
+![Image](https://drive.google.com/uc?export=view&id=1TON4UKC6VRflIS4ojhGxLAiw-h2R1bEr)  
 
 ```swift
 @available(iOS 13.0, *)
