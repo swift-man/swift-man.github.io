@@ -155,8 +155,8 @@ func configureSections() {
 
 ## UICollectionViewLayout 생성
 ![Image](https://drive.google.com/uc?export=view&id=1UF4cRSjFLTKjGd1L103xDX9v9sekDMXg)  
-![Image](https://drive.google.com/uc?export=view&id=1X6S81n01zg24IE_df_Tp8BGLU40oGR3f)  
-![Image](https://drive.google.com/uc?export=view&id=1jJhmNhUCzmwDXurjo1r9-Wpno-1vIT8N)  
+
+
 ```swift
 func createLayout() -> UICollectionViewLayout {
     let config = UICollectionViewCompositionalLayoutConfiguration()
@@ -189,6 +189,7 @@ func createSection(at sectionIndex: Int,
 ![Image](https://drive.google.com/uc?export=view&id=1Nwj2LcFLIX9YShEpAkO0UZa9P7UZQTCC)  
 
 ### createGroup
+![Image](https://drive.google.com/uc?export=view&id=1X6S81n01zg24IE_df_Tp8BGLU40oGR3f)  
 
 ![Image](https://drive.google.com/uc?export=view&id=1NaeRf4sFMvJU1VWV06X-4ahq9Ss9jst6)  
 ```swift
@@ -212,7 +213,7 @@ func createGroup(at sectionIndex: Int,
 ![Image](https://drive.google.com/uc?export=view&id=188-aYz5ZXyPCUmfiuFqNJbp6HqBILcrk)  
 
 ### createItem
-
+![Image](https://drive.google.com/uc?export=view&id=1jJhmNhUCzmwDXurjo1r9-Wpno-1vIT8N)  
 
 ```swift
 func createItem() -> NSCollectionLayoutItem {
