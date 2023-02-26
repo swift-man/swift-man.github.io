@@ -8,7 +8,6 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 tag: "SwiftUI"
-icon: "fab fa-youtube"
 depth:
   - title: "iOS"
     url: /ios/
