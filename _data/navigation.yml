@@ -584,6 +584,10 @@ sidebar-ios:
       - title: "App Store 심사 지침"
         icon: "fas fa-link"
         url: https://developer.apple.com/kr/app-store/review/guidelines/
+      - title: "App preview specifications"
+        icon: "fas fa-link"
+        url: https://developer.apple.com/help/app-store-connect/reference/app-preview-specifications
+        
   - title: "SwiftUI"
     url: /swift/swiftui/
     children:
@@ -637,6 +641,8 @@ sidebar-ios:
           url: /ios/avfoundation/avplayer/avplayer-frame/
         - title: "영상 백그라운드에서 제어"
           url: /ios/avfoundation/avplayer/avplayer-playing_audio_from_a_video_asset_in_the_background/
+        - title: "[SwiftUI] auto play AVPlayer"
+          url: /ios/swiftui/swiftui-video-auto-player/
             
   - title: "UIResponder"
     url: /ios/uiresponder/
