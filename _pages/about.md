@@ -26,14 +26,14 @@ toc_label: 목차
 
 | Xcode | Swift, Objective C |
 | EDD | RxSwift, Combine |
-| TDD | XCTest, Nimble, QuickSpec |
+| TDD | XCTest, Nimble, QuickSpec, UITesting, UnitTesting |
 | Architecture | Clean Architecture, MVVM, MVI, ReactorKit |
-| UI | SwiftUI, UIKit |
-| Dependency | CocoaPods, Carthage, SPM |
+| UI | SwiftUI, UIKit, AutoLayout |
+| Dependency | SPM, CocoaPods, Carthage |
 | Database | SQLite, CoreData |
 | Module tool | Tuist |
-| GitFlow |
-| CI | Xcode Server, GithubAction |
+| GitFlow | GitHub, GitHub Enterpise Bitbucket |
+| CI | Xcode Server, GitHubAction, Jenkins |
 
 ### Backend
 
@@ -49,25 +49,25 @@ toc_label: 목차
 | etc | Microsoft Outlook, Jira & Wiki Confluence, NHN Dooray, Redmine, Slack |
 
 ## 저는
-* '어떤 것'을 만드는 것을 좋아합니다.
-* '불편한 것'을 편하게 할 수 있도록 개선하는 것을 좋아합니다.
-* '좋아하는 것'을 꾸준히 하는 성향입니다.
-* '제가 만든 것'에 자부심을 갖습니다.
-* '성장하는 것'에 의지가 있습니다.
-* '문제를 해결하는 것'을 지속합니다.
-* '공부한 내용을 공유하는 것'을 생활화 합니다.
-* '고객이 좋아하는 것'에 끊임없이 고민합니다.
-* '사용자가 터치 한번을 줄일 수 있는 것'을 연구합니다.
-* 'Scrollable한 Animation'을 멋쩍어 합니다.
-* '유저 반응과 어려워 하는 것'을 모니터링하려고 노력합니다.
-* '가족과 함께 하는 모든 것'을 사랑합니다.
-* '커피를 마시는 것'은 일상입니다.
+* 「어떤 것」을 만드는 것을 좋아합니다.
+* 「불편한 것」을 편하게 할 수 있도록 개선하는 것을 좋아합니다.
+* 「좋아하는 것」을 꾸준히 하는 성향입니다.
+* 「제가 만든 것」에 자부심을 갖습니다.
+* 「성장하는 것」에 의지가 있습니다.
+* 「문제를 해결하는 것」을 지속합니다.
+* 「공부한 내용을 공유하는 것」을 생활화 합니다.
+* 「고객이 좋아하는 것」에 끊임없이 고민합니다.
+* 「사용자가 터치 한번을 줄일 수 있는 것」을 연구합니다.
+* 「Scrollable한 Animation」을 멋쩍어 합니다.
+* 「유저 반응과 어려워 하는 것」을 모니터링하려고 노력합니다.
+* 「가족과 함께 하는 모든 것」을 사랑합니다.
+* 「커피를 마시는 것」은 일상입니다.
 
 ## Work Experience & Projects
 
 | Organization | Info | Description | 성과 |
 | --- | --- | --- | --- |
-| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 130만 |
+| [<i class="fas fa-link"></i> NHN Edu](https://www.nhnedu.com){:target="_blank"}<br/>2021.06 ~ 현재(재직 중) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발 | MAU 약 130만<br/>iOS 사용자 기준 월 75만<br/>iOS Session 기준 월 450만 |
 | [<i class="fas fa-link"></i> NHN](https://www.nhn.com){:target="_blank"}<br/>2018.08 ~ 2021.05(2년 9개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 핑크다이어리](https://apps.apple.com/kr/app/%ED%95%91%EC%A5%AC-10%EB%8C%80-%EC%86%8C%EB%85%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%9D%EB%A6%AC%EB%8B%AC%EB%A0%A5%EA%B3%BC-%EA%B6%81%EA%B8%88%ED%95%9C-%EC%84%B1/id1290096375){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠스쿨](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 아이엠티처](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%ED%8B%B0%EC%B2%98-%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EA%B5%90%EC%82%AC%EC%9A%A9-%EC%84%9C%EB%B9%84%EC%8A%A4/id1213705741){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 클래스123](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"} iOS 앱 개발 | MAU 약 30만 |
 | [<i class="fas fa-link"></i> SK m&service](https://www.skmnservice.com){:target="_blank"}<br/>2014.03 ~ 2018.06(4년 4개월) | iOS<br/>Developer | [<i class="fas fa-link"></i> 기프티콘](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} iOS 앱 개발<br/>[<i class="fas fa-link"></i> 틸리언](https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%ED%8F%B4-%EA%B6%81%EA%B8%88%ED%95%B4%EA%B2%B0-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%95%B1/id884482891){:target="_blank"} iOS 앱 개발, 지원 중단(리뉴얼) | 설문, 통계 개발 경험<br/>카드 결제 연동<br/>계좌 이체 결제 연동<br/>WebView 연동 경험 |
 | Sstrade<br/>2013.01 ~ 2014.03(1년 3개월) | iOS<br/>Developer | 여보세요? 무료국제전화 iOS 앱 개발, 지원 중단 | 주소록 연동 경험<br/>한글 초성화 및 SQLite 경험<br/>애니메이션 그래프 제작 |
@@ -76,6 +76,7 @@ toc_label: 목차
 
 | Organization | Info | Description | 성과 |
 | --- | --- | --- | --- |
+| 반응속도 테스트<br/>2023.03 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> AppStore ](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027){:target="_blank"} | SwiftUI<br/>[<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"} |
 | GoogleDriveOriginalURL<br/>2021.08 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> GoogleDriveOriginalURL Repo](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"} | SwiftUI, Combine 경험 |
 | SwiftMan 블로그 리뉴얼<br/>2021.08 ~ 현재<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> blog.slarea.com](https://blog.slarea.com){:target="_blank"} | MAU 약 1400<br/>GitPages 경험 |
 | [<i class="fas fa-link"></i> flace](https://www.theflace.com/){:target="_blank"}<br/>2020.06 ~ 2021.12<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> Flace](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"} iOS 앱 개발 | Swift 모듈화 |
@@ -101,9 +102,24 @@ toc_label: 목차
 * AI 연동 서비스
 
 ## Project
+### 반응속도 테스트
+간단한 게임으로 개인 프로젝트
+
+* 2023.01 ~
+
+| <a href="https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/70/db/82/70db8214-3afe-fc49-e95c-0f0689c80ec9/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/460x0w.webp" width="128"/></a> |
+|-|
+| [ReactionRate](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027) |
+
+* CoreData
+* SwiftUI
+* [<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"}
+
+
+   
 ### GoogleDriveOriginalURL
 Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 개인 프로젝트
-
+* 2021.08 ~
 * 결과 / 성과:
    * [<i class="fas fa-link"></i> GitHub](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"}
    
