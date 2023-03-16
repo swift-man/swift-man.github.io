@@ -62,3 +62,15 @@ struct VideoAutoPlayer: View {
   }
 }
 ```
+
+## Frame과 Position
+영상이 16:9 비율로 제작된 영상인데, 뷰의 크기가 16:9가 아니면 위아래 `검은 바` 가 생기므로 비율을 뷰 중심으로 가져가려고 추가했다.  
+
+## @Environment(\.scenePhase)
+Video는 UI라 AppLifeCycle에 영향을 받는다. 따라 자동 재생 코드를 추가해 주었다.
+
+## .allowsHitTesting(false)
+자동 재생만 되고 유저의 비디오 조작을 원하지 않으므로 `allowsHitTesting`은 `false`로 세팅해 주었다.
+
+## AVPlayerItemDidPlayToEndTime
+영상이 종료되면 다시 자동 재생 돼야 함으로 NotificationCenter를 통해 다시 재생시켜준다.
