@@ -33,6 +33,42 @@ Composability는 구성요소의 상호 관계를 다루는 시스템 설계 원
 
 > [<i class="fas fa-link"></i> Composable Architecture는 한국어 README 도 지원한다.](https://gist.github.com/pilgwon/ea05e2207ab68bdd1f49dff97b293b17){:target="_blank"}
 
+# 앱 로직의 분류
+![Image](https://markvillar.com/content/images/2023/01/tca-diagram-swift-and-tips.png)  
+## Outside dependency(Effect - Enviroment, Middleware)
+### Data save
+* Memory Cache
+* Binary
+* Database
+* File
+
+## Business Logic
+### Service
+* Network
+* Bluetooth
+* Core Location Service 
+
+### Navigation (Router)
+* 화면의 이동
+  * Present, Dismiss, Push, Pop
+
+### Coordination(Reducer, Action)
+* 각종 layer를 조합해 앱이 사용자를 위해 하는 일
+
+## UI
+### 뷰(View)
+* UIView
+* UIViewController
+* SwiftUI
+
+### Presentation
+* UI 모델 변환
+  * 이미지
+  * 색상
+  * 폰트
+
+
+
 ## Managed state
 Redux의 state 관리와 동일하게 상태를 읽을 수 있으나 직접 수정 할 수 없다. 극단적인 방법인데, action을 사용해서만 state 를 변경한다.
 
