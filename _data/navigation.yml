@@ -271,6 +271,8 @@ sidebar-algorithm:
         url: /algorithm/leet-code-medium/merge-Intervals/
       - title: "146. LRU Cache"
         url: /algorithm/leet-code-medium/lrucache/
+      - title: "2405. Optimal Partition of String"
+        url: /algorithm/leet-code-medium/optimal-partition-of-string/
   - title: "Leet Code - Hard"
     url: /algorithm/leet-code-hard/
     children:
