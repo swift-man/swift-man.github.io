@@ -407,6 +407,8 @@ sidebar-clean:
         url: /clean/think/start-development-ios/
       - title: "오늘"
         url: /clean/think/today/
+      - title: "기술자의 히포크라테스 선서"
+        url: /clean/think/hippocratic-oath-for-technologists/
 #  - title: "Naming"
 #    url: /clean/naming/
 #    children:
