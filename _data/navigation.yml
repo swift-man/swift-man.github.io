@@ -125,6 +125,8 @@ sidebar-architecture:
     children:
       - title: "객체 지향의 5가지 설계 원칙"
         url: /architecture/software-engineering/solid/
+      - title: "소프트웨어 생명주기"
+        url: /architecture/software-engineering/software-developent-life-cycle/
   - title: "Composable Architecture"
     url: /architecture/composable-architecture/
     children:
