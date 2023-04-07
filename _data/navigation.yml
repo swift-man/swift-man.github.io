@@ -294,6 +294,11 @@ sidebar-algorithm:
     children:
       - title: "영어 끝말잇기"
         url: /algorithm/programers-level2/english-shiritori/
+  - title: "프로그래머스 - level3"
+    url: /algorithm/programers-level3/
+    children:
+      - title: "베스트앨범"
+        url: /algorithm/programers-level3/best-album/
   - title: "Solved - Silver 1"
     url: /algorithm/solved-silver1/
     children:
