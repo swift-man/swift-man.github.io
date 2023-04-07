@@ -19,7 +19,9 @@ depth:
     url: /ios/uiresponder/uitabbarcontroller/
     icon: "far fa-file-alt"
 ---
-UIStoryBoard 를 사용한다면 CustomClass 를 적용하기 매우 쉽다. 코드 베이스라면 `init()` `RunTime`에 `object_setClass`를 사용하여 `self.tabBar` `class` 를 CustomClsss 로 변경해 Height을 변경하는 솔루션이다. 
+`UIStoryBoard`를 사용한다면 `UITabBarItem`을 `CustomClass`로 적용하기 매우 쉽다. 코드 베이스라면 UITabBarItem이 UITabBarController에서 자체적으로 가지고 있기 때문에 `CustomClass`를 적용하기가 애매해진다.  
+
+코드 베이스일때 `init()` `RunTime`에 `object_setClass`를 사용하여 `self.tabBar` `class` 를 `CustomClsss` 로 변경해 `UITabBarItem`의 Height을 변경하는 솔루션이다. 
 
 ```swift
 final class CustomTabBarController: UITabBarController {
