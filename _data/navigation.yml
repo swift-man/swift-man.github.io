@@ -706,6 +706,8 @@ sidebar-ios:
             children:
             - title: "DiffableDatasource"
               url: /ios/uiresponder/uiview/uicollectionview/DiffableDatasource/
+            - title: "DiffableDatasource 개발기"
+              url: /ios/uiresponder/uiview/uicollectionview/use-DiffableDatasource/
             - title: "CompositionalLayout"
               url: /ios/uiresponder/uiview/uicollectionview/UICollectionViewCompositionalLayout/
           - title: "WKWebView"
