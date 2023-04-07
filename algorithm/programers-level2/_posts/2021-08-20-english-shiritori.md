@@ -3,7 +3,7 @@ sidebar:
   title: "Algorithm"
   nav: sidebar-algorithm
   icon: "fas fa-calculator"
-title: "영어 끝말잇기"
+title: "[Swift] 영어 끝말잇기"
 toc: true
 toc_sticky: true
 toc_label: 목차
