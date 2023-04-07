@@ -56,7 +56,7 @@ sidebar-cs:
       - title: "메모리의 저장단위"
         url: /cs/memory/memory-unit/
       - title: "메모리 주소"
-        url: /cs/memory/memory-address
+        url: /cs/memory/memory-address/
       - title: "Endianness Or Byte order"
         url: /cs/memory/endianness-byteorder/
       - title: "메모리 공간의 분류와 크기 결정 Time"
