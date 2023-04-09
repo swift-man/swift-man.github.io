@@ -158,17 +158,17 @@ NHN Edu 여성 건강 애플리케이션
 * 캘린더, 설정, Utils, 알림 등 주요 기능 ObjectiveC -> Swift전환
   * 주요 비즈니스 로직의 Refactoring에 따른 Testing 추가
 * 약복용 기능 개발
-  * 신규 기능 중 UX/UI적으로 좋지못한 `제거` 기능을 정리 및 의견을 디자인/기획자와 이야기 하며 개선했어요.
-  * DiffableDataSource를 도입하고 발생하는 문제나 어려움에 대해 개발자와 공유 했어요.
+  * 신규 기능 중 UX/UI적으로 좋지 못한 `제거` 기능을 정리 및 의견을 디자인/기획자와 이야기하며 개선했어요.
+  * DiffableDataSource를 도입하고 발생하는 문제나 어려움에 대해 개발자와 공유했어요.
 * 구글 애드매니저, 애드몹을 활용한 광고 기능 개발
   * 파트너 미디에이션 설정에 어려움이 있었으며, 해결방법, 설정 방법 등을 기획/운영자와 협업하여 해결했어요.
 * AI 임신 테스트 기능, 커플커텍트 개발
-  * AI 기반 기능 연동 경험으로 발생되는 문제를 프론트에서 해결할 수 있는 방법들을 협의/제시 했어요.
+  * AI 기반 기능 연동 경험으로 발생되는 문제를 앱에서 해결할 수 있는 방법들을 생각해보고 협의/제시 했어요.
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
 ![Image](/assets/gif/pink-logout.gif)  
-  * 로그인 이후 유저 정보 설정 및 마이페이지 설정 등
+  * 로그인 이후 Flow - 유저 정보 설정 및 마이페이지 설정 등
 * Video 관련 기능 개발
   * Video 관련 코드를 RxSwift로 리펙토링
   * 인트로, 태아 영상 등 Video 기능 개발  
@@ -309,7 +309,10 @@ NHN Edu 교육 애플리케이션
 * 2014.03 ~ 2018.06
 
 * 앱 진입 성능 개선 프로젝트
-    * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
+  * 기존 스플레시에서, 강제업데이트, 앱 구성을 위한 API, 메인 페이지를 구성하는 API 등을 분석
+    * 기존 completion을 활용한 sync 하게 데이터를 구성하는 형태를 스플레시에서 필수로 호출해야 하는 API들을 분리하여 비동기로 호출하고, DispatchGroup을 활용한 동기화
+    * 메인 CollectionView에서 async 하게 호출되는 API 들을 분리해 앱 진입 후 호출하도록 설계 변경 등
+  * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
 * [<i class="fas fa-link"></i> UIWebView](https://developer.apple.com/documentation/uikit/uiwebview?language=objc){:target="_blank"}를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
 * [<i class="fas fa-link"></i> Keychain Service](https://developer.apple.com/documentation/security/keychain_services?language=objc){:target="_blank"} 을 활용한 정보 저장 기능 개발
 * [<i class="fas fa-link"></i>  APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc){:target="_blank"} 기능 개발 및 기능 개선 프로젝트 진행
