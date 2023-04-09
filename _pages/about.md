@@ -78,14 +78,11 @@ toc_label: 목차
 | --- | --- | --- | --- |
 | 반응속도 테스트<br/>2023.03 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> AppStore ](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027){:target="_blank"} | SwiftUI<br/>[<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"} |
 | GoogleDriveOriginalURL<br/>2021.08 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> GoogleDriveOriginalURL Repo](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"} | SwiftUI, Combine 경험 |
-| SwiftMan 블로그 리뉴얼<br/>2021.08 ~ 현재<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> blog.slarea.com](https://blog.slarea.com){:target="_blank"} | MAU 약 1400<br/>GitPages 경험 |
+| SwiftMan 블로그<br/>2018.05 ~ 현재<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> blog.slarea.com](https://blog.slarea.com){:target="_blank"} | MAU 약 1400<br/>GitPages 경험 |
 | [<i class="fas fa-link"></i> flace](https://www.theflace.com/){:target="_blank"}<br/>2020.06 ~ 2021.12<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> Flace](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"} iOS 앱 개발 | Swift 모듈화 |
-| SwiftMan 블로그<br/>2018.05 ~ 2021.07<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> https://swift-man.github.io](https://swift-man.github.io/){:target="_blank"}, 지원 중단(리뉴얼) | GitPages 경험 |
 | Beautiful Bible Server<br/>2017.03 ~ 2017.05<br/>⚡️개인 프로젝트 | Server<br/>Developer | 지원 중단<br/>Bitbucket에 코드 및 커밋 내역 존재 | Spring, MyBatis 개발 경험 |
 | Beautiful Bible Devops<br/>2016.12 ~ 2017.10<br/>⚡️개인 프로젝트 | Server<br/>Developer | 지원 중단 | AWS, Nginx, SSL 구축 경험 |
 | Beautiful Bible iOS<br/>2016.06 ~ 2017.11<br/>⚡️개인 프로젝트 | iOS<br/>Developer | 지원 중단<br/>Bitbucket에 코드 및 커밋 내역 존재 | CoreText<br/>10000개가 넘는 Row를 다룬 경험 |
-
-![Image](https://drive.google.com/uc?export=view&id=1OvnvBjTFth1CbYc2nvixcNPezN-Rks4E)  
 
 > 정보처리기사 2012.08.17 12202010673X
 
@@ -102,20 +99,36 @@ toc_label: 목차
 * AI 연동 서비스
 
 ## Project
-### 반응속도 테스트
-간단한 게임으로 개인 프로젝트
-
-* 2023.01 ~
-
-| <a href="https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/70/db/82/70db8214-3afe-fc49-e95c-0f0689c80ec9/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/460x0w.webp" width="128"/></a> |
-|-|
-| [ReactionRate](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027) |
+## 만 나이 주소록(진행 중 - 미 출시)
+1인 개발 iOS 앱으로 개인 프로젝트로 진행 중이며, 다양한 시도를 하고 있어요.
 
 * CoreData
 * SwiftUI
 * [<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"}
 
+* 관련 몇 가지 모듈을 제작하여 오픈소스화 하였어요.
+  * [<i class="fas fa-link"></i> KoreanLunarSolarConverter](https://github.com/swift-man/KoreanLunarSolarConverter){:target="_blank"}
+  * [<i class="fas fa-link"></i> GoogleStyleSwiftUI](https://github.com/swift-man/GoogleStyleSwiftUI){:target="_blank"}
 
+### 반응속도 테스트
+간단한 게임으로 1인 개발 iOS 앱 개인 프로젝트
+
+
+
+| <a href="https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/70/db/82/70db8214-3afe-fc49-e95c-0f0689c80ec9/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/460x0w.webp" width="128"/></a> |
+|-|
+| [ReactionRate](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027) |
+* 2023.01 ~
+* CoreData
+* SwiftUI
+* [<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"}
+
+* 관련 몇 가지 모듈을 제작하여 오픈소스화 하였어요.
+  * [<i class="fas fa-link"></i> LaunchingView](https://github.com/swift-man/LaunchingView){:target="_blank"}
+  * [<i class="fas fa-link"></i> LaunchingService](https://github.com/swift-man/LaunchingService){:target="_blank"}
+  * [<i class="fas fa-link"></i> AsyncImageRenderer](https://github.com/swift-man/AsyncImageRenderer){:target="_blank"}
+  * [<i class="fas fa-link"></i> AnimateNumberText](https://github.com/swift-man/AnimateNumberText){:target="_blank"}
+  * [<i class="fas fa-link"></i> MaterialDesignColor](https://github.com/swift-man/MaterialDesignColor){:target="_blank"}
    
 ### GoogleDriveOriginalURL
 Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 개인 프로젝트
@@ -135,17 +148,27 @@ Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있�
 NHN Edu 여성 건강 애플리케이션
 * 2020.11~
 * [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
+  * 캘린더, 설정, 알림 등 아키텍처 Layer, Feature 모듈화 제작  
+  * 공용 Custom BottomSheets 등을 모듈화 하였으며, 기본 ViewController 형태로 제공하지만, Protocol 의 추상화된 형태로 제작되어, Ptorocol을 조합하여 직접 CustomViewController 를 만들 수 있도록 제작하였어요.
+  * Carthage의 문제점을 공유하고 해결하고자 SPM으로의 전환을 진행했어요.
+  * 현재 약 80개의 모듈로 구성
 * Clean Architecture, MVVM, ReactorKit
-* 주요 Objective C코드 Swift전환
+* 주요 Objective C코드 Swift전환(Swift 비율 76.9%)
 * SnapKit, Source Base를 사용한 Morden UI 개발
-* 캘린더, 설정, Utils 등 주요 기능 Swift전환
-* 캘린더, 설정, 알림 등 아키텍처 Layer, Feature 모듈화 제작  
+* 캘린더, 설정, Utils, 알림 등 주요 기능 ObjectiveC -> Swift전환
+  * 주요 비즈니스 로직의 Refactoring에 따른 Testing 추가
+* 약복용 기능 개발
+  * 신규 기능 중 UX/UI적으로 좋지못한 `제거` 기능을 정리 및 의견을 디자인/기획자와 이야기 하며 개선했어요.
+  * DiffableDataSource를 도입하고 발생하는 문제나 어려움에 대해 개발자와 공유 했어요.
+* 구글 애드매니저, 애드몹을 활용한 광고 기능 개발
+  * 파트너 미디에이션 설정에 어려움이 있었으며, 해결방법, 설정 방법 등을 기획/운영자와 협업하여 해결했어요.
 * AI 임신 테스트 기능, 커플커텍트 개발
-  * 2022 제11회 LOHAS산업대전에서 지속가능한 Health 플랫폼 공로로 보건복지부장관상 대상 수상  
+  * AI 기반 기능 연동 경험으로 발생되는 문제를 프론트에서 해결할 수 있는 방법들을 협의/제시 했어요.
 ![Image](/assets/images/about/pink_calendar001.jpeg)  
 * 로그인 기능 개발(카카오, 애플, 구글, 페이코, 페이스북 연동)  
 ![Image](/assets/gif/pink-login.gif)
 ![Image](/assets/gif/pink-logout.gif)  
+  * 로그인 이후 유저 정보 설정 및 마이페이지 설정 등
 * Video 관련 기능 개발
   * Video 관련 코드를 RxSwift로 리펙토링
   * 인트로, 태아 영상 등 Video 기능 개발  
@@ -161,8 +184,7 @@ NHN Edu 여성 건강 애플리케이션
 NHN Edu 교육 애플리케이션
 * 2018.12~2020.10
 * Clean Architecture, MVVM, ReactorKit
-* SearchKit, AlertKit 등 공용 UI Component를 디자이너와 협업하여 모듈화
-* Color를 디자이너와 협업하여 ColorSet을 정의하고 협업
+
 * RxDatasource를 사용하여 자녀, 학부모 사용자 연결 기능 개발  
 ![Image](/assets/gif/school-child-insert.gif)
 ![Image](/assets/gif/school-child-remove.gif)
@@ -178,7 +200,10 @@ NHN Edu 교육 애플리케이션
 ![Image](/assets/gif/school-organization-insert.gif)
 * [<i class="fas fa-link"></i> Google Ad Manager](https://admanager.google.com/intl/ko/home/){:target="_blank"}를 이용한 광고 개발
 * 각 Feature/기능 별 모듈화 설계 참여 및 개발
+  * SearchKit, AlertKit 등 공용 UI Component를 디자이너와 협업하여 모듈화
+    * 디자이너와 협업하여 제플린의 팔레트 기능을 활용, ColorSet을 정의하고 개발자에게 공유
 * 코드 일관성을 위한 [<i class="fas fa-link"></i> SwiftLint](https://github.com/realm/SwiftLint){:target="_blank"} 적용
+* 앱 내 운영 중인 쇼핑몰 기능 운영/개선 등
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EC%97%A0%EC%8A%A4%EC%BF%A8-%EC%9E%90%EB%85%80-%EA%B5%90%EC%9C%A1-%ED%95%84%EC%88%98-%EC%95%B1/id540665717){:target="_blank"} 교육 부분 무료 순위 1위
   * 네이버 실시간 검색어 7위
@@ -206,8 +231,10 @@ NHN Edu 교육 애플리케이션
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%ED%95%99%EC%83%9D-class123-%ED%81%B4%EB%9E%98%EC%8A%A4123/id935566764){:target="_blank"}
   
 ### flace
-옷장 서비스이며 개인 프로젝트
+옷장 서비스이며 인스타그램과 비슷한 UX의 개인 프로젝트  
+기획 + 디자인 1명, iOS 1명, Android 1명, Server 1명
 * 2020.06 ~ 2021.12
+* RxSwift, RefactorKit
 * Google AI를 활용하여 사진 업로드 및 카테고리 자동 선택 기능 개발  
 ![Image](/assets/gif/flace-photos.gif)
 ![Image](/assets/gif/flace-lookbook.gif)
@@ -242,8 +269,7 @@ NHN Edu 교육 애플리케이션
   * On-demand 방식의 폰트 다운로드 및 적용 기능 제공
   * Font Size 제어 기능 제공
 * Server
-  * AWS EC2 - 서비스 호스팅
-  * AWS EC2 - Image Resize
+  * AWS EC2 - 서비스 호스팅, Image Resize
   * AWS S3
   * Nginx
   * Route53
@@ -282,6 +308,8 @@ NHN Edu 교육 애플리케이션
 [<i class="fas fa-link"></i> SK Planet](https://www.skplanet.com/){:target="_blank"} 모바일 상품권 서비스 애플리케이션
 * 2014.03 ~ 2018.06
 
+* 앱 진입 성능 개선 프로젝트
+    * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
 * [<i class="fas fa-link"></i> UIWebView](https://developer.apple.com/documentation/uikit/uiwebview?language=objc){:target="_blank"}를 활용한 웹과 상호 연동(사진첩, 주소록, script) 개발
 * [<i class="fas fa-link"></i> Keychain Service](https://developer.apple.com/documentation/security/keychain_services?language=objc){:target="_blank"} 을 활용한 정보 저장 기능 개발
 * [<i class="fas fa-link"></i>  APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns?language=objc){:target="_blank"} 기능 개발 및 기능 개선 프로젝트 진행
@@ -294,7 +322,7 @@ NHN Edu 교육 애플리케이션
   * 사진첩의 사진을 사용해 기프티콘에서 제공하는 이미지 셋을 합쳐 기프티콘 카드 개발
 * 결과/성과 : 
   * [<i class="fas fa-link"></i> 앱스토어](https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%ED%8B%B0%EC%BD%98/id575114946){:target="_blank"} 무료 부분 약 80위
-  * 앱 진입까지 6~7초 걸리던 시간을 1~1.5초로 줄여 성능 개선을 인정받아 Unit 포상  
+  
 ![Image](/assets/images/about/gift_store.PNG)
 
 ### 여보세요?(서비스종료)
