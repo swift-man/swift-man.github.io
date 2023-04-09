@@ -16,6 +16,12 @@ depth:
     url: /swift/swift-package-manager/
     icon: "far fa-folder-open"
 ---
+Swift Package Manager(SPM)는 프로젝트의 의존성 관리 및 패키지 빌드를 자동화하는 공식 Swift 패키지 매니저이다. SPM은 프로젝트에서 사용하는 모든 의존성을 정의하고, 패키지의 종속성 관리를 담당한다. 
+
+> XCFramework은 SPM에서 지원하는 하나의 패키지 유형이며, 이를 통해 프로젝트의 의존성 관리 및 빌드 프로세스를 간소화 할 수 있다.
+
+SPM은 소스 코드 라이브러리를 패키지화하고, 이를 빌드하여 필요한 플랫폼에 대해 라이브러리를 제공한다. 이때, SPM은 패키지를 빌드할 때 Xcode 프로젝트를 생성하여, XCFramework를 포함한 다양한 종류의 바이너리를 빌드할 수 있다.
+
 ## 요약 - 터미널 명령어
 ```
 swift package init --type library
