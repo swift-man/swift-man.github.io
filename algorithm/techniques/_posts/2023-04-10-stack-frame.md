@@ -50,7 +50,7 @@ let result = factorialTailRecursive(5) // 결과: 120
 Objective-C 언어 자체는 `tail recursion`을 직접 지원하지 않지만, 컴파일러 최적화를 통해 `tail recursion`을 사용할 수 있다. Objective-C는 C 기반의 언어로, 일반적으로 `LLVM`의 `Clang` 컴파일러를 사용하여 코드를 컴파일한다. `Clang` 컴파일러는 `tail call` 최적화를 지원하므로, 최적화 옵션을 사용하면 Objective-C 코드에서 `tail recursion`을 사용할 수 있다.
 
 ## Swift는 Tail recursion을 지원하는가?
-LLVM은 `tail call` 최적화를 지원하므로, 최적화된 빌드에서는 tail recursion이 작동한다. 때문에 최적화를 통해 재귀 호출이 더 효율적인 루프로 변환되어 스택 오버플로우를 방지할 수 있다. 
+`LLVM`은 `tail call` 최적화를 지원하므로, 최적화된 빌드에서는 tail recursion이 작동한다. 때문에 최적화를 통해 재귀 호출이 더 효율적인 루프로 변환되어 스택 오버플로우를 방지할 수 있다. 
 
 그러나 디버그 빌드에서는 `tail call` 최적화가 적용되지 않을 수 있으므로, 실제 작동 여부는 사용하는 컴파일러 설정과 최적화 수준에 따라 다를 수 있다. 따라서 Swift에서 `tail recursion`을 사용할 때는 컴파일러 설정과 최적화 수준을 고려해야 한다.
 
@@ -60,9 +60,10 @@ LLVM은 `tail call` 최적화를 지원하므로, 최적화된 빌드에서는 t
 ARC (Automatic Reference Counting)는 Objective-C와 Swift에서 메모리 관리를 단순화하는 방법이다. ARC는 객체의 참조 횟수를 추적하고, 더 이상 필요하지 않은 객체를 자동으로 해제한다.
 
 ARC (Automatic Reference Counting)는 Objective-C와 Swift에서 컴파일러에 의해 수행되는 메모리 관리 기법이다. 컴파일 시점에, 컴파일러는 객체의 참조 횟수를 추적하고, 더 이상 필요하지 않은 객체를 자동으로 해제하는 코드를 삽입한다.
->  ARC는 프로그래머가 수동으로 retain, release, autorelease와 같은 메모리 관리 코드를 작성할 필요 없이 메모리를 관리할 수 있게 해 준다. 컴파일러는 ARC를 사용하여 프로그램의 전반적인 성능과 메모리 사용량을 최적화한다.
+>  ARC는 프로그래머가 수동으로 `retain`, `release`, `autorelease`와 같은 메모리 관리 코드를 작성할 필요 없이 메모리를 관리할 수 있게 해 준다. 컴파일러는 ARC를 사용하여 프로그램의 전반적인 성능과 메모리 사용량을 최적화한다.
 
-### ARC에 의해 자동으로 `release()` 코드가 들어가면 컴파일러의 꼬리 재귀 최적화는 안 되는 것 아닌가?
+### ARC에 의해 자동으로 `release()` 코드가 들어가면 컴파일러의 꼬리 재귀 최적화는 안 될 수도 있나?
+
 ![Image](https://drive.google.com/uc?export=view&id=1_UP9mSzcInwuIizN39iN_Y13CJP3P6E9)  
  > ARC에 의해 자동으로 `release()` 코드가 들어가면 컴파일러의 꼬리 재귀 최적화는 안 되는 것 아닌가?<br/>- 개발자
 
