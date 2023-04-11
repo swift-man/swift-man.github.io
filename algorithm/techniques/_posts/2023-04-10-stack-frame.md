@@ -50,9 +50,9 @@ let result = factorialTailRecursive(5) // 결과: 120
 Objective-C 언어 자체는 `tail recursion`을 직접 지원하지 않지만, 컴파일러 최적화를 통해 `tail recursion`을 사용할 수 있다. Objective-C는 C 기반의 언어로, 일반적으로 `LLVM`의 `Clang` 컴파일러를 사용하여 코드를 컴파일한다. `Clang` 컴파일러는 `tail call` 최적화를 지원하므로, 최적화 옵션을 사용하면 Objective-C 코드에서 `tail recursion`을 사용할 수 있다.
 
 ## Swift는 Tail recursion을 지원하는가?
-Swift 컴파일러는 일반적으로 tail call 최적화를 지원하므로, 최적화된 빌드에서는 tail recursion이 작동할 가능성이 높다. 이 최적화를 통해 재귀 호출이 더 효율적인 루프로 변환되어 스택 오버플로우를 방지할 수 있다. 
+LLVM은 `tail call` 최적화를 지원하므로, 최적화된 빌드에서는 tail recursion이 작동한다. 때문에 최적화를 통해 재귀 호출이 더 효율적인 루프로 변환되어 스택 오버플로우를 방지할 수 있다. 
 
-그러나 디버그 빌드에서는 tail call 최적화가 적용되지 않을 수 있으므로, 실제 작동 여부는 사용하는 컴파일러 설정과 최적화 수준에 따라 다를 수 있다. 따라서 Swift에서 `tail recursion`을 사용할 때는 컴파일러 설정과 최적화 수준을 고려해야 한다.
+그러나 디버그 빌드에서는 `tail call` 최적화가 적용되지 않을 수 있으므로, 실제 작동 여부는 사용하는 컴파일러 설정과 최적화 수준에 따라 다를 수 있다. 따라서 Swift에서 `tail recursion`을 사용할 때는 컴파일러 설정과 최적화 수준을 고려해야 한다.
 
 이는 Swift 컴파일러가 재귀 호출을 더 효율적인 루프로 변환하여 스택 오버플로우를 방지할 수 있다는 것을 의미한다. 
 
