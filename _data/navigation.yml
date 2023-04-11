@@ -210,8 +210,10 @@ sidebar-algorithm:
         url: /algorithm/techniques/dfs-bfs/
       - title: "Divide and conquer"
         url: /algorithm/techniques/divide-and-conquer/
-      - title: "재귀와 꼬리재귀"
+      - title: "재귀와 꼬리재귀(1)"
         url: /algorithm/techniques/recursion/
+      - title: "재귀와 꼬리재귀(2)"
+        url: /algorithm/techniques/stack-frame/
       - title: "Temp 변수를 사용하지 않고 Swap 하기"
         url: /algorithm/techniques/NoStoredPropertySwap/
       - title: "0으로 나누기는 왜 안될까?"
