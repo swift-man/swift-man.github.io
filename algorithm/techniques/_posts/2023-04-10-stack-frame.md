@@ -85,3 +85,5 @@ ARC와 꼬리 재귀(tail recursion) 최적화는 둘 다 컴파일러에 의해
 ![Image](https://drive.google.com/uc?export=view&id=19BVE3AgbxFtFWJcoElU5KsVDWjAyKz5x)  
 
 ARC와 꼬리 재귀는 서로 독립적인 최적화 기법으로, ARC는 메모리 관리에 초점을 맞추고, 꼬리 재귀는 함수 호출의 최적화에 초점을 맞춘다. 따라서 ARC가 메모리 해지 코드를 삽입하는 것은 꼬리 재귀 최적화에 직접적인 영향을 미치지 않는다.
+
+> 하지만 직접 실험해 본 해외 블로그 글<br/>[<i class="fas fa-link"></i> Tail Recursion, Objective-C, and ARC](http://devetc.org/code/2014/05/24/tail-recursion-objc-and-arc.html){:target="_blank"}에서 불행히도 ARC에서는 최적화가 매우 좋지 않다는 글이 있으니 참고하면 좋겠다.
