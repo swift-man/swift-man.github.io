@@ -150,7 +150,7 @@ NHN Edu 여성 건강 애플리케이션
 * 2020.11~
 * [<i class="fas fa-link"></i> tuist](https://tuist.io/)를 사용한 모듈화
   * 캘린더, 설정, 알림 등 아키텍처 Layer, Feature 모듈화 제작  
-  * 공용 Custom BottomSheets 등을 모듈화 하였으며, 기본 ViewController 형태로 제공하지만, Protocol 의 추상화된 형태로 제작되어, Ptorocol을 조합하여 직접 CustomViewController 를 만들 수 있도록 제작하였어요.
+  * 공용 Custom BottomSheets 등을 모듈화 하였으며, 기본 ViewController 형태로 제공하지만, Protocol 의 추상화된 형태로 제작되어, Protocol을 조합하여 직접 CustomViewController 를 만들 수 있도록 제작하였어요.
   * Carthage의 문제점을 공유하고 해결하고자 SPM으로의 전환을 진행했어요.
   * 현재 약 80개의 모듈로 구성
 * Clean Architecture, MVVM, ReactorKit
