@@ -204,6 +204,8 @@ sidebar-algorithm:
   - title: "기법"
     url: /algorithm/techniques/
     children:
+      - title: "피보나치 수열"
+        url: /algorithm/techniques/fibonacci/
       - title: "1 부터 n 까지의 합"
         url: /algorithm/techniques/numberSum/
       - title: "DFS, BFS"
