@@ -16,11 +16,11 @@ depth:
     url: /architecture/software-engineering/
     icon: "far fa-folder-open"
 ---
-![Image](https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/95BE/image/kBsCKd4HJShRTQ3btHrwtQevdTo)  
-
 소프트웨어 개발 생명주기(Software Development Life Cycle, SDLC)는 소프트웨어를 개발하기 위한 일련의 단계이며 개발 프로세스를 설명하는 개념이다. 
 
 일반적으로 6단계로 구성되며, 각 단계에서 특정한 목표를 달성하기 위해 활동을 수행한다.
+
+![Image](https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/95BE/image/kBsCKd4HJShRTQ3btHrwtQevdTo)  
 
 ## 계획(Planning)
 * 문제의 범위와 목표를 설정하고, 개발 일정과 예산을 계획
