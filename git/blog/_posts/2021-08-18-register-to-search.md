@@ -41,15 +41,19 @@ Start 를 누르자.
 
 ## 2. Google Search 등록
 ### 2.1 URL 검사
-[<i class="fas fa-link"></i> Google Search Console](https://github.com/swift-man/swift-man.github.io/blob/main/sitemap.xml){:target="_blank"}로 가서 URL 검사를 하자.  
+![Image](https://drive.google.com/uc?export=view&id=1-Kk829zWdqrL1F6iuzRcC8SGB_605FEJ)  
+[<i class="fas fa-link"></i> Google Search Console](https://search.google.com/search-console/){:target="_blank"}로 가서 도메인을 등록 하자.  
 
-### 2.2 색인 생성 요청을 하자.
+### 2.2 소유권 검사
+![Image](https://drive.google.com/uc?export=view&id=1T7TBZhmWmXsfe2Yfpo0F_NxUNnf7aQcu)  
+DNS 소유권 검사가 필요하다. `Google Search Consol`에 검사할 때만 위 스크린샷의 DNS설정을 하고, 인증이 완료되면 다시 원하는 DNS로 원복 하자.  
 
-### 2.3 사이트맵을 추가하자.
-![Image](https://drive.google.com/uc?export=view&id=1mutAhqrX3idmH9tR4ty3qwN7IFQM3HgX)  
 
-미리 만들어 두었던 sitemap.xml 을 등록하면 된다.
+![Image](https://drive.google.com/uc?export=view&id=1nMZUSbe8ry0qsAWisj8XZ9YTbacdhhlt)  
+만약 소유권이 실패하면 더 이상 진행이 되지 않는다.
 
+![Image](https://drive.google.com/uc?export=view&id=1w3SHOND5F1QKfgqpSJUkh-vN4tNIZbxa)  
+DNS 설정을 마치면 소유권이 확인된다. 이후 `sitemap`을 등록하고 색인을 생성하자.
 
 ## 3. Naver 등록
 ### 3.1 웹 페이지 수집을 등록하자.
