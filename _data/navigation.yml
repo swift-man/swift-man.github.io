@@ -106,8 +106,8 @@ sidebar-cs:
     url: /cs/server/
     children:
       - title: "Node.js"
-        url: /cs/server/nodejs/
         icon: "far fa-folder-open"
+        url: /cs/server/nodejs/
         children:
         - title: "NPM"
           url: /cs/server/nodejs/npm_install/
