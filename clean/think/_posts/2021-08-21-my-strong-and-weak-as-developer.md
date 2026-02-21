@@ -8,6 +8,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 published : false
+tag: "Think"
 depth: 
   - title: "Clean"
     url: /clean/

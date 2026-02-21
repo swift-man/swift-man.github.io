@@ -78,7 +78,7 @@ toc_label: 목차
 | --- | --- | --- | --- |
 | 반응속도 테스트<br/>2023.03 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> AppStore ](https://apps.apple.com/kr/app/%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%BC%EC%A7%80%EC%BB%AC-%EB%B0%98%EC%9D%91-%EC%86%8D%EB%8F%84-%ED%85%8C%EC%8A%A4%ED%8A%B8/id6445873027){:target="_blank"} | SwiftUI<br/>[<i class="fas fa-link"></i> The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture){:target="_blank"} |
 | GoogleDriveOriginalURL<br/>2021.08 ~ 현재<br/>⚡️개인 프로젝트 | iOS<br/>Developer | [<i class="fas fa-link"></i> GoogleDriveOriginalURL Repo](https://github.com/swift-man/GoogleDriveOriginalURL){:target="_blank"} | SwiftUI, Combine 경험 |
-| SwiftMan 블로그<br/>2018.05 ~ 현재<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> blog.slarea.com](https://blog.slarea.com){:target="_blank"} | MAU 약 1400<br/>GitPages 경험 |
+| SwiftMan 블로그<br/>2018.05 ~ 현재<br/>⚡️개인 프로젝트 | Web<br/>Developer | [<i class="fas fa-link"></i> blog.gorani.me](https://blog.gorani.me){:target="_blank"} | MAU 약 1400<br/>GitPages 경험 |
 | flace<br/>2020.06 ~ 2021.12<br/>⚡️개인 프로젝트 | iOS<br/>Developer | 지원 중단<br/>[<i class="fas fa-link"></i> AppStore](https://apps.apple.com/kr/app/flace-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%93%9C%EB%A0%88%EC%8A%A4%EB%A3%B8/id1490380633){:target="_blank"} | Swift 모듈화 |
 | Beautiful Bible Server<br/>2017.03 ~ 2017.05<br/>⚡️개인 프로젝트 | Server<br/>Developer | 지원 중단<br/>Bitbucket에 코드 및 커밋 내역 존재 | Spring, MyBatis 개발 경험 |
 | Beautiful Bible Devops<br/>2016.12 ~ 2017.10<br/>⚡️개인 프로젝트 | Server<br/>Developer | 지원 중단 | AWS, Nginx, SSL 구축 경험 |
@@ -142,7 +142,7 @@ Google Drive URL을 Markdown 문법으로 변경해주는 Mac용 유틸리티 �
 Git Pages, Jekyll 기반이며 Web을 커스터마이징하고 정리하고 있습니다.
 
 * 결과 / 성과:
-   * [<i class="fas fa-link"></i> Website](https://blog.slarea.com){:target="_blank"}
+   * [<i class="fas fa-link"></i> Website](https://blog.gorani.me){:target="_blank"}
    * 2022년 03월 기준 MAU 약 1400
   
 ### 핑크다이어리
@@ -365,7 +365,7 @@ NHN Edu 교육 애플리케이션
 ## Contact & Channel
 * Email | [<i class="fas fa-link"></i> jiniopening@naver.com](mailto:jiniopening@naver.com){:target="_blank"}
 * GitHub | [<i class="fas fa-link"></i> https://github.com/swift-man](https://github.com/swift-man){:target="_blank"}
-* Blog | [<i class="fas fa-link"></i> https://blog.slarea.com](https://blog.slarea.com/){:target="_blank"}
+* Blog | [<i class="fas fa-link"></i> https://blog.gorani.me](https://blog.gorani.me/){:target="_blank"}
 
 <!--
 ## 참고 사이트

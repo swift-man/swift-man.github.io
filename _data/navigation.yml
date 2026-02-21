@@ -625,6 +625,17 @@ sidebar-ios:
       - title: "Quicktype"
         icon: "fas fa-link"
         url: https://app.quicktype.io/
+  - title: "Fastlane"
+    url: /ios/fastlane/
+    children:
+    - title: "fastlane 설치"
+      url: /ios/fastlane/fastlane-install/
+    - title: "앱 버전 관리"
+      url: /ios/fastlane/fastlane-app-version/
+    - title: "프로젝트 빌드하기"
+      url: /ios/fastlane/fastlane-xcode-build/
+    - title: "인증서 관리"
+      url: /ios/fastlane/fastlane-match/
   - title: "Objective-C"
     url: /ios/objectivec/
     children:

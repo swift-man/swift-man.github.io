@@ -18,10 +18,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "SwiftMan Blog"
 title_separator          : "-"
-subtitle                 : "blog.slarea.com"# site tagline that appears below site title in masthead
+subtitle                 : "blog.gorani.me"# site tagline that appears below site title in masthead
 name                     : "SwiftMan"
-description              : "blog.slarea.com"
-url                      : "https://blog.slarea.com/"# the base hostname & protocol for your site e.g.
+description              : "blog.gorani.me"
+url                      : "https://blog.gorani.me/"# the base hostname & protocol for your site e.g.
 baseurl                  : #"/blog"# the subpath of your site, e.g. "/blog"
 repository               : "swift-man/swift-man.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/swift-man.png"# path of fallback teaser image, e.g. "/assets/images/500x300.png"

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.slarea.com/sitemap.xml
+Sitemap: https://blog.gorani.me/sitemap.xml
